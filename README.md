@@ -1,2 +1,5 @@
 # HabanaCSS
- Haban CSS for Moava
+ Habana CSS for Moava.
+ Flexible, alternative CSS design system
+
+STATUS: Currently in dev.
