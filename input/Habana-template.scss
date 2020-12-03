@@ -17,7 +17,7 @@
   --m-color-dark:#3D3D3C;
   /* disse to skal slettes når de blir erstattet */
   --m-color-white-opacity:rgba(255, 255, 255, 0.9);
-  --m-color-grey-border:#E5E5E5;
+  --m-color-grey-border:#E5E5E5; /*Bruke gray-200/*/
 }
 
 /* Universal Template Color Styles med verdier fra Tailwind */
@@ -37,12 +37,6 @@
     --color-gray-900: 17, 24, 39;
 }
 
-/* start - for testing */
-.border-width {
-  border-width: 10px;
-  border-style: solid;
-}
-/* slutt - for testing */
 
 /* Tailwind Border Colors */
 .border-transparent {
@@ -98,6 +92,71 @@
   border-color: rgba(var(--color-gray-900), var(--tw-border-opacity));
 }
 
+/* Tailwind Border Styles */
+.border-solid {
+  border-style: solid;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-dotted {
+  border-style: dotted;
+}
+.border-double {
+  border-style: double;
+}
+.border-none {
+  border-style: none;
+}
+
+/* Tailwind Border Widths */
+.border-0 {
+  border-width: 0px;
+}
+.border {
+  border-width: 1px;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-8 {
+  border-width: 8px;
+}
+.border-10 {
+  border-width: 10px;
+}
+
+/* Tailwind Border Radius/Rounded */
+.rounded-none {
+  border-radius: 0px;
+}
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
 
 
 /* Tailwind Background Colors */
