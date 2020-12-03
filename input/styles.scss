@@ -1,0 +1,196 @@
+
+/* Variabler */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  /* Shadows */
+  --primary-box-shadow:0px 8px 18px 0px rgba(117, 141, 166, 0.15);
+
+  /*ERSTATTET MED MARGINS gaps and padding. Bruker på grid mellom to kolonner og som høyde for hvert element. Ikke endre på disse. Lag heller nye. */
+  --m-gap-small:30px;
+  --m-gap-medium:60px;
+  --m-gap-large:90px;
+  --m-gap-xl:120px;
+  /* margin */
+  --m-margin-small:0px 0px 5px 0px;
+  --m-margin-medium:0px 0px 15px 0px;
+  --m-margin-large:0px 0px 44px 0px;
+
+  /* Border Radius */
+  --m-border-radius-img:8px;
+
+  /* Standard-colors */
+  --m-color-transparent:transparent;
+  --m-color-white:#ffffff;
+  --m-color-grey:#f8f8fb;
+  --m-color-dark:#3D3D3C;
+  --m-color-black:#000000;
+  --m-color-white-opacity:rgba(255, 255, 255, 0.9);
+  --m-color-grey-border:#E5E5E5;
+
+  /* 1310 Brand */
+  --m-color-trettenti:#0D2D66;
+
+  /* Moava Brand */
+  --m-color1:#72CF39;
+  --m-color1-hover:#67BA33;
+  --m-color1-light:#EAF8E2;
+  --m-color1-dark:#136E3C;
+  --m-color2:#4AA0D5;
+  --m-color2-hover:#4390C0;
+  --m-color2-light:#E4F1F9;
+  --m-color2-dark:#31698C;
+}
+
+
+
+/* Universal Sizes (Ole) */
+:root {
+--size-0: 0rem; /* 0px */
+--size-025: 0.25rem; /* 4px */
+--size-05: 0.5rem; /* 8px */
+--size-075: 0.75rem; /* 12px */
+--size-0875: 0.875rem; /* 14px */
+
+--size-1: 1rem; /* 16px */
+--size-1125: 1.125rem; /* 18px */
+--size-125: 1.25rem; /* 20px */
+--size-15: 1.5rem; /* 24px */
+--size-1875: 1.875rem; /* 30px */
+
+--size-2: 2rem; /* 32px */
+--size-225: 2.25rem; /* 36px */
+--size-25: 2.5rem; /* 40px */
+--size-2875: 2.875rem; /* 46px */
+
+--size-3: 3rem; /* 48px */
+--size-4: 4rem; /* 64px */
+--size-5: 5rem; /* 80px */
+--size-6: 6rem; /* 96px */
+--size-8: 8rem; /* 128px */
+--size-10: 10rem; /* 160px */
+}
+
+/* Font Sizes (Tailwind) */
+.text-xs { font-size: var(--size-075); }
+.text-sm { font-size: var(--size-0875); }
+.text-base { font-size: var(--size-1); } /* 16px - Standard tekst font */;
+.text-lg { font-size: var(--size-1125); }
+.text-xl { font-size: var(--size-125); }
+.text-2xl { font-size: var(--size-15); }
+.text-3xl { font-size: var(--size-1875); }
+.text-4xl { font-size: var(--size-225); }
+.text-5xl { font-size: var(--size-3); }
+.text-6xl { font-size: var(--size-4); }
+
+/* Font Weights (Tailwind) */
+.font-hairline { font-weight: 100; }
+.font-thin { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+/* Font Style (Tailwind) */
+.italic { font-style: italic; }
+
+
+/* Gap (gutters) for rader og kolonner i grid. (Tailwind) */
+.gap-0 { gap: var(--size-0); }
+.gap-1 { gap: var(--size-025); }
+.gap-2 { gap: var(--size-05); }	
+.gap-3 { gap: var(--size-075); }
+.gap-4 { gap: var(--size-1); }	
+.gap-5 { gap: var(--size-125); }
+.gap-6 { gap: var(--size-15); }
+.gap-8 { gap: var(--size-2); }
+.gap-10 { gap: var(--size-25); }
+.gap-12 { gap: var(--size-3); }
+.gap-16 { gap: var(--size-4); }	
+.gap-20 { gap: var(--size-5); }		
+.gap-24 { gap: var(--size-6); }	
+.gap-32 { gap: var(--size-8); }
+.gap-40 { gap: var(--size-10); }	
+
+
+
+
+
+
+
+/* START - må sjekkes */
+/* Text Alignments */
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+
+/* Margins */
+:root {
+--margin-0: 0px;
+--margin-xxs: 5px;
+--margin-xs: 15px;
+--margin-sm: 30px;
+--margin-md: 60px;
+--margin-lg: 90px;
+--margin-xl: 120px;
+}
+
+.mt-0 { margin-top: var(--margin-0); }
+.mt-xxs { margin-top: var(--margin-xxs); }
+.mt-xs { margin-top: var(--margin-xs); }
+.mt-sm { margin-top: var(--margin-sm); }
+.mt-md { margin-top: var(--margin-md); }
+.mt-lg { margin-top: var(--margin-lg); }
+.mt-xl { margin-top: var(--margin-xl); }
+
+.mr-0 { margin-right: var(--margin-0); }
+.mr-xxs { margin-right: var(--margin-xxs); }
+.mr-xs { margin-right: var(--margin-xs); }
+.mr-sm { margin-right: var(--margin-sm); }
+.mr-md { margin-right: var(--margin-md); }
+.mr-lg { margin-right: var(--margin-lg); }
+.mr-xl { margin-right: var(--margin-xl); }
+
+.mb-0 { margin-bottom: var(--margin-0); }
+.mb-xxs { margin-bottom: var(--margin-xxs); }
+.mb-xs { margin-bottom: var(--margin-xs); }
+.mb-sm { margin-bottom: var(--margin-sm); }
+.mb-md { margin-bottom: var(--margin-md); }
+.mb-lg { margin-bottom: var(--margin-lg); }
+.mb-xl { margin-bottom: var(--margin-xl); }
+
+.ml-0 { margin-left: var(--margin-0); }
+.ml-xxs { margin-left: var(--margin-xxs); }
+.ml-xs { margin-left: var(--margin-xs); }
+.ml-sm { margin-left: var(--margin-sm); }
+.ml-md { margin-left: var(--margin-md); }
+.ml-lg { margin-left: var(--margin-lg); }
+.ml-xl { margin-left: var(--margin-xl); }
+
+
+
+
+/* Screen Breakpoints */
+.screen-sm {
+  min-width: 640px;
+  //@media (min-width: 640px) { 767px }
+}
+.screen-md {
+  min-width: 768px;
+  //@media (min-width: 640px) { 767px }
+}
+.screen-lg {
+  min-width: 1024px;
+  //@media (min-width: 640px) { 767px }
+}
+.screen-xl {
+  min-width: 1280px;
+  //@media (min-width: 640px) { 767px }
+}
+.screen-fw {
+  min-width: 100%;
+  //litt usikker på denne screen-fw.. må se hvordan den funker...@media (min-width: 640px) { 767px }
+}
