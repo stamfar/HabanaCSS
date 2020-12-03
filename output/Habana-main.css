@@ -28,6 +28,10 @@
 
 .text-6xl { font-size: var(--size-4); }
 
+.text-7xl { font-size: var(--size-5); }
+
+.text-8xl { font-size: var(--size-6); }
+
 /* Font Weights (Tailwind) */
 .font-hairline { font-weight: 100; }
 
