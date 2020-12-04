@@ -10,20 +10,15 @@
  |_|  |_| /_/   \_\ |___| |_| \_|                                                                                                                                                                               
 */
 
-/* Variabler */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 :root {
+  /*Utkast til jeg finner replacements fra tailwind. Skal være i template. */
   /* Shadows */
   --primary-box-shadow:0px 8px 18px 0px rgba(117, 141, 166, 0.15);
-
-  /* Border Radius */
-  --m-border-radius-img:8px;
 
   /* Standard-colors */
   --m-color-grey:#f8f8fb;
   --m-color-dark:#3D3D3C;
-
 }
 
 
@@ -521,4 +516,19 @@ video {
   .container {
     max-width: 1536px;
   }
+}
+
+
+
+/* testing nedover */
+.sm\:text-base {
+  font-size: 7px;
+}
+
+@screen sm {
+  /* ... */
+}
+
+@media (min-width: 640px) {
+  /* ... */
 }
