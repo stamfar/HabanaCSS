@@ -526,9 +526,9 @@ video {
 }
 
 @screen sm {
-  /* ... */
+  /* d... */
 }
-
+/* ikke bruk sånne(@media..) i følge tailwind? */
 @media (min-width: 640px) {
   /* ... */
 }
