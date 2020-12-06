@@ -10,8 +10,46 @@
  |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                   
 */
 
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-/* Brand Colors */
+/* ---- START -- Typografi ---- */
+/* Font Family */
+
+
+/* ---- END -- Typografi ---- */
+
+
+/* ---- START -- Farger ---- */
+/* Profil */
+:root {
+/* Start Custom - Egne farger eksempel */
+  --custom-color-trettenti:#0D2D66;
+/* End Custom - Egne farger eksempel */
+
+/* Hovedfarger - Bruk RGBA uten opacity for at resten av fargene skal kunne skrive opacity */
+  --brand-color-primary: rgba(114, 207, 57);
+  --brand-color-secondary: rgba(74, 160, 213);
+  --brand-color-tertiary: #be1e96;
+
+  /* Testing for å lage dark og light versjoner med samme hovedfarge*/
+  --brand-color-primary-hover: rgba(114, 207, 57, 1);
+  --brand-color-secondary-hover: rgba(74, 160, 213, 1);
+
+}
+/* Bruk SASS variablene for å dynamisk oppdatere resten fargene med lighten/darken */
+  $brand-color-primary-hover: rgba(114, 207, 57, 1);
+  $brand-color-secondary-hover: rgba(74, 160, 213, 1);
+
+/* Komponenter */
+:root {
+  --body-background: #ffffff;
+  --body-text: #000000;
+}
+/* ---- END -- Farger ---- */
+
+
+
 :root {
   /* 1310 Brand */
   --m-color-trettenti:#0D2D66;
@@ -24,4 +62,14 @@
   --m-color2-hover:#4390C0;
   --m-color2-light:#E4F1F9;
   --m-color2-dark:#31698C;
+}
+
+/* Testing */
+.brand-color-primary-hoverxx {
+  background-color: darken($brand-color-primary-hover, 10%)
+}
+.brand-color-primary-hover:hover {
+  color: var(--brand-color-primary-hover);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
 }

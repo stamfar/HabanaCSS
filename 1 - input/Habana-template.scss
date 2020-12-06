@@ -9,19 +9,12 @@
    | |   | |___  | |  | | |  __/  | |___   / ___ \    | |   | |___ 
    |_|   |_____| |_|  |_| |_|     |_____| /_/   \_\   |_|   |_____|
 */
- 
-/* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-/* Theme Color Palette */
-:root {
-  --m-color-transparent:transparent;
-  --m-color-grey:#f8f8fb;
-  --m-color-dark:#3D3D3C;
-  /* disse to skal slettes når de blir erstattet */
-  --m-color-white-opacity:rgba(255, 255, 255, 0.9);
-  --m-color-grey-border:#E5E5E5; /*Bruke gray-200/*/
-}
+
+/* ---- START -- Farger ---- */
+/* Komponenter */
+/* ---- END -- Farger ---- */
+
 
 /* Universal Template Color Styles med verdier fra Tailwind */
 :root {

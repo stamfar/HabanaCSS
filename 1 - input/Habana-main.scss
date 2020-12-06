@@ -10,18 +10,14 @@
  |_|  |_| /_/   \_\ |___| |_| \_|                                                                                                                                                                               
 */
 
-
-:root {
-  /*Utkast til jeg finner replacements fra tailwind. Skal være i template. */
-  /* Shadows */
-  --primary-box-shadow:0px 8px 18px 0px rgba(117, 141, 166, 0.15);
-
-  /* Standard-colors */
-  --m-color-grey:#f8f8fb;
-  --m-color-dark:#3D3D3C;
+body {
+  background-color: var(--body-background);
+  font-family: Inter, sans-serif;
+  color: var(--body-text);
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 400;
 }
-
-
 
 /* Universal Sizes (Ole) */
 :root {
@@ -525,9 +521,9 @@ video {
   font-size: 7px;
 }
 
-@screen sm {
-  /* d... */
-}
+/* @screen sm {
+  ... 
+}*/
 /* ikke bruk sånne(@media..) i følge tailwind? */
 @media (min-width: 640px) {
   /* ... */
