@@ -23,23 +23,21 @@
 /* ---- START -- Farger ---- */
 /* Profil */
 :root {
-/* Start Custom - Egne farger eksempel */
+/* Start Custom - Egne farger utenfor system eksempel */
   --custom-color-trettenti:#0D2D66;
-/* End Custom - Egne farger eksempel */
+/* End Custom - Egne farger utenfor system eksempel */
 
-/* Hovedfarger - Bruk RGBA uten opacity for at resten av fargene skal kunne skrive opacity */
-  --brand-color-primary: rgba(114, 207, 57);
-  --brand-color-secondary: rgba(74, 160, 213);
+/* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */
+  --brand-color-primary: #72CF39;
+  --brand-color-secondary: #4aa0d5;
   --brand-color-tertiary: #be1e96;
 
   /* Testing for å lage dark og light versjoner med samme hovedfarge*/
-  --brand-color-primary-hover: rgba(114, 207, 57, 1);
-  --brand-color-secondary-hover: rgba(74, 160, 213, 1);
+  /* Bruk denne siden(http://scg.ar-ch.org/) for enten darken(10-20%) eller lighten(20-30%)*/
+  --brand-color-primary-hover: #509725;
+  --brand-color-secondary-hover: #88c1e3;
 
 }
-/* Bruk SASS variablene for å dynamisk oppdatere resten fargene med lighten/darken */
-  $brand-color-primary-hover: rgba(114, 207, 57, 1);
-  $brand-color-secondary-hover: rgba(74, 160, 213, 1);
 
 /* Komponenter */
 :root {
