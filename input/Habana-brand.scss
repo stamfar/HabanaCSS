@@ -33,9 +33,20 @@
   --brand-color-tertiary: #be1e96;
 
   /* Testing for å lage dark og light versjoner med samme hovedfarge*/
-  /* Bruk denne siden(http://scg.ar-ch.org/) for enten darken(10-20%) eller lighten(20-30%)*/
+  /* Bruk denne siden(http://color.habana.no/) for enten darken(22%) eller lighten(37%)*/
   --brand-color-primary-hover: #509725;
   --brand-color-secondary-hover: #88c1e3;
+
+  --brand-color-primary-dark: #000;
+  --brand-color-primary-light: #000;
+  
+  --brand-color-secondary-dark: #21648e;
+  --brand-color-secondary-light: #e3f0f9;
+
+  /* fra moava sin brand-skal slettes */
+  --m-color1-hover: #67BA33;
+    --m-color1-light: #EAF8E2;
+    --m-color1-dark: #136E3C;
 
 }
 
