@@ -33,7 +33,9 @@
 --size-2875: 2.875rem; /* 46px */
 
 --size-3: 3rem; /* 48px */
+--size-35: 35rem; /* 56px */
 --size-4: 4rem; /* 64px */
+/*--size-45: 4.5rem;*/ /* 72px */
 --size-5: 5rem; /* 80px */
 --size-6: 6rem; /* 96px */
 --size-8: 8rem; /* 128px */
@@ -49,7 +51,7 @@
 .text-2xl { font-size: var(--size-15); }
 .text-3xl { font-size: var(--size-1875); }
 .text-4xl { font-size: var(--size-225); }
-.text-5xl { font-size: var(--size-3); }
+.text-5xl { font-size: var(--size-3); } h1
 .text-6xl { font-size: var(--size-4); }
 .text-7xl { font-size: var(--size-5); }
 .text-8xl { font-size: var(--size-6); }
@@ -272,6 +274,84 @@
 .pl-xl { padding-left: var(--size-5); }
 .pl-2xl { padding-left: var(--size-6); }
 .pl-3xl { padding-left: var(--size-8); }
+
+/* Padding on X axis (left and right) */
+.px-0 { padding-left: var(--size-0);
+        padding-right: var(--size-0); }
+.px-1 { padding-left: var(--size-025);
+        padding-right: var(--size-025); }
+.px-2 { padding-left: var(--size-05);
+        padding-right: var(--size-05); }
+.px-3 { padding-left: var(--size-075);
+        padding-right: var(--size-075); }
+
+.px-xs { padding-left: var(--size-1);
+         padding-right: var(--size-1); }
+.px-5 { padding-left: var(--size-125);
+        padding-right: var(--size-125); }
+.px-6 { padding-left: var(--size-15);
+        padding-right: var(--size-15); }
+.px-7 { padding-left: var(--size-175);
+        padding-right: var(--size-175); }
+
+.px-sm { padding-left: var(--size-2);
+         padding-right: var(--size-2); }
+.px-9 { padding-left: var(--size-225);
+        padding-right: var(--size-225); }
+.px-10 { padding-left: var(--size-25);
+         padding-right: var(--size-25); }
+.px-11 { padding-left: var(--size-275);
+         padding-right: var(--size-275); }
+
+.px-md { padding-left: var(--size-3);
+         padding-right: var(--size-3); }
+.px-lg { padding-left: var(--size-4);
+         padding-right: var(--size-4); }
+.px-xl { padding-left: var(--size-5);
+         padding-right: var(--size-5); }
+.px-2xl { padding-left: var(--size-6);
+          padding-right: var(--size-6); }
+.px-3xl { padding-left: var(--size-8);
+          padding-right: var(--size-8); }
+
+/* Padding on Y axis (top and bottom) */
+.py-0 { padding-top: var(--size-0);
+        padding-bottom: var(--size-0); }
+.py-1 { padding-top: var(--size-025);
+        padding-bottom: var(--size-025); }
+.py-2 { padding-top: var(--size-05);
+        padding-bottom: var(--size-05); }
+.py-3 { padding-top: var(--size-075);
+        padding-bottom: var(--size-075); }
+
+.py-xs { padding-top: var(--size-1);
+         padding-bottom: var(--size-1); }
+.py-5 { padding-top: var(--size-125);
+        padding-bottom: var(--size-125); }
+.py-6 { padding-top: var(--size-15);
+        padding-bottom: var(--size-15); }
+.py-7 { padding-top: var(--size-175);
+        padding-bottom: var(--size-175); }
+
+.py-sm { padding-top: var(--size-2);
+         padding-bottom: var(--size-2); }
+.py-9 { padding-top: var(--size-225);
+        padding-bottom: var(--size-225); }
+.py-10 { padding-top: var(--size-25);
+         padding-bottom: var(--size-25); }
+.py-11 { padding-top: var(--size-275);
+         padding-bottom: var(--size-275); }
+
+.py-md { padding-top: var(--size-3);
+         padding-bottom: var(--size-3); }
+.py-lg { padding-top: var(--size-4);
+         padding-bottom: var(--size-4); }
+.py-xl { padding-top: var(--size-5);
+         padding-bottom: var(--size-5); }
+.py-2xl { padding-top: var(--size-6);
+          padding-bottom: var(--size-6); }
+.py-3xl { padding-top: var(--size-8);
+          padding-bottom: var(--size-8); }
 
 
 /* Width - Utilities for setting the width of an element (Tailwind) */

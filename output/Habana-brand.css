@@ -37,15 +37,13 @@
 :root {
   --body-background: #ffffff;
   --body-text: #000000;
-  --link-color: #000000;
-  --link-color-hover: var(--brand-color-primary-hover);
 }
 
 /* ---- END -- Farger ---- */
 /* ---- START -- Typografi ---- */
 /* Font Family */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   background-color: var(--body-background);
   color: var(--body-text);
   font-size: 100%;
@@ -64,62 +62,41 @@ body {
 
 h1 {
   font-size: var(--size-3);
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 600;
 }
 
 h2 {
   font-size: var(--size-25);
-  line-height: 1.2;
-  font-weight: 600;
 }
 
 h3 {
   font-size: var(--size-2);
-  line-height: 1.2;
-  font-weight: 600;
 }
 
 h4 {
   font-size: var(--size-15);
-  line-height: 1.2;
-  font-weight: 600;
 }
 
 h5 {
   font-size: var(--size-125);
-  line-height: 1.2;
-  font-weight: 600;
 }
 
 h6 {
   font-size: var(--size-1);
-  line-height: 1.2;
-  font-weight: 600;
 }
 
 p {
   font-size: var(--size-1);
-  line-height: 1.5;
   /*margin-bottom: var(--size-1);*/
 }
 
 .text-sm {
   font-size: var(--size-0875);
-  line-height: 1.5;
 }
 
 .text-xs {
   font-size: var(--size-075);
-  line-height: 1.5;
-}
-
-a {
-  color: var(--link-color);
-}
-
-a:hover {
-  color: var(--link-color-hover);
 }
 
 /* ---- END -- Typografi ---- */
