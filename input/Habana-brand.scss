@@ -62,65 +62,85 @@ body {
   font-weight: 400;
 }
 /* Font Headings */
-.text-lg {
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+h4, h5, h6 {
+  line-height: 1.5;
+  font-weight: 600;
+}
+.text-6xl, .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
+  line-height: 1.5;
+}
+
+/* .text-6xl - md er uten angitt font-weight, og har kun linjehøyde*/
+.text-6xl {
+  font-size: var(--size-45);
+}
+.text-5xl {
   font-size: var(--size-4);
 }
-.text-xl {
-  font-size: var(--size-5);
+.text-4xl {
+  font-size: var(--size-35);
 }
+.text-3xl {
+  font-size: var(--size-3);
+}
+.text-2xl {
+  font-size: var(--size-25);
+}
+.text-xl {
+  font-size: var(--size-2);
+}
+.text-lg {
+  font-size: var(--size-15);
+}
+.text-md {
+  font-size: var(--size-1);
+}
+
+.text-small {
+  font-size: var(--size-0875);
+  line-height: 1.5;
+}
+.text-smaller {
+  font-size: var(--size-075);
+  line-height: 1.5;
+}
+
 
 h1 {
   font-size: var(--size-3);
-  line-height: 1.2;
-  font-weight: 600;
 }
 h2 {
   font-size: var(--size-25);
-  line-height: 1.2;
-  font-weight: 600;
 }
 h3 {
   font-size: var(--size-2);
-  line-height: 1.2;
-  font-weight: 600;
 }
 h4 {
   font-size: var(--size-15);
-  line-height: 1.2;
-  font-weight: 600;
 }
 h5 {
   font-size: var(--size-125);
-  line-height: 1.2;
-  font-weight: 600;
 }
 h6 {
   font-size: var(--size-1);
-  line-height: 1.2;
-  font-weight: 600;
 }
+
 p {
   font-size: var(--size-1);
   line-height: 1.5;
   /*margin-bottom: var(--size-1);*/
 }
 
-.text-sm {
-  font-size: var(--size-0875);
-  line-height: 1.5;
-}
-.text-xs {
-  font-size: var(--size-075);
-  line-height: 1.5;
-}
-
 a {
   color: var(--link-color);
+    &:hover {
+      color: var(--link-color-hover);
+    }
 }
-a:hover {
-  color: var(--link-color-hover);
-}
-
 
 /* ---- END -- Typografi ---- */
 
