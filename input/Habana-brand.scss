@@ -13,12 +13,6 @@
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-/* ---- START -- Typografi ---- */
-/* Font Family */
-
-
-/* ---- END -- Typografi ---- */
-
 
 /* ---- START -- Farger ---- */
 /* Profil */
@@ -54,20 +48,62 @@
 /* ---- END -- Farger ---- */
 
 
-
-:root {
-  /* 1310 Brand */
-  --m-color-trettenti:#0D2D66;
-  /* Moava Brand */
-  --m-color1:#72CF39;
-  --m-color1-hover:#67BA33;
-  --m-color1-light:#EAF8E2;
-  --m-color1-dark:#136E3C;
-  --m-color2:#4AA0D5;
-  --m-color2-hover:#4390C0;
-  --m-color2-light:#E4F1F9;
-  --m-color2-dark:#31698C;
+/* ---- START -- Typografi ---- */
+/* Font Family */
+body {
+  font-family: Inter, sans-serif;
+  background-color: var(--body-background);
+  color: var(--body-text);
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 400;
 }
+/* Font Headings */
+.text-lg {
+  font-size: var(--size-4);
+}
+.text-xl {
+  font-size: var(--size-5);
+}
+
+h1 {
+  font-size: var(--size-3);
+  line-height: 1.1;
+  font-weight: 600;
+}
+h2 {
+  font-size: var(--size-25);
+}
+h3 {
+  font-size: var(--size-2);
+}
+h4 {
+  font-size: var(--size-15);
+}
+h5 {
+  font-size: var(--size-125);
+}
+h6 {
+  font-size: var(--size-1);
+}
+p {
+  font-size: var(--size-1);
+  /*margin-bottom: var(--size-1);*/
+}
+
+.text-sm {
+  font-size: var(--size-0875);
+}
+.text-xs {
+  font-size: var(--size-075);
+}
+
+
+/* ---- END -- Typografi ---- */
+
+
+
+
 
 /* Testing */
 .brand-color-primary-hoverxx {
