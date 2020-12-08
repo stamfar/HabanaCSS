@@ -30,21 +30,20 @@
 /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */
   --brand-color-primary: #72CF39;
   --brand-color-secondary: #4aa0d5;
-  --brand-color-tertiary: #be1e96;
+  --brand-color-tertiary: #FF7315;
 
-  /* Testing for å lage dark og light versjoner med samme hovedfarge*/
-  /* Bruk denne siden(http://color.habana.no/) for enten darken(22%, 28%) eller lighten(37%, 40%)*/
- 
- /* Ikke sikker på hvor hover fargene er fra? tror kanskje fra color.habana?.. Sjekk dette så er du done)*/
+/* Utangspunkt i hovedfargerne. Bruk denne siden(http://color.habana.no/) for enten hover(15%), darken(22%, 28%) eller lighten(37%, 40%)*/
   --brand-color-primary-hover: #509725;
-  --brand-color-secondary-hover: #88c1e3;
-
   --brand-color-primary-dark: #346218;
   --brand-color-primary-light: #e7f7dd;
-  
+
+  --brand-color-secondary-hover: #88c1e3;  
   --brand-color-secondary-dark: #21648e;
   --brand-color-secondary-light: #e3f0f9;
 
+  --brand-color-tertiary-hover: #ffa161;  
+  --brand-color-tertiary-dark: #d75600;
+  --brand-color-tertiary-light: #ffdec7;
 }
 
 /* Komponenter */
