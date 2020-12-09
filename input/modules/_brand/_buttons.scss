@@ -1,0 +1,78 @@
+/* Module: Buttons */
+
+/* Henter farger fra css variabler i _brand/_colors */
+:root {
+  /* Start Custom */
+  --custom-button-trettenti: var(--custom-color-trettenti);
+  /* End Custom */
+
+  --border-radius-025: var(--size-025);
+  --border-radius-05: var(--size-05);
+  --border-radius-1: var(--size-1);
+}
+
+$button-border-radius-small: var(--border-radius-025);
+$button-border-radius-medium: var(--border-radius-1);
+
+/* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
+$button-primary: var(--brand-color-primary);
+$button-primary-dark: var(--brand-color-primary-dark);
+$button-primary-light: var(--brand-color-primary-light);
+
+$button-secondary: var(--brand-color-secondary);
+$button-secondary-dark: var(--brand-color-secondary-dark);
+$button-secondary-light: var(--brand-color-secondary-light);
+
+$button-tertiary: var(--brand-color-tertiary);
+$button-tertiary-dark: var(--brand-color-tertiary-dark);
+$button-tertiary-light: var(--brand-color-tertiary-light);
+
+.button-primary {
+  background-color: $button-primary;
+}
+.button-secondary {
+  background-color: $button-secondary;
+}
+.button-tertiary {
+  background-color: $button-tertiary;
+}
+
+.button-large, .button-medium, .button-small, .button-extra-small {
+  position: relative;
+  display: inline-block;
+  border: 1px solid;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.button-large {
+}
+.button-medium {
+  border-radius: $button-border-radius-medium;
+
+}
+/* button-small og extra-small er tatt fra github:buttons*/
+.button-small {
+  border-radius: $button-border-radius-small;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+.button-extra-small {  
+  border-radius: $button-border-radius-small;
+  padding: 2px 5px;
+  font-size: 11px;
+}
+
+
+/* skal hete kun text-white */
+.button-text-white {
+  color: white;
+}
+.button-text-black {
+  color: black;
+}
+
+/* skal hete kun w-100 */
+.button-fw {
+  width: 100%;
+}
