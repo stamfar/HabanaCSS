@@ -1,11 +1,12 @@
 @charset "UTF-8";
+/* Module: Brand.. */
+/* Profil/brand/merkevare/kommunehåndbok/bedrift */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+:root { /* Start Custom - Egne farger utenfor system eksempel */ --custom-color-trettenti: #0d2d66; /* End Custom - Egne farger utenfor system eksempel */ /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */ --brand-color-primary: #72cf39; --brand-color-secondary: #4aa0d5; --brand-color-tertiary: #ff7315; /* Utangspunkt i hovedfargerne. Bruk denne siden(http://color.habana.no/) for enten hover(15%), darken(22%, 28%) eller lighten(37%, 40%)*/ --brand-color-primary-hover: #509725; --brand-color-primary-dark: #346218; --brand-color-primary-light: #e7f7dd; --brand-color-secondary-hover: #88c1e3; --brand-color-secondary-dark: #21648e; --brand-color-secondary-light: #e3f0f9; --brand-color-tertiary-hover: #ffa161; --brand-color-tertiary-dark: #d75600; --brand-color-tertiary-light: #ffdec7; }
+
 /* Habana-brand __ __   ___    ___    ___    _  __   ___  / // /  / _ |  / _ )  / _ |  / |/ /  / _ | / _  /  / __ | / _  | / __ | /    /  / __ | /_//_/  /_/_|_|/____/ /_/ |_|/_/|_/  /_/ |_| ____    ____       _      _   _   ____   | __ )  |  _ \     / \    | \ | | |  _ \  |  _ \  | |_) |   / _ \   |  \| | | | | | | |_) | |  _ <   / ___ \  | |\  | | |_| | |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                    */
 /* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 /* ---- START -- Farger ---- */
-/* Profil */
-:root { /* Start Custom - Egne farger utenfor system eksempel */ --custom-color-trettenti:#0D2D66; /* End Custom - Egne farger utenfor system eksempel */ /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */ --brand-color-primary: #72CF39; --brand-color-secondary: #4aa0d5; --brand-color-tertiary: #FF7315; /* Utangspunkt i hovedfargerne. Bruk denne siden(http://color.habana.no/) for enten hover(15%), darken(22%, 28%) eller lighten(37%, 40%)*/ --brand-color-primary-hover: #509725; --brand-color-primary-dark: #346218; --brand-color-primary-light: #e7f7dd; --brand-color-secondary-hover: #88c1e3; --brand-color-secondary-dark: #21648e; --brand-color-secondary-light: #e3f0f9; --brand-color-tertiary-hover: #ffa161; --brand-color-tertiary-dark: #d75600; --brand-color-tertiary-light: #ffdec7; }
-
 /* Komponenter */
 :root { --body-background: #ffffff; --body-text: #333333; --link-color: #000000; --link-color-hover: var(--brand-color-primary-hover); }
 
