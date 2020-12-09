@@ -57,7 +57,7 @@
   background: blue !important;
 }*/
 /* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
-/* Universal Template Color Styles med verdier fra Tailwind */
+/* Universal Template Color Styles med verdier fra Tailwind.. Bruk heller ny Universal Colors :) */
 :root {
   --color-black: 0, 0, 0;
   --color-white: 255, 255, 255;

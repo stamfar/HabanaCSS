@@ -5,8 +5,7 @@
 body {
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
   font-family: 'Inter', Helvetica, Arial, sans-serif;
-  background-color: var(--body-background);
-  color: var(--body-text);
+  /* bakgrunn og color ligger under color-system */
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -91,7 +90,7 @@ a:hover {
 /* Profil/brand/merkevare/kommunehåndbok/bedrift */
 :root {
   /* Start Custom - Egne farger utenfor system eksempel */
-  --custom-color-trettenti: #0d2d66;
+  --custom-brand-color-trettenti: #0d2d66;
   /* End Custom - Egne farger utenfor system eksempel */
   /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */
   --brand-color-primary: #72cf39;
@@ -110,19 +109,44 @@ a:hover {
 }
 
 /* Module: Colors */
-/* Komponenter */
+/* Unntak er body. Plasseres her for spesielle hensyn */
+body {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+/* start - ferdig  */
 :root {
-  --body-background: #ffffff;
-  --body-text: #333333;
-  --link-color: #000000;
-  --link-color-hover: var(--brand-color-primary-hover);
+  --link-color: var(--color-dark);
+  --link-color-hover: var(--brand-color-primary);
+  --text-dark: var(--color-dark);
+}
+
+/* end - ferdig  */
+/* Komponenter */
+/* Hente farger fra universal colors (?)-komprimert fil */
+:root {
+  --border-white: var(color-white);
+  --border-gray: var(color-white);
+  --border-gray-light: var(color-white);
+  --border-gray-dark: var(color-white);
+  --border-gray-darker: var(color-white);
+  --border-dark: var(--color-white);
+  --border-black: var(--color-black);
+  --border-primary: var(--brand-color-primary);
+  --bg-white: var(color-white);
+  --border-gray: var(color-white);
+  --border-gray-light: var(color-white);
+  --border-gray-dark: var(color-white);
+  --border-gray-darker: var(color-white);
+  --border-dark: var(color-white);
 }
 
 /* Module: Buttons */
 /* Henter farger fra css variabler i _brand/_colors */
 :root {
   /* Start Custom */
-  --custom-button-trettenti: var(--custom-color-trettenti);
+  --custom-button-1: var(--custom-brand-color-trettenti);
   /* End Custom */
   --border-radius-025: var(--size-025);
   --border-radius-05: var(--size-05);
@@ -130,10 +154,48 @@ a:hover {
 }
 
 /* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
+/* Bruker dobbel-metode med Sass variabler */
 .button-primary {
   background-color: var(--brand-color-primary);
+  color: var(--color-black);
 }
 
+.button-primary:hover {
+  background-color: var(--brand-color-primary-dark);
+  color: var(--color-white);
+}
+
+/* direkte inn fra hovedfarger */
+.button-primary {
+  background-color: var(--brand-color-primary);
+  color: var(--color-dark);
+}
+
+.button-primary:hover {
+  background-color: var(--brand-color-primary-dark);
+  color: var(--color-white);
+}
+
+.button-secondary {
+  background-color: var(--brand-color-secondary);
+  color: var(--color-dark);
+}
+
+.button-secondary:hover {
+  background-color: var(--brand-color-secondary-dark);
+  color: var(--color-white);
+}
+
+/*
+.button-secondary {
+  background-color: $button-secondary;
+  color: $button-secondary-text;
+  &:hover {
+    background-color: $button-secondary-dark;
+    color: $button-secondary-text-hover;
+  }
+}
+*/
 .button-secondary {
   background-color: var(--brand-color-secondary);
 }
@@ -150,8 +212,12 @@ a:hover {
   font-weight: 600;
 }
 
-.button-medium {
+.button-large {
   border-radius: var(--border-radius-1);
+}
+
+.button-medium {
+  border-radius: var(--border-radius-05);
 }
 
 /* button-small og extra-small er tatt fra github:buttons*/
@@ -168,17 +234,30 @@ a:hover {
 }
 
 /* skal hete kun text-white */
-.button-text-white {
-  color: white;
+.text-white {
+  color: var(--color-white);
 }
 
-.button-text-black {
-  color: black;
+.text-dark {
+  color: var(--color-dark);
 }
 
 /* skal hete kun w-100 */
 .button-fw {
   width: 100%;
+}
+
+/* Module: Universal Colors / Fargebank */
+/* Alle fargene som kan brukes direkte fra CSS variabler */
+:root {
+  --color-white: #ffffff;
+  --color-gray: #;
+  --color-gray-light: #;
+  --color-gray-dark: #;
+  --color-gray-darker: #;
+  --color-dark: #333333;
+  --color-black: #000000;
+  /* her kommer flere farger til fargebanken. Ingen farger skal brukes utenom det som ligger her*/
 }
 
 /*

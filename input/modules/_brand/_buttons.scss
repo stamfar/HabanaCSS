@@ -3,7 +3,7 @@
 /* Henter farger fra css variabler i _brand/_colors */
 :root {
   /* Start Custom */
-  --custom-button-trettenti: var(--custom-color-trettenti);
+  --custom-button-1: var(--custom-brand-color-trettenti);
   /* End Custom */
 
   --border-radius-025: var(--size-025);
@@ -12,12 +12,18 @@
 }
 
 $button-border-radius-small: var(--border-radius-025);
-$button-border-radius-medium: var(--border-radius-1);
+$button-border-radius-medium: var(--border-radius-05);
+$button-border-radius-large: var(--border-radius-1);
 
 /* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
 $button-primary: var(--brand-color-primary);
 $button-primary-dark: var(--brand-color-primary-dark);
 $button-primary-light: var(--brand-color-primary-light);
+
+$button-primary-text: var(--color-black);
+$button-primary-text-hover: var(--color-white);
+
+
 
 $button-secondary: var(--brand-color-secondary);
 $button-secondary-dark: var(--brand-color-secondary-dark);
@@ -27,9 +33,45 @@ $button-tertiary: var(--brand-color-tertiary);
 $button-tertiary-dark: var(--brand-color-tertiary-dark);
 $button-tertiary-light: var(--brand-color-tertiary-light);
 
+
+/* Bruker dobbel-metode med Sass variabler */
 .button-primary {
   background-color: $button-primary;
+  color: $button-primary-text;
+  &:hover {
+    background-color: $button-primary-dark;
+    color: $button-primary-text-hover;
+  }
 }
+/* direkte inn fra hovedfarger */
+.button-primary {
+  background-color: var(--brand-color-primary);
+  color: var(--color-dark);
+  &:hover {
+    background-color: var(--brand-color-primary-dark);
+    color: var(--color-white);
+  }
+}
+.button-secondary {
+  background-color: var(--brand-color-secondary);
+  color: var(--color-dark);
+  &:hover {
+    background-color: var(--brand-color-secondary-dark);
+    color: var(--color-white);
+  }
+}
+
+/*
+.button-secondary {
+  background-color: $button-secondary;
+  color: $button-secondary-text;
+  &:hover {
+    background-color: $button-secondary-dark;
+    color: $button-secondary-text-hover;
+  }
+}
+*/
+
 .button-secondary {
   background-color: $button-secondary;
 }
@@ -46,6 +88,7 @@ $button-tertiary-light: var(--brand-color-tertiary-light);
 }
 
 .button-large {
+  border-radius: $button-border-radius-large;
 }
 .button-medium {
   border-radius: $button-border-radius-medium;
@@ -65,11 +108,11 @@ $button-tertiary-light: var(--brand-color-tertiary-light);
 
 
 /* skal hete kun text-white */
-.button-text-white {
-  color: white;
+.text-white {
+  color: var(--color-white);
 }
-.button-text-black {
-  color: black;
+.text-dark {
+  color: var(--color-dark);
 }
 
 /* skal hete kun w-100 */

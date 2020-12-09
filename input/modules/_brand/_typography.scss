@@ -7,13 +7,11 @@
 body {
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
   font-family: 'Inter', Helvetica, Arial, sans-serif;
-  background-color: var(--body-background);
-  color: var(--body-text);
+  /* bakgrunn og color ligger under color-system */
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
 }
-
 
 /* Font Headings */
 h1, h2, h3 {

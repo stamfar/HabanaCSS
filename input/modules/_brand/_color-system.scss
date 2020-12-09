@@ -1,0 +1,48 @@
+/* Module: Colors */
+
+/* Unntak er body. Plasseres her for spesielle hensyn */
+body {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+/* start - ferdig  */
+:root {
+  // Link colors
+  --link-color: var(--color-dark);
+  --link-color-hover: var(--brand-color-primary);
+
+  // Text colors
+  --text-dark: var(--color-dark);
+
+}
+/* end - ferdig  */
+
+
+/* Komponenter */
+
+
+
+/* Hente farger fra universal colors (?)-komprimert fil */
+:root {
+  // Border colors
+  --border-white: var(color-white);
+  --border-gray: var(color-white);
+  --border-gray-light: var(color-white);
+  --border-gray-dark: var(color-white);
+  --border-gray-darker: var(color-white);
+  --border-dark: var(--color-white);
+  --border-black: var(--color-black);
+  --border-primary: var(--brand-color-primary);
+
+  // Background colors
+  --bg-white: var(color-white);
+  --border-gray: var(color-white);
+  --border-gray-light: var(color-white);
+  --border-gray-dark: var(color-white);
+  --border-gray-darker: var(color-white);
+  --border-dark: var(color-white);
+
+
+
+}
