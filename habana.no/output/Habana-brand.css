@@ -1,142 +1,53 @@
 @charset "UTF-8";
-/* Habana-brand
-   __ __   ___    ___    ___    _  __   ___ 
-  / // /  / _ |  / _ )  / _ |  / |/ /  / _ |
- / _  /  / __ | / _  | / __ | /    /  / __ |
-/_//_/  /_/_|_|/____/ /_/ |_|/_/|_/  /_/ |_|
-  ____    ____       _      _   _   ____  
- | __ )  |  _ \     / \    | \ | | |  _ \ 
- |  _ \  | |_) |   / _ \   |  \| | | | | |
- | |_) | |  _ <   / ___ \  | |\  | | |_| |
- |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                   
-*/
+/* Habana-brand __ __   ___    ___    ___    _  __   ___  / // /  / _ |  / _ )  / _ |  / |/ /  / _ | / _  /  / __ | / _  | / __ | /    /  / __ | /_//_/  /_/_|_|/____/ /_/ |_|/_/|_/  /_/ |_| ____    ____       _      _   _   ____   | __ )  |  _ \     / \    | \ | | |  _ \  |  _ \  | |_) |   / _ \   |  \| | | | | | | |_) | |  _ <   / ___ \  | |\  | | |_| | |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                    */
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 /* ---- START -- Farger ---- */
 /* Profil */
-:root {
-  /* Start Custom - Egne farger utenfor system eksempel */
-  --custom-color-trettenti:#0D2D66;
-  /* End Custom - Egne farger utenfor system eksempel */
-  /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */
-  --brand-color-primary: #72CF39;
-  --brand-color-secondary: #4aa0d5;
-  --brand-color-tertiary: #FF7315;
-  /* Utangspunkt i hovedfargerne. Bruk denne siden(http://color.habana.no/) for enten hover(15%), darken(22%, 28%) eller lighten(37%, 40%)*/
-  --brand-color-primary-hover: #509725;
-  --brand-color-primary-dark: #346218;
-  --brand-color-primary-light: #e7f7dd;
-  --brand-color-secondary-hover: #88c1e3;
-  --brand-color-secondary-dark: #21648e;
-  --brand-color-secondary-light: #e3f0f9;
-  --brand-color-tertiary-hover: #ffa161;
-  --brand-color-tertiary-dark: #d75600;
-  --brand-color-tertiary-light: #ffdec7;
-}
+:root { /* Start Custom - Egne farger utenfor system eksempel */ --custom-color-trettenti:#0D2D66; /* End Custom - Egne farger utenfor system eksempel */ /* Hovedfarger - Bruk Hex, eller Hex8 for alpha transparency */ --brand-color-primary: #72CF39; --brand-color-secondary: #4aa0d5; --brand-color-tertiary: #FF7315; /* Utangspunkt i hovedfargerne. Bruk denne siden(http://color.habana.no/) for enten hover(15%), darken(22%, 28%) eller lighten(37%, 40%)*/ --brand-color-primary-hover: #509725; --brand-color-primary-dark: #346218; --brand-color-primary-light: #e7f7dd; --brand-color-secondary-hover: #88c1e3; --brand-color-secondary-dark: #21648e; --brand-color-secondary-light: #e3f0f9; --brand-color-tertiary-hover: #ffa161; --brand-color-tertiary-dark: #d75600; --brand-color-tertiary-light: #ffdec7; }
 
 /* Komponenter */
-:root {
-  --body-background: #ffffff;
-  --body-text: #333333;
-  --link-color: #000000;
-  --link-color-hover: var(--brand-color-primary-hover);
-}
+:root { --body-background: #ffffff; --body-text: #333333; --link-color: #000000; --link-color-hover: var(--brand-color-primary-hover); }
 
 /* ---- END -- Farger ---- */
 /* ---- START -- Typografi ---- */
-/* Font Family */
-body {
-  font-family: "Inter", sans-serif;
-  background-color: var(--body-background);
-  color: var(--body-text);
-  font-size: 100%;
-  line-height: 1.5;
-  font-weight: 400;
-}
+/* Font Family (har tidligere ligget i bootstrap-min.css)*/
+body { font-family: 'Inter', Helvetica, Arial, sans-serif; background-color: var(--body-background); color: var(--body-text); font-size: 16px; line-height: 1.5; font-weight: 400; }
 
 /* Font Headings */
-h1, h2, h3 {
-  line-height: 1.2;
-  font-weight: 600;
-}
+h1, h2, h3 { line-height: 1.2; font-weight: 600; }
 
-h4, h5, h6 {
-  line-height: 1.5;
-  font-weight: 600;
-}
+h4, h5, h6 { line-height: 1.5; font-weight: 600; }
 
-.text-6xl, .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
-  line-height: 1.5;
-}
+.text-6xl, .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md { line-height: 1.5; }
 
 /* .text-6xl - md er uten angitt font-weight, og har kun linjehøyde*/
-.text-6xl {
-  font-size: var(--size-45);
-}
+.text-6xl { font-size: var(--size-45); }
 
-.text-5xl {
-  font-size: var(--size-4);
-}
+.text-5xl { font-size: var(--size-4); }
 
-.text-4xl {
-  font-size: var(--size-35);
-}
+.text-4xl { font-size: var(--size-35); }
 
-h1, .text-3xl {
-  font-size: var(--size-3);
-}
+h1, .text-3xl { font-size: var(--size-3); }
 
-h2, .text-2xl {
-  font-size: var(--size-25);
-}
+h2, .text-2xl { font-size: var(--size-25); }
 
-h3, .text-xl {
-  font-size: var(--size-2);
-}
+h3, .text-xl { font-size: var(--size-2); }
 
-h4, .text-lg {
-  font-size: var(--size-15);
-}
+h4, .text-lg { font-size: var(--size-15); }
 
-h5 {
-  font-size: var(--size-125);
-}
+h5 { font-size: var(--size-125); }
 
-h6, .text-md {
-  font-size: var(--size-1);
-}
+h6, .text-md { font-size: var(--size-1); }
 
-.text-small {
-  font-size: var(--size-0875);
-  line-height: 1.5;
-}
+.text-small { font-size: var(--size-0875); line-height: 1.5; }
 
-.text-smaller {
-  font-size: var(--size-075);
-  line-height: 1.5;
-}
+.text-smaller { font-size: var(--size-075); line-height: 1.5; }
 
-p {
-  font-size: var(--size-1);
-  line-height: 1.5;
-  /*margin-bottom: var(--size-1);*/
-}
+p { font-size: var(--size-1); line-height: 1.5; /*margin-bottom: var(--size-1);*/ }
 
-a {
-  color: var(--link-color);
-}
-a:hover {
-  color: var(--link-color-hover);
-}
+a { color: var(--link-color); }
+
+a:hover { color: var(--link-color-hover); }
 
 /* ---- END -- Typografi ---- */
-/* Testing 
-.brand-color-primary-hoverxx {
-  background-color: darken($brand-color-primary-hover, 10%)
-}
-.brand-color-primary-hover:hover {
-  color: var(--brand-color-primary-hover);
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-}
-*/

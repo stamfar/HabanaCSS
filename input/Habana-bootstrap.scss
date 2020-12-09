@@ -10,6 +10,8 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 /* -- START -- bootstrap-min-css  */
 
 /* START -- Foreløpig fungerer sidene med bare følgende */
+
+/* Typografi */
 .h1, .h2, .h3, h1, h2, h3 {
 	margin-top: 20px;
 	margin-bottom: 10px
@@ -19,6 +21,42 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 }
 .text-muted {
 	color: #777
+}
+
+/* Containers (topplogo, content og footer) */
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container-content {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width:768px) {
+	.container {
+		min-width: 750px
+	}
+}
+@media (min-width:992px) {
+	.container {
+		min-width: 970px
+	}
+}
+@media (min-width:1200px) {
+	.container {
+		max-width: 1199px
+	}
 }
 
 
@@ -34,15 +72,18 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
 }
+/* END -- Foreløpig fungerer sidene med bare følgende */
 
 
 
-/* -- END -- bootstrap-min-css  */
+/* -- START -- trenger nok dette, men ikke interessant */
+
+/* -- END -- trenger nok dette, men ikke interessant  */
 
 
 
 
-/* START -- Foreløpig ikke funnet feil ved å ikke beholde */
+/* START -- Foreløpig ikke funnet feil ved å ikke beholde 
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -83,4 +124,6 @@ html {
 
 
 
-/* END -- Foreløpig ikke funnet feil ved å ikke beholde */
+END -- Foreløpig ikke funnet feil ved å ikke beholde */
+
+/* -- END -- bootstrap-min-css  */

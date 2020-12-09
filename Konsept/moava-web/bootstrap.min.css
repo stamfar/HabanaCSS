@@ -8,10 +8,6 @@
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 
-body {
-	margin: 100px
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display: block
 }
@@ -1504,47 +1500,26 @@ hr {
 .small, small {
 	font-size: 85%
 }
-/* slutt behold */
-
-.mark, mark {
-	padding: .2em;
-	background-color: #fcf8e3
-}
-
-.text-left {
-	text-align: left
-}
-
-.text-right {
-	text-align: right
-}
-
-.text-center {
-	text-align: center
-}
-
-.text-justify {
-	text-align: justify
-}
-
-.text-nowrap {
-	white-space: nowrap
-}
-
-.text-lowercase {
-	text-transform: lowercase
-}
-
-.text-uppercase {
-	text-transform: uppercase
-}
-
-.text-capitalize {
-	text-transform: capitalize
-}
 
 .text-muted {
 	color: #777
+}
+/* slutt behold */
+
+
+
+
+
+
+
+
+
+
+
+/* vet ikke
+.mark, mark {
+	padding: .2em;
+	background-color: #fcf8e3
 }
 
 .text-primary {
@@ -1628,11 +1603,14 @@ a.bg-danger:focus, a.bg-danger:hover {
 	background-color: #e4b9b9
 }
 
+
+
 .page-header {
 	padding-bottom: 9px;
 	margin: 40px 0 20px;
 	border-bottom: 1px solid #eee
 }
+
 
 ol, ul {
 	margin-top: 0;
@@ -1647,24 +1625,20 @@ ol ol, ol ul, ul ol, ul ul {
 	padding-left: 0;
 	list-style: none
 }
-
 .list-inline {
 	padding-left: 0;
 	margin-left: -5px;
 	list-style: none
 }
-
 .list-inline>li {
 	display: inline-block;
 	padding-right: 5px;
 	padding-left: 5px
 }
-
 dl {
 	margin-top: 0;
 	margin-bottom: 20px
 }
-
 dd, dt {
 	line-height: 1.42857143
 }
@@ -1691,10 +1665,13 @@ dd {
 	.dl-horizontal dd {
 		margin-left: 180px
 	}
-}abbr[data-original-title], abbr[title] {
+}
+
+abbr[data-original-title], abbr[title] {
 	cursor: help;
 	border-bottom: 1px dotted #777
 }
+
 
 .initialism {
 	font-size: 90%;
@@ -1739,6 +1716,12 @@ blockquote .small:before, blockquote footer:before, blockquote small:before {
 	content: '\00A0 \2014'
 }
 
+
+*/
+
+
+
+/* Start - Kanskje beholde */
 address {
 	margin-bottom: 20px;
 	font-style: normal;
@@ -1802,31 +1785,53 @@ pre code {
 	max-height: 340px;
 	overflow-y: scroll
 }
+/* Slutt - Kanskje beholde */
+
+
+
+
 
 .container {
+	/*padding-right: 15px;
+	padding-left: 15px;*/
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container-content {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
-	margin-left: auto
+	margin-left: auto;
+}
+footer {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media (min-width:768px) {
 	.container {
-		width: 750px
+		min-width: 750px
 	}
-}@media (min-width:992px) {
+}
+@media (min-width:992px) {
 	.container {
-		width: 970px
+		min-width: 970px
 	}
-}@media (min-width:1200px) {
+}
+@media (min-width:1200px) {
 	.container {
-		width: 1170px
+		max-width: 1199px
 	}
-}.container-fluid {
+}
+.container-fluid {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
-	margin-left: auto
+	margin-left: auto;
 }
 
 .row {

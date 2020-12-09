@@ -6,19 +6,74 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 
 /* -- END -- Extracted-styleallcustom (ole v. tidlig 2020) */
 /* -- START -- bootstrap-min-css  */
-/* START -- Foreløpig ikke funnet feil ved å ikke beholde */
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-/* END -- Foreløpig ikke funnet feil ved å ikke beholde */
 /* START -- Foreløpig fungerer sidene med bare følgende */
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
+/* Typografi */
+.h1, .h2, .h3, h1, h2, h3 { margin-top: 20px; margin-bottom: 10px; }
+
+.small, small { font-size: 85%; }
+
+.text-muted { color: #777; }
+
+/* Containers (topplogo, content og footer) */
+.container { padding-right: 0px; padding-left: 0px; margin-right: auto; margin-left: auto; }
+
+.container-content { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+
+footer { padding-right: 0px; padding-left: 0px; margin-right: auto; margin-left: auto; }
+
+@media (min-width: 768px) { .container { min-width: 750px; } }
+
+@media (min-width: 992px) { .container { min-width: 970px; } }
+
+@media (min-width: 1200px) { .container { max-width: 1199px; } }
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+:after, :before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* END -- Foreløpig fungerer sidene med bare følgende */
+/* -- START -- trenger nok dette, men ikke interessant */
+/* -- END -- trenger nok dette, men ikke interessant  */
+/* START -- Foreløpig ikke funnet feil ved å ikke beholde 
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	font-size: inherit;
 }
 
+.text-left {
+	text-align: left
+}
+
+.text-right {
+	text-align: right
+}
+
+.text-center {
+	text-align: center
+}
+
+.text-justify {
+	text-align: justify
+}
+.text-nowrap {
+	white-space: nowrap
+}
+
+.text-lowercase {
+	text-transform: lowercase
+}
+
+.text-uppercase {
+	text-transform: uppercase
+}
+
+.text-capitalize {
+	text-transform: capitalize
+}
+
+
+
+END -- Foreløpig ikke funnet feil ved å ikke beholde */
 /* -- END -- bootstrap-min-css  */
