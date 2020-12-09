@@ -111,9 +111,65 @@ a:hover {
 
 /* Module: Colors */
 /* Komponenter */
-:root { --body-background: #ffffff; --body-text: #333333; --link-color: #000000; --link-color-hover: var(--brand-color-primary-hover); }
+:root {
+  --body-background: #ffffff;
+  --body-text: #333333;
+  --link-color: #000000;
+  --link-color-hover: var(--brand-color-primary-hover);
+}
 
-/* Habana-brand __ __   ___    ___    ___    _  __   ___  / // /  / _ |  / _ )  / _ |  / |/ /  / _ | / _  /  / __ | / _  | / __ | /    /  / __ | /_//_/  /_/_|_|/____/ /_/ |_|/_/|_/  /_/ |_| ____    ____       _      _   _   ____   | __ )  |  _ \     / \    | \ | | |  _ \  |  _ \  | |_) |   / _ \   |  \| | | | | | | |_) | |  _ <   / ___ \  | |\  | | |_| | |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                    */
+/* Module: Buttons */
+/* Henter farger fra css variabler i _brand/_colors */
+:root {
+  /* Start Custom */
+  --custom-button-trettenti: var(--custom-color-trettenti);
+  /* End Custom */
+  --border-radius-025: var(--size-025);
+  --border-radius-05: var(--size-05);
+  --border-radius-1: var(--size-1);
+}
+
+/* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
+.button-primary {
+  background-color: var(--brand-color-primary);
+}
+
+.button-secondary {
+  background-color: var(--brand-color-secondary);
+}
+
+.button-tertiary {
+  background-color: var(--brand-color-tertiary);
+}
+
+.button-large, .button-medium, .button-small, .button-extra-small {
+  position: relative;
+  display: inline-block;
+  border: 1px solid;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.button-medium {
+  border-radius: var(--border-radius-1);
+}
+
+/* button-small og extra-small er tatt fra github:buttons*/
+.button-small {
+  border-radius: var(--border-radius-025);
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+.button-extra-small {
+  border-radius: var(--border-radius-025);
+  padding: 2px 5px;
+  font-size: 11px;
+}
+
+/* skal hete kun text-white */
+.button-text-white {
+  color: white;
 }
 
 .button-text-black {
