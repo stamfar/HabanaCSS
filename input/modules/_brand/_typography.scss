@@ -1,6 +1,11 @@
-/* Module: Typography.. */
+/* Module: Typography */
+
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
 
 body {
+  /* Font Family (har tidligere ligget i bootstrap-min.css)*/
   font-family: 'Inter', Helvetica, Arial, sans-serif;
   background-color: var(--body-background);
   color: var(--body-text);

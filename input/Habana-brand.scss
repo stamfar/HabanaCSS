@@ -1,5 +1,6 @@
 @import './modules/_brand/_typography';
 @import './modules/_brand/_colors-brand';
+@import './modules/_brand/_colors';
 
 /* Habana-brand
    __ __   ___    ___    ___    _  __   ___ 
@@ -13,98 +14,5 @@
  |____/  |_| \_\ /_/   \_\ |_| \_| |____/                                                                                                                                   
 */
 
-/* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-
-/* ---- START -- Farger ---- */
-
-/* Komponenter */
-:root {
-  --body-background: #ffffff;
-  --body-text: #333333;
-
-  --link-color: #000000;
-  --link-color-hover: var(--brand-color-primary-hover);
-}
-/* ---- END -- Farger ---- */
-
-
-/* ---- START -- Typografi ---- */
-/* Font Family (har tidligere ligget i bootstrap-min.css)*/
-body {
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
-  background-color: var(--body-background);
-  color: var(--body-text);
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
-/* Font Headings */
-h1, h2, h3 {
-  line-height: 1.2;
-  font-weight: 600;
-}
-h4, h5, h6 {
-  line-height: 1.5;
-  font-weight: 600;
-}
-.text-6xl, .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
-  line-height: 1.5;
-}
-
-/* .text-6xl - md er uten angitt font-weight, og har kun linjehøyde*/
-.text-6xl {
-  font-size: var(--size-45);
-}
-.text-5xl {
-  font-size: var(--size-4);
-}
-.text-4xl {
-  font-size: var(--size-35);
-}
-
-h1, .text-3xl {
-  font-size: var(--size-3);
-}
-h2, .text-2xl {
-  font-size: var(--size-25);
-}
-h3, .text-xl {
-  font-size: var(--size-2);
-}
-h4, .text-lg {
-  font-size: var(--size-15);
-}
-h5 {
-  font-size: var(--size-125);
-}
-h6, .text-md {
-  font-size: var(--size-1);
-}
-
-.text-small {
-  font-size: var(--size-0875);
-  line-height: 1.5;
-}
-.text-smaller {
-  font-size: var(--size-075);
-  line-height: 1.5;
-}
-
-p {
-  font-size: var(--size-1);
-  line-height: 1.5;
-  /*margin-bottom: var(--size-1);*/
-}
-
-a {
-  color: var(--link-color);
-    &:hover {
-      color: var(--link-color-hover);
-    }
-}
-
-/* ---- END -- Typografi ---- */
 
