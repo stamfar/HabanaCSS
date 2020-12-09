@@ -15,40 +15,47 @@
 /* ---- END -- Farger ---- */
 /* ---- START -- Navigasjonsbar(bootstrap v3) ---- */
 /* Menyikon */
+/* Felles */
+.pageTitleIcon {
+  padding: 0px 10px 0px 0px;
+}
+
+.navbar-nav  {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+
+/* kun mobil */
 @media only screen and (max-width: 768px) {
   .navbar-nav  {
-    display: flex;
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
-    float: left;
-    width: 100%;
+  }
+
+  .pageTitleIcon {
+    display: inline-block;
   }
 }
 @media only screen and (min-width: 768px) {
   .navbar-nav  {
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
-    float: left;
-    width: 100%;
   }
 
   .pageTitleIcon {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    /*flex-direction: column;
+       align-items: center;
+       justify-content: center;*/
   }
 }
-/* testing */
-.navbar-nav .li a {
-  display: flex;
-  flex-direction: column;
-  /* eller row */
-}
-
+/*
+.navbar-nav>li>a {
+  background: blue !important;
+}*/
 /* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
 /* Universal Template Color Styles med verdier fra Tailwind */
 :root {
