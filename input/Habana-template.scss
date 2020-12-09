@@ -16,6 +16,53 @@
 /* ---- END -- Farger ---- */
 
 
+/* ---- START -- Navigasjonsbar(bootstrap v3) ---- */
+
+/* Menyikon */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+
+    float: left;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+    float: left;
+    width: 100%;
+  }
+  .pageTitleIcon {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* testing */
+.navbar-nav .li a {
+  display: flex;
+  flex-direction: column; /* eller row */
+}
+
+
+/* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
+
+
+
+
+
+
+
 /* Universal Template Color Styles med verdier fra Tailwind */
 :root {
     --color-black: 0, 0, 0;

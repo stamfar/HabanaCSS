@@ -43,7 +43,7 @@
 /* Komponenter */
 :root {
   --body-background: #ffffff;
-  --body-text: #000000;
+  --body-text: #333333;
 
   --link-color: #000000;
   --link-color-hover: var(--brand-color-primary-hover);
@@ -52,15 +52,16 @@
 
 
 /* ---- START -- Typografi ---- */
-/* Font Family */
+/* Font Family (har tidligere ligget i bootstrap-min.css)*/
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
   background-color: var(--body-background);
   color: var(--body-text);
-  font-size: 100%;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
 }
+
 /* Font Headings */
 h1, h2, h3 {
   line-height: 1.2;
@@ -84,19 +85,23 @@ h4, h5, h6 {
 .text-4xl {
   font-size: var(--size-35);
 }
-.text-3xl {
+
+h1, .text-3xl {
   font-size: var(--size-3);
 }
-.text-2xl {
+h2, .text-2xl {
   font-size: var(--size-25);
 }
-.text-xl {
+h3, .text-xl {
   font-size: var(--size-2);
 }
-.text-lg {
+h4, .text-lg {
   font-size: var(--size-15);
 }
-.text-md {
+h5 {
+  font-size: var(--size-125);
+}
+h6, .text-md {
   font-size: var(--size-1);
 }
 
@@ -107,26 +112,6 @@ h4, h5, h6 {
 .text-smaller {
   font-size: var(--size-075);
   line-height: 1.5;
-}
-
-
-h1 {
-  font-size: var(--size-3);
-}
-h2 {
-  font-size: var(--size-25);
-}
-h3 {
-  font-size: var(--size-2);
-}
-h4 {
-  font-size: var(--size-15);
-}
-h5 {
-  font-size: var(--size-125);
-}
-h6 {
-  font-size: var(--size-1);
 }
 
 p {
@@ -143,6 +128,7 @@ a {
 }
 
 /* ---- END -- Typografi ---- */
+
 
 
 

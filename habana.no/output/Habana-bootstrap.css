@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Kopierer over det som trengs av Moava bootstrap for å fungere.
+Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
+/* -- START -- Extracted-styleallcustom (ole v. tidlig 2020) */
+/* Dette arket er ikke nødvendig for at sidene skal fungere, ei heller den vanlige styleallcustom.
+
+/* -- END -- Extracted-styleallcustom (ole v. tidlig 2020) */
+/* -- START -- bootstrap-min-css  */
+/* START -- Foreløpig ikke funnet feil ved å ikke beholde */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* END -- Foreløpig ikke funnet feil ved å ikke beholde */
+/* START -- Foreløpig fungerer sidene med bare følgende */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+/* -- END -- bootstrap-min-css  */
