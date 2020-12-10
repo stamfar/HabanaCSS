@@ -1,5 +1,6 @@
-@import './modules/_template/h-components';
-@import './modules/_template/m-components';
+@import './modules/_main/_utils';
+@import './modules/_template/_h-components';
+@import './modules/_template/_m-components';
 
 /* Habana-template
    __ __   ___    ___    ___    _  __   ___               
@@ -18,51 +19,6 @@
 /* Komponenter */
 /* ---- END -- Farger ---- */
 
-
-/* ---- START -- Navigasjonsbar(bootstrap v3) ---- */
-
-/* Menyikon */
-/* Felles */
-.pageTitleIcon {
-	padding: 0px 10px 0px 0px;
-}
-.navbar-nav {
-	display: flex;
-	float: left;
-	width: 100%;
-}
-/* kun mobil */
-@media only screen and (max-width: 768px) {
-  .navbar-nav {
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .pageTitleIcon {
-    display: inline-block;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .navbar-nav {
-	flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0;
-  }
-  .pageTitleIcon {
-    display: inline-block;
-	/*flex-direction: column;
-    align-items: center;
-    justify-content: center;*/
-  }
-}
-
-/*
-.navbar-nav>li>a {
-  background: blue !important;
-}*/
-
-
-/* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
 
 
 

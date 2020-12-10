@@ -1,2 +1,46 @@
 /* Module: Moava components */
 /* f.eks panels, calender, newsfield */
+
+
+/* ---- START -- Navigasjonsbar(bootstrap v3) ---- */
+/* Menyikon */
+/* Felles */
+.pageTitleIcon {
+	padding: 0px 10px 0px 0px;
+}
+.navbar-nav {
+    background-color: red;
+    display: flex;
+    /*float: left;*/
+    width: 100%;
+}
+/* kun mobil */
+@media only screen and (max-width: 768px) {
+
+.navbar-nav {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+}
+.pageTitleIcon {
+    display: inline-block;
+}
+
+}
+//@media only screen and (min-width: 768px) {
+@include desktop {
+.navbar-nav {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    background-color: blue;
+}
+  .pageTitleIcon {
+    display: inline-block;
+	/*flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+  }
+}
+/*
+/* ---- END -- Navigasjonsbar(bootstrap v3) ---- */

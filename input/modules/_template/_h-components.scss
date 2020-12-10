@@ -3,15 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* Gøye komponenter som ikke er produksjonsklare enda/har formål*/
 .glassBox {
     display: inline-block;
@@ -21,7 +12,7 @@
     position: relative;
     z-index: 1;
     backdrop-filter: blur(40px);
-    border: solid 2px transparent;
+    -webkit-backdrop-filter: blur(40px);
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 .background-image {

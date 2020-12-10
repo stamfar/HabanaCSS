@@ -21,8 +21,6 @@ body {
 
 /* Komponenter */
 
-
-
 /* Hente farger fra universal colors (?)-komprimert fil */
 :root {
   // Border colors
@@ -44,14 +42,13 @@ body {
   --border-dark: var(color-white);
 
 
-
 }
 
 /* tester Sass variabler i map og funksjoner */
 $colors: (
   primary: red,
-  white: #ffffff
-  black: #ffffff
+  white: var(--color-white),
+  black: var(--color-black),
 );
 /* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
 @function color($color-name) {
@@ -61,4 +58,6 @@ $colors: (
 body {
   background-color: color(white);
   color: color(black);
+
+  background-color: var(--minsystemfarge) !important;
 }

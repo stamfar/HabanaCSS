@@ -1,0 +1,10 @@
+/* Module: Utils: screen-sizes/media queries. (Ole) */
+
+
+$desktop: 840px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
