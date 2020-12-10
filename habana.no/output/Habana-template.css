@@ -43,6 +43,7 @@
   flex-direction: column;
   margin-left: 0;
   margin-right: 0;
+  background-color: blueviolet;
 }
 
 @media (min-width: 768px) {
@@ -50,7 +51,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
+    background-color: blue;
   }
+
   .pageTitleIcon {
     display: inline-block;
     /*flex-direction: column;
@@ -58,8 +61,33 @@
     justify-content: center;*/
   }
 }
-
 /*
+
+/* tester */
+.mainMenuWrapper .navbar {
+  border-radius: 0px;
+}
+.mainMenuWrapper .navbar button {
+  border: blue;
+}
+
+.mainMenuWrapper button.navbar-toggle {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+.mainMenuWrapper.navbar button.navbar-toggle:hover {
+  border: 1px solid white;
+}
+
+.mainMenuWrapper.navbar button.navbar-toggle span.icon-bar {
+  background: white;
+}
+
 /* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
 /* Habana-template
    __ __   ___    ___    ___    _  __   ___               
