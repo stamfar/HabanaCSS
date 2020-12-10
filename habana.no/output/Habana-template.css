@@ -96,6 +96,8 @@
 
 .mainMenuWrapper.navbar button.navbar-toggle span.icon-bar {
   background: white;
+  height: 2.5px;
+  width: 100%;
 }
 
 /* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
