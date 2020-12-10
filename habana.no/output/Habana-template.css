@@ -62,11 +62,23 @@
 /*
 
 /* tester */
+.navbar-brand {
+  float: left;
+  height: 55px;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .mainMenuWrapper .navbar {
   border-radius: 0px;
 }
-.mainMenuWrapper .navbar button {
-  border: blue;
+.mainMenuWrapper .navbar-brand {
+  float: left;
+  height: 55px;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .mainMenuWrapper button.navbar-toggle {
