@@ -1,10 +1,17 @@
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 
+$tablet: 768px;
+$desktop: 992px;
 
-$desktop: 840px;
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
 
 @mixin desktop {
   @media (min-width: #{$desktop}) {
     @content;
   }
 }
+

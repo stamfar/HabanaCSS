@@ -46,7 +46,7 @@
   margin-right: 0;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 768px) {
   .navbar-nav {
     flex-wrap: wrap;
     flex-direction: row;
