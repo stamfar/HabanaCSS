@@ -1,5 +1,18 @@
 /* Module: Habana components */
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gøye komponenter som ikke er produksjonsklare enda/har formål*/
 .glassBox {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
@@ -12,6 +25,13 @@
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 .background-image {
-    background-image: url('https://habana.no/assets/habana-background.jpg');
+    background-image: url('https://habana.no/assets/habana-background.jpeg');
+    background-size: 60%;
     height: 500px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }

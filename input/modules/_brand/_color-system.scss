@@ -51,6 +51,7 @@ body {
 $colors: (
   primary: red,
   white: #ffffff
+  black: #ffffff
 );
 /* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
 @function color($color-name) {
@@ -58,6 +59,6 @@ $colors: (
 }
 
 body {
-  background-color: map-get($colors, primary);
-  color: color(white);
+  background-color: color(white);
+  color: color(black);
 }

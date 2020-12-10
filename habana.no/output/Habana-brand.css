@@ -146,7 +146,7 @@ body {
 /* tester Sass variabler i map og funksjoner */
 /* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
 body {
-  background-color: red;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
