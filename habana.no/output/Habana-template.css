@@ -1,4 +1,24 @@
 @charset "UTF-8";
+/* Module: Habana components */
+.glassBox {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3em;
+  border-radius: 3em;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(40px);
+  border: solid 2px transparent;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.background-image {
+  background-image: url("https://habana.no/assets/habana-background.jpg");
+  height: 500px;
+}
+
+/* Module: Moava components */
+/* f.eks panels, calender, newsfield */
 /* Habana-template
    __ __   ___    ___    ___    _  __   ___               
   / // /  / _ |  / _ )  / _ |  / |/ /  / _ |              

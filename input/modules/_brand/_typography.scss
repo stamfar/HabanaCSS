@@ -5,12 +5,13 @@
 
 
 body {
+  /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
   font-family: 'Inter', Helvetica, Arial, sans-serif;
-  /* bakgrunn og color ligger under color-system */
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+  margin: 0;
 }
 
 /* Font Headings */

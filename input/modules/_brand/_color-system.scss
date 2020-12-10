@@ -1,6 +1,6 @@
 /* Module: Colors */
 
-/* Unntak er body. Plasseres her for spesielle hensyn */
+/* Unntak er body. Plasseres her fordi at det kun er farger. */
 body {
   background-color: var(--color-white);
   color: var(--color-dark);
@@ -45,4 +45,19 @@ body {
 
 
 
+}
+
+/* tester Sass variabler i map og funksjoner */
+$colors: (
+  primary: red,
+  white: #ffffff
+);
+/* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
+@function color($color-name) {
+  @return map-get($colors, $color-name)
+}
+
+body {
+  background-color: map-get($colors, primary);
+  color: color(white);
 }

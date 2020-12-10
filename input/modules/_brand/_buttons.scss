@@ -50,6 +50,7 @@ $button-tertiary-light: var(--brand-color-tertiary-light);
   &:hover {
     background-color: var(--brand-color-primary-dark);
     color: var(--color-white);
+    color: color(white);
   }
 }
 .button-secondary {

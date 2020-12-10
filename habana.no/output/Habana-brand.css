@@ -3,12 +3,13 @@
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 body {
+  /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
   font-family: 'Inter', Helvetica, Arial, sans-serif;
-  /* bakgrunn og color ligger under color-system */
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+  margin: 0;
 }
 
 /* Font Headings */
@@ -109,7 +110,7 @@ a:hover {
 }
 
 /* Module: Colors */
-/* Unntak er body. Plasseres her for spesielle hensyn */
+/* Unntak er body. Plasseres her fordi at det kun er farger. */
 body {
   background-color: var(--color-white);
   color: var(--color-dark);
@@ -140,6 +141,13 @@ body {
   --border-gray-dark: var(color-white);
   --border-gray-darker: var(color-white);
   --border-dark: var(color-white);
+}
+
+/* tester Sass variabler i map og funksjoner */
+/* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
+body {
+  background-color: red;
+  color: #ffffff;
 }
 
 /* Module: Buttons */
@@ -174,6 +182,7 @@ body {
 .button-primary:hover {
   background-color: var(--brand-color-primary-dark);
   color: var(--color-white);
+  color: #ffffff;
 }
 
 .button-secondary {
