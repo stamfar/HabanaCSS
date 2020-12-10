@@ -37,7 +37,6 @@
 }
 
 .navbar-nav {
-  background-color: red;
   display: flex;
   /*float: left;*/
   width: 100%;
@@ -51,7 +50,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
-    background-color: blue;
   }
   .pageTitleIcon {
     display: inline-block;
