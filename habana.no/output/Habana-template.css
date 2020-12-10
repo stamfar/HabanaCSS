@@ -43,7 +43,6 @@
   flex-direction: column;
   margin-left: 0;
   margin-right: 0;
-  background-color: blueviolet;
 }
 
 @media (min-width: 768px) {
@@ -51,7 +50,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
-    background-color: blue;
   }
 
   .pageTitleIcon {
