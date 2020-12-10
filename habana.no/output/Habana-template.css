@@ -33,6 +33,7 @@
 /* Felles */
 .pageTitleIcon {
   padding: 0px 10px 0px 0px;
+  display: inline-block;
 }
 
 .navbar-nav {
@@ -40,18 +41,9 @@
   display: flex;
   /*float: left;*/
   width: 100%;
-}
-
-/* kun mobil */
-@media only screen and (max-width: 768px) {
-  .navbar-nav {
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .pageTitleIcon {
-    display: inline-block;
-  }
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 @media (min-width: 840px) {
