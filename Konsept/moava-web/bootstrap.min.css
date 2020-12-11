@@ -4418,7 +4418,9 @@ vises kun på monitor
 	}
 */	
 
-}@media (min-width:768px) {
+	
+}
+@media (min-width:768px) {
 	.navbar-header {
 		float: left
 	}
@@ -5908,6 +5910,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 	border-bottom: 1px solid #ddd
 }
 
+/*
+lagt inn i habana..
 .panel-default {
 	border-color: #ddd
 }
@@ -5917,6 +5921,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 	background-color: #f5f5f5;
 	border-color: #ddd
 }
+*/
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	border-top-color: #ddd
