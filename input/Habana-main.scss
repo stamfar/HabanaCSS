@@ -262,7 +262,7 @@ video {
   margin-right: auto;
 }
 
-/* Screen Breakpoints Container (Tailwind) */
+/* Screen Breakpoints Container (Tailwind)
 .container {
   width: 100%;
 }
@@ -291,18 +291,13 @@ video {
     max-width: 1536px;
   }
 }
-
+*/
 
 
 /* testing nedover */
 .sm\:text-base {
   font-size: 7px;
 }
-
 /* @screen sm {
   ... 
 }*/
-/* ikke bruk sånne(@media..) i følge tailwind? */
-@media (min-width: 640px) {
-  /* ... */
-}
