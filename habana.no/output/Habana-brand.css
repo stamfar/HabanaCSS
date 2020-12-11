@@ -83,7 +83,7 @@ body {
 body {
   /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -117,16 +117,28 @@ h4, h5, h6 {
   font-size: var(--size-35);
 }
 
-h1, .text-3xl {
+.text-3xl {
   font-size: var(--size-3);
 }
 
-h2, .text-2xl {
+.text-2xl {
   font-size: var(--size-25);
 }
 
-h3, .text-xl {
+.text-xl {
   font-size: var(--size-2);
+}
+
+h1 {
+  font-size: var(--size-25);
+}
+
+h2 {
+  font-size: var(--size-2);
+}
+
+h3 {
+  font-size: var(--size-175);
 }
 
 h4, .text-lg {
@@ -160,7 +172,6 @@ p {
 a {
   color: var(--link-color);
 }
-
 a:hover {
   color: var(--link-color-hover);
 }
@@ -182,7 +193,6 @@ a:hover {
   background-color: var(--brand-color-primary);
   color: var(--color-black);
 }
-
 .button-primary:hover {
   background-color: var(--brand-color-primary-dark);
   color: var(--color-white);
@@ -193,7 +203,6 @@ a:hover {
   background-color: var(--brand-color-primary);
   color: var(--color-dark);
 }
-
 .button-primary:hover {
   background-color: var(--brand-color-primary-dark);
   color: var(--color-white);
@@ -204,7 +213,6 @@ a:hover {
   background-color: var(--brand-color-secondary);
   color: var(--color-dark);
 }
-
 .button-secondary:hover {
   background-color: var(--brand-color-secondary-dark);
   color: var(--color-white);

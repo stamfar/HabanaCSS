@@ -1,4 +1,5 @@
 @import './modules/_main/_utils';
+@import './modules/_bootstrap/_important';
 /* Kopierer over det som trengs av Moava bootstrap for å fungere.
 Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
 
@@ -17,6 +18,7 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 	margin-top: 20px;
 	margin-bottom: 10px
 }
+/*yo*/
 .small, small {
 	font-size: 85%
 }

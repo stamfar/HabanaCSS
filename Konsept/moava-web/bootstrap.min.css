@@ -1795,10 +1795,9 @@ pre code {
 
 
 
-
+/* dette ligger i habana bootstrap
+(kan være annerledes nå)
 .container {
-	/*padding-right: 15px;
-	padding-left: 15px;*/
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-right: auto;
@@ -1826,12 +1825,20 @@ footer {
 	.container {
 		min-width: 970px
 	}
+
 }
 @media (min-width:1200px) {
 	.container {
 		max-width: 1199px
 	}
+	.container-content {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 }
+*/
+
+
 .container-fluid {
 	padding-right: 15px;
 	padding-left: 15px;

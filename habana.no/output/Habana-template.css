@@ -91,7 +91,7 @@
 }
 
 .mainMenuWrapper.navbar button.navbar-toggle:hover {
-  border: 1px solid white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .mainMenuWrapper.navbar button.navbar-toggle span.icon-bar {

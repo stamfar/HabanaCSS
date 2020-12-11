@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* Module: Utils: screen-sizes/media queries. (Ole) */
+/* fjerner margin helt på toppen av siden*/
+body {
+  padding-top: 0px !important;
+}
+
 /* Kopierer over det som trengs av Moava bootstrap for å fungere.
 Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
 /* -- START -- Extracted-styleallcustom (ole v. tidlig 2020) */
@@ -14,6 +19,7 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
   margin-bottom: 10px;
 }
 
+/*yo*/
 .small, small {
   font-size: 85%;
 }

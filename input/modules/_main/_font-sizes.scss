@@ -1,1 +1,7 @@
 /* Module: Font sizes */
+
+/* Paneler */
+/* .panel-heading h2 for å overstyre vanlig h2(trenger ikke være important) */
+.panel-heading h2 {
+	font-size: var(--size-15) !important;
+}
