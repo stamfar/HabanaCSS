@@ -79,7 +79,7 @@
   line-height: 20px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .mainMenuWrapper .navbar {
     border-radius: 0 0 4px 4px;
   }

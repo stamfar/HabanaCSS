@@ -4411,11 +4411,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 /* Lagt inn på ny måte
+vises kun på monitor
 @media (min-width:768px) {
 	.navbar {
 		border-radius: 4px
 	}
-*/
+*/	
 
 }@media (min-width:768px) {
 	.navbar-header {
