@@ -44,9 +44,6 @@
 }
 
 .mainMenuWrapper {
-  .navbar {
-    border-radius: 0px;
-  }
   .navbar-brand {
     float: left;
     height: 55px;
@@ -56,10 +53,8 @@
   }
 }
 @include monitor {
-  .mainMenuWrapper {
-    .navbar {
-      border-radius: 0 0 4px 4px;
-    }
+  .mainMenuWrapper.navbar {
+    border-radius: 0 0 4px 4px;
   }
 }
 

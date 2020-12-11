@@ -68,9 +68,6 @@
   line-height: 20px;
 }
 
-.mainMenuWrapper .navbar {
-  border-radius: 0px;
-}
 .mainMenuWrapper .navbar-brand {
   float: left;
   height: 55px;
@@ -80,7 +77,7 @@
 }
 
 @media (min-width: 1200px) {
-  .mainMenuWrapper .navbar {
+  .mainMenuWrapper.navbar {
     border-radius: 0 0 4px 4px;
   }
 }
