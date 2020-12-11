@@ -1,5 +1,5 @@
-@import './modules/_main/_utils';
-@import './modules/_bootstrap/_important';
+@use './modules/_main/_utils';
+@use './modules/_bootstrap/_important';
 /* Kopierer over det som trengs av Moava bootstrap for å fungere.
 Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
 
@@ -52,7 +52,7 @@ footer {
 	margin-left: auto;
 }
 
-@include tablet {
+@include utils.tablet {
 /*@media (min-width:768px) { */
 	.container {
 		min-width: 750px
@@ -62,13 +62,14 @@ footer {
 		padding-left: 0px;
 	}
 }
-@include desktop {
+@include utils.desktop {
 /*@media (min-width:992px) {*/
 	.container {
 		min-width: 970px
 	}
 }
-@media (min-width:1200px) {
+@include utils.monitor {
+//@media (min-width:1200px) {
 	.container {
 		max-width: 1199px
 	}

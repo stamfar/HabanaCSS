@@ -1,8 +1,10 @@
 @charset "UTF-8";
+/* Module: Typography */
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Module: Universal Colors / Fargebank */
 /* Alle fargene som kan brukes direkte fra CSS variabler */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
   --color-white: #ffffff;
   --color-gray: #;
@@ -78,8 +80,6 @@ body {
   background-color: var(--minsystemfarge) !important;
 }
 
-/* Module: Typography */
-/* Import fonts */
 body {
   /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css)*/
@@ -217,7 +217,7 @@ a:hover {
 .button-primary:hover {
   background-color: var(--brand-color-primary-dark);
   color: var(--color-white);
-  color: var(--color-white);
+  color: color(white);
 }
 
 .button-secondary {
