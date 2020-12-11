@@ -1,27 +1,20 @@
-/* Calendar */
-.calendar {
-  background: red;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Calendar */
-
-/* Calendar type 1*/
-.calendar.call1 tbody {
+@use '../_main/_utils';
+/* Calendar type 1 og 2*/
+.calendar.call1 tbody,
+.calendar.call2 tbody {
   display: grid;
   grid-template-columns: 1fr;
   align-items: end;
   justify-content: space-around;
-  gap: var(--m-gap-small);
+  gap: 1rem;
 
   tr {
     border-radius: 6px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: var(--primary-box-shadow);
     text-align: left;
     border: 1px solid var(--m-color-grey-border);
-    background-color: var(--brand-color-primary-light);
+    //background-color: var(--brand-color-primary-light);
     color: var(--brand-color-primary-dark);
 
     /* START - Forskjellig farge på nth child */
@@ -86,14 +79,16 @@
   }
 }
 
-@media (max-width: 1179px) {
-  .calendar.call1 {
+@include utils.desktop {
+//@media (min-width: 1179px)*/
+  .calendar.call1,
+  .calendar.call2 {
     tbody {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
 
     padding-bottom: var(--m-gap-medium);
   }
 }
 
-/* Calendar type 1*/
+/* Calendar type 1 og 2*/
