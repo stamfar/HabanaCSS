@@ -577,16 +577,6 @@
   color: yellow;
 }
 
-@media (min-width: 992px) {
-  .calendar.call1,
-.calendar.call2 {
-    padding-bottom: var(--m-gap-medium);
-  }
-  .calendar.call1 tbody,
-.calendar.call2 tbody {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 /* Calendar type 1 og 2*/
 /* Module: Moava components */
 /* f.eks panels, calender, newsfield */
