@@ -1,0 +1,99 @@
+/* Calendar */
+.calendar {
+  background: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Calendar */
+
+/* Calendar type 1*/
+.calendar.call1 tbody {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+  justify-content: space-around;
+  gap: var(--m-gap-small);
+
+  tr {
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: var(--primary-box-shadow);
+    text-align: left;
+    border: 1px solid var(--m-color-grey-border);
+    background-color: var(--brand-color-primary-light);
+    color: var(--brand-color-primary-dark);
+
+    /* START - Forskjellig farge på nth child */
+    &:nth-child(even) {
+      background-color: var(--brand-color-secondary-light);
+      color: var(--brand-color-secondary-dark);
+
+      h3 {
+        color: var(--brand-color-secondary-dark);
+      }
+    }
+    /* END - Forskjellig farge på nth child */
+
+    td {
+      padding: 0px;
+
+      .box0itemHeading {
+        margin: var(--m-margin-medium);
+      }
+
+      hr {
+        display: none;
+      }
+
+      h3 {
+        margin: var(--m-margin-medium);
+        color: var(--brand-color-primary-dark);
+      }
+
+      span.text-muted.small {
+        font-size: 1.1em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.2px;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: var(--color-dark);
+      }
+
+      .lesmer a {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.2px;
+        letter-spacing: -0.2px;
+        color: var(--color-dark);
+      }
+
+      /* calender footer */
+      .panel-footer {
+        background: blue;
+
+        p.text-center {
+          width: 100%;
+
+          a {
+            color: yellow;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1179px) {
+  .calendar.call1 {
+    tbody {
+      grid-template-columns: 1fr;
+    }
+
+    padding-bottom: var(--m-gap-medium);
+  }
+}
+
+/* Calendar type 1*/
