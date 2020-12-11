@@ -210,7 +210,7 @@
 /**/
 
 
-
+/*
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	border-top-color: #ddd
 }
@@ -338,6 +338,150 @@
 .panel-danger>.panel-footer+.panel-collapse>.panel-body {
 	border-bottom-color: #ebccd1
 }
+*/
 
+/*samme, men konvertert til sass nedenfor*/
+
+.panel-default > {
+  .panel-heading {
+    + .panel-collapse > .panel-body {
+      border-top-color: #ddd;
+    }
+
+    .badge {
+      color: #f5f5f5;
+      background-color: #333;
+    }
+  }
+
+  .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd;
+  }
+}
+
+.panel-primary {
+  border-color: #337ab7;
+
+  > {
+    .panel-heading {
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #337ab7;
+
+      + .panel-collapse > .panel-body {
+        border-top-color: #337ab7;
+      }
+
+      .badge {
+        color: #337ab7;
+        background-color: #fff;
+      }
+    }
+
+    .panel-footer + .panel-collapse > .panel-body {
+      border-bottom-color: #337ab7;
+    }
+  }
+}
+
+.panel-success {
+  border-color: #d6e9c6;
+
+  > {
+    .panel-heading {
+      color: #3c763d;
+      background-color: #dff0d8;
+      border-color: #d6e9c6;
+
+      + .panel-collapse > .panel-body {
+        border-top-color: #d6e9c6;
+      }
+
+      .badge {
+        color: #dff0d8;
+        background-color: #3c763d;
+      }
+    }
+
+    .panel-footer + .panel-collapse > .panel-body {
+      border-bottom-color: #d6e9c6;
+    }
+  }
+}
+
+.panel-info {
+  border-color: #bce8f1;
+
+  > {
+    .panel-heading {
+      color: #31708f;
+      background-color: #d9edf7;
+      border-color: #bce8f1;
+
+      + .panel-collapse > .panel-body {
+        border-top-color: #bce8f1;
+      }
+
+      .badge {
+        color: #d9edf7;
+        background-color: #31708f;
+      }
+    }
+
+    .panel-footer + .panel-collapse > .panel-body {
+      border-bottom-color: #bce8f1;
+    }
+  }
+}
+
+.panel-warning {
+  border-color: #faebcc;
+
+  > {
+    .panel-heading {
+      color: #8a6d3b;
+      background-color: #fcf8e3;
+      border-color: #faebcc;
+
+      + .panel-collapse > .panel-body {
+        border-top-color: #faebcc;
+      }
+
+      .badge {
+        color: #fcf8e3;
+        background-color: #8a6d3b;
+      }
+    }
+
+    .panel-footer + .panel-collapse > .panel-body {
+      border-bottom-color: #faebcc;
+    }
+  }
+}
+
+.panel-danger {
+  border-color: #ebccd1;
+
+  > {
+    .panel-heading {
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+
+      + .panel-collapse > .panel-body {
+        border-top-color: #ebccd1;
+      }
+
+      .badge {
+        color: #f2dede;
+        background-color: #a94442;
+      }
+    }
+
+    .panel-footer + .panel-collapse > .panel-body {
+      border-bottom-color: #ebccd1;
+    }
+  }
+}
 
 /* END Panels kopiert fra bootstrap... */
