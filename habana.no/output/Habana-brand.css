@@ -130,17 +130,28 @@ h4, h5, h6 {
 }
 
 h1 {
-  font-size: var(--size-25);
+  font-size: var(--size-3);
 }
 
 h2 {
-  font-size: var(--size-2);
+  font-size: var(--size-25);
 }
 
 h3 {
-  font-size: var(--size-175);
+  font-size: var(--size-2);
 }
 
+/* kanskje slette h1,h2,h3 nedenfor?
+h1 {
+  font-size: var(--size-25);
+}
+h2 {
+  font-size: var(--size-2);
+}
+h3 {
+  font-size: var(--size-175);
+}
+*/
 h4, .text-lg {
   font-size: var(--size-15);
 }

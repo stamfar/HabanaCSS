@@ -56,11 +56,11 @@
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Module: Font sizes */
 /* Paneler */
-/* .panel-heading h2 for å overstyre vanlig h2(trenger ikke være important) */
+/* .panel-heading h2 for å overstyre vanlig h2(trenger ikke være important)
 .panel-heading h2 {
-  font-size: var(--size-15) !important;
+	font-size: var(--size-15) !important;
 }
-
+*/
 /* Module: Spacing(gap, margin, padding) (alfa) */
 /* Gap (gutters) for rader og kolonner i grid. (Tailwind) */
 .gap-0 {
