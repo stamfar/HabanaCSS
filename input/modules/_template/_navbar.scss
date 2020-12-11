@@ -1,37 +1,44 @@
 /* ---- START -- Navigasjonsbar(bootstrap v3) ---- */
-/* Menyikon */
+/* START - Menyikon */
 /* Felles */
 .pageTitleIcon {
-    padding: 0px 10px 0px 0px;
-    display: inline-block;
-  }
+  padding: 0px 10px 0px 0px;
+  display: inline-block;
+}
+.navbar-nav {
+  display: flex;
+  /*float: left;*/
+  width: 100%;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+//@media only screen and (min-width: 768px) {
+@include tablet {
   .navbar-nav {
-    display: flex;
-    /*float: left;*/
-    width: 100%;
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
-    //background-color: blueviolet;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
   }
-  
-  //@media only screen and (min-width: 768px) {
-  @include tablet {
-    .navbar-nav {
-      flex-wrap: wrap;
-      flex-direction: row;
-      margin: 0;
-      //background-color: blue;
-    }
-    .pageTitleIcon {
-      display: inline-block;
-      /*flex-direction: column;
+  .pageTitleIcon {
+    display: inline-block;
+    /*flex-direction: column;
       align-items: center;
       justify-content: center;*/
-    }
   }
-  /**/
-  
+}
+/* END - Menyikon */
+
+.navbar-brand {
+  float: left;
+  height: 55px;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.mainMenuWrapper {
   .navbar-brand {
     float: left;
     height: 55px;
@@ -39,45 +46,36 @@
     font-size: 18px;
     line-height: 20px;
   }
-  
-  .mainMenuWrapper {
-    .navbar-brand {
-      float: left;
-      height: 55px;
-      padding: 18px 15px;
-      font-size: 18px;
-      line-height: 20px;
-    }
+}
+
+@include tablet {
+  .navbar-header {
+    float: left;
   }
-  
-  @include tablet {
-    .navbar-header {
-      float: left;
-    }
+}
+
+@include monitor {
+  .mainMenuWrapper.navbar {
+    border-radius: 0 0 4px 4px;
   }
-  
-  @include monitor {
-    .mainMenuWrapper.navbar {
-      border-radius: 0 0 4px 4px;
-    }
-  }
-  
-  /* Hamburgermeny */
-  .mainMenuWrapper button.navbar-toggle {
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid transparent;
-    border-radius: 6px;
-    height: 40px;
-    width: 40px;
-    padding: 8px;
-  }
-  
-  .mainMenuWrapper.navbar button.navbar-toggle:hover {
-    border: 1px solid rgba(0, 0, 0, 0.2); //color-nav-burger-hover
-  }
-  .mainMenuWrapper.navbar button.navbar-toggle span.icon-bar {
-    background: white; //color-nav-burger-icon:
-    height: 2.5px;
-    width: 100%;
-  }
-  /* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
+}
+
+/* Hamburgermeny */
+.mainMenuWrapper button.navbar-toggle {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+.mainMenuWrapper.navbar button.navbar-toggle:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2); //color-nav-burger-hover
+}
+.mainMenuWrapper.navbar button.navbar-toggle span.icon-bar {
+  background: white; //color-nav-burger-icon:
+  height: 2.5px;
+  width: 100%;
+}
+/* ---- END -- Navigasjonsbar(bootstrap v3) ---- */
