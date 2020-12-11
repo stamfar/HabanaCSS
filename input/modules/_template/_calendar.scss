@@ -13,7 +13,7 @@
     box-shadow: var(--primary-box-shadow);
     text-align: left;
     border: 1px solid var(--m-color-grey-border);
-    //background-color: var(--brand-color-primary-light);
+    background-color: var(--brand-color-primary-light);
     color: var(--brand-color-primary-dark);
 
     /* START - Forskjellig farge på nth child */
@@ -39,8 +39,14 @@
       }
 
       h3 {
-        margin: var(--m-margin-medium);
+        margin-bottom: var(--size-05);
         color: var(--brand-color-primary-dark);
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.2;
+        text-align: left;
       }
 
       span.text-muted.small {
