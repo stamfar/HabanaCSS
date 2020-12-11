@@ -1836,8 +1836,6 @@ footer {
 		padding-left: 0px;
 	}
 }
-*/
-
 
 .container-fluid {
 	padding-right: 15px;
@@ -1845,6 +1843,9 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 }
+*/
+
+
 
 .row {
 	margin-right: -15px;
@@ -4409,10 +4410,13 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	border: 1px solid transparent
 }
 
+/* Lagt inn på ny måte
 @media (min-width:768px) {
 	.navbar {
 		border-radius: 4px
 	}
+*/
+
 }@media (min-width:768px) {
 	.navbar-header {
 		float: left

@@ -9,7 +9,6 @@
   display: inline-block;
 }
 .navbar-nav {
-  //background-color: red;
   display: flex;
   /*float: left;*/
   width: 100%;
@@ -34,16 +33,14 @@
     justify-content: center;*/
   }
 }
-/*
+/**/
 
-/* tester */
-	
 .navbar-brand {
-	float: left;
-	height: 55px;
-	padding: 18px 15px;
-	font-size: 18px;
-	line-height: 20px
+  float: left;
+  height: 55px;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .mainMenuWrapper {
@@ -51,14 +48,22 @@
     border-radius: 0px;
   }
   .navbar-brand {
-	float: left;
-	height: 55px;
-	padding: 18px 15px;
-	font-size: 18px;
-	line-height: 20px
+    float: left;
+    height: 55px;
+    padding: 18px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@include monitor {
+  .mainMenuWrapper {
+    .navbar {
+      border-radius: 0 0 4px 4px;
+    }
   }
 }
 
+/* Hamburgermeny */
 .mainMenuWrapper button.navbar-toggle {
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid transparent;

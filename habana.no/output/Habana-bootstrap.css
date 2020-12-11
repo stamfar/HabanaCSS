@@ -36,6 +36,13 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
   margin-left: auto;
 }
 
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container-content {
   padding-right: 15px;
   padding-left: 15px;
@@ -54,6 +61,11 @@ footer {
   /*@media (min-width:768px) { */
   .container {
     min-width: 750px;
+  }
+
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 @media (min-width: 992px) {
