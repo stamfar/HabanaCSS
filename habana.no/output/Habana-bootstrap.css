@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Kopierer over det som trengs av Moava bootstrap for å fungere.
 Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
 /* -- START -- Extracted-styleallcustom (ole v. tidlig 2020) */
@@ -44,13 +45,20 @@ footer {
 }
 
 @media (min-width: 768px) {
+  /*@media (min-width:768px) { */
   .container {
     min-width: 750px;
   }
 }
 @media (min-width: 992px) {
+  /*@media (min-width:992px) {*/
   .container {
     min-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1199px;
   }
 
   .container-content {
@@ -58,11 +66,7 @@ footer {
     padding-left: 0px;
   }
 }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1199px;
-  }
-}
+/* --END-- Containers (topplogo, content og footer) */
 * {
   box-sizing: border-box;
 }
