@@ -12,7 +12,13 @@
     td {
       padding: 0px;
 
-      .box0itemHeading {
+      .box0text, .box1text {
+        margin-bottom: 10px;
+        word-wrap: break-word;
+      }
+
+      div.box0itemHeading,
+      div.box1itemHeading {
         margin: var(--m-margin-medium);
         background-color: chocolate;
         border-radius: 6px;
@@ -33,10 +39,6 @@
           }
         }
         /* END - Forskjellig farge på nth child */
-      }
-      .box1itemHeading {
-        margin: var(--m-margin-medium);
-        background-color: cornflowerblue;
       }
 
       hr {

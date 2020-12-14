@@ -512,8 +512,16 @@
   padding: 0px;
   /* calender footer */
 }
-.calendar.call1 tbody tr td .box0itemHeading,
-.calendar.call2 tbody tr td .box0itemHeading {
+.calendar.call1 tbody tr td .box0text, .calendar.call1 tbody tr td .box1text,
+.calendar.call2 tbody tr td .box0text,
+.calendar.call2 tbody tr td .box1text {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+.calendar.call1 tbody tr td div.box0itemHeading,
+.calendar.call1 tbody tr td div.box1itemHeading,
+.calendar.call2 tbody tr td div.box0itemHeading,
+.calendar.call2 tbody tr td div.box1itemHeading {
   margin: var(--m-margin-medium);
   background-color: chocolate;
   border-radius: 6px;
@@ -526,19 +534,18 @@
   /* START - Forskjellig farge på nth child */
   /* END - Forskjellig farge på nth child */
 }
-.calendar.call1 tbody tr td .box0itemHeading:nth-child(even),
-.calendar.call2 tbody tr td .box0itemHeading:nth-child(even) {
+.calendar.call1 tbody tr td div.box0itemHeading:nth-child(even),
+.calendar.call1 tbody tr td div.box1itemHeading:nth-child(even),
+.calendar.call2 tbody tr td div.box0itemHeading:nth-child(even),
+.calendar.call2 tbody tr td div.box1itemHeading:nth-child(even) {
   background-color: var(--brand-color-secondary-light);
   color: var(--brand-color-secondary-dark);
 }
-.calendar.call1 tbody tr td .box0itemHeading:nth-child(even) h3,
-.calendar.call2 tbody tr td .box0itemHeading:nth-child(even) h3 {
+.calendar.call1 tbody tr td div.box0itemHeading:nth-child(even) h3,
+.calendar.call1 tbody tr td div.box1itemHeading:nth-child(even) h3,
+.calendar.call2 tbody tr td div.box0itemHeading:nth-child(even) h3,
+.calendar.call2 tbody tr td div.box1itemHeading:nth-child(even) h3 {
   color: var(--brand-color-secondary-dark);
-}
-.calendar.call1 tbody tr td .box1itemHeading,
-.calendar.call2 tbody tr td .box1itemHeading {
-  margin: var(--m-margin-medium);
-  background-color: cornflowerblue;
 }
 .calendar.call1 tbody tr td hr,
 .calendar.call2 tbody tr td hr {
