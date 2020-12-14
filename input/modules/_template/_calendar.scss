@@ -8,24 +8,6 @@
   gap: 1rem;
 
   tr {
-    border-radius: 6px;
-    padding: 25px;
-    box-shadow: var(--primary-box-shadow);
-    text-align: left;
-    border: 1px solid var(--m-color-grey-border);
-    background-color: var(--brand-color-primary-light);
-    color: var(--brand-color-primary-dark);
-
-    /* START - Forskjellig farge på nth child */
-    &:nth-child(even) {
-      background-color: var(--brand-color-secondary-light);
-      color: var(--brand-color-secondary-dark);
-
-      h3 {
-        color: var(--brand-color-secondary-dark);
-      }
-    }
-    /* END - Forskjellig farge på nth child */
 
     td {
       padding: 0px;
@@ -33,6 +15,24 @@
       .box0itemHeading {
         margin: var(--m-margin-medium);
         background-color: chocolate;
+        border-radius: 6px;
+        padding: 25px;
+        box-shadow: var(--primary-box-shadow);
+        text-align: left;
+        border: 1px solid var(--m-color-grey-border);
+        background-color: var(--brand-color-primary-light);
+        color: var(--brand-color-primary-dark);
+    
+        /* START - Forskjellig farge på nth child */
+        &:nth-child(even) {
+          background-color: var(--brand-color-secondary-light);
+          color: var(--brand-color-secondary-dark);
+    
+          h3 {
+            color: var(--brand-color-secondary-dark);
+          }
+        }
+        /* END - Forskjellig farge på nth child */
       }
       .box1itemHeading {
         margin: var(--m-margin-medium);

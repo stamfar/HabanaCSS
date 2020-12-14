@@ -507,8 +507,15 @@
   justify-content: space-around;
   gap: 1rem;
 }
-.calendar.call1 tbody tr,
-.calendar.call2 tbody tr {
+.calendar.call1 tbody tr td,
+.calendar.call2 tbody tr td {
+  padding: 0px;
+  /* calender footer */
+}
+.calendar.call1 tbody tr td .box0itemHeading,
+.calendar.call2 tbody tr td .box0itemHeading {
+  margin: var(--m-margin-medium);
+  background-color: chocolate;
   border-radius: 6px;
   padding: 25px;
   box-shadow: var(--primary-box-shadow);
@@ -519,24 +526,14 @@
   /* START - Forskjellig farge på nth child */
   /* END - Forskjellig farge på nth child */
 }
-.calendar.call1 tbody tr:nth-child(even),
-.calendar.call2 tbody tr:nth-child(even) {
+.calendar.call1 tbody tr td .box0itemHeading:nth-child(even),
+.calendar.call2 tbody tr td .box0itemHeading:nth-child(even) {
   background-color: var(--brand-color-secondary-light);
   color: var(--brand-color-secondary-dark);
 }
-.calendar.call1 tbody tr:nth-child(even) h3,
-.calendar.call2 tbody tr:nth-child(even) h3 {
+.calendar.call1 tbody tr td .box0itemHeading:nth-child(even) h3,
+.calendar.call2 tbody tr td .box0itemHeading:nth-child(even) h3 {
   color: var(--brand-color-secondary-dark);
-}
-.calendar.call1 tbody tr td,
-.calendar.call2 tbody tr td {
-  padding: 0px;
-  /* calender footer */
-}
-.calendar.call1 tbody tr td .box0itemHeading,
-.calendar.call2 tbody tr td .box0itemHeading {
-  margin: var(--m-margin-medium);
-  background-color: chocolate;
 }
 .calendar.call1 tbody tr td .box1itemHeading,
 .calendar.call2 tbody tr td .box1itemHeading {
