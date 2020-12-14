@@ -14,92 +14,15 @@
 
 
 
-/* Calendar */
-.calendar {
-  background: red;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Calendar */
-/* Calendar type 1*/
-.calendar.call1 tbody {
-  display: grid;
-  grid-template-columns: 1fr ;
-  /* endre til vertikal */
-  align-items: end;
-  justify-content: space-around;
-  gap: 15px;
-}
-.calendar.call1 tbody tr {
-  border-radius: 6px;
-  padding: 30px;
-  box-shadow: var(--primary-box-shadow);
-  text-align: left;
-  border: 1px solid var(--m-color-grey-border);
-  background-color: var(--brand-color-primary-light);
-  color: var(--brand-color-primary-dark);
-  /* START - Forskjellig farge på nth child */
-  /* END - Forskjellig farge på nth child */
-}
-.calendar.call1 tbody tr:nth-child(even) {
-  background-color: var(--brand-color-secondary-light);;
-}
-.calendar.call1 tbody tr:nth-child(even) h3.box0itemHeading {
-  color: var(--brand-color-secondary-dark);
-}
-.calendar.call1 tbody tr td {
-  padding: 0px !important;
-  /* calender footer */
-}
-.calendar.call1 tbody tr td .box0itemHeading {
-  margin: var(--m-margin-medium);
-}
-.calendar.call1 tbody tr td hr {
-  display: none;
-}
-.calendar.call1 tbody tr td h3.box0itemHeading {
-  margin: var(--m-margin-medium);
-  color: var(--brand-color-primary-dark);
-}
-.calendar.call1 tbody tr td .box0itemHeading span.text-muted.small {
-  font-size: 1.1em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23.2px;
-  letter-spacing: -0.4px;
-  text-align: left;
-  color: var(--m-color-black);
-  border-left: 3px solid var(--m-color-dark);
-  padding-left: 8px;
-}
-.calendar.call1 tbody tr td .lesmer a {
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23.2px;
-  letter-spacing: -0.2px;
-  color: var(--m-color-dark);
+.calendar.call1 tbody tr td:not(td.panel-footer) {
+        padding: 25px !important;
+        background-color: red;
 }
 .calendar.call1 tbody tr td .panel-footer {
-  background: blue;
-}
-.calendar.call1 tbody tr td .panel-footer p.text-center {
-  width: 100% !important;
-}
-.calendar.call1 tbody tr td .panel-footer p.text-center a {
-  color: yellow;
+        background-color: yellow; !important;
+		padding-left: 25px !important;
 }
 
-@media (max-width: 1179px) {
-  .calendar.call1 {
-    padding-bottom: var(--m-gap-medium);
-  }
-  .calendar.call1 tbody {
-    grid-template-columns: 1fr;
-  }
-}
-/* Calendar type 1*/
 
 
 

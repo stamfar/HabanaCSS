@@ -1,16 +1,16 @@
 /* Calendar type 1 og 2*/
 .calendar.call1 tbody,
 .calendar.call2 tbody {
-
-  tr {
     display: grid;
     grid-template-columns: 1fr;
     align-items: end;
     justify-content: space-around;
     gap: 1rem;
 
+  tr {
+
     td {
-      padding: 0px;
+      display: block;
       margin-bottom: 10px;
       background-color: chocolate;
       border-radius: 6px;

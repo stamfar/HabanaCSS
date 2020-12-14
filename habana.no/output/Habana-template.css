@@ -499,8 +499,8 @@
 
 /* END Panels kopiert fra bootstrap... */
 /* Calendar type 1 og 2*/
-.calendar.call1 tbody tr,
-.calendar.call2 tbody tr {
+.calendar.call1 tbody,
+.calendar.call2 tbody {
   display: grid;
   grid-template-columns: 1fr;
   align-items: end;
@@ -509,7 +509,7 @@
 }
 .calendar.call1 tbody tr td,
 .calendar.call2 tbody tr td {
-  padding: 0px;
+  display: block;
   margin-bottom: 10px;
   background-color: chocolate;
   border-radius: 6px;
