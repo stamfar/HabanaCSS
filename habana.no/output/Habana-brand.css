@@ -47,8 +47,8 @@ body {
 
 /* start - ferdig  */
 :root {
-  --link-color: var(--brand-color-secondary);
-  --link-color-hover: var(--brand-color-primary);
+  --link-color: var(--brand-color-primary);
+  --link-color-hover: var(--brand-color-primary-hover);
   --text-dark: var(--color-dark);
 }
 
