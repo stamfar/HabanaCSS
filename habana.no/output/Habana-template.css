@@ -536,6 +536,12 @@
 .calendar.call1 tbody tr td .box0itemHeading,
 .calendar.call2 tbody tr td .box0itemHeading {
   margin: var(--m-margin-medium);
+  background-color: chocolate;
+}
+.calendar.call1 tbody tr td .box1itemHeading,
+.calendar.call2 tbody tr td .box1itemHeading {
+  margin: var(--m-margin-medium);
+  background-color: cornflowerblue;
 }
 .calendar.call1 tbody tr td hr,
 .calendar.call2 tbody tr td hr {
