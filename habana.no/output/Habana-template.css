@@ -510,7 +510,6 @@
 .calendar.call1 tbody tr td,
 .calendar.call2 tbody tr td {
   display: block;
-  margin-bottom: 10px;
   background-color: chocolate;
   border-radius: 6px;
   padding: 25px;
@@ -575,8 +574,8 @@
 .calendar.call1 tbody tr td .panel-footer,
 .calendar.call2 tbody tr td .panel-footer {
   background: blue;
-  margin-bottom: -10px;
   text-align: center !important;
+  border-top: none;
 }
 .calendar.call1 tbody tr td .panel-footer p.text-center,
 .calendar.call2 tbody tr td .panel-footer p.text-center {
