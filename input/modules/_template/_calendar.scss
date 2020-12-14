@@ -2,8 +2,12 @@
 .calendar.call1 tbody,
 .calendar.call2 tbody {
 
-
   tr {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-content: space-around;
+    gap: 1rem;
 
     td {
       padding: 0px;
