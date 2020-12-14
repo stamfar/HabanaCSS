@@ -12,7 +12,6 @@
     td {
       padding: 0px;
       margin-bottom: 10px;
-      margin: var(--m-margin-medium);
       background-color: chocolate;
       border-radius: 6px;
       padding: 25px;
@@ -34,7 +33,7 @@
           /* END - Forskjellig farge på nth child */
 
       .box0text, .box1text {
-        margin-bottom: 10px;
+        padding: 0px !important; 
         word-wrap: break-word;
       }
 
