@@ -581,10 +581,11 @@
 .calendar.call1 tbody tr td .panel-footer p.text-center,
 .calendar.call2 tbody tr td .panel-footer p.text-center {
   width: 100%;
+  margin: 0px;
 }
 .calendar.call1 tbody tr td .panel-footer p.text-center a,
 .calendar.call2 tbody tr td .panel-footer p.text-center a {
-  color: yellow;
+  color: var(--link-color);
 }
 
 /* Calendar type 1 og 2*/

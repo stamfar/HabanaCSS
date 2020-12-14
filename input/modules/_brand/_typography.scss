@@ -96,7 +96,16 @@ p {
 
 a {
   color: var(--link-color);
+    &:link {
+      color: var(--link-color);
+    }
     &:hover {
+      color: var(--link-color-hover);
+    }
+    &:visited {
+      color: var(--link-color-hover);
+    }
+    &:active {
       color: var(--link-color-hover);
     }
 }

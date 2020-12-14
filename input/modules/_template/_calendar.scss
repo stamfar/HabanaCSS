@@ -79,9 +79,10 @@
 
         p.text-center {
           width: 100%;
+          margin: 0px;
 
           a {
-            color: yellow;
+            color: var(--link-color);
           }
         }
       }

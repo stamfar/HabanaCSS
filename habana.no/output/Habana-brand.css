@@ -47,7 +47,7 @@ body {
 
 /* start - ferdig  */
 :root {
-  --link-color: var(--color-dark);
+  --link-color: var(--brand-color-secondary);
   --link-color-hover: var(--brand-color-primary);
   --text-dark: var(--color-dark);
 }
@@ -183,7 +183,16 @@ p {
 a {
   color: var(--link-color);
 }
+a:link {
+  color: var(--link-color);
+}
 a:hover {
+  color: var(--link-color-hover);
+}
+a:visited {
+  color: var(--link-color-hover);
+}
+a:active {
   color: var(--link-color-hover);
 }
 
