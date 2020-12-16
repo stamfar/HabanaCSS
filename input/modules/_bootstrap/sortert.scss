@@ -1,5 +1,11 @@
 /*  Kopiert fra boostrap.min.css og sortert */
 /*  Renvasket */
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	font-size: inherit;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display: block
