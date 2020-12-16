@@ -520,7 +520,7 @@
   color: var(--brand-color-primary-dark);
   /* START - Forskjellig farge på nth child */
   /* END - Forskjellig farge på nth child */
-  /* calender footer */
+  /* calendar footer */
 }
 .calendar.call1 tbody tr td:nth-child(even),
 .calendar.call2 tbody tr td:nth-child(even) {

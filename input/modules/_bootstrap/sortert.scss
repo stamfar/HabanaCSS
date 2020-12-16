@@ -1,0 +1,77 @@
+/*  Kopiert fra boostrap.min.css og sortert */
+/*  Renvasket */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline
+}
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+
+[hidden], template {
+	display: none
+}
+figure {
+	margin: 0
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+
+/* a */
+a {
+	color: #337ab7;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active, a:hover {
+	outline: 0;
+}
+a:focus, a:hover {
+	color: #23527c;
+	text-decoration: underline;
+}
+a:focus {
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+:after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+[role=button] {
+	cursor: pointer
+}

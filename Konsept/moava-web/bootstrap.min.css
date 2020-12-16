@@ -14,14 +14,6 @@
 
 
 
-.calendar.call1 tbody tr td:not(td.panel-footer) {
-        padding: 25px !important;
-        background-color: red;
-}
-.calendar.call1 tbody tr td .panel-footer {
-        background-color: yellow; !important;
-		padding-left: 25px !important;
-}
 
 
 
@@ -30,6 +22,10 @@
 /* SLUTT PÅ TESTOMRÅDE */
 /* SLUTT PÅ TESTOMRÅDE */
 /* SLUTT PÅ TESTOMRÅDE */
+/*
+
+
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display: block
@@ -207,7 +203,7 @@ table {
 td, th {
 	padding: 0
 }/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-
+/*
 @media print {
 	*, :after, :before {
 		color: #000!important;
@@ -284,6 +280,7 @@ td, th {
 	}
 }
 
+*/
 
 /*
 @font-face {
@@ -1354,7 +1351,7 @@ src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-open
 }
 */
 
-/* start behold */
+/*
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1366,72 +1363,9 @@ src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-open
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
 }
-/* slutt behold */
+slutt behold */
 
 
-button, input, select, textarea {
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit
-}
-
-a {
-	color: #337ab7;
-	text-decoration: none
-}
-
-a:focus, a:hover {
-	color: #23527c;
-	text-decoration: underline
-}
-
-a:focus {
-	outline: 5px auto -webkit-focus-ring-color;
-	outline-offset: -2px
-}
-
-figure {
-	margin: 0
-}
-
-img {
-	vertical-align: middle
-}
-
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-	display: block;
-	max-width: 100%;
-	height: auto
-}
-
-.img-rounded {
-	border-radius: 6px
-}
-
-.img-thumbnail {
-	display: inline-block;
-	max-width: 100%;
-	height: auto;
-	padding: 4px;
-	line-height: 1.42857143;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	-webkit-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out
-}
-
-.img-circle {
-	border-radius: 50%
-}
-
-hr {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 0;
-	border-top: 1px solid #eee
-}
 
 .sr-only {
 	position: absolute;
@@ -1453,9 +1387,6 @@ hr {
 	clip: auto
 }
 
-[role=button] {
-	cursor: pointer
-}
 
 
 
@@ -1465,12 +1396,6 @@ hr {
 	color: #777
 }
 
-/* start behold */
-.h1, .h2, .h3, h1, h2, h3 {
-	margin-top: 20px;
-	margin-bottom: 10px
-}
-/* slutt behold */
 
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
 	font-size: 65%

@@ -1,5 +1,7 @@
 @use './modules/_main/_utils';
 @use './modules/_bootstrap/_important';
+@use './modules/_bootstrap/bootstrap_general.scss';
+@use './modules/_bootstrap/sortert.scss';
 /* Kopierer over det som trengs av Moava bootstrap for å fungere.
 Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på alle nettsider */
 
@@ -18,10 +20,12 @@ Må se etterhvert hva som skal være i denne filen, og hva som kan brukes på al
 	margin-top: 20px;
 	margin-bottom: 10px
 }
-/*yo*/
+
 .small, small {
 	font-size: 85%
 }
+
+
 .text-muted {
 	color: #777
 }
@@ -80,25 +84,8 @@ footer {
 }
 /* --END-- Containers (topplogo, content og footer) */
 
-
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-:after, :before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
 /* END -- Foreløpig fungerer sidene med bare følgende */
 
-
-
-/* -- START -- trenger nok dette, men ikke interessant */
-
-/* -- END -- trenger nok dette, men ikke interessant  */
 
 
 
