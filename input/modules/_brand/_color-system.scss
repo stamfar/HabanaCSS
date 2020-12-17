@@ -15,6 +15,15 @@ body {
   // Text colors
   --text-dark: var(--color-dark);
 
+  // Calendar colors
+  --calendar-event-background: var(--brand-color-primary-light);
+  --calendar-event-heading: var(--brand-color-primary-dark);
+  --calendar-event-text: var(--brand-color-primary-dark);
+  --calendar-event-background-secondary: var(--brand-color-secondary-light);
+  --calendar-event-heading-secondary: var(--brand-color-secondary-dark);
+  --calendar-event-text-secondary: var(--brand-secondary-primary-dark);
+  --calendar-link-color: var(--link-color);
+
 }
 /* end - ferdig  */
 

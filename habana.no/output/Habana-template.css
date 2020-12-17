@@ -510,26 +510,25 @@
 .calendar.call1 tbody tr td,
 .calendar.call2 tbody tr td {
   display: block;
-  background-color: chocolate;
   border-radius: 6px;
   padding: 25px;
   box-shadow: var(--primary-box-shadow);
   text-align: left;
   border: 1px solid var(--m-color-grey-border);
-  background-color: var(--brand-color-primary-light);
-  color: var(--brand-color-primary-dark);
+  background-color: var(--calendar-event-background);
+  color: var(--calendar-event-text-secondary);
   /* START - Forskjellig farge på nth child */
   /* END - Forskjellig farge på nth child */
   /* calendar footer */
 }
 .calendar.call1 tbody tr td:nth-child(even),
 .calendar.call2 tbody tr td:nth-child(even) {
-  background-color: var(--brand-color-secondary-light);
-  color: var(--brand-color-secondary-dark);
+  background-color: var(--calendar-event-background-secondary);
+  color: var(--calendar-event-text-secondary);
 }
 .calendar.call1 tbody tr td:nth-child(even) h3,
 .calendar.call2 tbody tr td:nth-child(even) h3 {
-  color: var(--brand-color-secondary-dark);
+  color: var(--calendar-event-heading-secondary);
 }
 .calendar.call1 tbody tr td .box0text, .calendar.call1 tbody tr td .box1text,
 .calendar.call2 tbody tr td .box0text,
@@ -544,7 +543,7 @@
 .calendar.call1 tbody tr td h3,
 .calendar.call2 tbody tr td h3 {
   margin-bottom: var(--size-05);
-  color: var(--brand-color-primary-dark);
+  color: var(--calendar-event-heading);
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
@@ -569,7 +568,7 @@
   font-weight: 400;
   line-height: 23.2px;
   letter-spacing: -0.2px;
-  color: var(--color-dark);
+  color: var(--calendar-link-color);
 }
 .calendar.call1 tbody tr td .panel-footer,
 .calendar.call2 tbody tr td .panel-footer {
@@ -584,10 +583,26 @@
 }
 .calendar.call1 tbody tr td .panel-footer p.text-center a,
 .calendar.call2 tbody tr td .panel-footer p.text-center a {
-  color: var(--link-color);
+  color: var(--calendar-link-color);
 }
 
-/* Calendar type 1 og 2*/
+/* END - Calendar type 1 og 2*/
+/* Calendar type 5 (fra moava.css fixes) */
+.call5 td div {
+  font-size: smaller;
+}
+
+/* END - Calendar type 5 (fra moava.css fixes) */
+/* Rest fra moava.css fixes */
+.calcell {
+  border-bottom: 1px solid #999999;
+}
+
+.calendar .box0itemHeading, .calendar .box1itemHeading {
+  font-size: 90%;
+}
+
+/* END - Rest fra moava.css fixes */
 /* Module: Moava components */
 /* f.eks panels, calender, newsfield */
 /* Habana-template

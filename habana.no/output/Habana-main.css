@@ -54,13 +54,6 @@
 }
 
 /* Module: Utils: screen-sizes/media queries. (Ole) */
-/* Module: Font sizes */
-/* Paneler */
-/* .panel-heading h2 for å overstyre vanlig h2(trenger ikke være important)
-.panel-heading h2 {
-	font-size: var(--size-15) !important;
-}
-*/
 /* Module: Spacing(gap, margin, padding) (alfa) */
 /* Gap (gutters) for rader og kolonner i grid. (Tailwind) */
 .gap-0 {
@@ -927,6 +920,538 @@
   padding-bottom: var(--size-8);
 }
 
+/**
+ * Moava css fixes
+ * $Id: moava.css 35159 2020-08-21 13:00:13Z Inge $
+ */
+td {
+  margin: 0;
+  padding: 3px;
+}
+td td {
+  padding: 0;
+}
+
+.article > .box0textarea td, .article > .box1textarea td {
+  padding: 3px;
+}
+
+/* Husk, her stod vi på kontoret og snakket om tablefix */
+table[class^=tablefix] td[class^=bgcol] {
+  padding: 2px;
+}
+
+/*.bgcol0, .bgcol1, .bgcol2, .bgcol3, .bgcol4, .bgcol5 { padding:2px; }*/
+.box0, .box1 {
+  margin: 0 0 4px;
+}
+
+.linkinfo {
+  position: relative;
+  left: 130px;
+  top: -85px;
+}
+
+.singlearticle .shareprint {
+  float: right;
+  margin-right: 3px;
+}
+
+.box0heading .calcell, .box1heading .calcell {
+  border-bottom: 1px solid #666666;
+}
+
+.attachmentsleft {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+/* float:left; clear: left; } */
+.attachmentsright {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* float:right; clear: right; } */
+.attachmentstop, .attachmentsleft > ul, .attachmentsright > ul {
+  margin-left: 2px !important;
+}
+
+/* attachments fix */
+.related-images-ingress.float-right .row {
+  margin-right: -5px;
+  margin-left: 10px;
+}
+.related-images-ingress.float-left .row {
+  margin-right: 10px;
+  margin-left: -5px;
+}
+.related-images-ingress > .row > .attachmentstop {
+  margin: 0px !important;
+}
+
+.related-images {
+  width: 100%;
+  margin-left: 0px;
+}
+.related-images > .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.related-images-ingress .attachmentstop {
+  margin-left: 0px !important;
+  margin-bottom: 5px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.related-images-ingress > div[class^=attachments] > a.fancylink > img {
+  margin: 2px 0px;
+}
+
+.related-images .row > [class*=col-] > a > div > div {
+  height: auto !important;
+  padding-bottom: 100% !important;
+  width: 100% !important;
+}
+.related-images .col-md-6 {
+  width: 50%;
+}
+.related-images .col-md-3 {
+  width: 25%;
+}
+.related-images .col-md-2-4 {
+  width: 20%;
+}
+.related-images [class*=col-] {
+  box-sizing: border-box;
+  padding: 0 5px 10px;
+}
+
+.related-images-ingress.float-right .related-images [class*=col-] {
+  float: right;
+}
+.related-images-ingress.float-left .related-images [class*=col-] {
+  float: left;
+}
+
+/* attachments fix end */
+/* safari border fix */
+td.box1corners img {
+  display: block;
+}
+
+.box1itemHeadingLink {
+  text-decoration: none;
+}
+
+.slidetext a {
+  display: block;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+}
+.slide.current {
+  display: block;
+}
+
+.slidetext {
+  height: 80px;
+  position: relative;
+  margin-top: -80px;
+  background-image: url("../images/transp50.png");
+}
+
+a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slideshowLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.slideshowTitle {
+  color: white;
+  text-decoration: none;
+}
+
+/* html validation fix */
+table.tablefix0, table.tablefix1, table.tablefix2, table.tablefix3, table.tablefix4, table.tablefix5 {
+  border-spacing: 0px;
+  width: 100%;
+  border: 0px;
+}
+table.tablefix0 td {
+  padding: 0px;
+}
+table.tablefix1 td {
+  padding: 1px;
+}
+table.tablefix2 td, table.staff td {
+  padding: 2px;
+}
+table.tablefix3 td {
+  padding: 3px;
+}
+table.tablefix4 td {
+  padding: 4px;
+}
+table.tablefix5 td {
+  padding: 5px;
+}
+table.staff {
+  margin-bottom: 0px;
+  border-spacing: 0px;
+  width: 100%;
+  border-width: 1px;
+}
+table.staff th {
+  text-align: left;
+}
+table.staff.table-bordered > tbody > tr > td {
+  border-left-width: 0px;
+  /* cant use "border", because that will override Bootstrap theme too much */
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+}
+
+.staffCell {
+  padding: 5px;
+}
+
+.sr-only-moava {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* screen readers only */
+.formTextArea {
+  resize: none;
+  width: 100%;
+}
+
+.felle, .hidden {
+  display: none;
+}
+
+/* Slideshow album width/height fix */
+.slideshow .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0px !important;
+  width: 100% !important;
+}
+
+.yui3-slideshow .slideshow.yui3-slideshow-content {
+  width: 100% !important;
+  min-width: 100% !important;
+  height: 0px !important;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+
+.ratio_100 {
+  padding-top: 100% !important;
+}
+.ratio_100 .slide, .ratio_100.well {
+  padding-top: 100% !important;
+}
+
+/* 1:1 */
+.ratio_150 {
+  padding-top: 66.66666667% !important;
+}
+.ratio_150 .slide, .ratio_150.well {
+  padding-top: 66.66666667% !important;
+}
+
+/* 3:2 */
+.ratio_178 {
+  padding-top: 56.25% !important;
+}
+.ratio_178 .slide, .ratio_178.well {
+  padding-top: 56.25% !important;
+}
+
+/* 16:9 */
+.ratio_233 {
+  padding-top: 42.85714286% !important;
+}
+.ratio_233 .slide, .ratio_233.well {
+  padding-top: 42.85714286% !important;
+}
+
+/* 21:9 */
+.well {
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+.slideshow {
+  min-height: 0px !important;
+}
+
+.slide div {
+  bottom: 0px !important;
+}
+
+.slidetext {
+  padding: 0px !important;
+}
+
+.slide_img {
+  position: absolute;
+  top: 0px;
+}
+
+.slideingress {
+  padding: 3px 3px;
+  line-height: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-height: 40px;
+}
+
+.box1corners {
+  display: flex;
+}
+
+#fancybox-buttons.clone {
+  position: absolute !important;
+}
+#fancybox-buttons.clone ul {
+  right: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.fa-trash {
+  color: #ff3333;
+}
+
+.fa-pencil {
+  color: #3FA9F5;
+}
+
+/* Menufolder align if site centered fix and no Bootstrap */
+.box1text.submenu li {
+  text-align: left;
+}
+
+/* ---- Collapsable fields ---- */
+.mCollapsible-closed {
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.mCollapsible-open {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url(../icons/moava/arrow_grey_collapse_16.png);
+}
+
+.mCollapsible-closed {
+  background-image: url(../icons/moava/arrow_grey_expand_16.png);
+}
+
+.mCollapsible > div > a {
+  /* Icon pos error fix */
+  position: relative;
+  /* Icon pos error fix 2 */
+  right: 15px;
+}
+
+/*------Collapsable fields END----------------*/
+h3.box1itemHeading {
+  word-break: break-word;
+}
+
+td h3.box1itemHeading, td h3.box0itemHeading {
+  margin-top: 0px;
+}
+
+.t15 .table a > .box1itemHeading, .t15 .table a > .box0itemHeading {
+  margin-top: 0px !important;
+}
+
+.t2 .panel-body a.box1itemHeadingLink > h3, .t2 .panel-body a.box0itemHeadingLink > h3 {
+  margin-top: 0px !important;
+}
+
+h2.box1heading {
+  display: block !important;
+}
+
+/* IE / Firefox fix for overlap on underline */
+/* Embeded video fix */
+.embeddedContent > .embeddedInnerWrapper {
+  position: relative;
+  display: block;
+  padding: 0;
+}
+.embeddedContent > .embeddedInnerWrapper > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+/* Alignment fix (site/links) */
+#moava2 {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contentmain {
+  margin: 0 auto;
+}
+
+/* First newsfield image width fix */
+.newsCell.newsFirst > a img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* top image width fix */
+.attachmentstop > .fancylink > img {
+  height: auto !important;
+  width: 100% !important;
+}
+
+/* hr fix
+hr {  border-width: 0px; }
+/* hr fix 2 */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+}
+
+/* Menu IE inline fix and Chrome white block fix */
+#menutop > .menu {
+  display: inline;
+}
+#menutop .menu ul li:hover ul {
+  z-index: 3;
+}
+
+/* old javascript menu hidden behind background-color fix */
+.menu ul a:hover ul {
+  z-index: 3;
+}
+
+/* New video thumb */
+.related-images-ingress > div > a > .centered-video {
+  vertical-align: middle;
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 7px;
+  padding-top: 2px;
+  /* firefox fix */
+}
+
+.centered-video > span.fa-play-circle-o {
+  position: absolute;
+  top: 50%;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  height: 0.8em;
+  width: 0.8em;
+  line-height: 0.85em !important;
+  margin-top: -0.45em;
+  margin-left: -0.45em;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  z-index: 2;
+  text-align: center;
+}
+
+@media all and (-ms-high-contrast: none) {
+  /* IE 11 fix*/
+  *::-ms-backdrop, .centered-video > span.fa-play-circle-o {
+    padding-left: 50%;
+    background: none;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* Safari 5.x fix*/
+  ::i-block-chrome, .centered-video > span.fa-play-circle-o {
+    padding-left: 50%;
+    background: none;
+    text-decoration: none !important;
+  }
+
+  ::i-block-chrome, .related-images-ingress .fancylink {
+    text-decoration: none;
+  }
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /*vertical-align: middle;*/
+  border: 0;
+}
+
+.related-images-ingress .fancylink {
+  text-align: center;
+}
+.related-images-ingress .fancylink:before {
+  content: "";
+  /*height: 100%;*/
+  vertical-align: middle;
+}
+
+a.fancylink:hover .centered-video span.fa-play-circle-o {
+  opacity: 1;
+}
+
+/* End new video thumb */
+.forceZindex {
+  z-index: 5 !important;
+}
+
+.box1text .box1text {
+  font-size: inherit;
+}
+
+/* Link field fix */
+/*apicontent*/
+.apiContent #contentmain td[class^=bgcol] {
+  padding-top: 0px !important;
+}
+
+/* I'm sure this is on the wrong place, but it works. */
+.bootstrap-show-gallery-title {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* Habana-brand
    __ __   ___    ___    ___    _  __   ___ 
   / // /  / _ |  / _ )  / _ |  / |/ /  / _ |
@@ -938,19 +1463,6 @@
  | |  | |  / ___ \   | |  | |\  |
  |_|  |_| /_/   \_\ |___| |_| \_|                                                                                                                                                                               
 */
-/* Font Sizes (Tailwind) skal bort
-.text-xs { font-size: var(--size-075); }
-.text-sm { font-size: var(--size-0875); }
-.text-base { font-size: var(--size-1); }
-.text-lg { font-size: var(--size-1125); }
-.text-xl { font-size: var(--size-125); }
-.text-2xl { font-size: var(--size-15); }
-.text-3xl { font-size: var(--size-1875); }
-.text-4xl { font-size: var(--size-225); }
-.text-5xl { font-size: var(--size-3); }
-.text-6xl { font-size: var(--size-4); }
-.text-7xl { font-size: var(--size-5); }
-.text-8xl { font-size: var(--size-6); } */
 /* Font Weights (Tailwind) */
 .font-hairline {
   font-weight: 100;

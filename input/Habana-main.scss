@@ -1,7 +1,7 @@
 @use './modules/_main/_universal-sizes';
 @use './modules/_main/_utils';
-@use './modules/_main/_font-sizes';
 @use './modules/_main/_spacing';
+@use './modules/_main/_moava-css';
 
 /* Habana-brand
    __ __   ___    ___    ___    _  __   ___ 
@@ -17,19 +17,6 @@
 
 
 
-/* Font Sizes (Tailwind) skal bort
-.text-xs { font-size: var(--size-075); }
-.text-sm { font-size: var(--size-0875); }
-.text-base { font-size: var(--size-1); }
-.text-lg { font-size: var(--size-1125); }
-.text-xl { font-size: var(--size-125); }
-.text-2xl { font-size: var(--size-15); }
-.text-3xl { font-size: var(--size-1875); }
-.text-4xl { font-size: var(--size-225); }
-.text-5xl { font-size: var(--size-3); }
-.text-6xl { font-size: var(--size-4); }
-.text-7xl { font-size: var(--size-5); }
-.text-8xl { font-size: var(--size-6); } */
 
 /* Font Weights (Tailwind) */
 .font-hairline { font-weight: 100; }
