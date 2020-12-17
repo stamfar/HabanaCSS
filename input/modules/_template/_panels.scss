@@ -19,6 +19,9 @@
   border-color: var(--panel-border-color);
   border-top-left-radius: var(--panel-border-radius-md);
   border-top-right-radius: var(--panel-border-radius-md);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*white-space: nowrap;*/
 
   > .dropdown .dropdown-toggle {
     color: inherit;
