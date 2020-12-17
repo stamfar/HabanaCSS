@@ -7,31 +7,34 @@
   display: inline-block;
 }
 
-.navbar-nav {
-  display: flex;
-	/*float: left;*/
-	width: 100%;
-	flex-direction: column;
-	margin-left: 0;
-	margin-right: 0;
+.mainMenuWrapper {
+  .navbar-nav {
+    display: flex;
+    /*float: left;*/
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
   }
+}
 
 //@media only screen and (min-width: 768px) {
 @include tablet {
-  .navbar-nav {
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0;
-  }
-  .pageTitleIcon {
-    display: inline-block;
-    /*flex-direction: column;
+  .mainMenuWrapper {
+    .navbar-nav {
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 0;
+    }
+    .pageTitleIcon {
+      display: inline-block;
+      /*flex-direction: column;
       align-items: center;
       justify-content: center;*/
+    }
   }
 }
 /* END - Menyikon */
-
 
 .mainMenuWrapper {
   .navbar-brand {
