@@ -96,33 +96,20 @@ a {
     }
     &:hover {
       color: var(--link-color-hover);
+      text-decoration: underline;
+      outline: 0;
+    }
+    &:focus {
+      color: var(--link-color-hover);
+      text-decoration: underline;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
+    }
+    &:active {
+      color: var(--link-color-hover);
+      outline: 0;
     }
     &:visited {
       color: var(--link-color-hover);
     }
-    &:active {
-      color: var(--link-color-hover);
-    }
-}
-
-/* Må undersøkes og sammenlignes med andre a i typografi(?) */
-/* a 
-a {
-  color: #337ab7;
-  background-color: transparent;
-  text-decoration: none;
-}*/
-
-a:active,
-a:hover {
-  outline: 0;
-}
-a:focus,
-a:hover {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
 }
