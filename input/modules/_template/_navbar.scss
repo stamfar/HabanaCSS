@@ -11,7 +11,7 @@
   display: flex;
 	/*float: left;*/
 	width: 100%;
-	flex-direction: row;
+	flex-direction: column;
 	margin-left: 0;
 	margin-right: 0;
   }
@@ -20,7 +20,7 @@
 @include tablet {
   .navbar-nav {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
   }
   .pageTitleIcon {
