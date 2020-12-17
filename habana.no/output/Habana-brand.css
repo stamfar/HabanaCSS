@@ -131,7 +131,7 @@ h4, .h4 .text-lg {
   font-size: var(--size-15);
 }
 
-h5 .h5 {
+h5, .h5 {
   font-size: var(--size-125);
 }
 
