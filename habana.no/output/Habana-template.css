@@ -600,6 +600,25 @@
 }
 
 /* END - Rest fra moava.css fixes */
+/* Module: Utils: screen-sizes/media queries. (Ole) */
+/* Footer */
+footer {
+  background-color: #efefef;
+  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+footer .container .row-footer .col-md-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@media (min-width: 1200px) {
+  footer .col-md-12 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 /* Module: Moava components */
 /* f.eks panels, calender, newsfield */
 /* Habana-template
