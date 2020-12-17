@@ -56,22 +56,23 @@
 }
 
 /* NEDENFOR SKAL INN I BRAND / SKAL LETT KUNNE OVERSTYRES AV BRAND. DETTE ER VARIABLER SOM SKAL KUNNE STYRES FOR Å DESIGNE(F.eks ved valg om harde eller runde hjørner)*/
-/* Border Radius (small, medium & large) */
+/* Border Radius (small, medium & large) -fill gjelder for å dekke hullet som blir igjen når man legger på border utenfor */
 :root {
+  --border-md: 1px solid transparent;
   --size-border-radius-sm: 4px;
-  --size-border-radius-sm-fill: 4px;
+  --size-border-radius-sm-fill: calc(var(--panel-border-radius-sm) + 1px);
   --size-border-radius-md: 8px;
   --size-border-radius-md-fill: calc(var(--panel-border-radius-md) + 1px);
   --size-border-radius-lg: 12px;
-  --size-border-radius-lg-fill: 12px;
+  --size-border-radius-lg-fill: calc(var(--panel-border-radius-lg) + 1px);
   /* Panel Border Radius system */
   --panel-border-radius-sm: var(--size-border-radius-md);
   --panel-border-radius-sm-fill: var(--size-border-radius-md-fill);
   --panel-border-radius-md: var(--size-border-radius-md);
   --panel-border-radius-md-fill: var(--size-border-radius-md-fill);
-  /* calc + 1*/
   --panel-border-radius-lg: var(--size-border-radius-md);
   --panel-border-radius-lg-fill: var(--size-border-radius-md-fill);
+  --panel-border: var(--border-md);
 }
 
 /* Module: Utils: screen-sizes/media queries. (Ole) */

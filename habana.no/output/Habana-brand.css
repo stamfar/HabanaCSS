@@ -57,6 +57,7 @@ body {
   --calendar-event-heading-secondary: var(--brand-color-secondary-dark);
   --calendar-event-text-secondary: var(--brand-secondary-primary-dark);
   --calendar-link-color: var(--link-color);
+  --panel-border-color: var(--brand-color-secondary-light);
 }
 
 /* end - ferdig  */
