@@ -616,10 +616,7 @@ footer .container .row-footer .col-md-12 {
 #footerunder {
   max-width: 100%;
   background-color: #efefef;
-}
-#footerunder .row {
-  max-width: 1199px;
-  margin: auto;
+  margin-top: -32px;
 }
 
 @media (min-width: 1200px) {

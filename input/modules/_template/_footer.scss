@@ -22,10 +22,8 @@ footer {
 #footerunder {
   max-width: 100%;
   background-color: #efefef;
-  .row {
-    max-width: 1199px;
-    margin: auto;
-  }
+  margin-top: -32px;
+
 }
 
 @include monitor {
