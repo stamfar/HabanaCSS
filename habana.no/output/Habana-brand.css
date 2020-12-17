@@ -335,23 +335,32 @@ body {
 /* Dark mode */
 /* BETA BETA BETA */
 /* Må bruke variabler etterhvert. */
+/* Alle Dark-mode fargene starter med --dark- */
+:root {
+  --dark-color-white: var(--color-white) !important;
+  --dark-color-white-opacity: rgba(255, 255, 255, .8) !important;
+  --dark-color-dark: #606368 !important;
+  --dark-color-darker: #3C4042 !important;
+  --dark-color-darkest: #202123 !important;
+}
+
 @media screen and (prefers-color-scheme: dark) {
   /* Generelt */
   body {
-    background-color: var(--color-dark) !important;
-    color: rgba(255, 255, 255, 0.8) !important;
+    background-color: var(--dark-color-darkest) !important;
+    color: var(--dark-color-white-opacity);
   }
 
   /* Panels */
   .panel-default > .panel-heading {
-    color: white !important;
-    background-color: #606060 !important;
-    border-color: var(--panel-border-color) !important;
+    color: var(--dark-color-white);
+    background-color: var(--dark-color-dark);
+    /* ??? border-color: var(--panel-border-color) !important; */
   }
 
   /* Tables */
   .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: #606060 !important;
+    background-color: var(--dark-color-dark);
   }
 }
 /*
