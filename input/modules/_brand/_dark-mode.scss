@@ -4,19 +4,19 @@
 @media screen and (prefers-color-scheme: dark) {
   /* Generelt */
   body {
-    background-color: var(--color-dark);
-    color: rgba(255, 255, 255, .8);
+    background-color: var(--color-dark) !important;
+    color: rgba(255, 255, 255, .8) !important;
   }
 
   /* Panels */
   .panel-default > .panel-heading {
-    color: white;
-    background-color: #606060;
-    border-color: var(--panel-border-color);
+    color: white !important;
+    background-color: #606060 !important;
+    border-color: var(--panel-border-color) !important;
   }
 
   /* Tables */
   .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: #606060;
+    background-color: #606060 !important;
   }
 }
