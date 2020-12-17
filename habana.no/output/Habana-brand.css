@@ -264,6 +264,62 @@ a:active {
   width: 100%;
 }
 
+/* SKAL LETT KUNNE OVERSTYRES AV BRAND. DETTE ER VARIABLER SOM SKAL KUNNE STYRES FOR Å DESIGNE(F.eks ved valg om harde eller runde hjørner)*/
+body {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+/* GENERAL SIZES */
+:root {
+  /* Border Radius (small, medium & large) -fill gjelder for å dekke hullet som blir igjen når man legger på border utenfor */
+  --border: 1px solid;
+  --size-border-radius-sm: 4px;
+  --size-border-radius-sm-fill: calc(var(--panel-border-radius-sm) + 1px);
+  --size-border-radius-md: 8px;
+  --size-border-radius-md-fill: calc(var(--panel-border-radius-md) + 1px);
+  --size-border-radius-lg: 12px;
+  --size-border-radius-lg-fill: calc(var(--panel-border-radius-lg) + 1px);
+  --box-shadow-sm: red;
+  --box-shadow-md: red;
+  --box-shadow-lg: red;
+}
+
+/* GENERAL COLORS */
+:root {
+  --link-color: var(--brand-color-primary);
+  --link-color-hover: var(--brand-color-primary-hover);
+  --text-dark: var(--color-dark);
+}
+
+/* Panels */
+:root {
+  --panel-border-radius-sm: var(--size-border-radius-md);
+  --panel-border-radius-sm-fill: var(--size-border-radius-md-fill);
+  --panel-border-radius-md: var(--size-border-radius-md);
+  --panel-border-radius-md-fill: var(--size-border-radius-md-fill);
+  --panel-border-radius-lg: var(--size-border-radius-md);
+  --panel-border-radius-lg-fill: var(--size-border-radius-md-fill);
+  --panel-border: var(--border);
+  --panel-box-shadow: var(var(--box-shadow-md))
+  // Panel colors
+  --panel-border-color: var(--brand-color-secondary-light);
+  --panel-background-color: var(--color-white);
+}
+
+/* END - Panels */
+/* Calendar */
+:root {
+  --calendar-event-background: var(--brand-color-primary-light);
+  --calendar-event-heading: var(--brand-color-primary-dark);
+  --calendar-event-text: var(--brand-color-primary-dark);
+  --calendar-event-background-secondary: var(--brand-color-secondary-light);
+  --calendar-event-heading-secondary: var(--brand-color-secondary-dark);
+  --calendar-event-text-secondary: var(--brand-secondary-primary-dark);
+  --calendar-link-color: var(--link-color);
+}
+
+/* END - Calendar */
 /*
    __ __   ___    ___    ___    _  __   ___ 
   / // /  / _ |  / _ )  / _ |  / |/ /  / _ |
