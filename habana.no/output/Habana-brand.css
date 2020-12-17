@@ -302,8 +302,7 @@ body {
   --panel-border-radius-lg-fill: var(--size-border-radius-md-fill);
   --panel-border: var(--border);
   --panel-box-shadow: var(--box-shadow-md);
-  --panel-border-color: var(--brand-color-secondary-light);
-  /*#ddd*/
+  --panel-border-color: #dddddd;
   --panel-background-color: var(--color-white);
 }
 
