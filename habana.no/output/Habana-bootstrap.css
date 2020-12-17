@@ -1212,65 +1212,6 @@ hr {
   cursor: pointer;
 }
 
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
-  font-weight: normal;
-  line-height: 1;
-  color: #777;
-}
-
-h1 small,
-.h1 small,
-h2 small,
-.h2 small,
-h3 small,
-.h3 small,
-h1 .small,
-.h1 .small,
-h2 .small,
-.h2 .small,
-h3 .small,
-.h3 .small {
-  font-size: 65%;
-}
-
-h4 small,
-.h4 small,
-h5 small,
-.h5 small,
-h6 small,
-.h6 small,
-h4 .small,
-.h4 .small,
-h5 .small,
-.h5 .small,
-h6 .small,
-.h6 .small {
-  font-size: 75%;
-}
-
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1292,133 +1233,6 @@ mark,
 .mark {
   padding: 0.2em;
   background-color: #fcf8e3;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-nowrap {
-  white-space: nowrap;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
-.text-muted {
-  color: #777;
-}
-
-.text-primary {
-  color: #337ab7;
-}
-
-a.text-primary:hover,
-a.text-primary:focus {
-  color: #286090;
-}
-
-.text-success {
-  color: #3c763d;
-}
-
-a.text-success:hover,
-a.text-success:focus {
-  color: #2b542c;
-}
-
-.text-info {
-  color: #31708f;
-}
-
-a.text-info:hover,
-a.text-info:focus {
-  color: #245269;
-}
-
-.text-warning {
-  color: #8a6d3b;
-}
-
-a.text-warning:hover,
-a.text-warning:focus {
-  color: #66512c;
-}
-
-.text-danger {
-  color: #a94442;
-}
-
-a.text-danger:hover,
-a.text-danger:focus {
-  color: #843534;
-}
-
-.bg-primary {
-  color: #fff;
-  background-color: #337ab7;
-}
-
-a.bg-primary:hover,
-a.bg-primary:focus {
-  background-color: #286090;
-}
-
-.bg-success {
-  background-color: #dff0d8;
-}
-
-a.bg-success:hover,
-a.bg-success:focus {
-  background-color: #c1e2b3;
-}
-
-.bg-info {
-  background-color: #d9edf7;
-}
-
-a.bg-info:hover,
-a.bg-info:focus {
-  background-color: #afd9ee;
-}
-
-.bg-warning {
-  background-color: #fcf8e3;
-}
-
-a.bg-warning:hover,
-a.bg-warning:focus {
-  background-color: #f7ecb5;
-}
-
-.bg-danger {
-  background-color: #f2dede;
-}
-
-a.bg-danger:hover,
-a.bg-danger:focus {
-  background-color: #e4b9b9;
 }
 
 .page-header {
@@ -6328,11 +6142,26 @@ body {
   margin: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   vertical-align: baseline;
 }
@@ -6342,11 +6171,15 @@ audio:not([controls]) {
   height: 0;
 }
 
-[hidden], template {
+[hidden],
+template {
   display: none;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -6376,7 +6209,8 @@ img {
   max-width: 100% !important;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700;
 }
 
@@ -6387,11 +6221,13 @@ a {
   text-decoration: none;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   color: #23527c;
   text-decoration: underline;
 }
@@ -6412,7 +6248,8 @@ hr {
   box-sizing: border-box;
 }
 
-:after, :before {
+:after,
+:before {
   box-sizing: border-box;
 }
 
@@ -6517,6 +6354,65 @@ h6,
   color: inherit;
 }
 
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+
 h1 {
   margin: 0.67em 0;
   font-size: 2em;
@@ -6525,10 +6421,6 @@ h1 {
 .small,
 small {
   font-size: 85%;
-}
-
-.text-muted {
-  color: #777;
 }
 
 b,
@@ -6576,6 +6468,101 @@ a:hover {
 
 .text-capitalize {
   text-transform: capitalize;
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-primary {
+  color: #337ab7;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #286090;
+}
+
+.text-success {
+  color: #3c763d;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #2b542c;
+}
+
+.text-info {
+  color: #31708f;
+}
+
+a.text-info:hover,
+a.text-info:focus {
+  color: #245269;
+}
+
+.text-warning {
+  color: #8a6d3b;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #66512c;
+}
+
+.text-danger {
+  color: #a94442;
+}
+
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #843534;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: #286090;
+}
+
+.bg-success {
+  background-color: #dff0d8;
+}
+
+a.bg-success:hover,
+a.bg-success:focus {
+  background-color: #c1e2b3;
+}
+
+.bg-info {
+  background-color: #d9edf7;
+}
+
+a.bg-info:hover,
+a.bg-info:focus {
+  background-color: #afd9ee;
+}
+
+.bg-warning {
+  background-color: #fcf8e3;
+}
+
+a.bg-warning:hover,
+a.bg-warning:focus {
+  background-color: #f7ecb5;
+}
+
+.bg-danger {
+  background-color: #f2dede;
+}
+
+a.bg-danger:hover,
+a.bg-danger:focus {
+  background-color: #e4b9b9;
 }
 
 /* Kopierer over hele bootstrap fila, og ser etter det som trengs av Moava bootstrap for å fungere.
