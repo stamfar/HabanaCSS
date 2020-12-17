@@ -1,8 +1,14 @@
 /* Module: Typography */
+@import "../_main/_utils";
 
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
+html {font-size: 100%;} /*16px*/
+
+@include tablet {
+  html {font-size: 125%;} /*16px*/
+}
 
 body {
   /* background-color og color ligger under _color-system */
@@ -15,19 +21,8 @@ body {
   padding: 0;
 }
 
-/* Font Headings */
-h1, h2, h3 {
-  line-height: 1.2;
-  font-weight: 600;
-}
-h4, h5, h6 {
-  line-height: 1.5;
-  font-weight: 600;
-}
-.text-6xl, .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
-  line-height: 1.5;
-}
 
+/* Font Headings */
 .text-6xl {
   font-size: var(--size-4);
 }
@@ -40,50 +35,37 @@ h4, h5, h6 {
 
 
 
+
+
 h1, .h1 .text-3xl {
-  font-size: var(--size-25);
+  font-size: 1.802rem; /* 40px */
 }
 h2, .h2 .text-2xl {
-  font-size: var(--size-2125);
+  font-size: 1.602rem; /* 32px */
 }
 h3, .h3 .text-xl {
-  font-size: var(--size-175);
+  font-size: 1.424rem; /* 28px */
 }
 h4, .h4 .text-lg {
-  font-size: var(--size-15);
+  font-size: 1.266rem; /* 24px */
 }
 h5, .h5 {
-  font-size: var(--size-125);
+  font-size: 1.125rem; /* 20px */
 }
 h6, .h6 .text-md {
-  font-size: var(--size-1);
-}
-
-
-
-.text-small {
-  font-size: var(--size-0875);
-  line-height: 1.5;
-}
-.text-smaller {
-  font-size: var(--size-075);
-  line-height: 1.5;
+  font-size: var(--size-1); /* 16px */
 }
 
 p {
   font-size: var(--size-1);
-  line-height: 1.5;
-  /*margin: 0 0 10px;*/
 }
 
-
-
-
-
-
-
-
-/* Sammenligne disse to a. Den siste er rett fra bootstrap.min.css */
+small, .small, .text-small {
+  font-size: 0.889rem;
+}
+smaller, .text-smaller {
+  font-size: var(--size-075);
+}
 
 
 a {

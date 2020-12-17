@@ -1,0 +1,49 @@
+/* Module: Typography-spacing */
+
+:root {
+    --baseline: 24px;
+    /* spacing values */
+    --space-sm: calc(var(--baseline)/2);
+    --space-md: var(--baseline);
+    --space-lg: calc(var(--baseline)*2);
+}
+
+h1,
+h2,
+h3,
+.text-6xl,
+.text-5xl,
+.text-4xl,
+.text-3xl,
+.text-2xl,
+.text-xl {
+    line-height: 1.2;
+    margin-bottom: var(--space-md);
+    font-weight: 500;
+}
+
+h4,
+h5,
+h6,
+.text-lg,
+.text-md {
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.5;
+    /*margin-bottom: 1rem;*/
+}
+
+small,
+.small,
+.text-small {
+    line-height: 1.5;
+}
+
+smaller,
+.text-smaller {
+    line-height: 1.5;
+}
