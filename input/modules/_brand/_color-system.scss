@@ -27,13 +27,13 @@
 
 }
 
-/* tester Sass variabler i map og funksjoner */
+/* tester Sass variabler i map og funksjoner
 $colors: (
   primary: red,
   white: var(--color-white),
   black: var(--color-black),
 );
-/* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). */
+/* Funksjon som gjør at man kan skrive color(white) fremfor map-get($colors, white). 
 @function color($color-name) {
   @return map-get($colors, $color-name)
 }
@@ -44,3 +44,4 @@ body {
 
   background-color: var(--minsystemfarge) !important;
 }
+*/ 

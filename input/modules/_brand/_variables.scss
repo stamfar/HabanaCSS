@@ -3,6 +3,13 @@ body {
   background-color: var(--color-white);
   color: var(--color-dark);
 }
+/* Dark mode */
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
 
 /* GENERAL SIZES */
 :root {
