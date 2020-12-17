@@ -424,7 +424,7 @@
 
 /* renvasket, men riktig med rekkefølge? */
 .panel-default {
-  border-color: #ddd;
+  border-color: var(--panel-border-color);
 
   > .panel-heading {
     color: #333;
