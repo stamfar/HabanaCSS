@@ -1,0 +1,31 @@
+@import "../_main/_utils";
+/* Footer */
+
+footer {
+  background-color: #efefef;
+  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .container {
+
+    .row-footer {
+
+      .col-md-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+    }
+
+  }
+
+}
+
+@include monitor {
+  footer {
+    .col-md-12 {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+}
