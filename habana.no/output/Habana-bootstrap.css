@@ -1161,15 +1161,6 @@ button.list-group-item-danger.active:focus {
     display: none;
   }
 }
-.navbar-nav {
-  display: flex;
-  /*float: left;*/
-  width: 100%;
-  flex-direction: column;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
