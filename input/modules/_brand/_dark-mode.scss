@@ -1,0 +1,7 @@
+/* Dark mode */
+@media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--color-dark);
+      color: white;
+    }
+  }
