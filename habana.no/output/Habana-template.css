@@ -35,15 +35,6 @@
   display: inline-block;
 }
 
-.navbar-nav {
-  display: flex;
-  /*float: left;*/
-  width: 100%;
-  flex-direction: column;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 @media (min-width: 768px) {
   .navbar-nav {
     flex-wrap: wrap;
@@ -59,14 +50,6 @@
   }
 }
 /* END - Menyikon */
-.navbar-brand {
-  float: left;
-  height: 55px;
-  padding: 18px 15px;
-  font-size: 18px;
-  line-height: 20px;
-}
-
 .mainMenuWrapper .navbar-brand {
   float: left;
   height: 55px;

@@ -1105,6 +1105,14 @@ button.list-group-item-danger.active:focus {
   border-width: 1px 0 0;
 }
 
+.navbar-brand {
+  float: left;
+  height: 55px;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -1153,6 +1161,15 @@ button.list-group-item-danger.active:focus {
     display: none;
   }
 }
+.navbar-nav {
+  display: flex;
+  /*float: left;*/
+  width: 100%;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;

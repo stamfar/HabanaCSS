@@ -300,8 +300,13 @@
 	margin-bottom: 0;
 	border-width: 1px 0 0;
   }
-
-
+  .navbar-brand {
+	float: left;
+	height: 55px;
+	padding: 18px 15px;
+	font-size: 18px;
+	line-height: 20px;
+  }
   .navbar-brand:hover,
   .navbar-brand:focus {
 	text-decoration: none;
@@ -345,7 +350,14 @@
 	}
   }
 
-
+  .navbar-nav {
+	display: flex;
+	/*float: left;*/
+	width: 100%;
+	flex-direction: column;
+	margin-left: 0;
+	margin-right: 0;
+  }
 
   .navbar-nav > li > a {
 	padding-top: 10px;
