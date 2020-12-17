@@ -1,7 +1,12 @@
 /* Typografi */
-.h1, .h2, .h3, h1, h2, h3 {
-	margin-top: 20px;
-	margin-bottom: 10px
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h4,
 .h4,
@@ -31,16 +36,17 @@ h6,
 }
 
 h1 {
-	margin: .67em 0;
-	font-size: 2em;
-  }
+  margin: 0.67em 0;
+  font-size: 2em;
+}
 
-.small, small {
-	font-size: 85%
+.small,
+small {
+  font-size: 85%;
 }
 
 .text-muted {
-	color: #777
+  color: #777;
 }
 
 b,
@@ -48,44 +54,42 @@ strong {
   font-weight: bold;
 }
 
-
 a {
-	background-color: transparent;
-  }
-  a:active,
-  a:hover {
-	outline: 0;
-  }
-
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
 
 /* Atomic classes (?) */
 .text-left {
-	text-align: left
+  text-align: left;
 }
 
 .text-right {
-	text-align: right
+  text-align: right;
 }
 
 .text-center {
-	text-align: center
+  text-align: center;
 }
 
 .text-justify {
-	text-align: justify
+  text-align: justify;
 }
 .text-nowrap {
-	white-space: nowrap
+  white-space: nowrap;
 }
 
 .text-lowercase {
-	text-transform: lowercase
+  text-transform: lowercase;
 }
 
 .text-uppercase {
-	text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .text-capitalize {
-	text-transform: capitalize
+  text-transform: capitalize;
 }
