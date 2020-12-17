@@ -122,7 +122,8 @@
 
 .panel-heading {
   padding: 10px 15px;
-  border-bottom: 1px solid transparent;
+  border-bottom: var(--panel-border);
+  border-color: var(--panel-border-color);
   border-top-left-radius: var(--panel-border-radius-md);
   border-top-right-radius: var(--panel-border-radius-md);
 }
@@ -154,10 +155,11 @@
 
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  background-color: var(--panelfooter-background-color);
+  border-top: var(--panel-border);
+  border-color: var(--panel-border-color);
+  border-bottom-right-radius: var(--panel-border-radius-md);
+  border-bottom-left-radius: var(--panel-border-radius-md);
 }
 
 .panel > .list-group,
@@ -386,9 +388,9 @@
   border-color: var(--panel-border-color);
 }
 .panel-default > .panel-heading {
-  color: #333;
-  background-color: #f5f5f5;
-  border-color: #ddd;
+  color: var(--panelheading-color);
+  background-color: var(--panelheading-background-color);
+  border-color: var(--panel-border-color);
 }
 
 /**/
