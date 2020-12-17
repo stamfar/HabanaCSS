@@ -76,25 +76,6 @@ strong {
   font-weight: 700;
 }
 
-/* a */
-a {
-  color: #337ab7;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:active,
-a:hover {
-  outline: 0;
-}
-a:focus,
-a:hover {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
 
 hr {
   margin-top: 20px;

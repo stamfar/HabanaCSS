@@ -155,8 +155,11 @@ p {
   /*margin: 0 0 10px;*/
 }
 
+/* Sammenligne disse to a. Den siste er rett fra bootstrap.min.css */
 a {
   color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
 }
 a:link {
   color: var(--link-color);
@@ -169,6 +172,29 @@ a:visited {
 }
 a:active {
   color: var(--link-color-hover);
+}
+
+/* Må undersøkes og sammenlignes med andre a i typografi(?) */
+/* a 
+a {
+  color: #337ab7;
+  background-color: transparent;
+  text-decoration: none;
+}*/
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a:focus,
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 
 /* Module: Buttons */
