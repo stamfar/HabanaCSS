@@ -39,28 +39,7 @@
 }
 
 /* Module: Colors */
-/* Unntak er body. Plasseres her fordi at det kun er farger. */
-body {
-  background-color: var(--color-white);
-  color: var(--color-dark);
-}
-
-/* start - ferdig  */
-:root {
-  --link-color: var(--brand-color-primary);
-  --link-color-hover: var(--brand-color-primary-hover);
-  --text-dark: var(--color-dark);
-  --calendar-event-background: var(--brand-color-primary-light);
-  --calendar-event-heading: var(--brand-color-primary-dark);
-  --calendar-event-text: var(--brand-color-primary-dark);
-  --calendar-event-background-secondary: var(--brand-color-secondary-light);
-  --calendar-event-heading-secondary: var(--brand-color-secondary-dark);
-  --calendar-event-text-secondary: var(--brand-secondary-primary-dark);
-  --calendar-link-color: var(--link-color);
-  --panel-border-color: var(--brand-color-secondary-light);
-}
-
-/* end - ferdig  */
+/* DENNE SKAL NOK UT. HAR BLITT REPLACED MED _variables */
 /* Komponenter */
 /* Hente farger fra universal colors (?)-komprimert fil */
 :root {

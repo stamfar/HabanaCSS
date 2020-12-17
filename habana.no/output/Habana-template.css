@@ -109,10 +109,11 @@
 /* START Panels kopiert fra bootstrap.min nedover. har ikke gått gjennom ordentlig */
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
-  border: 1px solid transparent;
+  background-color: var(--panel-background-color);
+  border: var(--panel-border);
+  border-color: var(--panel-border-color);
   border-radius: var(--panel-border-radius-md-fill);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--panel-box-shadow);
 }
 
 .panel-body {
