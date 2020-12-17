@@ -613,6 +613,10 @@ footer .container .row-footer .col-md-12 {
   padding-left: 0px;
 }
 
+#footerunder {
+  background-color: #efefef;
+}
+
 @media (min-width: 1200px) {
   footer .col-md-12 {
     padding-right: 15px;

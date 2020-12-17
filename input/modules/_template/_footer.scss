@@ -16,9 +16,10 @@ footer {
         padding-left: 0px;
       }
     }
-
   }
-
+}
+#footerunder {
+  background-color: #efefef;
 }
 
 @include monitor {
