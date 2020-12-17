@@ -83,10 +83,13 @@ html {
 }
 
 /*16px*/
-/*
-@include tablet {
-  html {font-size: 112.5%;} /*16px*/
-/*}*/
+@media (min-width: 768px) {
+  html {
+    font-size: 125%;
+  }
+
+  /*16px*/
+}
 body {
   /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css) og styleallcustom*/
@@ -117,7 +120,7 @@ h1, .h1 .text-3xl {
 }
 
 h2, .h2 .text-2xl {
-  font-size: 1.602rem;
+  /* font-size: 1.602rem; */
   /* 32px */
 }
 
