@@ -78,11 +78,7 @@ body {
   background-color: var(--minsystemfarge) !important;
 }
 */
-html {
-  font-size: 100%;
-}
-
-/*16px*/
+/*html {font-size: 100%;} /*16px*/
 /*
 @include tablet {
   html {font-size: 112.5%;} /*16px*/
