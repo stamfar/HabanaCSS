@@ -124,9 +124,10 @@ a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slidesh
   padding: 2px;
 }
 
+/* har vært -5px på begge, tok til null for å unngå whitespace på høyreside */
 .row {
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 .float-right {

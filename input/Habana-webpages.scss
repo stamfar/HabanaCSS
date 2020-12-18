@@ -70,7 +70,13 @@ div[id^="bl"] { margin-bottom: 15px; }
 .slidetext { height:80px; position:relative; top:-80px; background-image:url('../images/transp50.png'); }
 a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slideshowLink:hover {color: rgba(255,255,255,1); text-decoration:none;}
 .box2 > .box2 { padding: 2px; }
-.row { margin-right: -5px; margin-left: -5px; }
+
+/* har vært -5px på begge, tok til null for å unngå whitespace på høyreside */
+.row { 
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
 .float-right { float: right; padding-left: 5px; }
 .float-left { float: left; padding-right: 5px; }
 .attachmentsright { margin-right: 5px; }
