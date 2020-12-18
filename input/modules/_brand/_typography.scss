@@ -36,8 +36,6 @@ body {
 
 
 
-
-
 h1, .h1 .text-3xl {
   font-size: 1.802rem; /* 40px */
 }
@@ -95,4 +93,15 @@ a {
     &:visited {
       color: var(--link-color-hover);
     }
+}
+
+
+/*Definert for komponenter*/
+.panel-heading h2 {
+    font-size: 1.25em;
+    margin: 3px 0 0 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
