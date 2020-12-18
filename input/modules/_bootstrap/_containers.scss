@@ -31,7 +31,9 @@ footer {
     padding: 0px;
   }
   #headermain img {
-    border-radius: var(--headermain-border-radius);
+	border-radius: var(--headermain-border-radius);
+	min-height: 30vw;
+	object-fit: cover;
   }
 }
 
@@ -63,7 +65,8 @@ footer {
   .container-header {
     .col-md-12 {
       #headermain img {
-        border-radius: var(--headermain-border-radius-bpmonitor);
+		border-radius: var(--headermain-border-radius-bpmonitor);
+		min-height: 20vw;
       }
     }
   }
