@@ -33,7 +33,8 @@ body {
 /* Topplogo */
 :root {
   // Headermain bilde
---headermain-border-radius: var(--size-border-radius-sm);
+--headermain-border-radius: 0;
+--headermain-border-radius-bpmonitor: var(--size-border-radius-md);
 }
 
 /* Panels */

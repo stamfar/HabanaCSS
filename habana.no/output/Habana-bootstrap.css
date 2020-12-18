@@ -6269,12 +6269,11 @@ footer {
     padding-right: 0px;
     padding-left: 0px;
   }
+
+  .container-header .col-md-12 #headermain img {
+    border-radius: var(--headermain-border-radius-bpmonitor);
+  }
 }
-/* .row Skal være -5px(webpages.css)
-  .row {
-	margin-right: -15px;
-	margin-left: -15px;
-  }*/
 /* --END-- Containers (topplogo, content og footer) */
 /* Typografi */
 .h1,
