@@ -2,7 +2,7 @@
  * Stylesheet for webpages_class.php
  * $Id: webpages.css 35915 2020-10-05 20:25:19Z Inge $
  */
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     body { padding-top: 0px; }
 }
 td {
@@ -138,7 +138,7 @@ div.related-images.col-md-12 .thumbnail .center-cropped {
     padding-top: 0px !important;
 }
 .newsCell .box1text, .box1textarea div.box1text, div[id^="rss"] div.box1text {
-    padding: 5px 0px;!important;
+    padding: 5px 0px !important;
 }
 .newsCell.newsFirst .center-cropped {
     height: 300px !important;
