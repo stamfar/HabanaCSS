@@ -105,3 +105,17 @@ a {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+h3.box1itemHeading {
+  word-wrap: break-word;
+}
+.box1text {
+  padding: 0px 0px;
+}
+
+/* Titles (fra webpages) */
+h1 { font-size: 2em; }
+#pagename { margin-top: 0px; }
+h2 { font-size: 1.25em; }
+
+h3 { font-size: 1.15em; }
+/* -- END -- Titles (fra webpages) */
