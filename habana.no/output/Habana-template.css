@@ -109,6 +109,7 @@
 
 .panel-body {
   padding: 15px;
+  background: var(--panelbody-background-color);
 }
 
 .panel-heading {
@@ -606,7 +607,7 @@ footer {
   background-color: #efefef;
   margin-top: 32px;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 48px;
 }
 footer .container .row-footer .col-md-12 {
   padding-right: 0px;
