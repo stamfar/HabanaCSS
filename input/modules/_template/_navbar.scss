@@ -36,6 +36,7 @@
 }
 /* END - Menyikon */
 
+
 .mainMenuWrapper {
   .navbar-brand {
     float: left;
@@ -44,12 +45,13 @@
     font-size: 18px;
     line-height: 20px;
   }
-  .navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px !important;
-    border: 1px solid transparent;
 }
+
+.mainMenuWrapper.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
 }
 
 @include tablet {

@@ -166,10 +166,7 @@ a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slidesh
     display: none;
   }
 
-  .navbar {
-    margin-bottom: 15px;
-  }
-
+  /*fjernet for å ha ulik på mobil og monitor .navbar { margin-bottom: 15px; }*/
   .navbar-brand {
     display: none;
   }

@@ -94,7 +94,7 @@ a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slidesh
 @media(min-width:768px){
     .currentNavTitle{ margin-bottom: 15px; }
     .hiddenNavArrow{ display:none; }
-    .navbar { margin-bottom: 15px; }
+    /*fjernet for å ha ulik på mobil og monitor .navbar { margin-bottom: 15px; }*/
     .navbar-brand { display: none; }
 }
 @media(max-width:768px){
