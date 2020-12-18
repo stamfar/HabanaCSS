@@ -42,6 +42,7 @@
   flex-direction: column;
   margin-left: 0;
   margin-right: 0;
+  justify-content: var(--navbar-align-center);
 }
 
 @media (min-width: 768px) {

@@ -30,8 +30,10 @@ body {
   --text-dark: var(--color-dark);
 }
 
-/* Topplogo */
+/* Navbar og topplogo */
 :root {
+  // Navbar align menypunktene
+--navbar-align-center: center;
   // Headermain bilde
 --headermain-border-radius: 0;
 --headermain-border-radius-bpmonitor: var(--size-border-radius-md);

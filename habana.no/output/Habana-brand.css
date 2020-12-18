@@ -344,8 +344,9 @@ body {
   --text-dark: var(--color-dark);
 }
 
-/* Topplogo */
+/* Navbar og topplogo */
 :root {
+  --navbar-align-center: center;
   --headermain-border-radius: 0;
   --headermain-border-radius-bpmonitor: var(--size-border-radius-md);
 }
