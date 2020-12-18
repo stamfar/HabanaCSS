@@ -196,7 +196,7 @@ a.badge:focus {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 10px 0 5px 0;
+  padding: 5px 0;
   margin: 2px 0 0;
   font-size: 1rem;
   text-align: left;
@@ -206,7 +206,7 @@ a.badge:focus {
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
@@ -224,11 +224,7 @@ a.badge:focus {
 
 .dropdown-menu > li > a {
   display: block;
-  padding: 8px 12px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 6px;
-  border-radius: 6px;
+  padding: 3px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.5;
