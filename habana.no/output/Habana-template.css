@@ -65,15 +65,25 @@
   font-size: 18px;
   line-height: 20px;
 }
+.mainMenuWrapper .navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px !important;
+  border: 1px solid transparent;
+}
 
 @media (min-width: 768px) {
-  .navbar-header {
+  .mainMenuWrapper .navbar {
+    border-radius: 4px;
+  }
+  .mainMenuWrapper .navbar-header {
     float: left;
   }
 }
 @media (min-width: 1200px) {
   .mainMenuWrapper.navbar {
     border-radius: 0 0 4px 4px;
+    margin-bottom: 15px !important;
   }
 }
 /* Hamburgermeny */
