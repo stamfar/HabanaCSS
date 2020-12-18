@@ -30,6 +30,9 @@ footer {
   .col-md-12 {
     padding: 0px;
   }
+  #headermain img {
+    border-radius: var(--headermain-border-radius);
+  }
 }
 
 @include utils.tablet {

@@ -15,7 +15,7 @@ body {
   --size-border-radius-md-fill: calc(var(--panel-border-radius-md) + 1px);
   --size-border-radius-lg: 12px;
   --size-border-radius-lg-fill: calc(var(--panel-border-radius-lg) + 1px);
-  // Box Shadows
+  // Box Shadows( ikke ferdig )
   --box-shadow-sm: red;
   --box-shadow-md: red;
   --box-shadow-lg: red;
@@ -30,15 +30,21 @@ body {
   --text-dark: var(--color-dark);
 }
 
+/* Topplogo */
+:root {
+  // Headermain bilde
+--headermain-border-radius: var(--size-border-radius-sm);
+}
+
 /* Panels */
 :root {
   // Panel Border Radius system
-  --panel-border-radius-sm: var(--size-border-radius-md);
-  --panel-border-radius-sm-fill: var(--size-border-radius-md-fill);
+  --panel-border-radius-sm: var(--size-border-radius-sm);
+  --panel-border-radius-sm-fill: var(--size-border-radius-sm-fill);
   --panel-border-radius-md: var(--size-border-radius-md);
   --panel-border-radius-md-fill: var(--size-border-radius-md-fill);
-  --panel-border-radius-lg: var(--size-border-radius-md);
-  --panel-border-radius-lg-fill: var(--size-border-radius-md-fill);
+  --panel-border-radius-lg: var(--size-border-radius-lg);
+  --panel-border-radius-lg-fill: var(--size-border-radius-lg-fill);
   --panel-border: var(--border);
   --panel-box-shadow: var(--box-shadow-md);
   // Panel colors
