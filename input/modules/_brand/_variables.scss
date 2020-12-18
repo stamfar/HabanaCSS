@@ -64,3 +64,23 @@ body {
 }
 
 /* END - Calendar */
+
+
+/* Dropdowns */
+:root {
+  // Dropdown
+  --dropdown-background-color: #fff;
+  --dropdown-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  --dropdown-border-radius: var(--size-border-radius-md);
+  // Item
+  --dropdown-item-border-radius: var(--size-border-radius-sm);
+  --dropdown-item-text: #333333;
+  // Item hover
+  --dropdown-item-text-hover: #262626;
+  --dropdown-item-background-color-hover: #f5f5f5;
+ // Item Active
+  --dropdown-item-text-active: #fff;
+  --dropdown-item-background-color-active: #337ab7;
+}
+
+/* END - Dropdowns */
