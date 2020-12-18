@@ -119,7 +119,7 @@
 }
 
 .panel-body {
-  padding: 15px;
+  padding: 15px !important;
 }
 
 .panel-heading {
