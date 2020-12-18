@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="fb: http://www.facebook.com/2008/fbml og: http://ogp.me/ns#" xml:lang="nb" lang="nb">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noarchive" />
+<meta name="title" content="Tromsøskolen" />
+<meta name="Description" content="Tromsøskolen" />
+<meta name="Keywords" content="tromsø skole tromsøskolen tromsoskolen tromso skolen" />
+<meta name="generator" content="Moava" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tromsøskolen</title>
+<link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/css/webpages_print.css" media="print" /><link id="dynamic_css" href="/themes/1/css/styleallcustom.css" media="all" rel="stylesheet" type="text/css" /><link id="dynamic_css_fix" href="" rel="stylesheet" type="text/css" />
+<link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/css/moavacalendar.css" rel="stylesheet" type="text/css" />
+<link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/css/slides.css" rel="stylesheet" type="text/css" /><link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/pick-a-color-master/css/pick-a-color-1.2.3.min.css" rel="stylesheet" type="text/css" /><link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/css/webpages.css?1608284369" media="all" rel="stylesheet" type="text/css" /><link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/font-awesome/5.13.0/css/all.css" rel="stylesheet" type="text/css" />
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="home" href="index.php" />
+<link rel="stylesheet" type="text/css" href="https://habana.no/output/Habana-bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="https://habana.no/output/Habana-brand.css">
+
+<link rel="stylesheet" type="text/css" href="https://habana.no/output/Habana-main.css">
+
+<link rel="stylesheet" type="text/css" href="https://habana.no/output/Habana-template.css">
+
+<link rel="stylesheet" type="text/css" href="https://habana.no/output/Habana-webpages.css">
+
+
+<style>
+
+
+ 
+
+
+.thumbnaillinks .thumbnail {}
+</style><script type="text/javascript">if(_aMoava == "undefined" || !_aMoava) {var _aMoava = {};_aMoava.absSiteUrl = "https://tromsoskolen.moavademo.no/";_aMoava.relSiteUrl = "/";_aMoava.absDomainUrl = "https://tromsoskolen.moavademo.no/";_aMoava.isInternal = 0;_aMoava.isLoggedIn = 0;_aMoava.inlineEdit = 0;_aMoava.lang = "nb";_aMoava.langInUse = {langs:["nb"]};}</script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/swfobject.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/lang/nb_lang.js"></script><script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script><script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/hammer.min.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/ckeditor4141/ckeditor.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/ckeditor4141/adapters/jquery.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/m.js"></script>
+<link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/css/moava.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://yui-s.yahooapis.com/3.10.3/build/yui/yui-min.js"></script>
+<link href="https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/container/assets/skins/sam/container.css" rel="stylesheet" type="text/css" />
+<link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/fancybox/2.1.5/helpers/jquery.fancybox-buttons.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    body { padding-top: 15px; }
+    @media(max-width:991px){
+        body { padding-top:15px; }
+    }
+    .breadcrumb {
+        margin-bottom: 0px;
+    }
+    .navbar {
+        margin-bottom: 15px;
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    div.center-cropped {
+        /*width: 120px;*/
+        /*height: 120px;*/
+    }
+
+    /* reset some colors to give control back to themes */
+    /*
+    .box1textarea { background-color: inherit!important; }
+    .box1itemHeading, .box1text, .box0itemHeading, .box0text, .box1text span { color: inherit!important; }
+    a { color:initial; }
+    */
+    /* end reset colors */
+
+    
+    .article.panel {
+        border-width: 1px !important;
+    }
+    .title{ 
+    margin-left:200px;}
+        @media(min-width:992px){
+            body { padding-top: 0px; }
+        }
+        @media(max-width:991px){
+            body {padding-top:0px;margin-right: -5px;}
+        }
+        
+</style></head>
+<body class="yui3-skin-sam yui-skin-sam pr0 pg1 " style=""><div id="bootstrap-variables" data-bootstrap-url="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/" style="display:none;">
+</div>
+<div id="inline-variables" data-send-notification="Send varsling" data-edit-not-saved="Redigert, men ikke lagret" data-not-saved="Ikke lagret" data-saved="Lagret" data-saving="Lagrer" data-error-saving="Feil ved lagring" data-building-article="Setter sammen artikkelen" data-article="Artikkel" data-from="Fra" data-confirm="Er du sikker på at du vil slette filen" data-cancel="Avbryt"  data-add-files="Legg til filer" data-save-and-publish="Lagre og publiser" data-pending-approval="Artikkel venter på godkjenning" style="display:none;" ></div><div id="moava" class="pageid_1">
+                    <style type="text/css" scoped="scoped">
+                        @media (min-width: 768px) {
+                            .navbar-brand {
+                                
+                            }
+                        }
+                    </style>
+                    <div class="mainMenuWrapper navbar navbar-default navbar-static-top" style="">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Tromsøskolen</a>
+                            </div><!--/.navbar-header -->
+                            <div class="navbar-collapse collapse">
+                                    
+                    <ul class="nav navbar-nav">
+            <!-- pagePri=1, pageID=1, currLevel=0, prevLevel=-1, colCounter=1, helper=, submenu=0, parentID=0, oldParentID=0 -->
+                <li><a href="index.php?pageID=1" title="Forsiden">Forsiden</a></li>
+            <!-- pagePri=9, pageID=197, currLevel=0, prevLevel=-1, colCounter=1, helper=, submenu=0, parentID=0, oldParentID=0 -->
+                <li><a href="index.php?pageID=197" title="Skolene"><i class="pageTitleIcon fa fa-car" style="color:;"> </i>Skolene</a></li>
+            <!-- pagePri=50, pageID=215, currLevel=0, prevLevel=-1, colCounter=1, helper=, submenu=1, parentID=0, oldParentID=0 -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="pageTitleIcon fa fa-car" style="color:;"> </i>Apper <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <!-- start mega-menu -->
+            <!-- pagePri=1, pageID=270, currLevel=1, prevLevel=0, colCounter=1, helper=drop, submenu=0, parentID=215, oldParentID=0 -->
+                <!-- start col header-less -->
+                <li><a href="index.php?pageID=270" title="Godkjente apper i Tromsøskolen og barnehager"><i class="pageTitleIcon fa fa-car" style="color:;"> </i>Godkjente apper i Tromsøskolen og barnehager</a></li>
+            <!-- pagePri=49, pageID=272, currLevel=1, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=215, oldParentID=0 -->
+                <li><a href="index.php?pageID=272" title="Firmaportalen">Firmaportalen</a></li>
+                    </ul><!-- /end ul.dropdown-menu -->
+                </li>
+                   
+            <!-- pagePri=50, pageID=264, currLevel=0, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=0, oldParentID=0 -->
+                <li><a href="index.php?pageID=264" title="Barnehage">Barnehage</a></li>
+            <!-- pagePri=80, pageID=139, currLevel=0, prevLevel=0, colCounter=1, helper=, submenu=1, parentID=0, oldParentID=0 -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Eksterne undervisningstilbud <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <!-- start mega-menu -->
+            <!-- pagePri=50, pageID=205, currLevel=1, prevLevel=0, colCounter=1, helper=drop, submenu=0, parentID=139, oldParentID=0 -->
+                <!-- start col header-less -->
+                <li><a href="http://nordnorsk.vitensenter.no/" target="_blank" title="Nordnorsk vitensenter">Nordnorsk vitensenter</a></li>
+            <!-- pagePri=50, pageID=140, currLevel=1, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=139, oldParentID=0 -->
+                <li><a href="http://site.uit.no/undervisning/" target="_blank" title="Tromsø Museum">Tromsø Museum</a></li>
+            <!-- pagePri=51, pageID=141, currLevel=1, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=139, oldParentID=0 -->
+                <li><a href="http://www.polaria.no/skole.151647.no.html" target="_blank" title="Polaria">Polaria</a></li>
+                    </ul><!-- /end ul.dropdown-menu -->
+                </li>
+                   
+            <!-- pagePri=98, pageID=265, currLevel=0, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=0, oldParentID=0 -->
+                <li><a href="index.php?pageID=265" title="FEIDE">FEIDE</a></li>
+            <!-- pagePri=99, pageID=271, currLevel=0, prevLevel=0, colCounter=1, helper=, submenu=0, parentID=0, oldParentID=0 -->
+                <li><a href="http://www.tromsfylke.no/tjenester/ombud/mobbeombud/" target="_blank" title="Mobbeombud">Mobbeombud</a></li>
+                    </ul><!-- /end ul.navbar -->
+                    
+                            </div><!--/.nav-collapse -->
+                        </div><!--/.container-fluid -->
+                    </div><!--/.navbar -->
+
+        
+            <div class="container container-header ">
+            <div class="row row-header">
+            <div class="col-md-12">
+                <div id="headermain"><img src="/grafikk/bgtop1448628183.jpg" alt="Tromsøskolen" style="width:100%;position:relative;z-index:0;"><span class="header-inside" style="position:absolute;left:5px;"><div id="kommunevaapen"><img src="//tromsoskolen.moavademo.no/grafikk/kommune.png"></div></span>
+            <div class="title h2 hidden-xs">Tromsøskolen</div></div><!-- end headermain -->
+
+
+            </div>
+            </div>
+            </div>
+            
+            <div class="container container-content">
+                <div class="row row-content">
+                    <div class="col-xs-12"><h1 id="pagename" class="sr-only">Forsiden</h1></div>
+            <!-- columnString=25%,50%,25%, columns=3, newString=25%,50%,25% -->
+                <!-- column 2, pri=1, pageID=1 -->
+                <div class="col-xs-12 col-md-6 col-md-push-3">
+                    
+<!--  /* 1 - 2 */  -->
+
+                    <div id="bl563" class="t2 article panel panel-default fieldarticle" style="">
+                        <div class="panel-heading fieldsid563  2 1">
+                    <div class="editorPanelHeader ">
+                        <h2 class="viewModeHeader  ">Nyheter fra Tromsøskolen</h2>
+                    </div></div><!-- /.panel-heading --><!-- News field NOT TABLE -->
+            <div class="panel-body">
+                <div class="row">
+                <div data-extra-class="" data-amount-allowed="8" data-layout-image="0" class="col-xs-12 box1textarea modalInputHolder_563_1"><a class="box1itemHeadingLink" href="?artID=&amp;navB=1"><h3 class="box1itemHeading  "></h3></a><div class="box1text"></div><a href="?artID=&amp;navB=1" class="small" title="">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">01.01.1970</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a href="?artID=749&amp;navB=1"><div  class='float-right'>
+                        <style>.t2 .float-right>div.center-cropped, .t2 .float-left>div.center-cropped { height: 102.7px !important; }</style>
+                        <div class="center-cropped" style="
+                            background-image: url('/files/2020/12/s-creaza-jul.png');
+                            
+                            background-size: contain!important;
+                            " title="Creaza-jul">
+                            
+                        </div></div></a><a class="box1itemHeadingLink" href="?artID=749&amp;navB=1"><h3 class="box1itemHeading  ">Creaza ønsker alle en god førjulstid!</h3></a><div class="box1text">Creaza har også i år laget en julekalender for skolen. Kalenderen, som er laget for både store og små, inneholder én oppgave for hver dag. <br />
+<br />
+Oppgavene løses i de ulike verktøyene i Creaza, og inkluderer mange ulike fag.</div><a href="?artID=749&amp;navB=1" class="small" title="Creaza ønsker alle en god førjulstid!">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">01.12.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a href="?artID=747&amp;navB=1"><div  class='float-right'>
+                        <style>.t2 .float-right>div.center-cropped, .t2 .float-left>div.center-cropped { height: 108.6px !important; }</style>
+                        <div class="center-cropped" style="
+                            background-image: url('/files/2020/12/s-skolestudio.png');
+                            
+                            background-size: contain!important;
+                            " title="Skolestudio">
+                            
+                        </div></div></a><a class="box1itemHeadingLink" href="?artID=747&amp;navB=1"><h3 class="box1itemHeading  ">Jul i skolestudio!</h3></a><div class="box1text">Det nærmer seg jul, og i år kan klassen sammen telle ned til juleferien med Skolestudios julekalender.</div><a href="?artID=747&amp;navB=1" class="small" title="Jul i skolestudio!">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">01.12.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a href="?artID=740&amp;navB=1"><div  class='float-right'>
+                        <style>.t2 .float-right>div.center-cropped, .t2 .float-left>div.center-cropped { height: 74px !important; }</style>
+                        <div class="center-cropped" style="
+                            background-image: url('/files/2020/10/s-o365.png');
+                            
+                            background-size: contain!important;
+                            " title="O365">
+                            
+                        </div></div></a><a class="box1itemHeadingLink" href="?artID=740&amp;navB=1"><h3 class="box1itemHeading  ">Problemer med innlogging til Office 365 via lenke</h3></a><div class="box1text">Det er problemer med å logge på Office365 via lenken som dere finner under Elevlenker, dersom din maskin er koblet til gjestenett i Tromsø kommune. <br />
+<br />
+Løsningen er å bruke https://portal.office.com som innlogging ved bruk av annet nett enn Tromkom/TKskole</div><span class="lesmerdato small">07.10.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a class="box1itemHeadingLink" href="?artID=737&amp;navB=1"><h3 class="box1itemHeading  ">Innlogging fagbokforlaget</h3></a><div class="box1text">Opplever du problemer med innlogging på tjenestene til Fagbokforlaget?<br />
+Kartleggeren, UNIK-pakken, etc.</div><a href="?artID=737&amp;navB=1" class="small" title="Innlogging fagbokforlaget">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">11.09.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a class="box1itemHeadingLink" href="?artID=736&amp;navB=1"><h3 class="box1itemHeading  ">Skal du logge inn på Office 365?</h3></a><br /><a href="?artID=736&amp;navB=1" class="small" title="Skal du logge inn på Office 365?">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">02.09.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a class="box1itemHeadingLink" href="?artID=735&amp;navB=1"><h3 class="box1itemHeading  ">Passordbytte</h3></a><div class="box1text">Her kan du som er  elev bytte passordet ditt.</div><a href="?artID=735&amp;navB=1" class="small" title="Passordbytte">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">13.05.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a class="box1itemHeadingLink" href="?artID=733&amp;navB=1"><h3 class="box1itemHeading  ">Skoleruta 2020-2021</h3></a><div class="box1text">Skoleruta viser informasjon om skolestart, ferier og fridager for skole og SFO</div><a href="?artID=733&amp;navB=1" class="small" title="Skoleruta 2020-2021">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">27.04.2020</span><hr />
+                    
+                </div><!-- /.col-xs-12 box1textarea -->
+                <div class="col-xs-12 box1textarea"><a href="?artID=731&amp;navB=1"><div  class='float-right'>
+                        <style>.t2 .float-right>div.center-cropped, .t2 .float-left>div.center-cropped { height: 50.1px !important; }</style>
+                        <div class="center-cropped" style="
+                            background-image: url('/files/2020/04/s-0-mattemaraton_2020.png');
+                            
+                            background-size: contain!important;
+                            " title="MatteMaraton 2020">
+                            
+                        </div></div></a><a class="box1itemHeadingLink" href="?artID=731&amp;navB=1"><h3 class="box1itemHeading  ">MatteMaraton 2020</h3></a><div class="box1text">Vi minner om at vårens matematikkbegivenhet fra Kikora, MatteMaraton, starter 1. mai. Alle skolene har mulighet til å delta, samt vinne fine premier.</div><a href="?artID=731&amp;navB=1" class="small" title="MatteMaraton 2020">Les mer&nbsp;&raquo;</a>&nbsp;&nbsp;<span class="lesmerdato small">26.04.2020</span>
+                </div><!-- /.col-xs-12 box1textarea -->
+        <!-- </tr> do we need this ? -->
+                </div><!-- /.row -->
+            </div><!-- /.panel-body -->
+            <!-- /.news field --><div class="panel-footer" style="text-align:right;">
+                            <p class="text-center" style="margin-bottom:0px;">&nbsp; <a href="?show=field&amp;showfrom=8&amp;showcount=15&amp;fid=563&amp;navB=1" style="clear: none;">Arkiv &raquo;</a><a href="https://tromsoskolen.moavademo.no/index.php?show=rss&amp;fID=563" title="RSS" class="feedicon float-right"><span class="fa fa-rss btn btn-xs"></span></a></p></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                    </div><!-- /panel --><!-- field_type= -->
+                </div><!-- /end column 2 -->
+                <!-- column 1, pri=2, pageID=1 -->
+                <div class="col-xs-12 col-md-3 col-md-pull-6">
+                    
+<!--  /* 1 - 1 */  -->
+<!-- Start article -->
+                    <div id="bl455" class="t51 article panel panel-default fieldarticle" style="">
+                        
+                    <div class="editorPanelHeader sr-only">
+                        <h2 class="viewModeHeader sr-only ">Kontakt oss</h2>
+                    </div>
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_185" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box1text  m-boxArticlesAndImages"><div id="mediavideoview_185" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><p style="text-align: center;"><a href="https://tromkom.pureservice.com/" target="_blank"><img alt="" src="/files/2018/04/m-s-datahjelpa-tromsoskolen-ny.png" style="border-width: 0px; border-style: solid; width: 120px; height: 156px;" /></a><br />
+<a href="https://get.teamviewer.com/ittjenesten"><img alt="angel" src="//tromsoskolen.no/shared/images/smileys/angel_smile.gif" style="width: 20px; height: 20px;" title="angel" /></a></p>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_185" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 --><!-- Start article -->
+                    <div id="bl657" class="t51 article panel panel-default fieldarticle" style="">
+                        
+                    <div class="editorPanelHeader sr-only">
+                        <h2 class="viewModeHeader sr-only ">Lærerlenker</h2>
+                    </div>
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_406" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box1text  m-boxArticlesAndImages"><div id="mediavideoview_406" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 45px;">
+	<tbody>
+		<tr>
+			<td style="background-color: rgb(245, 245, 245);"><span style="font-size:20px;">L&aelig;rerlenker</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://tromkom.sharepoint.com/sites/zokrates/sider/startside-laerer.aspx" style="line-height: 1.6em;" target="_blank"><img -="" alt="Logg på ANSATT-Office 365 -- bruk din epostadresse i TromKom" ansatt="" bruk="" din="" epostadresse="" i="" office="" src="//tromsoskolen.moavademo.no/files/2016/10/m-l-ansatt_o365.png" style="width: 160px; height: 90px;" title="Logg på ANSATT-Office 365 -- bruk din epostadresse i TromKom" /></a><br />
+<a href="https://tromso.no.ist.com/teacher"><img alt="" src="//tromsoskolen.moavademo.no/files/2016/10/l-ist.png" style="width: 160px; height: 100px;" /></a><br />
+<a href="http://outlook.com/owa/tromso.kommune.no" style="line-height: 1.6em;" target="_blank"><img alt="Epost for lærere - husk tromkom backslah foran brukernavn" src="//tromsoskolen.moavademo.no/files/2014/02/l-0-ansatte_epost.png" style="width: 80px; height: 80px;" title="Epost for lærere - husk tromkom backslah foran brukernavn" /></a><a href="http://tromso.iktplan.no" style="line-height: 1.6em;" target="_blank"><img alt="" height="80" src="//tromsoskolen.moavademo.no/files/2013/01/s-drives-computer-alt-1-metro-icon.png" style="border-width: 0px; border-style: solid;" title="Nettbasert IKT-plan for Tromsøskolen" width="80" /></a><br />
+<a href="https://sb.tromso.kommune.no/" target="_blank"><img alt="" src="//tromsoskolen.moavademo.no/files/2016/11/m-0-selvbetjeningsportalen.png" style="width: 160px; height: 68px;" /></a><br />
+<a href="http://tuben.tromsoskolen.no" target="_blank"><img alt="Tromsøtuben" src="//tromsoskolen.moavademo.no/grafikk/tromsotuben_logo.jpg" style="border-width: 0px; width: 160px; height: 160px;" /></a><br />
+<a href="http://verktoykasse.tromsoskolen.no/" target="_blank"><img alt="" src="//tromsoskolen.moavademo.no/grafikk/smm_160.jpg" style="width: 160px; height: 160px;" /></a><br />
+<a href="http://sampro.no/"><img alt="" src="/files/2018/08/m-paloggingsbildet_sampro.jpg" style="width: 160px; height: 80px;" /></a><br />
+<a href="http://eportal.fagbokforlaget.no" style="line-height: 1.6em;" target="_blank"><img alt="" height="82" src="/files/2013/02/m-kartleggeren_tile.jpg" style="border-width: 0px; border-style: solid;" title="Kartleggeren - FEIDE-pålogging" width="164" /></a><br />
+<a href="https://smartskole.no/feide/auth" style="line-height: 1.6em;" target="_blank"><img alt="" src="/files/2013/02/m-smartskole_tile.jpg" style="border-width: 0px; border-style: solid; width: 160px; height: 79px;" title="SMARTskole - FEIDE-pålogging" /></a><br />
+<a href="http://app.mpluss.no/" style="line-height: 1.6em;" target="_blank"><img alt="" src="/files/2013/09/s-weblogo.gif" style="width: 80px; height: 80px;" /></a><a href="http://www.bibliotek.info/" target="_blank"><img alt="" src="/files/2013/01/s-folders-os-libraries-metro-icon_1.png" style="border-width: 0px; border-style: solid; width: 80px; height: 80px; line-height: 1.6em;" title="Bibben - nettbasert bibliotekssystem" /></a><br />
+<a href="https://tromkom.sharepoint.com/sites/Skolebibliotek" target="_blank"><img alt="" src="/files/2019/02/m-books_lenkebilde_redigert_160x80.jpg" style="width: 160px; height: 80px;" /></a><br />
+<a href="http://www.dkstromso.no/" target="_blank"><img alt="" src="/files/2017/08/l-dks.png" style="width: 160px; height: 79px;" /></a><br />
+<a href="https://ansatte.tromso.kommune.no" style="background-color: transparent; color: rgb(7, 130, 193); font-family: sans-serif,Arial,Verdana,&amp;quot;trebuchet ms&amp;quot;; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 20.8px; orphans: 2; text-align: center; text-decoration: underline; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;" target="_blank"><img alt="Logg på Ansatteportalen - husk tromkom før ditt brukernavn" src="/files/2014/02/l-ansatte_logginn.png" style="border-bottom-color: rgb(7, 130, 193); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(7, 130, 193); border-left-style: none; border-left-width: 0px; border-right-color: rgb(7, 130, 193); border-right-style: none; border-right-width: 0px; border-top-color: rgb(7, 130, 193); border-top-style: none; border-top-width: 0px; cursor: default; height: 80px; margin-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; outline-color: rgb(7, 130, 193); outline-style: solid; outline-width: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; width: 160px;" title="Logg på Ansatteportalen - husk tromkom før ditt brukernavn" /></a></p>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_406" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 -->
+                </div><!-- /end column 1 -->
+                <!-- column 3, pri=3, pageID=1 -->
+                <div class="col-xs-12 col-md-3 col-md-pull-0">
+                    
+<!--  /* 1 - 3 */  -->
+<!-- Start article -->
+                    <div id="bl658" class="t51 article panel panel-default panel-noBG fieldarticle" style="border-width:0px;">
+                        <!-- NO BOX!!! -->
+                        
+                    <div class="editorPanelHeader sr-only">
+                        <h2 class="viewModeHeader sr-only ">2014-02-14 11:03:58</h2>
+                    </div>
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_407" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box0text  m-boxArticlesAndImages"><div id="mediavideoview_407" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><p style="text-align: center;"><a href="https://tromsoskolen.moavademo.no/skoleveven/" style="line-height: 1.6em;"><img alt="" src="/grafikk/feide_logg_inn.png" style="border-width: 0px; border-style: solid;" /></a></p>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_407" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 --><!-- Start article -->
+                    <div id="bl601" class="t51 article panel panel-default fieldarticle" style="">
+                        <div class="panel-heading fieldsid601  51 1">
+                    <div class="editorPanelHeader ">
+                        <h2 class="viewModeHeader  ">Elevlenker</h2>
+                    </div></div><!-- /.panel-heading -->
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_324" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box1text  m-boxArticlesAndImages"><div id="mediavideoview_324" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 45px;margin:0;">
+	<tbody>
+		<tr>
+			<td style="background-color: rgb(245, 245, 245);"><span style="font-size:20px;">Elevlenker</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://adfs.tromso.kommune.no/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn:federation:MicrosoftOnline&amp;wctx=wa%3Dwsignin1.0%26rpsnv%3D3%26ver%3D6.4.6456.0%26wp%3DMCMBI%26wreply%3Dhttps:%252F%252Ftromkom.sharepoint.com%252Fsites%252Fzokrates%252Fsider%252Fstartside-elev.aspx&amp;whr=https://idp.feide.no" target="_blank"><img alt="" src="/files/2018/06/m-elev_o365_feide.png" style="width: 160px; height: 90px;" /></a><br />
+<a href="http://salaby.no" style="line-height: 1.6em;" target="_blank"><img alt="" src="/files/2013/01/s-salaby.png" style="border-width: 0px; border-style: solid; width: 160px; height: 90px;" title="Salaby - FEIDE-innlogging" /> </a><br />
+<a href="https://www.tv2skole.no/Account/LoginFeide?returnUrl=" style="line-height: 1.6em;" target="_blank"><img alt="" src="/files/2013/01/s-skjerm_rgb_tv2logo.jpg" style="border-width: 0px; border-style: solid; width: 80px; height: 80px;" title="TV2 skole - FEIDE-innlogging" /></a><a href="http://creaza.com/f" target="_blank"><img alt="" src="/files/2013/01/s-4020_box_full.jpg" style="border-width: 0px; border-style: solid; width: 80px; height: 80px;" title="Creaza - FEIDE-innlogging" /></a><br />
+<a href="https://www.mv-nordic.com/no/logg-inn/"><img alt="" src="/files/2014/11/l-skoleavtalen_web_feide.png" style="width: 160px; height: 72px;" /></a><br />
+<a href="http://tromsoskolen.no/?artID=562&amp;navB=1&amp;i=1" target="_blank"><img alt="" src="/files/2017/05/m-ist_fravaer.png" style="width: 160px; height: 86px;" /></a><br />
+<a href="http://www.udir.no/nullmobbing/" target="_blank"><img alt="" src="/files/2016/10/m-l-nullmobbing_small_rod.png" style="width: 160px; height: 89px;" /></a><br />
+<a href="http://tromsoskolen.no/index.php?artID=674&amp;navB=1" target="_blank"><img alt="" src="/files/2018/08/m-kontrakt_elev-pc.png" style="width: 160px; height: 89px;" /></a></p>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_324" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 --><!-- Start article -->
+                    <div id="bl632" class="t51 article panel panel-default fieldarticle" style="">
+                        <div class="panel-heading fieldsid632  51 1">
+                    <div class="editorPanelHeader ">
+                        <h2 class="viewModeHeader  ">Nettvettregler</h2>
+                    </div></div><!-- /.panel-heading -->
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_360" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box1text  m-boxArticlesAndImages"><div id="mediavideoview_360" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><div style="text-align: center;"><a href="https://nettvett.no/redd-barnas-nettvettregler/" target="_blank"><img alt="" src="/files/2013/08/s-redd_barna.gif" style="width: 50%; border-width: 0px; border-style: solid;" /></a></div>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_360" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 --><!-- Start article -->
+                    <div id="bl652" class="t51 article panel panel-default fieldarticle" style="">
+                        <div class="panel-heading fieldsid652  51 1">
+                    <div class="editorPanelHeader ">
+                        <h2 class="viewModeHeader  ">Nedlasting CD-ord til hjemmebruk</h2>
+                    </div></div><!-- /.panel-heading -->
+                 <div class="panel-body" ><div class="row" ><!--  51 --><div id="overlayAlbum_388" class="m-overlay"></div>
+        <!-- start Text -->
+        <div class="box1text  m-boxArticlesAndImages"><div id="mediavideoview_388" class="mediavideoview m-float-right hidden-xs hidden-sm hidden-md hidden-lg" data-float="right" ></div><div class="boxTextBody"><div style="text-align:center"><a href="http://download.mikrov.no/" target="_blank"><img alt="" src="/files/2018/02/l-lese-og_skriveavtalen_002.jpg" style="width: 75%;" /></a></div>
+
+<div style="text-align: center;">Last ned til egen PC.</div>
+
+<div style="text-align: center;">Logg inn med&nbsp;<img alt="" height="20" src="/files/2013/04/s-feide_logo.png" width="35" /></div>
+</div></div>
+        <!-- /end Text --><div id="m-containerFiles_388" class="m-containerFiles"></div>
+                    <!-- start bs_html -->
+                    
+                    <!-- end bs_html -->
+                            </div><!-- /row -->
+                        </div><!-- /panel-body - field=51 -->
+                    
+                    </div><!-- /panel --><!-- field_type=51 -->
+                </div><!-- /end column 3 -->
+        </div><!-- /.row-container -->
+    </div><!--/.container-content -->
+    
+            <!-- Bootstrap modal -->
+            <div class="modal fade" id="myModalMoava" tabindex="-1" role="dialog" aria-hidden="true" data-lang="nb" style="display: none;">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="center-wrap">
+                        <div class="center-box">
+                            <p><i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>Loading</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><footer>
+<div class="container"><div class="row row-footer"><div class="col-md-12"><div id="footermain" class="footer"> </div>
+    </div><!-- /col-md-12 -->
+    </div><!-- /row-footer -->
+    </div><!-- /container -->
+    </footer><div id="footerunder" class="container text-center"></div>
+            <div id="footerunderunder" class="container text-center">
+                <div class="row">
+                    <div class="col-xs-12">
+                        
+                        <div id="cookiePosBottomright" style="text-align:right;float:right;"><a href="https://tromsoskolen.moavademo.no/?show=personvern">Personvern og cookies</a>
+                        </div><!-- /. cookiePos: right -->
+                        <div id="loginPosbottomleft" style="text-align:left"><a href="https://tromsoskolen.moavademo.no/skoleveven/" class="loginBootstrap text-muted" target="_top">Logg inn</a> <a href="https://tromsoskolen.moavademo.no/skoleveven/?nofeide" class="loginBootstrap text-muted" target="_top">Logg inn(uten Feide)</a>
+                        </div><!-- /.loginbottomleft -->
+                    </div><!-- /.col-xs-12 -->
+                </div><!-- /.row --></div>
+            <div class="back-to-top-container"><a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button" title="Gå tilbake til toppen" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up"></span></a></div>
+<div class="panel panel-default fullscreenOverlay">
+                    <div class="text-center">
+                        <span class="fa fa-spinner fa-pulse fa-5x"></span>
+                    </div>
+            </div>
+
+</div><!-- end of "moava" div --><script type="text/javascript">var lp = new Array();</script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/fileshow_fancybox.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/webpages/webpages.js"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/fileshow.js"></script>
+        <script type="text/javascript">
+        </script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5542941-1");
+pageTracker._trackPageview();
+</script><script type="text/javascript">if(_aMoava == "undefined" || !_aMoava) {var _aMoava = {};_aMoava.absSiteUrl = "https://tromsoskolen.moavademo.no/";_aMoava.relSiteUrl = "/";_aMoava.absDomainUrl = "https://tromsoskolen.moavademo.no/";_aMoava.isInternal = 0;_aMoava.isLoggedIn = 0;_aMoava.inlineEdit = 0;_aMoava.lang = "nb";_aMoava.langInUse = {langs:["nb"]};}</script><script>
+        $(document).ready(function() {
+            
+            //Any slides-link present?
+            var slideLinks = $(".showPresentation").length;
+            if(slideLinks > 0)
+            {
+                var url = "https://tromsoskolen.moavademo.no/shared/js/slides.js";
+                
+                $.getScript( url, function() {
+                  Slides.init({action:"initLinks"});
+                });
+            }
+            
+              //Any search-boxes present?
+            var searchBoxes = $(".moavaSearchBox").length;
+            if(searchBoxes > 0)
+            {
+            $("head").append('<link rel="stylesheet" href="https://tromsoskolen.moavademo.no/shared/css/search.css" type="text/css" />');
+                var url = "https://tromsoskolen.moavademo.no/shared/js/search.js";
+                $.getScript( url, function() {
+                  MoavaSearch.init({action:"dummy"});
+                });
+            }
+            
+              //Any iktfields present?
+            if($(".iktplanfieldContent").length > 0)
+            {
+            
+                var url = "https://tromsoskolen.moavademo.no/shared/js/iktplan.js";
+               
+                $.getScript( url )
+                  .done(function( script, textStatus ) {
+                    console.log( textStatus );
+                    Iktp.init({action:"initIktp", mun:"", edit:0, lang:"nb"});
+                  })
+                  .fail(function( jqxhr, settings, exception ) {
+                    alert("Error loading script " + url);
+                });
+            }
+        });
+        </script><script src="https://tromsoskolen.moavademo.no/shared/js/runJavascriptInArticle.js"></script><script src="https://tromsoskolen.moavademo.no/shared/js/hammer.min.js"></script><script src="https://tromsoskolen.moavademo.no/shared/js/articles/articles.js?1608284369"></script><script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/mCollapsible.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/yui/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/pick-a-color-master/js/tinycolor-0.9.15.min.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/pick-a-color-master/js/pick-a-color-1.2.3.min.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/fancybox/2.1.5/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/moava_album.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/moava_album.js?1608284369"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/js/qrcode.min.js"></script>
+<script type="text/javascript">
+            $(document).ready(function() {
+            MCollapsible.init();
+                Album.init();
+                });
+</script>
+        <!-- Body end scripts start -->
+        
+        <!-- Body end scripts done -->
+        
+</body>
+</html>
