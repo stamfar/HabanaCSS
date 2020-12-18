@@ -6250,8 +6250,7 @@ footer {
   }
 
   .container-header .col-md-12 #headermain img {
-    min-height: 20vw;
-    max-height: 350px;
+    min-height: 10vw;
   }
 }
 @media (min-width: 1200px) {
