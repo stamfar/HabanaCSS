@@ -18,7 +18,8 @@ h3,
 .text-2xl,
 .text-xl {
     line-height: 1.2;
-    margin-bottom: var(--space-md);
+    /* for mye med space-md.. margin-bottom: var(--space-md); */
+    margin-bottom: var(--space-sm);
     font-weight: 500;
 }
 
