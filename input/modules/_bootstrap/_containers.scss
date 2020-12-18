@@ -1,56 +1,62 @@
 @use './modules/_main/_utils';
 /* Containers (topplogo, content og footer) */
 .container {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .container-content {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
 }
 footer {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Topplogo */
+.container-header {
+  .col-md-12 {
+    padding: 0px;
+  }
 }
 
 @include utils.tablet {
-/*@media (min-width:768px) { */
-	.container {
-		min-width: 750px
-	}
-	.container-fluid {
-		padding-right: 0px;
-		padding-left: 0px;
-	}
+  /*@media (min-width:768px) { */
+  .container {
+    min-width: 750px;
+  }
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 @include utils.desktop {
-/*@media (min-width:992px) {*/
-	.container {
-		min-width: 970px
-	}
+  /*@media (min-width:992px) {*/
+  .container {
+    min-width: 970px;
+  }
 }
 @include utils.monitor {
-/*@media (min-width:1200px) {*/
-	.container {
-		max-width: 1199px
-	}
-	.container-content {
-		padding-right: 0px;
-		padding-left: 0px;
-	}
+  /*@media (min-width:1200px) {*/
+  .container {
+    max-width: 1199px;
+  }
+  .container-content {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 /* .row Skal være -5px(webpages.css)
@@ -58,5 +64,5 @@ footer {
 	margin-right: -15px;
 	margin-left: -15px;
   }*/
-  
+
 /* --END-- Containers (topplogo, content og footer) */

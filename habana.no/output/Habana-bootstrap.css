@@ -6234,6 +6234,11 @@ footer {
   margin-left: auto;
 }
 
+/* Topplogo */
+.container-header .col-md-12 {
+  padding: 0px;
+}
+
 @media (min-width: 768px) {
   /*@media (min-width:768px) { */
   .container {
