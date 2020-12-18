@@ -52,6 +52,13 @@ footer {
   .container {
     min-width: 970px;
   }
+  .container-header {
+    .col-md-12 {
+      #headermain img {
+		min-height: 20vw;
+      }
+    }
+  }
 }
 @include utils.monitor {
   /*@media (min-width:1200px) {*/
@@ -66,7 +73,6 @@ footer {
     .col-md-12 {
       #headermain img {
 		border-radius: var(--headermain-border-radius-bpmonitor);
-		min-height: 20vw;
       }
     }
   }

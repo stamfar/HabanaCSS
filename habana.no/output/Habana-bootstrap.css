@@ -6248,6 +6248,10 @@ footer {
   .container {
     min-width: 970px;
   }
+
+  .container-header .col-md-12 #headermain img {
+    min-height: 20vw;
+  }
 }
 @media (min-width: 1200px) {
   /*@media (min-width:1200px) {*/
@@ -6262,7 +6266,6 @@ footer {
 
   .container-header .col-md-12 #headermain img {
     border-radius: var(--headermain-border-radius-bpmonitor);
-    min-height: 20vw;
   }
 }
 /* --END-- Containers (topplogo, content og footer) */
