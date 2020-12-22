@@ -13,6 +13,9 @@
 	position: relative;
 	display: block;
 	padding: 10px 15px;
+	border-radius: var(--dropdown-border-radius);
+	margin-top: 3px;
+	margin-bottom: 3px;
   }
   .nav > li > a:hover,
   .nav > li > a:focus {
