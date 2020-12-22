@@ -57,7 +57,6 @@ h6, .h6 .text-md {
 
 p {
   font-size: var(--size-1);
-  margin-top: 0px !important;
 }
 
 small, .small, .text-small {
@@ -110,7 +109,7 @@ h3.box1itemHeading {
   word-wrap: break-word;
 }
 .box1text {
-  padding: 10px 10px;
+  padding: 0px;
   top: 0px;
 }
 
