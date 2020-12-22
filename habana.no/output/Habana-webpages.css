@@ -598,7 +598,7 @@ a.text-delete:hover {
 .box1text {
   margin-bottom: 0px !important;
   position: relative;
-  top: -5px;
+ /* setter til 0 for å teste. top: -5px; */
   z-index: 0;
 }
 
