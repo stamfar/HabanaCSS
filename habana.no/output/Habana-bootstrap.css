@@ -225,8 +225,8 @@ a.badge:focus {
 .dropdown-menu > li > a {
   display: block;
   padding: 8px 12px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
   margin-bottom: 6px;
   border-radius: var(--dropdown-item-border-radius) !important;
   clear: both;
@@ -926,6 +926,9 @@ button.list-group-item-danger.active:focus {
   position: relative;
   display: block;
   padding: 10px 15px;
+  border-radius: var(--dropdown-border-radius);
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .nav > li > a:hover,
