@@ -189,14 +189,7 @@ table.staff.table-bordered>tbody>tr>td {
 }
 /*------Collapsable fields END----------------*/
 
-h3.box1itemHeading { word-break:break-word; }
-td h3.box1itemHeading,
-td h3.box0itemHeading { margin-top: 0px; }
-.t15 .table a > .box1itemHeading,
-.t15 .table a > .box0itemHeading,
-.t2 .panel-body a.box1itemHeadingLink > h3,
-.t2 .panel-body a.box0itemHeadingLink > h3 { margin-top: 0px!important; }
-h2.box1heading { display:block!important; } /* IE / Firefox fix for overlap on underline */
+
 
 /* Embeded video fix */
 .embeddedContent > .embeddedInnerWrapper {
