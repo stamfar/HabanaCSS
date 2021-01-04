@@ -156,6 +156,7 @@ h6, .h6 .text-md {
 
 p {
   font-size: var(--size-1);
+  margin-top: 0rem;
 }
 
 small, .small, .text-small {
