@@ -112,7 +112,12 @@ h3.box1itemHeading {
 .box1text {
   padding: 0 0 5px 0 !important;
   top: 0px !important;
+  margin-bottom: 0px !important;
+  position: relative;
+  /*top: -5px;*/
+  z-index: 0;
 }
+
 
 /* Titles (fra webpages) */
 h1 { font-size: 2em; }
