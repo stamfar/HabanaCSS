@@ -225,7 +225,6 @@ h3.box1itemHeading {
 /* start - tester om dette fungerer uten å lage mye feil */
 .t51 .box1text {
   margin: 0px;
-  padding: 0 5px !important;
 }
 
 .t51.article.panel.panel-default.fieldarticle .panel-body {
