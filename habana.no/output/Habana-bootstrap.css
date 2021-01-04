@@ -198,7 +198,7 @@ a.badge:focus {
   min-width: 160px;
   padding: 10px 0 5px 0;
   margin: 5px 0 0 !important;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   text-align: left;
   list-style: none;
   background-color: var(--dropdown-background-color);
