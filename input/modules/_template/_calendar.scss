@@ -15,9 +15,9 @@
       padding: 25px;
       box-shadow: var(--primary-box-shadow);
       text-align: left;
-      border: 1px solid var(--m-color-grey-border);
+      border: 1px solid var(--calendar-event-border-color);
       background-color: var(--calendar-event-background);
-      color: var(--calendar-event-text-secondary);
+      color: var(--calendar-event-text);
 
         /* START - Forskjellig farge på nth child */
         &:nth-child(even) {
