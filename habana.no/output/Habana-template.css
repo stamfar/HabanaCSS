@@ -610,10 +610,14 @@
 /* END - Rest fra moava.css fixes */
 /* Newsfield / nyhetsfelt */
 /* Helt ny komponent for å samle nyhetsfelt css på et sted */
-/* CSS variabler som skal renses for kun newsfield*/
+/* Variabler som er ryddet */
 :root {
   /* farger / colors */
-  --main-box-background-color: #F5F5F5;
+  --newsfield-box-background-color: #F5F5F5;
+}
+
+/* CSS variabler som skal renses for kun newsfield*/
+:root {
   --main-box-item-background-color: #FFFFFF;
   --main-link-text-color: #3377FF;
   /* Standariserte box-shadows */
@@ -635,14 +639,14 @@
   font-weight: 600 !important;
 }
 
-/* t2 box*/
-.t2 > .panel-body > .row > .col-xs-12 {
+/* t2 box overf
+.t2>.panel-body>.row>.col-xs-12 {
   padding: 0px !important;
 }
-
+*/
 /* nyhetsfelt med boks / ramme */
 .t2.article.panel.panel-default.fieldarticle {
-  background-color: var(--main-box-background-color);
+  background-color: var(--newsfield-box-background-color);
 }
 
 /* artikler i nyhetsfelt */
@@ -655,16 +659,18 @@ div.col-xs-12.box1textarea {
   margin-bottom: 8px;
 }
 
-.t2 > .panel-body > .row > .col-xs-12 {
-  padding: 20px !important;
+/* overf
+.t2>.panel-body>.row>.col-xs-12 {
+padding: 20px !important;
 }
-
+*/
 .t2.article.panel.panel-default.fieldarticle > div.panel-body > div.row > div.col-xs-12.box1textarea > hr {
   display: none;
 }
 
 /* Inge addition v.0.007 */
 /* artikler i nyhetsfelt */
+/* overf
 .t2 div.col-xs-12 .m-newsfieldInner {
   background-color: var(--main-box-item-background-color);
   border-radius: var(--main-box-item-border-radius);
@@ -673,7 +679,7 @@ div.col-xs-12.box1textarea {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-
+*/
 /* override for news fields */
 .t2 div.col-xs-12 {
   background-color: inherit !important;
@@ -689,6 +695,30 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 }
 
 /* END override for news fields */
+/* override for news fields others stuff */
+.t2 > .panel-body > .row > .col-xs-12 .m-newsfieldInner {
+  padding: 20px !important;
+  overflow: hidden;
+  margin: 10px !important;
+  background-color: var(--main-box-item-background-color);
+  border-radius: var(--newsfield-box-border-radius);
+  border: var(--main-border);
+  box-shadow: var(--medium-box-shadow);
+}
+
+.t2 > .panel-body {
+  padding: 10px 10px 10px 10px !important;
+}
+
+.t2.article.panel.panel-default.fieldarticle > div.panel-body > div.row > div.col-xs-12 .m-newsfieldInner > hr {
+  display: none;
+}
+
+.container .t2 > .panel-body > .row > .col-xs-12 {
+  padding: 0px !important;
+}
+
+/* END override for news fields others stuff */
 /* override for news fields modal add */
 #myModalMoava .panel-default > .panel-heading {
   background-color: #f5f5f5 !important;
@@ -719,26 +749,6 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 }
 
 /* END override for news fields modal add */
-/* override for news fields others stuff */
-.t2 > .panel-body > .row > .col-xs-12 .m-newsfieldInner {
-  padding: 20px !important;
-  overflow: hidden;
-  margin: 10px !important;
-}
-
-.t2 > .panel-body {
-  padding: 10px 10px 10px 10px !important;
-}
-
-.t2.article.panel.panel-default.fieldarticle > div.panel-body > div.row > div.col-xs-12 .m-newsfieldInner > hr {
-  display: none;
-}
-
-.container .t2 > .panel-body > .row > .col-xs-12 {
-  padding: 0px !important;
-}
-
-/* END override for news fields others stuff */
 /* END Inge addition v.0.007 */
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Footer */
