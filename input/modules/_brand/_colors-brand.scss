@@ -24,3 +24,29 @@
   --brand-color-tertiary-dark: #d75600;
   --brand-color-tertiary-light: #ffdec7;
 }
+
+:root {
+  /* Hovedbrytere for farger på knapper og knappetekst*/
+  /* Button Primary Color */
+  --button-primary-color: var(--brand-color-primary);
+  --button-primary-color-dark: var(--brand-color-primary-dark);
+  --button-primary-color-light: var(--brand-color-primary-light);
+  /* Hover */
+  --button-primary-color-hover: var(--brand-color-primary-light);
+  /* Text & hover */
+  --button-primary-color-text: var(--color-black);
+  --button-primary-color-text-hover: var(--brand-color-primary-dark);
+
+  /* Button Secondary Color */
+  --button-secondary-color: var(--brand-color-secondary);
+  --button-secondary-color-dark: var(--brand-color-secondary-dark);
+  --button-secondary-color-light: var(--brand-color-secondary-light);
+  /* Hover */
+  --button-secondary-color-hover: var(--brand-color-secondary-light);
+  /* Text & hover */
+  --button-secondary-color-text: var(--color-black);
+  --button-secondary-color-text-hover: var(--brand-color-secondary-dark);
+
+
+
+}

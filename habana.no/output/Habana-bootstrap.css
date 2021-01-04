@@ -198,7 +198,7 @@ a.badge:focus {
   min-width: 160px;
   padding: 10px 0 5px 0;
   margin: 5px 0 0 !important;
-  font-size: 1rem;
+  font-size: 0.875rem;
   text-align: left;
   list-style: none;
   background-color: var(--dropdown-background-color);
@@ -927,8 +927,10 @@ button.list-group-item-danger.active:focus {
   display: block;
   padding: 10px 15px;
   border-radius: var(--dropdown-border-radius);
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .nav > li > a:hover,

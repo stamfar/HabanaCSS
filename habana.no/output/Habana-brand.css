@@ -39,6 +39,28 @@
   --brand-color-tertiary-light: #ffdec7;
 }
 
+:root {
+  /* Hovedbrytere for farger på knapper og knappetekst*/
+  /* Button Primary Color */
+  --button-primary-color: var(--brand-color-primary);
+  --button-primary-color-dark: var(--brand-color-primary-dark);
+  --button-primary-color-light: var(--brand-color-primary-light);
+  /* Hover */
+  --button-primary-color-hover: var(--brand-color-primary-light);
+  /* Text & hover */
+  --button-primary-color-text: var(--color-black);
+  --button-primary-color-text-hover: var(--brand-color-primary-dark);
+  /* Button Secondary Color */
+  --button-secondary-color: var(--brand-color-secondary);
+  --button-secondary-color-dark: var(--brand-color-secondary-dark);
+  --button-secondary-color-light: var(--brand-color-secondary-light);
+  /* Hover */
+  --button-secondary-color-hover: var(--brand-color-secondary-light);
+  /* Text & hover */
+  --button-secondary-color-text: var(--color-black);
+  --button-secondary-color-text-hover: var(--brand-color-secondary-dark);
+}
+
 /* Module: Colors */
 /* DENNE SKAL NOK UT. HAR BLITT REPLACED MED _variables */
 /* Komponenter */
@@ -53,11 +75,6 @@
   --border-black: var(--color-black);
   --border-primary: var(--brand-color-primary);
   --bg-white: var(color-white);
-  --border-gray: var(color-white);
-  --border-gray-light: var(color-white);
-  --border-gray-dark: var(color-white);
-  --border-gray-darker: var(color-white);
-  --border-dark: var(color-white);
 }
 
 /* tester Sass variabler i map og funksjoner
@@ -149,6 +166,7 @@ smaller, .text-smaller {
   font-size: var(--size-075);
 }
 
+/* a */
 a {
   color: var(--link-color);
   background-color: transparent;
@@ -214,6 +232,27 @@ h3 {
 
 /* -- END -- Titles (fra webpages) */
 /* Module: Buttons */
+/* NYTT 2021 - for testing på index.html */
+/* direkte inn fra hovedfarger */
+.button-primary {
+  background-color: var(--button-primary-color);
+  color: var(--button-primary-color-text);
+}
+.button-primary:hover {
+  background-color: var(--button-primary-color-hover);
+  color: var(--button-primary-color-text-hover);
+}
+
+.button-secondary {
+  background-color: var(--button-secondary-color);
+  color: var(--button-secondary-color-text);
+}
+.button-secondary:hover {
+  background-color: var(--button-secondary-color-hover);
+  color: var(--button-secondary-color-text-hover);
+}
+
+/* NEDENFOR MÅ DOBBELSJEKKES OG RENSES VEKK DET SOM IKKE SKAL VÆRE LENGRE. F.EKS SASS VARIBALER OG STILER */
 /* Henter farger fra css variabler i _brand/_colors */
 :root {
   /* Start Custom */
@@ -226,32 +265,12 @@ h3 {
 
 /* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
 /* Bruker dobbel-metode med Sass variabler */
-.button-primary {
+.gammel-utdatert-skal-slettes-button-primary {
   background-color: var(--brand-color-primary);
   color: var(--color-black);
 }
-.button-primary:hover {
+.gammel-utdatert-skal-slettes-button-primary:hover {
   background-color: var(--brand-color-primary-dark);
-  color: var(--color-white);
-}
-
-/* direkte inn fra hovedfarger */
-.button-primary {
-  background-color: var(--brand-color-primary);
-  color: var(--color-dark);
-}
-.button-primary:hover {
-  background-color: var(--brand-color-primary-dark);
-  color: var(--color-white);
-  color: color(white);
-}
-
-.button-secondary {
-  background-color: var(--brand-color-secondary);
-  color: var(--color-dark);
-}
-.button-secondary:hover {
-  background-color: var(--brand-color-secondary-dark);
   color: var(--color-white);
 }
 
@@ -395,37 +414,6 @@ body {
 }
 
 /* END - Dropdowns */
-/* Dark mode */
-/* BETA BETA BETA */
-/* Må bruke variabler etterhvert. */
-/* Alle Dark-mode fargene starter med --dark- */
-:root {
-  --dark-color-white: var(--color-white) !important;
-  --dark-color-white-opacity: rgba(255, 255, 255, .8) !important;
-  --dark-color-dark: #606368 !important;
-  --dark-color-darker: #3C4042 !important;
-  --dark-color-darkest: #202123 !important;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  /* Generelt */
-  body {
-    background-color: var(--dark-color-darkest) !important;
-    color: var(--dark-color-white-opacity);
-  }
-
-  /* Panels */
-  .panel-default > .panel-heading {
-    color: var(--dark-color-white);
-    background-color: var(--dark-color-dark);
-    /* ??? border-color: var(--panel-border-color) !important; */
-  }
-
-  /* Tables */
-  .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: var(--dark-color-dark);
-  }
-}
 /* Module: Typography-spacing */
 :root {
   --baseline: 24px;
@@ -476,6 +464,7 @@ smaller,
   line-height: 1.5;
 }
 
+/*@use './modules/_brand/dark-mode';*/
 /*
    __ __   ___    ___    ___    _  __   ___ 
   / // /  / _ |  / _ )  / _ |  / |/ /  / _ |

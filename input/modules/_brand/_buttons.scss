@@ -1,5 +1,36 @@
 /* Module: Buttons */
 
+
+/* NYTT 2021 - for testing på index.html */
+
+/* direkte inn fra hovedfarger */
+.button-primary {
+  background-color: var(--button-primary-color);
+  color: var(--button-primary-color-text);
+  &:hover {
+    background-color: var(--button-primary-color-hover);
+    color: var(--button-primary-color-text-hover);
+  }
+}
+.button-secondary {
+  background-color: var(--button-secondary-color);
+  color: var(--button-secondary-color-text);
+  &:hover {
+    background-color: var(--button-secondary-color-hover);
+    color: var(--button-secondary-color-text-hover);
+  }
+}
+
+
+
+
+
+
+
+/* NEDENFOR MÅ DOBBELSJEKKES OG RENSES VEKK DET SOM IKKE SKAL VÆRE LENGRE. F.EKS SASS VARIBALER OG STILER */
+
+
+
 /* Henter farger fra css variabler i _brand/_colors */
 :root {
   /* Start Custom */
@@ -35,7 +66,7 @@ $button-tertiary-light: var(--brand-color-tertiary-light);
 
 
 /* Bruker dobbel-metode med Sass variabler */
-.button-primary {
+.gammel-utdatert-skal-slettes-button-primary {
   background-color: $button-primary;
   color: $button-primary-text;
   &:hover {
@@ -43,24 +74,8 @@ $button-tertiary-light: var(--brand-color-tertiary-light);
     color: $button-primary-text-hover;
   }
 }
-/* direkte inn fra hovedfarger */
-.button-primary {
-  background-color: var(--brand-color-primary);
-  color: var(--color-dark);
-  &:hover {
-    background-color: var(--brand-color-primary-dark);
-    color: var(--color-white);
-    color: color(white);
-  }
-}
-.button-secondary {
-  background-color: var(--brand-color-secondary);
-  color: var(--color-dark);
-  &:hover {
-    background-color: var(--brand-color-secondary-dark);
-    color: var(--color-white);
-  }
-}
+
+
 
 /*
 .button-secondary {
