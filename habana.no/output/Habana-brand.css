@@ -221,6 +221,11 @@ h3.box1itemHeading {
   padding: 0px;
 }
 
+/* tester om dette fungerer uten å lage mye feil */
+.boxTextBody {
+  padding: 15px;
+}
+
 /* Titles (fra webpages) */
 h1 {
   font-size: 2em;
