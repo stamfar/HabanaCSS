@@ -119,7 +119,7 @@ h3.box1itemHeading {
 }
 .box0text { padding: 0px; }
 
-/* tester om dette fungerer uten å lage mye feil */
+/* start - tester om dette fungerer uten å lage mye feil */
 .t51 .box1text {
   margin: 0px;
 }
@@ -127,7 +127,21 @@ h3.box1itemHeading {
 .t51.article.panel.panel-default.fieldarticle .panel-body{
   margin: 0px 15px;
 }
+/* end - tester om dette fungerer uten å lage mye feil */
 
+/* START - Fra moava.css */
+h3.box1itemHeading { word-break:break-word; }
+td h3.box1itemHeading,
+td h3.box0itemHeading { margin-top: 0px; }
+.t15 .table a > .box1itemHeading,
+.t15 .table a > .box0itemHeading,
+.t2 .panel-body a.box1itemHeadingLink > h3,
+.t2 .panel-body a.box0itemHeadingLink > h3 {
+  margin-top: 0px !important;
+  margin-bottom: 10px;
+}
+h2.box1heading { display:block!important; } /* IE / Firefox fix for overlap on underline */
+/* END - Fra moava.css */
 
 /* Titles (fra webpages) */
 h1 { font-size: 2em; }
