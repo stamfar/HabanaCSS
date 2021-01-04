@@ -103,7 +103,7 @@ body {
 body {
   /* background-color og color ligger under _color-system */
   /* Font Family (har tidligere ligget i bootstrap-min.css) og styleallcustom*/
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Inter", Helvetica, Arial, sans-serif !important;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
