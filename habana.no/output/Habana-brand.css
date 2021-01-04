@@ -201,7 +201,7 @@ a:visited {
   margin: 3px 0 0 0;
   padding-bottom: 5px;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
   text-overflow: ellipsis;
 }
 
