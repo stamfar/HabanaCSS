@@ -223,7 +223,7 @@ h3.box1itemHeading {
 
 /* tester om dette fungerer uten å lage mye feil */
 .t51 .box1text {
-  padding: 15px;
+  margin: 15px;
 }
 
 /* Titles (fra webpages) */
