@@ -2734,8 +2734,10 @@ body.editModeOn .relatedWrapper:hover {
 
 /*----End media in articles ----*/
 /*--- File list in article ---*/
+/* Her har Ole(jeg) endret fra 1em til top/bottom 0.5rem*/
 .m-containerFiles {
-  margin-top: 1em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .m-fileListTitle {
