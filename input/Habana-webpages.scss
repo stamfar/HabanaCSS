@@ -1525,8 +1525,8 @@ body.editModeOn .relatedWrapper:hover { border-style: dashed; border-color: rgba
 /*--- File list in article ---*/
 /* Her har Ole(jeg) endret fra 1em til top/bottom 0.5rem*/
 .m-containerFiles {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .m-fileListTitle {font-weight: bold;}
 .m-fileListDescription {}
