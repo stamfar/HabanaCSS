@@ -1050,9 +1050,9 @@ div.panel.panel-noBG > .panel-heading {
   padding: 5px 5px 10px 5px !important;
 }
 
-/* Endrer til 15 for å se */
+/* Endrer til 10px for å se */
 div.panel-noBG .panel-body {
-  padding: 15px;
+  padding: 10px;
 }
 
 .container .t1.article.panel.panel-noBG {
