@@ -11,10 +11,12 @@ body {
   --border: 1px solid;
   --size-border-radius-sm: 4px;
   --size-border-radius-sm-fill: calc(var(--panel-border-radius-sm) + 1px);
-  --size-border-radius-md: 8px;
+  --size-border-radius-md: 6px;
   --size-border-radius-md-fill: calc(var(--panel-border-radius-md) + 1px);
-  --size-border-radius-lg: 12px;
+  --size-border-radius-lg: 8px;
   --size-border-radius-lg-fill: calc(var(--panel-border-radius-lg) + 1px);
+  --size-border-radius-xl: 12px;
+  --size-border-radius-xl-fill: calc(var(--panel-border-radius-xl) + 1px);
   // Box Shadows( ikke ferdig )
   --box-shadow-sm: red;
   --box-shadow-md: red;
@@ -36,7 +38,7 @@ body {
 --navbar-align-center: center;
   // Headermain bilde
 --headermain-border-radius: 0;
---headermain-border-radius-bpmonitor: var(--size-border-radius-md);
+--headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
 }
 
 /* Panels */
@@ -80,16 +82,16 @@ body {
   // Dropdown
   --dropdown-background-color: #fff;
   --dropdown-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-  --dropdown-border-radius: var(--size-border-radius-md);
+  --dropdown-border-radius: var(--size-border-radius-lg);
   // Item
-  --dropdown-item-border-radius: var(--size-border-radius-sm);
+  --dropdown-item-border-radius: var(--size-border-radius-md);
   --dropdown-item-text: #333333;
   // Item hover
   --dropdown-item-text-hover: #262626;
   --dropdown-item-background-color-hover: #f5f5f5;
  // Item Active
   --dropdown-item-text-active: #fff;
-  --dropdown-item-background-color-active: #337ab7;
+  --dropdown-item-background-color-active: #0A63D6;
 }
 
 /* END - Dropdowns */
