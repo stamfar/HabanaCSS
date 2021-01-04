@@ -786,7 +786,8 @@ div.panel.panel-noBG > .panel-heading {
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
     box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
-.panel-heading.panel-noBG, .panel-footer.panel-noBG { padding: 5px 8px 10px 8px !important; }
+.panel-heading.panel-noBG, .panel-footer.panel-noBG { padding: 5px 5px 10px 5px !important; }
+
 div.panel-noBG .panel-body { padding:  0px 5px 5px; }
 .container .t1.article.panel.panel-noBG { border-top-width: 0px!important; }
 div.panel-noBG .slideshow.well { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-bottom-width: 0px; }
