@@ -217,6 +217,10 @@ h3.box1itemHeading {
   z-index: 0;
 }
 
+.box0text {
+  padding: 5px;
+}
+
 /* Titles (fra webpages) */
 h1 {
   font-size: 2em;
