@@ -788,7 +788,9 @@ div.panel.panel-noBG > .panel-heading {
 }
 .panel-heading.panel-noBG, .panel-footer.panel-noBG { padding: 5px 5px 10px 5px !important; }
 
-div.panel-noBG .panel-body { padding:  0px 5px 5px; }
+/* deaktiverer for å se div.panel-noBG .panel-body { padding:  0px 5px 5px; } */
+
+
 .container .t1.article.panel.panel-noBG { border-top-width: 0px!important; }
 div.panel-noBG .slideshow.well { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-bottom-width: 0px; }
 
