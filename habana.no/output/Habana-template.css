@@ -119,6 +119,10 @@
   box-shadow: var(--panel-box-shadow);
 }
 
+.panel-body {
+  padding-bottom: 0 !important;
+}
+
 .panel-heading {
   /*padding: 10px 15px;*/
   padding: 10px 10px;
