@@ -102,9 +102,9 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 
 /* override for news fields others stuff */
 .t2>.panel-body>.row>.col-xs-12 .m-newsfieldInner {
-  padding: 20px !important;
+  padding: 20px;
   overflow: hidden;
-  margin: 10px!important;
+  margin: 10px;
 
   background-color: var(--main-box-item-background-color);
   border-radius: var(--newsfield-box-border-radius);
