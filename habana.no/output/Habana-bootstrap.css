@@ -1180,6 +1180,7 @@ button.list-group-item-danger.active:focus {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
+    padding-top: 0;
     overflow: visible !important;
   }
 
