@@ -30,6 +30,9 @@ body {
   --link-color-hover: var(--brand-color-primary-hover);
   // Text colors
   --text-dark: var(--color-dark);
+  // Border colors
+  --color-gray-light: #dddddd;
+  --color-gray-lighter: #F7F7F7;
 }
 
 /* Navbar og topplogo */
@@ -53,11 +56,11 @@ body {
   --panel-border: var(--border);
   --panel-box-shadow: var(--box-shadow-md);
   // Panel colors
-  --panel-border-color: #dddddd;
+  --panel-border-color: var(--color-gray-light);
   --panel-background-color: rgba(255, 255, 255, 0.9);
-  --panelfooter-background-color: #F7F7F7;
+  --panelfooter-background-color: var(--color-gray-lighter);
   --panelheading-color: #333;
-  --panelheading-background-color: #F7F7F7;
+  --panelheading-background-color: var(--color-gray-lighter);
 }
 
 /* END - Panels */
@@ -66,11 +69,12 @@ body {
 :root {
   // Calendar colors
   --calendar-event-background: var(--brand-color-primary-light);
+  --calendar-event-border-color: var(--color-gray-lighter);
   --calendar-event-heading: var(--brand-color-primary-dark);
   --calendar-event-text: var(--brand-color-primary-dark);
   --calendar-event-background-secondary: var(--brand-color-secondary-light);
   --calendar-event-heading-secondary: var(--brand-color-secondary-dark);
-  --calendar-event-text-secondary: var(--brand-secondary-primary-dark);
+  --calendar-event-text-secondary: var(--brand-color-secondary-dark);
   --calendar-link-color: var(--link-color);
 }
 
@@ -88,7 +92,7 @@ body {
   --dropdown-item-text: #333333;
   // Item hover
   --dropdown-item-text-hover: #262626;
-  --dropdown-item-background-color-hover: #F7F7F7;
+  --dropdown-item-background-color-hover: var(--color-gray-lighter);
 
  // Item Active
   --dropdown-item-text-active: #fff;
