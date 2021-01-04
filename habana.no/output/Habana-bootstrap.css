@@ -196,7 +196,7 @@ a.badge:focus {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 10px 0 5px 0;
+  padding: 5px 0 5px 0;
   margin: 5px 0 0 !important;
   font-size: 0.9375rem;
   text-align: left;
@@ -217,7 +217,7 @@ a.badge:focus {
 
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  /* deaktivert denne linjen. hver item a har egen margin: margin: 9px 0;*/
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -227,6 +227,7 @@ a.badge:focus {
   padding: 8px 12px;
   margin-left: 8px;
   margin-right: 8px;
+  margin-top: 6px;
   margin-bottom: 6px;
   border-radius: var(--dropdown-item-border-radius) !important;
   clear: both;
