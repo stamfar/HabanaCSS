@@ -1157,6 +1157,8 @@ button.list-group-item-danger.active:focus {
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -1190,6 +1192,8 @@ button.list-group-item-danger.active:focus {
 .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 .navbar-fixed-top .navbar-collapse,
