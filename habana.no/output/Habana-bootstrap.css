@@ -1329,7 +1329,7 @@ button.list-group-item-danger.active:focus {
 
   .navbar-nav .open .dropdown-menu > li > a,
 .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 8px 15px 8px 25px;
   }
 
   .navbar-nav .open .dropdown-menu > li > a {
