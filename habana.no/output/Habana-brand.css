@@ -209,8 +209,8 @@ h3.box1itemHeading {
 }
 
 .box1text {
-  padding: 0px;
-  top: 0px;
+  padding: 0px !important;
+  top: 0px !important;
 }
 
 /* Titles (fra webpages) */
