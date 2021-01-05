@@ -6260,9 +6260,6 @@ footer {
     min-width: 970px;
   }
 
-  .container-header .col-md-12 {
-    padding: 0 5px 0 5px;
-  }
   .container-header .col-md-12 #headermain img {
     min-height: 10vw;
   }
@@ -6278,6 +6275,9 @@ footer {
     padding-left: 0px;
   }
 
+  .container-header .col-md-12 {
+    padding: 0 5px 0 5px;
+  }
   .container-header .col-md-12 #headermain img {
     border-radius: var(--headermain-border-radius-bpmonitor);
   }
