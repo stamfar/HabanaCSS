@@ -99,3 +99,10 @@
 .calcell { border-bottom: 1px solid #999999; }
 .calendar .box0itemHeading, .calendar .box1itemHeading { font-size:90%; }
 /* END - Rest fra moava.css fixes */
+
+
+/* Gjøre slik at overskrift uten bg ikke inneholder padding på sidene */
+.t7.article.panel.panel-default.panel-noBG.fieldarticle .panel-heading {
+  padding-left: 0px;
+  padding-right: 0px;
+}

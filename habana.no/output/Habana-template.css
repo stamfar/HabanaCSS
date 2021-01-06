@@ -613,6 +613,12 @@
 }
 
 /* END - Rest fra moava.css fixes */
+/* Gjøre slik at overskrift uten bg ikke inneholder padding på sidene */
+.t7.article.panel.panel-default.panel-noBG.fieldarticle .panel-heading {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* Newsfield / nyhetsfelt */
 /* Helt ny komponent for å samle nyhetsfelt css på et sted */
 .box1itemHeading {
