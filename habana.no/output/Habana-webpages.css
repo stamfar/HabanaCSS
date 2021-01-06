@@ -315,8 +315,8 @@ div.related-images.col-md-12 .thumbnail .center-cropped {
 .breadcrumb > li + li:before, .breadcrumb > li + li::before {
   /*content: "\2192\00a0" !important;*/
   /*content: "\232A\00a0" !important; // not working on android */
-  content: "> " !important;
-  color: inherit;
+  /*Ole kommentert ut to linjer. content: "\003e\00a0" !important;
+  color: inherit; */
 }
 
 /* Top positioned article images fix */

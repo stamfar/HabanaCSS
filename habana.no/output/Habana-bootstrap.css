@@ -171,7 +171,7 @@ a.badge:focus {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #ccc;
-  content: "/ ";
+  content: "/ " !important;
 }
 
 .breadcrumb > .active {
