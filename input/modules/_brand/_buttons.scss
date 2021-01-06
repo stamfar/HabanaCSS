@@ -1,9 +1,30 @@
 /* Module: Buttons */
 
+:root {
+  /* Hovedbrytere for farger på knapper og knappetekst*/
+  /* Button Primary Color */
+  --button-primary-color: var(--brand-color-primary);
+  --button-primary-color-dark: var(--brand-color-primary-dark);
+  --button-primary-color-light: var(--brand-color-primary-light);
+  /* Hover */
+  --button-primary-color-hover: var(--brand-color-primary-light);
+  /* Text & hover */
+  --button-primary-color-text: var(--color-black);
+  --button-primary-color-text-hover: var(--brand-color-primary-dark);
+
+  /* Button Secondary Color */
+  --button-secondary-color: var(--brand-color-secondary);
+  --button-secondary-color-dark: var(--brand-color-secondary-dark);
+  --button-secondary-color-light: var(--brand-color-secondary-light);
+  /* Hover */
+  --button-secondary-color-hover: var(--brand-color-secondary-light);
+  /* Text & hover */
+  --button-secondary-color-text: var(--color-black);
+  --button-secondary-color-text-hover: var(--brand-color-secondary-dark);
+}
 
 /* NYTT 2021 - for testing på index.html */
-
-/* direkte inn fra hovedfarger */
+/* Eksempel på oppsett Farger direkte inn fra hovedfarger */
 .button-primary {
   background-color: var(--button-primary-color);
   color: var(--button-primary-color-text);
@@ -19,119 +40,4 @@
     background-color: var(--button-secondary-color-hover);
     color: var(--button-secondary-color-text-hover);
   }
-}
-
-
-
-
-
-
-
-/* NEDENFOR MÅ DOBBELSJEKKES OG RENSES VEKK DET SOM IKKE SKAL VÆRE LENGRE. F.EKS SASS VARIBALER OG STILER */
-
-
-
-/* Henter farger fra css variabler i _brand/_colors */
-:root {
-  /* Start Custom */
-  --custom-button-1: var(--custom-brand-color-trettenti);
-  /* End Custom */
-
-  --border-radius-025: var(--size-025);
-  --border-radius-05: var(--size-05);
-  --border-radius-1: var(--size-1);
-}
-
-$button-border-radius-small: var(--border-radius-025);
-$button-border-radius-medium: var(--border-radius-05);
-$button-border-radius-large: var(--border-radius-1);
-
-/* Hovedknapper scss variabler(skjules i vanlig css) - ikke touch - kan endre selve variablen fra f.eks primary til en annen.*/
-$button-primary: var(--brand-color-primary);
-$button-primary-dark: var(--brand-color-primary-dark);
-$button-primary-light: var(--brand-color-primary-light);
-
-$button-primary-text: var(--color-black);
-$button-primary-text-hover: var(--color-white);
-
-
-
-$button-secondary: var(--brand-color-secondary);
-$button-secondary-dark: var(--brand-color-secondary-dark);
-$button-secondary-light: var(--brand-color-secondary-light);
-
-$button-tertiary: var(--brand-color-tertiary);
-$button-tertiary-dark: var(--brand-color-tertiary-dark);
-$button-tertiary-light: var(--brand-color-tertiary-light);
-
-
-/* Bruker dobbel-metode med Sass variabler */
-.gammel-utdatert-skal-slettes-button-primary {
-  background-color: $button-primary;
-  color: $button-primary-text;
-  &:hover {
-    background-color: $button-primary-dark;
-    color: $button-primary-text-hover;
-  }
-}
-
-
-
-/*
-.button-secondary {
-  background-color: $button-secondary;
-  color: $button-secondary-text;
-  &:hover {
-    background-color: $button-secondary-dark;
-    color: $button-secondary-text-hover;
-  }
-}
-*/
-
-.button-secondary {
-  background-color: $button-secondary;
-}
-.button-tertiary {
-  background-color: $button-tertiary;
-}
-
-.button-large, .button-medium, .button-small, .button-extra-small {
-  position: relative;
-  display: inline-block;
-  border: 1px solid;
-  line-height: 1.5;
-  font-weight: 600;
-}
-
-.button-large {
-  border-radius: $button-border-radius-large;
-}
-.button-medium {
-  border-radius: $button-border-radius-medium;
-
-}
-/* button-small og extra-small er tatt fra github:buttons*/
-.button-small {
-  border-radius: $button-border-radius-small;
-  padding: 3px 10px;
-  font-size: 12px;
-}
-.button-extra-small {  
-  border-radius: $button-border-radius-small;
-  padding: 2px 5px;
-  font-size: 11px;
-}
-
-
-/* skal hete kun text-white */
-.text-white {
-  color: var(--color-white);
-}
-.text-dark {
-  color: var(--color-gray-dark);
-}
-
-/* skal hete kun w-100 */
-.button-fw {
-  width: 100%;
 }
