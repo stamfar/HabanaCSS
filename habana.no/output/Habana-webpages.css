@@ -592,6 +592,9 @@ a.text-delete:hover {
   z-index: 1;
 }
 
+.box0text, .box1text {
+  word-wrap: break-word;
+}
 
 [class^=box].boxTextIngress {
   padding-bottom: 15px;
@@ -2373,14 +2376,17 @@ body.editModeOn .relatedWrapper:hover {
   border-color: black;
 }
 
-/* inline edit title fix */
+/* inline edit title fix 
+.t51.panel-noBG.singlearticle>.panel-heading.panel-noBG { padding-left: 3px!important; margin-left: -1px!important; }
+.t51.panel-noBG.singlearticle>.panel-heading.panel-noBG .editorPanelHeader>.viewModeHeader { margin-left: 3px!important; }*/
+/* Tester uten noe padding(ole) */
 .t51.panel-noBG.singlearticle > .panel-heading.panel-noBG {
-  padding-left: 3px !important;
-  margin-left: -1px !important;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
 }
 
 .t51.panel-noBG.singlearticle > .panel-heading.panel-noBG .editorPanelHeader > .viewModeHeader {
-  margin-left: 3px !important;
+  margin-left: 0px !important;
 }
 
 /* fileupload responsive */
