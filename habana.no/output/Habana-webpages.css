@@ -592,9 +592,6 @@ a.text-delete:hover {
   z-index: 1;
 }
 
-.box0text, .box1text {
-  word-wrap: break-word;
-}
 
 [class^=box].boxTextIngress {
   padding-bottom: 15px;
