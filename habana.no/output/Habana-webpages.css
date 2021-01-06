@@ -1052,7 +1052,7 @@ div.panel.panel-noBG > .panel-heading {
 
 /* Endrer til 10px for å se */
 div.panel-noBG .panel-body {
-  padding: 10px;
+  padding: 0px;
 }
 
 .container .t1.article.panel.panel-noBG {
