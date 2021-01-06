@@ -3,13 +3,18 @@
 /* Alle fargene som kan brukes direkte fra CSS variabler */
 
 :root {
-  // All colors
+  // All colors - white to black
   --color-white: #ffffff;
-  --color-gray: #;
-  --color-gray-light: #;
-  --color-gray-dark: #;
-  --color-gray-darker: #;
-  --color-dark: #333333;
+  --color-gray-lightest: #F7F7F7;
+  --color-gray-lighter: #E8E8E8;
+  --color-gray-light: #dddddd;
+  --color-gray: #515151;
+  --color-gray-dark: #333333;
+  --color-gray-darker: #262626;
   --color-black: #000000;
+}
+
 /* her kommer flere farger til fargebanken. Ingen farger skal brukes utenom det som ligger her*/
+:root {
+  // All colors 
 }

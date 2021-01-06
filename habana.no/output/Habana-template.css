@@ -576,7 +576,7 @@
   line-height: 23.2px;
   letter-spacing: -0.4px;
   text-align: left;
-  color: var(--color-dark);
+  color: var(--color-gray-dark);
 }
 .calendar.call1 tbody tr td .lesmer a,
 .calendar.call2 tbody tr td .lesmer a {

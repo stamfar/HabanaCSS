@@ -8,15 +8,16 @@
 /* Alle fargene som kan brukes direkte fra CSS variabler */
 :root {
   --color-white: #ffffff;
-  --color-gray: #;
-  --color-gray-light: #;
-  --color-gray-dark: #;
-  --color-gray-darker: #;
-  --color-dark: #333333;
+  --color-gray-lightest: #F7F7F7;
+  --color-gray-lighter: #E8E8E8;
+  --color-gray-light: #dddddd;
+  --color-gray: #515151;
+  --color-gray-dark: #333333;
+  --color-gray-darker: #262626;
   --color-black: #000000;
-  /* her kommer flere farger til fargebanken. Ingen farger skal brukes utenom det som ligger her*/
 }
 
+/* her kommer flere farger til fargebanken. Ingen farger skal brukes utenom det som ligger her*/
 /* Module: Colors-Brand */
 /* Profil/brand/merkevare/kommunehåndbok/bedrift */
 :root {
@@ -376,7 +377,7 @@ h3 {
 }
 
 .text-dark {
-  color: var(--color-dark);
+  color: var(--color-gray-dark);
 }
 
 /* skal hete kun w-100 */
@@ -411,9 +412,7 @@ body {
 :root {
   --link-color: var(--brand-color-primary);
   --link-color-hover: var(--brand-color-primary-hover);
-  --text-dark: var(--color-dark);
-  --color-gray-light: #dddddd;
-  --color-gray-lighter: #F7F7F7;
+  --text-dark: var(--color-gray-dark);
 }
 
 /* Navbar og topplogo */
@@ -435,16 +434,16 @@ body {
   --panel-box-shadow: var(--box-shadow-md);
   --panel-border-color: var(--color-gray-light);
   --panel-background-color: rgba(255, 255, 255, 0.9);
-  --panelfooter-background-color: var(--color-gray-lighter);
+  --panelfooter-background-color: var(--color-gray-lightest);
   --panelheading-color: #333;
-  --panelheading-background-color: var(--color-gray-lighter);
+  --panelheading-background-color: var(--color-gray-lightest);
 }
 
 /* END - Panels */
 /* Calendar */
 :root {
   --calendar-event-background: var(--brand-color-primary-light);
-  --calendar-event-border-color: var(--color-gray-lighter);
+  --calendar-event-border-color: var(--color-gray-lightest);
   --calendar-event-heading: var(--brand-color-primary-dark);
   --calendar-event-text: var(--brand-color-primary-dark);
   --calendar-event-background-secondary: var(--brand-color-secondary-light);
@@ -456,28 +455,35 @@ body {
 /* END - Calendar */
 /* Dropdowns */
 :root {
-  --dropdown-background-color: #fff;
+  --dropdown-background-color: var(--color-white);
   --dropdown-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   --dropdown-border-radius: var(--size-border-radius-lg);
   --dropdown-item-border-radius: var(--size-border-radius-md);
   --dropdown-item-text: #333333;
   --dropdown-item-text-hover: #262626;
-  --dropdown-item-background-color-hover: var(--color-gray-lighter);
-  --dropdown-item-text-active: #fff;
+  --dropdown-item-background-color-hover: var(--color-gray-lightest);
+  --dropdown-item-text-active: var(--color-white);
   --dropdown-item-background-color-active: #0A63D6;
 }
 
 /* END - Dropdowns */
 /* Newsfield */
 :root {
-  --newsfield-background-color: #F5F5F5;
-  --newsfield-box-background-color: #fff;
-  --newsfield-box-border: 1px solid #E8E8E8;
+  --newsfield-background-color: var(--color-gray-lightest);
+  --newsfield-box-background-color: var(--color-white);
+  --newsfield-box-border: 1px solid var(--color-gray-lighter);
   --newsfield-box-border-radius: var(--size-border-radius-lg);
   --newsfield-box-shadow: var(--box-shadow-lighter);
 }
 
 /* END - Newsfield */
+/* Breadcrumb */
+:root {
+  --breadcrumb-background-color: var(--color-gray-lightest);
+  --breadcrumb-border-radius: var(--size-border-radius-lg);
+}
+
+/* END - Breadcrumb */
 /* Module: Typography-spacing */
 :root {
   --baseline: 24px;

@@ -29,10 +29,7 @@ body {
   --link-color: var(--brand-color-primary);
   --link-color-hover: var(--brand-color-primary-hover);
   // Text colors
-  --text-dark: var(--color-dark);
-  // Border colors
-  --color-gray-light: #dddddd;
-  --color-gray-lighter: #F7F7F7;
+  --text-dark: var(--color-gray-dark);
 }
 
 /* Navbar og topplogo */
@@ -58,9 +55,9 @@ body {
   // Panel colors
   --panel-border-color: var(--color-gray-light);
   --panel-background-color: rgba(255, 255, 255, 0.9);
-  --panelfooter-background-color: var(--color-gray-lighter);
+  --panelfooter-background-color: var(--color-gray-lightest);
   --panelheading-color: #333;
-  --panelheading-background-color: var(--color-gray-lighter);
+  --panelheading-background-color: var(--color-gray-lightest);
 }
 
 /* END - Panels */
@@ -69,7 +66,7 @@ body {
 :root {
   // Calendar colors
   --calendar-event-background: var(--brand-color-primary-light);
-  --calendar-event-border-color: var(--color-gray-lighter);
+  --calendar-event-border-color: var(--color-gray-lightest);
   --calendar-event-heading: var(--brand-color-primary-dark);
   --calendar-event-text: var(--brand-color-primary-dark);
   --calendar-event-background-secondary: var(--brand-color-secondary-light);
@@ -84,7 +81,7 @@ body {
 /* Dropdowns */
 :root {
   // Dropdown
-  --dropdown-background-color: #fff;
+  --dropdown-background-color: var(--color-white);
   --dropdown-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   --dropdown-border-radius: var(--size-border-radius-lg);
   // Item
@@ -92,10 +89,10 @@ body {
   --dropdown-item-text: #333333;
   // Item hover
   --dropdown-item-text-hover: #262626;
-  --dropdown-item-background-color-hover: var(--color-gray-lighter);
+  --dropdown-item-background-color-hover: var(--color-gray-lightest);
 
  // Item Active
-  --dropdown-item-text-active: #fff;
+  --dropdown-item-text-active: var(--color-white);
   --dropdown-item-background-color-active: #0A63D6;
 }
 
@@ -105,14 +102,18 @@ body {
 /* Newsfield */
 :root {
   // Newsfield box
-  --newsfield-background-color: #F5F5F5;
-  --newsfield-box-background-color: #fff;
-  --newsfield-box-border: 1px solid #E8E8E8;
+  --newsfield-background-color: var(--color-gray-lightest);
+  --newsfield-box-background-color: var(--color-white);
+  --newsfield-box-border: 1px solid var(--color-gray-lighter);
   --newsfield-box-border-radius: var(--size-border-radius-lg);
   --newsfield-box-shadow: var(--box-shadow-lighter);
-
-
-
 }
-
 /* END - Newsfield */
+
+
+/* Breadcrumb */
+:root {
+  --breadcrumb-background-color: var(--color-gray-lightest);
+  --breadcrumb-border-radius: var(--size-border-radius-lg);
+}
+/* END - Breadcrumb */
