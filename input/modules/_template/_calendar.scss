@@ -1,3 +1,9 @@
+/* Calendar type 1 og 2 uten bg*/
+.t7.article.panel.panel-default.panel-noBG.fieldarticle .calendar.call1 tbody,
+.t7.article.panel.panel-default.panel-noBG.fieldarticle .calendar.call2 tbody {
+    padding: 0rem;
+}
+
 /* Calendar type 1 og 2*/
 .calendar.call1 tbody,
 .calendar.call2 tbody {
@@ -6,6 +12,7 @@
     align-items: end;
     justify-content: space-around;
     gap: 1rem;
+    padding: 1rem;
 
   tr {
 
