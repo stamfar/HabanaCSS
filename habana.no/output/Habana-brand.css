@@ -471,7 +471,7 @@ body {
 :root {
   --newsfield-background-color: var(--color-gray-lightest);
   --newsfield-box-background-color: var(--color-white);
-  --newsfield-box-border: 1px solid var(--color-gray-lighter);
+  --newsfield-box-border: var(--border) var(--color-gray-lighter);
   --newsfield-box-border-radius: var(--size-border-radius-lg);
   --newsfield-box-shadow: var(--box-shadow-lighter);
 }
