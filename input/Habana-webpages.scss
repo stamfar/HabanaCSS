@@ -786,8 +786,8 @@ div.panel.panel-noBG > .panel-heading {
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
     box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
-.panel-heading.panel-noBG, .panel-footer.panel-noBG { padding: 5px 5px 10px 5px !important; }
 
+.panel-heading.panel-noBG, .panel-footer.panel-noBG { padding: 5px 0px 10px 0px !important; }
 /* Endrer til 10px for å se */ div.panel-noBG .panel-body { padding:  0px /*0px 5px 5px*/; }
 
 

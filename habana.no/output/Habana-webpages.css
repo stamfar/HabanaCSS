@@ -1047,7 +1047,7 @@ div.panel.panel-noBG > .panel-heading {
 }
 
 .panel-heading.panel-noBG, .panel-footer.panel-noBG {
-  padding: 5px 5px 10px 5px !important;
+  padding: 5px 0px 10px 0px !important;
 }
 
 /* Endrer til 10px for å se */
