@@ -47,16 +47,6 @@
   background-color: var(--newsfield-box-background-color);
 }
 
-/* artikler i nyhetsfelt */
-
-div.col-xs-12.box1textarea {
-  background-color: var(--newsfield-box-background-color);
-  border-radius: var(--newsfield-box-border-radius);
-  border: var(--main-border);
-  box-shadow: var(--newsfield-box-shadow);
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
 
 /* overf
 .t2>.panel-body>.row>.col-xs-12 {
@@ -106,11 +96,13 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
   overflow: hidden;
   margin: 10px;
 
-  background-color: var(--main-box-item-background-color);
+  background-color: var(--newsfield-box-background-color);
   border-radius: var(--newsfield-box-border-radius);
-  border: var(--main-border);
-  box-shadow: var(--medium-box-shadow);
+  border: var(--newsfield-box-border);
+  box-shadow: var(--newsfield-box-shadow);
 }
+/* artikler i nyhetsfelt */
+
 
 .t2 > .panel-body {
   padding: 10px 10px 10px 10px !important;
