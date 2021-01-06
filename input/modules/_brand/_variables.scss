@@ -18,9 +18,9 @@ body {
   --size-border-radius-xl: 12px;
   --size-border-radius-xl-fill: calc(var(--panel-border-radius-xl) + 1px);
   // Box Shadows( ikke ferdig )
-  --box-shadow-sm: red;
-  --box-shadow-md: red;
-  --box-shadow-lg: red;
+  --box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  --box-shadow-lighter: 0px 4px 8px rgba(0, 0, 0, 0.03);
+  --box-shadow-lightest: 0px 2px 4px rgba(161, 161, 161, 0.05);
 }
 
 /* GENERAL COLORS */
@@ -108,7 +108,7 @@ body {
   --newsfield-box-background-color: #F5F5F5;
   --newsfield-box-border-color: #F5F5F5;
   --newsfield-box-border-radius: var(--size-border-radius-lg);
-  --newsfield-box-shadow: #F5F5F5;
+  --newsfield-box-shadow: var(--box-shadow-lighter);
 
 
 

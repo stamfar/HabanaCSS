@@ -50,10 +50,10 @@
 /* artikler i nyhetsfelt */
 
 div.col-xs-12.box1textarea {
-  background-color: var(--main-box-item-background-color);
-  border-radius: var(--main-box-item-border-radius);
+  background-color: var(--newsfield-box-background-color);
+  border-radius: var(--newsfield-box-border-radius);
   border: var(--main-border);
-  box-shadow: var(--medium-box-shadow);
+  box-shadow: var(--newsfield-box-shadow);
   margin-top: 8px;
   margin-bottom: 8px;
 }
