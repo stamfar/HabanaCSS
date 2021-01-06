@@ -105,7 +105,8 @@ body {
 /* Newsfield */
 :root {
   // Newsfield box
-  --newsfield-box-background-color: #F5F5F5;
+  --newsfield-background-color: #F5F5F5;
+  --newsfield-box-background-color: white;
   --newsfield-box-border: 1px solid #E8E8E8;
   --newsfield-box-border-radius: var(--size-border-radius-lg);
   --newsfield-box-shadow: var(--box-shadow-lighter);

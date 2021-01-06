@@ -14,11 +14,11 @@
   --main-box-item-background-color: #FFFFFF;
   --main-link-text-color: #3377FF;
 
-  /* Standariserte box-shadows */
+  /* Standariserte box-shadows 
   --main-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   --medium-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
   --light-box-shadow: 0px 2px 4px rgba(161, 161, 161, 0.05);
-  --main-border: 1px solid #E8E8E8;
+  --main-border: 1px solid #E8E8E8; */
 
   /* Standariserte border-radius */
   --main-box-border-radius: 15px;
@@ -44,7 +44,7 @@
 
 /* nyhetsfelt med boks / ramme */
 .t2.article.panel.panel-default.fieldarticle {
-  background-color: var(--newsfield-box-background-color);
+  background-color: var(--newsfield-background-color);
 }
 
 
