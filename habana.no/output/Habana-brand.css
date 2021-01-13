@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* Module: Typography */
-/* Module: Utils: screen-sizes/media queries. (Ole) */
-/* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Module: Universal Colors / Fargebank */
 /* Alle fargene som kan brukes direkte fra CSS variabler */
@@ -74,6 +70,10 @@ body {
   background-color: var(--minsystemfarge) !important;
 }
 */
+/* Module: Typography */
+/* Module: Utils: screen-sizes/media queries. (Ole) */
+/* Import fonts */
+/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");*/
 /*html {font-size: 100%;} /*16px*/
 /*
 @include tablet {
