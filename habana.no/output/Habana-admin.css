@@ -20,14 +20,14 @@
 }
 
 /* Overstyre bootstrap */
-.table {
+#moavaListMessageArchive .table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 0px !important;
 }
 
 /* Overstyre bootstrap */
-.inboxMessage {
+#moavaListMessageArchive .inboxMessage {
   padding-top: 15px;
   padding-bottom: 15px;
   color: black;
@@ -35,18 +35,18 @@
 }
 
 /* Overstyre bootstrap */
-.inboxMessage p {
+#moavaListMessageArchive .inboxMessage p {
   margin: 0;
 }
 
 /* Overstyre bootstrap */
-.inboxArchive {
+#moavaListMessageArchive .inboxArchive {
   padding: 0px !important;
   border-top: 0px !important;
 }
 
 /* Overstyre bootstrap */
-.inboxArchive .panel {
+#moavaListMessageArchive .inboxArchive .panel {
   background: transparent;
   margin-bottom: 0;
   border-top-left-radius: 0;
@@ -57,17 +57,17 @@
 }
 
 /* Overstyre bootstrap */
-.inboxArchive .panel-body {
+#moavaListMessageArchive .inboxArchive .panel-body {
   padding: 0px;
 }
 
 /* Overstyre bootstrap */
-.inboxArchive .col-xs-12 {
+#moavaListMessageArchive .inboxArchive .col-xs-12 {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.inboxArchive .col-xs-12 .row {
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row {
   color: black;
   margin: 10px;
   border: 1px solid #efefef;
@@ -76,41 +76,41 @@
   background-color: #e7f7dd;
 }
 
-.inboxArchive .col-xs-12 .row .col-xs-12 {
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
   display: grid;
   grid-auto-flow: row;
   gap: 5px;
 }
 
-.inboxArchive .col-xs-12 .row .col-xs-12 a {
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a {
   color: #509725;
 }
 
-.inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
   color: #346218;
 }
 
 @media screen and (min-width: 767px) {
-  .inboxArchive .col-xs-12 .row .col-xs-12 {
+  #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
   }
 }
 /* Overstyre bootstrap */
-.list-group {
+#moavaListMessageArchive .list-group {
   padding-left: 0;
   margin-bottom: 0px !important;
   background: transparent;
 }
 
-a.inboxUnread {
+#moavaListMessageArchive a.inboxUnread {
   color: #509725;
   font-weight: 600;
   font-size: 16px;
 }
 
-.inboxUnread::before {
+#moavaListMessageArchive .inboxUnread::before {
   position: relative;
   font-size: 1em;
   content: "Nytt varsel";
@@ -124,7 +124,7 @@ a.inboxUnread {
 }
 
 @media screen and (min-width: 767px) {
-  .inboxUnread::before {
+  #moavaListMessageArchive .inboxUnread::before {
     display: inline-block;
     margin: 2px 10px 2px 0;
     width: auto;
