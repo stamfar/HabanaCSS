@@ -1,0 +1,64 @@
+/* hentet fra 
+	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/FA-inline-icons.css */
+
+/* START css variabler for menyikoner */
+/* Standard for menyikoner. Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve ikonet. F.eks #menuItem2-1 */
+:root {
+  --menuItemBeforeDefault-font-size: 24px;
+  --menuItemBeforeDefault-color: #333;
+  --menuItemBeforeDefault-display: block;
+  --menuItemBeforeDefault-font-family: "FontAwesome";
+  --menuItemBeforeDefault-font-weight: 500;
+  --menuItemBeforeDefault-font-style: normal;
+  --menuItemBeforeDefault-font-variant: normal;
+  --menuItemBeforeDefault-text-rendering: auto;
+  --menuItemBeforeDefault--webkit-font-smoothing: antialiased;
+}
+/* END css variabler for menyikoner */
+
+/* START Sikrer at ikonene ser riktig ut */
+.menuItemNew > .fa-li ::before {
+	font-size: var(--menuItemBeforeDefault-font-size);
+	color: var(--menuItemBeforeDefault-color);
+	display: var(--menuItemBeforeDefault-display);
+  	font-family: var(--menuItemBeforeDefault-font-family);
+  	font-weight: var(--menuItemBeforeDefault-font-weight);
+	font-style: var(--menuItemBeforeDefault-font-style);
+	font-variant: var(--menuItemBeforeDefault-font-variant);
+	text-rendering: var(--menuItemBeforeDefault-text-rendering);
+	-webkit-font-smoothing: var(--menuItemBeforeDefault--webkit-font-smoothing);
+}
+/* END */
+
+
+
+/* Start definering av ikoner */
+
+
+/* KALENDER */
+.menuItemNew > .fa-li > #menuitem1-1::before {
+	content: "\f0fe";
+}
+
+.menuItemNew > .fa-li > #menuitem1-2::before {
+	content: "\f0ca";
+}
+.menuItemNew > .fa-li > #menuitem1-3::before {
+    content: "\f111";
+	font-size: 8px;
+}
+
+.menuItemNew > .fa-li > #menuitem2-1::before {
+    content: "\f111";
+	font-size: 8px;
+}
+
+.menuItemNew > .fa-li > #menuitem2-2::before {
+    content: "\f111";
+	font-size: 8px;
+}
+
+.menuItemNew > .fa-li > #menuitem2-3::before {
+	content: "\f111";
+	font-size: 8px;
+}
