@@ -67,7 +67,7 @@
     border: 1px solid #efefef;
     border-radius: 4px;
     padding: 15px 15px;
-    background-color: #e7f7dd;
+    background-color: var(--accordion-primary-background-color);
 }
 
 #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
@@ -77,11 +77,11 @@
 }
 
 #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a {
-    color: #509725;
+    color: var(--accordion-primary-text-color)
 }
 
 #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
-    color: #346218;
+    color: var(--accordion-primary-text-color-hover)
 }
 
 @media screen and (min-width: 767px) {
@@ -103,7 +103,7 @@
 }
 
 #moavaListMessageArchive a.inboxUnread {
-    color: #509725;
+    color: var(--accordion-primary-text-color);
     font-weight: 600;
     font-size: 16px;
 }
@@ -113,7 +113,7 @@
     font-size: 1em;
     content: "Nytt varsel";
     margin: 1px 10px 10px 0;
-    background: #509725;
+    background: var(--accordion-primary-text-color);
     padding: 8px 8px;
     border-radius: 4px;
     color: white;

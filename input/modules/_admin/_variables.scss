@@ -14,3 +14,11 @@
     --brand-color-secondary-dark: #21648e;
     --brand-color-secondary-light: #e3f0f9;
 }
+
+:root {
+    /* Accordion (currently inbox) */
+    --accordion-primary-text-color: var(--brand-color-primary-hover);
+    --accordion-primary-text-color-hover: var(--brand-color-primary-dark);
+    --accordion-primary-background-color: var(--brand-color-primary-light);
+    
+}
