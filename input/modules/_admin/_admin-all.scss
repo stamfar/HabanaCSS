@@ -676,7 +676,7 @@ hr {
 
 /* START css variabler for meny. Gjelder ogsÃ¥ for andre ting. */
 :root {
-  --main-font-fam: "Inter", Arial, Helvetica, sans-serif;
+  --main-font-fam: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
   --border-color-light: #e4e4e4;
   --padding-title-subtitle: 15px;
   --background-color-item-icon: #e4e4e4;
@@ -785,55 +785,7 @@ ul.fa-ul {
 
 /* END Nytt oktober 2020 - venstremeny kalender */
 
-/* START andre endringer */
-/* Buttons - skal inn i riktig fil etterhvert */
-.button--primary, input[type="submit"], .button--secondary, input[type="button"], .button{
-font-family: 'Inter';
-cursor: pointer;
-padding: 5px 10px;
-font-size: 16px;
-font-weight: 500;
-border-radius: 3px;
-}
 
-.button--primary, input[type="submit"]{
-  margin: 3px 0px 3px 0px;
-  box-sizing: border-box;
-
-  color: white;
-  background: #2276FC;
-  border: 1px solid #2276FC;
-  &:hover {
-      color: white;
-      background: #1E61CD;
-      border: 1px solid #1E61CD;
-  }
-  &:active {
-      color: white;
-      background: #17396F;
-      border: 1px solid #17396F;
-  }
-}
-
-
-.button--secondary, input[type="button"], .button  {
-  margin: 3px 0px 3px 0px;
-  box-sizing: border-box;
-  
-  color: #565D67;
-  background: white;
-  border: 1px solid #CED2D9;
-  &:hover {
-      color: white;
-      background: #6E7683;
-      border: 1px solid #6E7683;
-  }
-  &:active {
-      color: white;
-      background: #3F434A;
-      border: 1px solid #3F434A;
-  }
-}
 
 
 /* table tbody... osv har padding. Her mÃ¥ vi si at menyen skal vÃ¦re 4px mot topp pga menyen er lagt inni en table */
