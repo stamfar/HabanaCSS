@@ -791,9 +791,8 @@ input[type="submit"] {
 
 	margin: 3px 0px 3px 0px;
 
-	box-sizing: border-box;
-
-  cursor: pointer;
+  box-sizing: border-box;
+  
   padding: 5px 10px;
   font-size: 16px;
   font-weight: 500;
@@ -802,6 +801,7 @@ input[type="submit"] {
   background: white;
   border: 1px solid #565D67;
   &:hover {
+    cursor: pointer;
     color: white;
     background: #6E7683;
     border: 1px solid #6E7683;
@@ -811,13 +811,6 @@ input[type="submit"] {
     background: #3F434A;
     border: 1px solid #3F434A;
 }
-}
-
-input[type="submit"]:hover {
-	background: var(--moava-gronn-farge) !important;
-	color: white;
-	cursor: pointer;
-	border: 2px solid var(--moava-gronn-farge) !important;
 }
 
 

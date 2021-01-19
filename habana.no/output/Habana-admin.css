@@ -1034,7 +1034,6 @@ ul.fa-ul {
 input[type=submit] {
   margin: 3px 0px 3px 0px;
   box-sizing: border-box;
-  cursor: pointer;
   padding: 5px 10px;
   font-size: 16px;
   font-weight: 500;
@@ -1044,6 +1043,7 @@ input[type=submit] {
   border: 1px solid #565D67;
 }
 input[type=submit]:hover {
+  cursor: pointer;
   color: white;
   background: #6E7683;
   border: 1px solid #6E7683;
@@ -1052,13 +1052,6 @@ input[type=submit]:active {
   color: white;
   background: #3F434A;
   border: 1px solid #3F434A;
-}
-
-input[type=submit]:hover {
-  background: var(--moava-gronn-farge) !important;
-  color: white;
-  cursor: pointer;
-  border: 2px solid var(--moava-gronn-farge) !important;
 }
 
 /* table tbody... osv har padding. Her mÃ¥ vi si at menyen skal vÃ¦re 4px mot topp pga menyen er lagt inni en table */
