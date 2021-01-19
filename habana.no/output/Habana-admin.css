@@ -1032,6 +1032,15 @@ ul.fa-ul {
 /* END Nytt oktober 2020 - venstremeny kalender */
 /* START andre endringer */
 /* Buttons - skal inn i riktig fil etterhvert */
+.button--primary, input[type=submit], .button--secondary, input[type=button], .button {
+  font-family: "Inter";
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
 .button--primary, input[type=submit] {
   margin: 3px 0px 3px 0px;
   box-sizing: border-box;
