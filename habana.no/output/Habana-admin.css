@@ -1031,7 +1031,8 @@ ul.fa-ul {
 /* End hover / active */
 /* END Nytt oktober 2020 - venstremeny kalender */
 /* START andre endringer */
-input[type=submit] {
+/* Buttons - skal inn i riktig fil etterhvert */
+input[type=submit], input[type=button] {
   margin: 3px 0px 3px 0px;
   box-sizing: border-box;
   padding: 5px 10px;
@@ -1042,13 +1043,13 @@ input[type=submit] {
   background: white;
   border: 1px solid #565D67;
 }
-input[type=submit]:hover {
+input[type=submit]:hover, input[type=button]:hover {
   cursor: pointer;
   color: white;
   background: #6E7683;
   border: 1px solid #6E7683;
 }
-input[type=submit]:active {
+input[type=submit]:active, input[type=button]:active {
   color: white;
   background: #3F434A;
   border: 1px solid #3F434A;
