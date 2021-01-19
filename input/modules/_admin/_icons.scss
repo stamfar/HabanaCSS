@@ -35,30 +35,44 @@
 /* Start definering av ikoner */
 
 
-/* KALENDER */
-.menuItemNew > .fa-li > #menuitem1-1::before {
+/* MENU KALENDER */
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-1::before {
 	content: "\f0fe";
 }
 
-.menuItemNew > .fa-li > #menuitem1-2::before {
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-2::before {
 	content: "\f0ca";
 }
-.menuItemNew > .fa-li > #menuitem1-3::before {
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-3::before {
     content: "\f111";
 	font-size: 8px;
 }
 
-.menuItemNew > .fa-li > #menuitem2-1::before {
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-1::before {
     content: "\f111";
 	font-size: 8px;
 }
 
-.menuItemNew > .fa-li > #menuitem2-2::before {
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-2::before {
     content: "\f111";
 	font-size: 8px;
 }
 
-.menuItemNew > .fa-li > #menuitem2-3::before {
+.menuCalendar  .menuItemNew > .fa-li > #menuitem2-3::before {
 	content: "\f111";
 	font-size: 8px;
+}
+
+
+
+/* MENU USERS */
+.menuUsers .menuItemNew > .fa-li > #menuitem1-1::before {
+    content: "\f0e0";
+}
+.menuUsers .menuItemNew > .fa-li > #menuitem1-2::before {
+    content: "\f007";
+}
+.menuUsers .menuItemNew > .fa-li > #menuitem1-3::before {
+    content: "\f0ca";
+    font-size: inherit;
 }

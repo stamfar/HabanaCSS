@@ -8,6 +8,7 @@
     font-size: 16px;
     font-weight: 500;
     border-radius: 3px;
+    border: 1px solid;
 }
 
 
@@ -15,19 +16,18 @@
 .button--primary, input[type="submit"]{
     color: white;
     background: #2276FC;
-    border: 1px solid #2276FC;
+    border-color: #2276FC;
     &:hover {
         color: white;
         background: #1E61CD;
-        border: 1px solid #1E61CD;
+        border-color: #1E61CD;
     }
     &:active {
         color: white;
         background: #17396F;
-        border: 1px solid #17396F;
+        border-color:#17396F;
     }
 }
-
 
 .button--secondary, input[type="button"], .button  {
     color: #565D67;
@@ -36,11 +36,11 @@
     &:hover {
         color: white;
         background: #6E7683;
-        border: 1px solid #6E7683;
+        border-color: #6E7683;
     }
     &:active {
         color: white;
         background: #3F434A;
-        border: 1px solid #3F434A;
+        border-color: #3F434A;
     }
 }
