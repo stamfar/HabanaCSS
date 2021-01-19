@@ -788,17 +788,29 @@ ul.fa-ul {
 /* START andre endringer */
 
 input[type="submit"] {
-	border: 2px solid #f8f8f8 !important;
-	border-radius: 5px !important;
-	height: 28px;
-	font-size: 13px !important;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 2px 0px 2px 0px;
-	background: white;
-	color: #000;
+
+	margin: 3px 0px 3px 0px;
+
 	box-sizing: border-box;
-	box-shadow: var(--secondary-box-shadow);
+
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #565D67;
+  background: white;
+  border: 1px solid #565D67;
+  &:hover {
+    color: white;
+    background: #6E7683;
+    border: 1px solid #6E7683;
+}
+&:active {
+    color: white;
+    background: #3F434A;
+    border: 1px solid #3F434A;
+}
 }
 
 input[type="submit"]:hover {
