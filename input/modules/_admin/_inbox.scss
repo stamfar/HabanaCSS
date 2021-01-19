@@ -129,3 +129,26 @@
         width: auto;
     }
 }
+
+/* ny css som kanskje krasjer med andre stiler. får se */
+#moavaListMessageArchive .inboxMessage::before {
+    position: relative;
+    display: block;
+    font-size: 1em;
+    content: "Nytt varsel!";
+    margin: 1px 10px 10px 0;
+    font-weight: bold;
+    color: var(--accordion-primary-text-color);
+}
+
+#moavaListMessageArchive .inboxMessage {
+    padding: 15px;
+    color: black;
+    text-align: left;
+    border: 1px solid transparent;
+    border-style: dashed;
+    border-color: var(--accordion-primary-text-color);
+    border-radius: 4px;
+    background: var(--accordion-primary-background-color);
+    margin-bottom: 15px;
+}
