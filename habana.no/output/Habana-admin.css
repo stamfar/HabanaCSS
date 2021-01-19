@@ -1112,7 +1112,7 @@ body table tbody tr td div.menuContainer {
 }
 
 /* Buttons for 2021 */
-.button {
+.button .button--primary, input[type=submit], .button--secondary, input[type=button] {
   font-family: inherit;
   cursor: pointer;
   padding: 5px 10px;
