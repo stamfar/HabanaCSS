@@ -1032,24 +1032,37 @@ ul.fa-ul {
 /* END Nytt oktober 2020 - venstremeny kalender */
 /* START andre endringer */
 /* Buttons - skal inn i riktig fil etterhvert */
-input[type=submit], input[type=button] .button {
+.button--primary, input[type=submit] {
   margin: 3px 0px 3px 0px;
   box-sizing: border-box;
-  padding: 5px 10px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 3px;
+  color: white;
+  background: #2276FC;
+  border: 1px solid #2276FC;
+}
+.button--primary:hover, input[type=submit]:hover {
+  color: white;
+  background: #1E61CD;
+  border: 1px solid #1E61CD;
+}
+.button--primary:active, input[type=submit]:active {
+  color: white;
+  background: #17396F;
+  border: 1px solid #17396F;
+}
+
+.button--secondary, input[type=button], .button {
+  margin: 3px 0px 3px 0px;
+  box-sizing: border-box;
   color: #565D67;
   background: white;
   border: 1px solid #CED2D9;
 }
-input[type=submit]:hover, input[type=button] .button:hover {
-  cursor: pointer;
+.button--secondary:hover, input[type=button]:hover, .button:hover {
   color: white;
   background: #6E7683;
   border: 1px solid #6E7683;
 }
-input[type=submit]:active, input[type=button] .button:active {
+.button--secondary:active, input[type=button]:active, .button:active {
   color: white;
   background: #3F434A;
   border: 1px solid #3F434A;

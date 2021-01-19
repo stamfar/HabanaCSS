@@ -787,30 +787,44 @@ ul.fa-ul {
 
 /* START andre endringer */
 /* Buttons - skal inn i riktig fil etterhvert */
-input[type="submit"], input[type="button"] .button  {
 
-	margin: 3px 0px 3px 0px;
+.button--primary, input[type="submit"]{
+  margin: 3px 0px 3px 0px;
+  box-sizing: border-box;
 
+  color: white;
+  background: #2276FC;
+  border: 1px solid #2276FC;
+  &:hover {
+      color: white;
+      background: #1E61CD;
+      border: 1px solid #1E61CD;
+  }
+  &:active {
+      color: white;
+      background: #17396F;
+      border: 1px solid #17396F;
+  }
+}
+
+
+.button--secondary, input[type="button"], .button  {
+  margin: 3px 0px 3px 0px;
   box-sizing: border-box;
   
-  padding: 5px 10px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 3px;
   color: #565D67;
   background: white;
   border: 1px solid #CED2D9;
   &:hover {
-    cursor: pointer;
-    color: white;
-    background: #6E7683;
-    border: 1px solid #6E7683;
-}
-&:active {
-    color: white;
-    background: #3F434A;
-    border: 1px solid #3F434A;
-}
+      color: white;
+      background: #6E7683;
+      border: 1px solid #6E7683;
+  }
+  &:active {
+      color: white;
+      background: #3F434A;
+      border: 1px solid #3F434A;
+  }
 }
 
 
