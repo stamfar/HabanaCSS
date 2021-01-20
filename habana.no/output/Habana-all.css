@@ -1025,14 +1025,14 @@ hr {
   background: #2276FC;
   border-color: #2276FC;
   /* playing safe (some inline) */
-  background-color: #2276FC;
+  background-color: #2276FC !important;
 }
 .button--primary:hover, input[type=submit]:hover {
   color: white;
   background: #1E61CD;
   border-color: #1E61CD;
   /* playing safe (some inline) */
-  background-color: #1E61CD;
+  background-color: #1E61CD !important;
 }
 .button--primary:active, input[type=submit]:active {
   color: white;
@@ -1045,14 +1045,14 @@ hr {
   background: white;
   border: 1px solid #CED2D9;
   /* playing safe (some inline) */
-  background-color: white;
+  background-color: white !important;
 }
 .button--secondary:hover, input[type=button]:hover, .button:hover {
   color: white;
   background: #6E7683;
   border-color: #6E7683;
   /* playing safe (some inline) */
-  background-color: #6E7683;
+  background-color: #6E7683 !important;
 }
 .button--secondary:active, input[type=button]:active, .button:active {
   color: white;
