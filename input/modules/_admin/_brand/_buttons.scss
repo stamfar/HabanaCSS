@@ -47,6 +47,8 @@
         color: white;
         background: #3F434A;
         border-color: #3F434A;
+        /* playing safe (some inline exists) */
+        background-color: var(--gray-darkest) !important;
     }
 }
 
@@ -67,6 +69,8 @@
         color: white;
         background:  var(--red-darker);
         border-color: var(--red-darker);
+        /* playing safe (some inline exists) */
+        background-color: var(--red-darker) !important;
     }
 }
 
