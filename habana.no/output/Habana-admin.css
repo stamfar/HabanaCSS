@@ -1,1 +1,1172 @@
-@charset "UTF-8";:root{--brand-color-primary:#72cf39;--brand-color-secondary:#4aa0d5;--brand-color-primary-hover:#509725;--brand-color-primary-dark:#346218;--brand-color-primary-light:#e7f7dd;--brand-color-secondary-hover:#88c1e3;--brand-color-secondary-dark:#21648e;--brand-color-secondary-light:#e3f0f9}:root{--accordion-primary-text-color:var(--brand-color-primary-hover);--accordion-primary-text-color-hover:var(--brand-color-primary-dark);--accordion-primary-background-color:var(--brand-color-primary-light)}#moavaListMessageArchive .table{width:100%;max-width:100%;margin-bottom:0px!important}#moavaListMessageArchive .inboxMessage{padding-top:15px;padding-bottom:15px;color:black;text-align:left}#moavaListMessageArchive .inboxMessage p{margin:0}#moavaListMessageArchive .inboxArchive{padding:0px!important;border-top:0px!important}#moavaListMessageArchive .inboxArchive .panel{background:transparent;margin-bottom:0;border-top-left-radius:0;border-top-right-radius:0;border-bottom-left-radius:4px;border-bottom-right-radius:4px;background:#fff}#moavaListMessageArchive .inboxArchive .panel-body{padding:0px}#moavaListMessageArchive .inboxArchive .col-xs-12{padding-right:0px;padding-left:0px}#moavaListMessageArchive .inboxArchive .col-xs-12 .row{color:black;margin:10px;border:1px solid #efefef;border-radius:4px;padding:15px 15px;background-color:var(--accordion-primary-background-color)}#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12{display:grid;grid-auto-flow:row;gap:5px}#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a{color:black}#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a:hover{color:var(--accordion-primary-text-color-hover)}@media screen and (min-width:767px){#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12{grid-auto-flow:column;justify-content:space-between;align-items:center}}#moavaListMessageArchive .list-group{padding-left:0;margin-bottom:0px!important;background:transparent}#moavaListMessageArchive .inboxMessage:before{position:relative;display:block;font-size:1em;content:"Nytt varsel!";margin:1px 10px 10px 0;font-weight:bold;color:var(--accordion-primary-text-color)}#moavaListMessageArchive .inboxMessage{padding:15px;color:black;text-align:left;border:1px solid transparent;border-style:dashed;border-color:var(--accordion-primary-text-color);border-radius:4px;background:var(--accordion-primary-background-color);margin-bottom:15px}body,html{height:100%}body{background-color:#ffffff;padding:0;margin:0;font-family:var(--main-font-fam);background-image:url(../images/transparent.gif)}img{border:none}h1{background-color:#ffffff;color:#333333;margin:3px;border-bottom:1px dotted #333333;font-size:32px}fieldset,form,legend{border:0;padding:0;margin:0}#cpbgtop{border-top:3px solid var(--moava-gronn-farge);background-color:#333333;height:32px;color:#ffffff;position:relative}#cpbgtop .adminHeaderRight{position:absolute;right:10px;height:32px;line-height:32px;vertical-align:middle;white-space:nowrap}#cpbgtop .adminHeaderRight>span{border-right:1px #ffffff solid;padding:5px 10px 5px 0px;margin:0px 0px 0px 10px;display:inline-block}#cpbgtop .adminHeaderRight>span:last-child{border-right:none}#cpbgtop .adminHeaderRight>span>a>img{padding-right:10px}#cpbgtop .adminHeaderRight a *{vertical-align:text-bottom}#cpbgtop .logo{height:24px;margin:4px;margin-left:10px;vertical-align:middle}#cpbgtop span{font-size:14px;line-height:1}#cpbgtop span a{font-size:14px;line-height:1;color:#ffffff;text-decoration:none}#cpbgtop span.ver{vertical-align:top;font-size:12px;line-height:16px}#cpbgtop .infotop{margin-left:20px}#cpbgmenu{box-shadow:0 2px 12px 0 rgba(0,0,0,0.05)}#cpbgmenu ul{background-color:#f4f4f4;border-bottom:1px solid var(--border-color-light);list-style-type:none;padding:0px 0px 0px 0px;margin:0;display:flex;flex-direction:row;flex-wrap:wrap}#cpbgmenu ul li{color:#333333;font-size:13px;font-family:var(--main-font-fam);padding:0;margin:0;border-right:1px solid var(--border-color-light);background-color:white}#cpbgmenu a:hover,#cpbgmenu ul li:hover{background-color:var(--moava-gronn-farge);color:white}#cpbgmenu .adminmenuitemSelected{background-color:var(--moava-gronn-farge);color:white;font-weight:500}#cpbgmenu a{display:inline-block;padding:11px 13px 11px 13px;text-decoration:none;color:#000000;position:relative}#cpbgmenu span{vertical-align:middle;display:inline-block}#cpbgmenu .adminmenuicon{width:16px;height:16px;margin-right:3px}#cpbgmenu .badgeSMS{background-color:#c71c22;border-radius:10px;color:#ffffff;font-size:12px;font-weight:700;line-height:1;min-width:6px;padding:3px 7px;text-align:center;vertical-align:center;white-space:nowrap;left:120px;opacity:0.8;position:absolute;top:-4px}.moavaMessage{margin:5px;padding:5px;background-repeat:no-repeat;background-position:5px 5px;padding-left:74px;min-height:64px;position:relative}.moavaMessageHeading{font-weight:600;font-size:150%}.moavaMessage1{border:3px ridge lightgreen;background-color:lightgreen;background-image:url("../icons/open/64x64/status/dialog-clean.png")}.moavaMessage2{border:3px ridge lightblue;background-color:lightblue;background-image:url("../icons/open/64x64/status/dialog-information-3.png")}.moavaMessage3{border:3px ridge lightyellow;background-color:lightyellow;background-image:url("../icons/open/64x64/status/dialog-warning-3.png")}.moavaMessage4{border:3px ridge salmon;background-color:salmon;background-image:url("../icons/open/64x64/status/dialog-error-3.png")}div.extraEditBox{border:1px dashed #aaaaaa;padding:3px}table.moavaListTable{width:100%}table.moavaListTable tbody td>div{white-space:nowrap;overflow:hidden}table.moavaListTable tbody td div img{vertical-align:middle}table.moavaListTable thead th{text-align:left;background-color:#ffffff;padding:5px;padding-left:10px;padding-right:10px;color:#333333;border-right:1px dotted #333333;border-bottom:3px solid #bcdb01;white-space:nowrap;height:29px;font-weight:600}table.moavaListTable thead th a{color:#333333;text-decoration:none;cursor:pointer}table.moavaListTable tbody td a{color:#333333;text-decoration:none;cursor:pointer}table.moavaListTable tbody td:first-child{width:25px}table.moavaListTable thead th:last-child{border-right:none}table.moavaListTable tfoot td{text-align:left;background-color:#ffffff;padding:5px;padding-left:10px;padding-right:10px;color:#333333;border-right:1px dotted #333333;border-top:3px solid #bcdb01;white-space:nowrap;height:29px}table.moavaListTable tfoot td:last-child{border-right:none}table.moavaListTable tbody td{padding:5px;padding-left:10px;padding-right:10px;border-right:1px solid transparent}table.moavaListTable tbody td:last-child{border-right:none}table.moavaListTable tbody tr:nth-child(2n){background:#f4f4f4}table.moavaListTable tbody tr:nth-child(odd){background:#ffffff}.moavaListTablePagination{background:#ffffff;bottom:0;right:0;left:253px;text-align:center;height:46px;line-height:46px;color:#333333;border-top:3px solid #bcdb01;font-weight:600}.moavaListTablePagination a{text-decoration:none}.moavaListTablePagination a span{display:inline-block;padding:0.5em;height:1em;line-height:1em;background-color:#f4f4f4;border:1px dashed #333333;color:#333333;cursor:pointer}.moavaListTablePagination a span.moavaPaginationSelectedPage{background-color:#bcdb01;border:1px dashed #333333;color:#333333}#moavaLeftMenu a{text-decoration:none;color:#333333}#moavaLeftMenu ul li{height:22px}#menuedittop{font-weight:600;font-size:10pt}#menuedittop a{margin:10px}div.box1text{font-size:90%}span.box1text{font-size:90%}span.box1itemHeading{font-size:100%}span.box1heading{font-size:100%}.box1top{background-color:#FFFFFF;background-image:url(../../themes/1/images/border_top.gif);background-position:top;background-repeat:repeat-x}.box1bottom{background-color:#FFFFFF;background-image:url(../../themes/1/images/border_bottom.gif);background-position:bottom;background-repeat:repeat-x}.box1left{background-color:#FFFFFF;background-image:url(../../themes/1/images/border_left.gif);background-position:left;background-repeat:repeat-y}.box1right{background-color:#FFFFFF;background-image:url(../../themes/1/images/border_right.gif);background-position:right;background-repeat:repeat-y}.moavaDiaBlock{padding-bottom:0.5em}.moavaFormLabel{text-align:left;padding-right:0.5em;display:block}.moavaSpaceFrame{padding:0.1em}.moavaInlineInfo{border:None;padding:0.5em;margin-bottom:1em;font-style:italic;color:#333}.moavaInlineWarning{border:2px solid salmon;background-color:lightyellow;padding:0.5em;margin-bottom:1em}.moavaInlineError{color:#FF2222;font-weight:600;font-size:large;padding:0.5em;margin-bottom:1em}.moavaInlineSuccess{color:#006633;font-weight:600;font-size:large;padding:0.5em;margin-bottom:1em}a.deleteLink{color:red;font-weight:600;padding:2px}a.deleteLink:hover{color:white;background-color:red}a.disabled{color:#aaaaaa!important;text-decoration:none!important}a.disabled:hover{color:#666!important;background-color:#eee!important}.moavaadmonly{background-color:#42b698;border-top:solid 1px;border-bottom:solid 1px;padding:3px}.cphide{display:none}.slideshow{position:relative;overflow:hidden}.slide{display:none;position:absolute}.slide.current{display:block}.slidetext{height:80px;position:relative;margin-top:-80px;background-image:url("../images/transp50.png")}a.slideshowLink:active,a.slideshowLink:hover,a.slideshowLink:link,a.slideshowLink:visited{color:white;text-decoration:none}.box1corners{display:flex}ul.intern{margin-top:4px;margin-left:0px;margin-bottom:15px}li.menuItem{padding-left:1px;padding-top:1px;padding-bottom:2px;list-style-image:url("../images/dot_blue.gif")}.menuSubGroup{padding-top:2px;padding-bottom:2px;color:#315dc6}.bottomborder{border-bottom-style:dotted;border-bottom-width:1px;border-bottom-color:#0148b2}.submenulink{color:#990000}.submenulink:hover{color:#ff0000}a{text-decoration:underline;color:#215dc6}a:hover{text-decoration:underline;color:#609dfb;cursor:pointer}a.fat{font-family:var(--main-font-fam);font-weight:600;font-size:80%}a.fat:hover{font-weight:600;text-decoration:underline}a.fat:visited{font-weight:600}.titlebarCell{font-family:var(--main-font-fam);font-weight:600;padding:5px;padding-left:10px;padding-right:10px;background-color:#ffffff;color:#333333;border-right:1px dotted #333333;border-bottom:3px solid #bcdb01;white-space:nowrap;height:29px}.titlebarCell:last-child{border-right:none}.contentFrame{background-color:#efefef;padding:3px;border-radius:3px}.colBg{font-family:var(--main-font-fam);background-color:#8caae6}.cell_light{font-family:var(--main-font-fam);background-color:#ffffff;color:#000000;font-size:80%;padding:5px;padding-left:10px;padding-right:10px;border-right:1px solid transparent}.cell_light:last-child{border-right:none}.cell_shade{font-family:var(--main-font-fam);background-color:#f4f4f4;color:#000000;font-size:80%;padding:5px;padding-left:10px;padding-right:10px;border-right:1px solid transparent}.cell_shade:last-child{border-right:none}.cell_lesslight{font-family:var(--main-font-fam);background-color:#edf2fc;color:#000000;font-size:80%}.toolbar{background-color:#dfe6ef;border:1px solid #0148b2}.headline{font-weight:700;font-family:var(--main-font-fam);color:var(--moava-bla-farge);padding:0px;margin:0px 0px 10px 0px;font-size:150%;letter-spacing:0.2px}hr{border:0px;padding:0px;margin:0px}.contentBody{font-family:var(--main-font-fam);padding:15px 15px 10px 15px}.button_small{border-color:Black Black Black Black;background-color:#0148b2;color:White;font-size:75%;border-style:solid;border-width:1px}.button_normal{border-color:Black Black Black Black;background-color:#0148b2;color:White;font-size:100%}.form_small{border-color:Black Black Black Black;background-color:White;color:Black;font-size:75%;padding-left:0px;padding-right:0px;border:1px solid}.form_normal{border-color:Black Black Black Black;background-color:White;color:Black;font-size:100%;border:1px solid}.border_thin{border-color:Black Black Black Black;background-color:White;color:#333333;font-size:75%;border:1px solid;margin:0px;padding:1px 4px 1px 1px}.form_hide{border-color:Black Black Black Black;background-color:transparent;color:Black;font-size:100%;border:none;font-weight:600}.form_hide_small_text{border-color:Black Black Black Black;background-color:transparent;color:Black;font-size:75%;border:none;font-weight:600}.box1headarea{background-color:#ffffff;border-bottom:1px solid #999999}.box1heading{font-family:var(--main-font-fam);font-size:100%;color:#333333;padding:1px}.box1text{font-family:var(--main-font-fam);font-size:90%;color:#000000;padding-top:5px}.ntext{font-family:var(--main-font-fam);font-size:76%;color:#000000}.overskrift{font-size:100%;font-variant:normal;font-weight:normal;text-decoration:none}.pagePlacementSelects td{padding:2px}[userPermission-toggle=toggle]{display:none}.userPermission_labels tr td{background-color:#5582d2;font-weight:600;color:#fff}:root{--main-font-fam:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif!important;--border-color-light:#e4e4e4;--padding-title-subtitle:15px;--background-color-item-icon:#e4e4e4;--moava-gronn-farge:#70c80f;--moava-bla-farge:#4AA0D5;--main-font-color:#333;--main-hover-color:#70C90F;--secondary-box-shadow:0px 1px 2px 1px rgba(0,0,0,0.2)}div.menuContainer{padding:1px 23px 20px 23px;background:#f3f3f3;border-right:1px solid var(--border-color-light);border-bottom:1px solid var(--border-color-light);border-bottom-right-radius:6px;box-shadow:0px 0px 13px 0px rgba(0,0,0,0.05)}div.menuContainer .menuTitle{color:#272a2f;font-size:20px;font-weight:700;font-family:var(--main-font-fam);border-bottom:1px solid var(--border-color-light);letter-spacing:0.2px;display:flex;padding-top:40px;padding-bottom:2px;margin-bottom:45px}div.menuContainer .menuSubTitle{font-family:var(--main-font-fam);font-size:15px;margin-top:40px;margin-bottom:12px;font-style:normal;font-weight:800;font-size:12px;line-height:18px;display:flex;align-items:center;letter-spacing:1px;text-transform:uppercase;color:#919bae}ul.fa-ul{display:flex;flex-direction:column;padding:0px!important}.menuItemNew{margin:3px 0px 3px 10px;border-radius:0px 4px 4px 0px!important;min-height:41px;display:flex}.menuItemNew a{padding:11px 25px 11px 0px;margin:0px 0px 0px 0px;display:flex;flex:1;font-size:15px;color:#333;text-decoration:none;border-radius:0px 4px 4px 0px!important}.menuItemNew>.fa-li{font-size:25px;min-height:41px;top:0px;height:100%;display:flex;justify-content:center;align-items:center;border-radius:4px 0px 0px 4px}.menuItemNew,.menuItemNew .fa-li{background:#f8f8f8}.menuItemNew:hover,.menuItemNew:hover .fa-li,.menuItemNew:hover a{background:var(--moava-gronn-farge);color:white}.menuItemNew:active,.menuItemNew:active .fa-li,.menuItemNew:active a{background:#70c80f;color:white}body table tbody tr td div.menuContainer{margin-top:-4px;margin-left:-5px}:root{--menuItemBeforeDefault-font-size:24px;--menuItemBeforeDefault-color:#333;--menuItemBeforeDefault-display:block;--menuItemBeforeDefault-font-family:"FontAwesome";--menuItemBeforeDefault-font-weight:500;--menuItemBeforeDefault-font-style:normal;--menuItemBeforeDefault-font-variant:normal;--menuItemBeforeDefault-text-rendering:auto;--menuItemBeforeDefault--webkit-font-smoothing:antialiased}.menuItemNew>.fa-li :before{font-size:var(--menuItemBeforeDefault-font-size);color:var(--menuItemBeforeDefault-color);display:var(--menuItemBeforeDefault-display);font-family:var(--menuItemBeforeDefault-font-family);font-weight:var(--menuItemBeforeDefault-font-weight);font-style:var(--menuItemBeforeDefault-font-style);font-variant:var(--menuItemBeforeDefault-font-variant);text-rendering:var(--menuItemBeforeDefault-text-rendering);-webkit-font-smoothing:var(--menuItemBeforeDefault--webkit-font-smoothing)}.menuCalendar .menuItemNew>.fa-li>#menuitem1-1:before{content:""}.menuCalendar .menuItemNew>.fa-li>#menuitem1-2:before{content:""}.menuCalendar .menuItemNew>.fa-li>#menuitem1-3:before{content:"";font-size:8px}.menuCalendar .menuItemNew>.fa-li>#menuitem2-1:before{content:"";font-size:8px}.menuCalendar .menuItemNew>.fa-li>#menuitem2-2:before{content:"";font-size:8px}.menuCalendar .menuItemNew>.fa-li>#menuitem2-3:before{content:"";font-size:8px}.menuUsers .menuItemNew>.fa-li>#menuitem1-1:before{content:""}.menuUsers .menuItemNew>.fa-li>#menuitem1-2:before{content:""}.menuUsers .menuItemNew>.fa-li>#menuitem1-3:before{content:"";font-size:inherit}.button--secondary,.button .button--primary,input[type=button],input[type=submit]{font-family:inherit;cursor:pointer;padding:5px 10px;font-size:16px;font-weight:500;border-radius:3px;border:1px solid}.button--primary,input[type=submit]{color:white;background:#2276FC;border-color:#2276FC}.button--primary:hover,input[type=submit]:hover{color:white;background:#1E61CD;border-color:#1E61CD}.button--primary:active,input[type=submit]:active{color:white;background:#17396F;border-color:#17396F}.button,.button--secondary,input[type=button]{color:#565D67;background:white;border:1px solid #CED2D9}.button--secondary:hover,.button:hover,input[type=button]:hover{color:white;background:#6E7683;border-color:#6E7683}.button--secondary:active,.button:active,input[type=button]:active{color:white;background:#3F434A;border-color:#3F434A}
+@charset "UTF-8";
+/* Admin variables */
+/* Admin colors */
+:root {
+  /* Hovedfarger */
+  --brand-color-primary: #72cf39;
+  --brand-color-secondary: #4aa0d5;
+  --brand-color-primary-hover: #509725;
+  --brand-color-primary-dark: #346218;
+  --brand-color-primary-light: #e7f7dd;
+  --brand-color-secondary-hover: #88c1e3;
+  --brand-color-secondary-dark: #21648e;
+  --brand-color-secondary-light: #e3f0f9;
+}
+
+:root {
+  /* Accordion (currently inbox) */
+  --accordion-primary-text-color: var(--brand-color-primary-hover);
+  --accordion-primary-text-color-hover: var(--brand-color-primary-dark);
+  --accordion-primary-background-color: var(--brand-color-primary-light);
+}
+
+/* Users - profile - inbox */
+/* Overstyre bootstrap */
+#moavaListMessageArchive .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px !important;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxMessage {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+  text-align: left;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxMessage p {
+  margin: 0;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxArchive {
+  padding: 0px !important;
+  border-top: 0px !important;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxArchive .panel {
+  background: transparent;
+  margin-bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #fff;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxArchive .panel-body {
+  padding: 0px;
+}
+
+/* Overstyre bootstrap */
+#moavaListMessageArchive .inboxArchive .col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row {
+  color: black;
+  margin: 10px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  padding: 15px 15px;
+  background-color: var(--accordion-primary-background-color);
+}
+
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 5px;
+}
+
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a {
+  color: black;
+}
+
+#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
+  color: var(--accordion-primary-text-color-hover);
+}
+
+@media screen and (min-width: 767px) {
+  #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Overstyre bootstrap */
+#moavaListMessageArchive .list-group {
+  padding-left: 0;
+  margin-bottom: 0px !important;
+  background: transparent;
+}
+
+/* Melding utenfor accordion */
+#moavaListMessageArchive .inboxMessage::before {
+  position: relative;
+  display: block;
+  font-size: 1em;
+  content: "Nytt varsel!";
+  margin: 1px 10px 10px 0;
+  font-weight: bold;
+  color: var(--accordion-primary-text-color);
+}
+
+#moavaListMessageArchive .inboxMessage {
+  padding: 15px;
+  color: black;
+  text-align: left;
+  border: 1px solid transparent;
+  border-style: dashed;
+  border-color: var(--accordion-primary-text-color);
+  border-radius: 4px;
+  background: var(--accordion-primary-background-color);
+  margin-bottom: 15px;
+}
+
+/* Skal kanskje fjernes. Melding ulest på innsiden av accordion(se heller melding utenfor)
+#moavaListMessageArchive a.inboxUnread {
+    color: var(--accordion-primary-text-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+#moavaListMessageArchive .inboxUnread::before {
+    position: relative;
+    font-size: 1em;
+    content: "Nytt varsel";
+    margin: 1px 10px 10px 0;
+    background: var(--accordion-primary-text-color);
+    padding: 8px 8px;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    width: 100%;
+}
+@media screen and (min-width: 767px) {
+    #moavaListMessageArchive .inboxUnread::before {
+        display: inline-block;
+        margin: 2px 10px 2px 0;
+        width: auto;
+    }
+}
+ */
+/* hentet fra
+	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/admin.css */
+/* START admin*/
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-family: var(--main-font-fam);
+  background-image: url(../images/transparent.gif);
+}
+
+img {
+  border: none;
+}
+
+h1 {
+  background-color: #ffffff;
+  color: #333333;
+  margin: 3px;
+  border-bottom: 1px dotted #333333;
+  font-size: 32px;
+}
+
+form, fieldset, legend {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* @end */
+/* @group header */
+#cpbgtop {
+  border-top: 3px solid var(--moava-gronn-farge);
+  background-color: #333333;
+  height: 32px;
+  color: #ffffff;
+  position: relative;
+}
+
+#cpbgtop .adminHeaderRight {
+  position: absolute;
+  right: 10px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#cpbgtop .adminHeaderRight > span {
+  border-right: 1px #ffffff solid;
+  padding: 5px 10px 5px 0px;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+
+#cpbgtop .adminHeaderRight > span:last-child {
+  border-right: none;
+}
+
+#cpbgtop .adminHeaderRight > span > a > img {
+  padding-right: 10px;
+}
+
+#cpbgtop .adminHeaderRight a * {
+  vertical-align: text-bottom;
+}
+
+#cpbgtop .logo {
+  height: 24px;
+  margin: 4px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+#cpbgtop span {
+  font-size: 14px;
+  line-height: 1;
+}
+
+#cpbgtop span a {
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#cpbgtop span.ver {
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#cpbgtop .infotop {
+  margin-left: 20px;
+}
+
+#cpbgmenu {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+#cpbgmenu ul {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid var(--border-color-light);
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cpbgmenu ul li {
+  color: #333333;
+  font-size: 13px;
+  font-family: var(--main-font-fam);
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid var(--border-color-light);
+  background-color: white;
+}
+
+#cpbgmenu ul li:hover,
+#cpbgmenu a:hover {
+  background-color: var(--moava-gronn-farge);
+  color: white;
+}
+
+#cpbgmenu .adminmenuitemSelected {
+  background-color: var(--moava-gronn-farge);
+  color: white;
+  font-weight: 500;
+}
+
+#cpbgmenu a {
+  display: inline-block;
+  padding: 11px 13px 11px 13px;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  /*Added by Alf to position badge number*/
+}
+
+#cpbgmenu span {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#cpbgmenu .adminmenuicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+
+#cpbgmenu .badgeSMS {
+  /* background-color: #990000;*/
+  background-color: #c71c22;
+  /*like danger bootstrap color/*
+  /* border: 2px solid #ffffff;*/
+  border-radius: 10px;
+  color: #ffffff;
+  /*height: 18px;*/
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 6px;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  left: 120px;
+  opacity: 0.8;
+  position: absolute;
+  top: -4px;
+}
+
+/* @end */
+/* @Message type styles */
+.moavaMessage {
+  margin: 5px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  padding-left: 74px;
+  min-height: 64px;
+  position: relative;
+}
+
+.moavaMessageHeading {
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.moavaMessage1 {
+  border: 3px ridge lightgreen;
+  background-color: lightgreen;
+  background-image: url("../icons/open/64x64/status/dialog-clean.png");
+}
+
+.moavaMessage2 {
+  border: 3px ridge lightblue;
+  background-color: lightblue;
+  background-image: url("../icons/open/64x64/status/dialog-information-3.png");
+}
+
+.moavaMessage3 {
+  border: 3px ridge lightyellow;
+  background-color: lightyellow;
+  background-image: url("../icons/open/64x64/status/dialog-warning-3.png");
+}
+
+.moavaMessage4 {
+  border: 3px ridge salmon;
+  background-color: salmon;
+  background-image: url("../icons/open/64x64/status/dialog-error-3.png");
+}
+
+/* @end */
+div.extraEditBox {
+  border: 1px dashed #aaaaaa;
+  padding: 3px;
+}
+
+table.moavaListTable {
+  width: 100%;
+}
+
+table.moavaListTable tbody td > div {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+table.moavaListTable tbody td div img {
+  vertical-align: middle;
+}
+
+table.moavaListTable thead th {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333333;
+  border-right: 1px dotted #333333;
+  border-bottom: 3px solid #bcdb01;
+  white-space: nowrap;
+  height: 29px;
+  font-weight: 600;
+}
+
+table.moavaListTable thead th a {
+  color: #333333;
+  text-decoration: none;
+  /*display: block;*/
+  cursor: pointer;
+}
+
+table.moavaListTable tbody td a {
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table.moavaListTable tbody td:first-child {
+  width: 25px;
+}
+
+table.moavaListTable thead th:last-child {
+  border-right: none;
+}
+
+table.moavaListTable tfoot td {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333333;
+  border-right: 1px dotted #333333;
+  border-top: 3px solid #bcdb01;
+  white-space: nowrap;
+  height: 29px;
+}
+
+table.moavaListTable tfoot td:last-child {
+  border-right: none;
+}
+
+table.moavaListTable tbody td {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid transparent;
+}
+
+table.moavaListTable tbody td:last-child {
+  border-right: none;
+}
+
+table.moavaListTable tbody tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+table.moavaListTable tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+.moavaListTablePagination {
+  background: #ffffff;
+  bottom: 0;
+  right: 0;
+  left: 253px;
+  /*position:relative;*/
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+  color: #333333;
+  border-top: 3px solid #bcdb01;
+  font-weight: 600;
+}
+
+.moavaListTablePagination a {
+  text-decoration: none;
+}
+
+.moavaListTablePagination a span {
+  display: inline-block;
+  padding: 0.5em;
+  height: 1em;
+  line-height: 1em;
+  background-color: #f4f4f4;
+  border: 1px dashed #333333;
+  color: #333333;
+  cursor: pointer;
+}
+
+.moavaListTablePagination a span.moavaPaginationSelectedPage {
+  background-color: #bcdb01;
+  border: 1px dashed #333333;
+  color: #333333;
+}
+
+#moavaLeftMenu a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#moavaLeftMenu ul li {
+  height: 22px;
+}
+
+#menuedittop {
+  font-weight: 600;
+  font-size: 10pt;
+}
+
+#menuedittop a {
+  margin: 10px;
+}
+
+div.box1text {
+  font-size: 90%;
+}
+
+span.box1text {
+  font-size: 90%;
+}
+
+span.box1itemHeading {
+  font-size: 100%;
+}
+
+span.box1heading {
+  font-size: 100%;
+}
+
+.box1top {
+  background-color: #FFFFFF;
+  background-image: url(../../themes/1/images/border_top.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+.box1bottom {
+  background-color: #FFFFFF;
+  background-image: url(../../themes/1/images/border_bottom.gif);
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+.box1left {
+  background-color: #FFFFFF;
+  background-image: url(../../themes/1/images/border_left.gif);
+  background-position: left;
+  background-repeat: repeat-y;
+}
+
+.box1right {
+  background-color: #FFFFFF;
+  background-image: url(../../themes/1/images/border_right.gif);
+  background-position: right;
+  background-repeat: repeat-y;
+}
+
+.moavaDiaBlock {
+  padding-bottom: 0.5em;
+}
+
+.moavaFormLabel {
+  text-align: left;
+  padding-right: 0.5em;
+  display: block;
+}
+
+.moavaSpaceFrame {
+  padding: 0.1em;
+}
+
+.moavaInlineInfo {
+  border: None;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
+  color: #333;
+}
+
+.moavaInlineWarning {
+  border: 2px solid salmon;
+  background-color: lightyellow;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.moavaInlineError {
+  color: #FF2222;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.moavaInlineSuccess {
+  color: #006633;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+a.deleteLink {
+  color: red;
+  font-weight: 600;
+  padding: 2px;
+}
+
+a.deleteLink:hover {
+  color: white;
+  background-color: red;
+}
+
+a.disabled {
+  color: #aaaaaa !important;
+  text-decoration: none !important;
+}
+
+a.disabled:hover {
+  color: #666 !important;
+  background-color: #eee !important;
+}
+
+.moavaadmonly {
+  background-color: #42b698;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  padding: 3px;
+}
+
+.cphide {
+  display: none;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+}
+
+.slide.current {
+  display: block;
+}
+
+.slidetext {
+  height: 80px;
+  position: relative;
+  margin-top: -80px;
+  background-image: url("../images/transp50.png");
+}
+
+a.slideshowLink:link, a.slideshowLink:visited, a.slideshowLink:active, a.slideshowLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.box1corners {
+  display: flex;
+}
+
+/* END admin*/
+/* START admin.org */
+ul.intern {
+  margin-top: 4px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+li.menuItem {
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  list-style-image: url("../images/dot_blue.gif");
+}
+
+.menuSubGroup {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #315dc6;
+}
+
+.bottomborder {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: #0148b2;
+}
+
+.submenulink {
+  color: #990000;
+}
+
+.submenulink:hover {
+  color: #ff0000;
+}
+
+a {
+  text-decoration: underline;
+  color: #215dc6;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #609dfb;
+  cursor: pointer;
+}
+
+a.fat {
+  font-family: var(--main-font-fam);
+  font-weight: 600;
+  font-size: 80%;
+}
+
+a.fat:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+a.fat:visited {
+  font-weight: 600;
+}
+
+.titlebarCell {
+  font-family: var(--main-font-fam);
+  font-weight: 600;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  color: #333333;
+  border-right: 1px dotted #333333;
+  border-bottom: 3px solid #bcdb01;
+  white-space: nowrap;
+  height: 29px;
+}
+
+.titlebarCell:last-child {
+  border-right: none;
+}
+
+.contentFrame {
+  background-color: #efefef;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.colBg {
+  font-family: var(--main-font-fam);
+  background-color: #8caae6;
+}
+
+.cell_light {
+  font-family: var(--main-font-fam);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 80%;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid transparent;
+}
+
+.cell_light:last-child {
+  border-right: none;
+}
+
+.cell_shade {
+  font-family: var(--main-font-fam);
+  background-color: #f4f4f4;
+  color: #000000;
+  font-size: 80%;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid transparent;
+}
+
+.cell_shade:last-child {
+  border-right: none;
+}
+
+.cell_lesslight {
+  font-family: var(--main-font-fam);
+  background-color: #edf2fc;
+  color: #000000;
+  font-size: 80%;
+}
+
+.toolbar {
+  background-color: #dfe6ef;
+  border: 1px solid #0148b2;
+}
+
+.headline {
+  font-weight: 700;
+  font-family: var(--main-font-fam);
+  color: var(--moava-bla-farge);
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+  font-size: 150%;
+  letter-spacing: 0.2px;
+}
+
+hr {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contentBody {
+  font-family: var(--main-font-fam);
+  padding: 15px 15px 10px 15px;
+}
+
+.button_small {
+  border-color: Black Black Black Black;
+  background-color: #0148b2;
+  color: White;
+  font-size: 75%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.button_normal {
+  border-color: Black Black Black Black;
+  background-color: #0148b2;
+  color: White;
+  font-size: 100%;
+}
+
+.form_small {
+  border-color: Black Black Black Black;
+  background-color: White;
+  color: Black;
+  font-size: 75%;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px solid;
+}
+
+.form_normal {
+  border-color: Black Black Black Black;
+  background-color: White;
+  color: Black;
+  font-size: 100%;
+  border: 1px solid;
+}
+
+.border_thin {
+  border-color: Black Black Black Black;
+  background-color: White;
+  color: #333333;
+  font-size: 75%;
+  border: 1px solid;
+  margin: 0px;
+  padding: 1px 4px 1px 1px;
+}
+
+.form_hide {
+  border-color: Black Black Black Black;
+  background-color: transparent;
+  color: Black;
+  font-size: 100%;
+  border: none;
+  font-weight: 600;
+}
+
+.form_hide_small_text {
+  border-color: Black Black Black Black;
+  background-color: transparent;
+  color: Black;
+  font-size: 75%;
+  border: none;
+  font-weight: 600;
+}
+
+.box1headarea {
+  background-color: #ffffff;
+  border-bottom: 1px solid #999999;
+}
+
+/* START noen like i admin.css */
+.box1heading {
+  font-family: var(--main-font-fam);
+  font-size: 100%;
+  color: #333333;
+  padding: 1px;
+}
+
+.box1text {
+  font-family: var(--main-font-fam);
+  /*font-size: 76%;*/
+  font-size: 90%;
+  color: #000000;
+  padding-top: 5px;
+}
+
+/* END noen like i admin.css */
+.ntext {
+  font-family: var(--main-font-fam);
+  font-size: 76%;
+  color: #000000;
+}
+
+.overskrift {
+  font-size: 100%;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.pagePlacementSelects td {
+  padding: 2px;
+}
+
+[userPermission-toggle=toggle] {
+  display: none;
+}
+
+.userPermission_labels tr td {
+  background-color: #5582d2;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* END admin.org*/
+/* hentet fra 
+	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/FA-inline-icons.css */
+/* START css variabler for menyikoner */
+/* Standard for menyikoner. Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve ikonet. F.eks #menuItem2-1 */
+:root {
+  --menuItemBeforeDefault-font-size: 24px;
+  --menuItemBeforeDefault-color: #333;
+  --menuItemBeforeDefault-display: block;
+  --menuItemBeforeDefault-font-family: "FontAwesome";
+  --menuItemBeforeDefault-font-weight: 500;
+  --menuItemBeforeDefault-font-style: normal;
+  --menuItemBeforeDefault-font-variant: normal;
+  --menuItemBeforeDefault-text-rendering: auto;
+  --menuItemBeforeDefault--webkit-font-smoothing: antialiased;
+}
+
+/* END css variabler for menyikoner */
+/* START Sikrer at ikonene ser riktig ut */
+.menuItemNew > .fa-li ::before {
+  font-size: var(--menuItemBeforeDefault-font-size);
+  color: var(--menuItemBeforeDefault-color);
+  display: var(--menuItemBeforeDefault-display);
+  font-family: var(--menuItemBeforeDefault-font-family);
+  font-weight: var(--menuItemBeforeDefault-font-weight);
+  font-style: var(--menuItemBeforeDefault-font-style);
+  font-variant: var(--menuItemBeforeDefault-font-variant);
+  text-rendering: var(--menuItemBeforeDefault-text-rendering);
+  -webkit-font-smoothing: var(--menuItemBeforeDefault--webkit-font-smoothing);
+}
+
+/* END */
+/* Start definering av ikoner */
+/* MENU KALENDER */
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-1::before {
+  content: "";
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-2::before {
+  content: "";
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-3::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-1::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-2::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-3::before {
+  content: "";
+  font-size: 8px;
+}
+
+/* MENU USERS */
+.menuUsers .menuItemNew > .fa-li > #menuitem1-1::before {
+  content: "";
+}
+
+.menuUsers .menuItemNew > .fa-li > #menuitem1-2::before {
+  content: "";
+}
+
+.menuUsers .menuItemNew > .fa-li > #menuitem1-3::before {
+  content: "";
+  font-size: inherit;
+}
+
+/* Buttons for 2021 */
+.button .button--primary, input[type=submit], .button--secondary, input[type=button] {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.button--primary, input[type=submit] {
+  color: white;
+  background: #2276FC;
+  border-color: #2276FC;
+}
+.button--primary:hover, input[type=submit]:hover {
+  color: white;
+  background: #1E61CD;
+  border-color: #1E61CD;
+}
+.button--primary:active, input[type=submit]:active {
+  color: white;
+  background: #17396F;
+  border-color: #17396F;
+}
+
+.button--secondary, input[type=button], .button {
+  color: #565D67;
+  background: white;
+  border: 1px solid #CED2D9;
+}
+.button--secondary:hover, input[type=button]:hover, .button:hover {
+  color: white;
+  background: #6E7683;
+  border-color: #6E7683;
+}
+.button--secondary:active, input[type=button]:active, .button:active {
+  color: white;
+  background: #3F434A;
+  border-color: #3F434A;
+}
+
+/* START Nytt oktober 2020 - venstremeny kalender */
+/* START css variabler for meny. Gjelder ogsÃ¥ for andre ting. */
+:root {
+  --main-font-fam: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
+  --border-color-light: #e4e4e4;
+  --padding-title-subtitle: 15px;
+  --background-color-item-icon: #e4e4e4;
+  --moava-gronn-farge: #70c80f;
+  --moava-bla-farge: #4AA0D5;
+  --main-font-color: #333;
+  --main-hover-color: #70C90F;
+  --secondary-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* END css variabler for meny */
+div.menuContainer {
+  padding: 1px 23px 20px 23px;
+  background: #f3f3f3;
+  border-right: 1px solid var(--border-color-light);
+  border-bottom: 1px solid var(--border-color-light);
+  border-bottom-right-radius: 6px;
+  /* eksperimental */
+  /*margin-top: -4px;
+  margin-left: -5px;*/
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+div.menuContainer .menuTitle {
+  color: #272a2f;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--main-font-fam);
+  border-bottom: 1px solid var(--border-color-light);
+  letter-spacing: 0.2px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 2px;
+  margin-bottom: 45px;
+}
+
+div.menuContainer .menuSubTitle {
+  font-family: var(--main-font-fam);
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #919bae;
+}
+
+ul.fa-ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px !important;
+}
+
+.menuItemNew {
+  margin: 3px 0px 3px 10px;
+  border-radius: 0px 4px 4px 0px !important;
+  min-height: 41px;
+  display: flex;
+}
+
+.menuItemNew a {
+  padding: 11px 25px 11px 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 0px 4px 4px 0px !important;
+}
+
+.menuItemNew > .fa-li {
+  font-size: 25px;
+  min-height: 41px;
+  top: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.menuItemNew,
+.menuItemNew .fa-li {
+  background: #f8f8f8;
+}
+
+/* Start hover / active */
+.menuItemNew:hover,
+.menuItemNew:hover .fa-li,
+.menuItemNew:hover a {
+  background: var(--moava-gronn-farge);
+  color: white;
+}
+
+.menuItemNew:active,
+.menuItemNew:active .fa-li,
+.menuItemNew:active a {
+  background: #70c80f;
+  color: white;
+}
+
+/* End hover / active */
+/* END Nytt oktober 2020 - venstremeny kalender */
+/* table tbody... osv har padding. Her mÃ¥ vi si at menyen skal vÃ¦re 4px mot topp pga menyen er lagt inni en table */
+body table tbody tr td div.menuContainer {
+  margin-top: -4px;
+  margin-left: -5px;
+}
