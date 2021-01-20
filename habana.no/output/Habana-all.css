@@ -804,10 +804,10 @@ a.fat:visited {
 .headline {
   font-weight: 700;
   font-family: var(--main-font-fam);
-  color: var(--moava-bla-farge);
+  color: black;
   padding: 0px;
   margin: 0px 0px 10px 0px;
-  font-size: 150%;
+  font-size: 24px;
   letter-spacing: 0.2px;
 }
 
@@ -1043,7 +1043,7 @@ hr {
 .button--secondary, input[type=button], .button {
   color: #565D67;
   background: white;
-  border: 1px solid #CED2D9;
+  border-color: #CED2D9;
   /* playing safe (some inline) */
   background-color: white !important;
 }
@@ -1060,7 +1060,7 @@ hr {
   border-color: #3F434A;
 }
 
-/* START Nytt oktober 2020 - venstremeny kalender */
+/* Venstremeny på blant annet kalender, user-inbox */
 /* START css variabler for meny. Gjelder ogsÃ¥ for andre ting. */
 :root {
   --main-font-fam: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
@@ -1077,14 +1077,12 @@ hr {
 /* END css variabler for meny */
 div.menuContainer {
   padding: 1px 23px 20px 23px;
-  background: #f3f3f3;
   border-right: 1px solid var(--border-color-light);
   border-bottom: 1px solid var(--border-color-light);
   border-bottom-right-radius: 6px;
-  /* eksperimental */
-  /*margin-top: -4px;
-  margin-left: -5px;*/
-  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
+  margin-top: -4px;
+  margin-left: -5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 25px 35px rgba(0, 0, 0, 0.03);
 }
 
 div.menuContainer .menuTitle {
@@ -1151,34 +1149,26 @@ ul.fa-ul {
   border-radius: 4px 0px 0px 4px;
 }
 
-.menuItemNew,
-.menuItemNew .fa-li {
-  background: #f8f8f8;
-}
-
 /* Start hover / active */
 .menuItemNew:hover,
 .menuItemNew:hover .fa-li,
 .menuItemNew:hover a {
   background: var(--moava-gronn-farge);
-  color: white;
+  background: #F2F3F5;
 }
 
 .menuItemNew:active,
 .menuItemNew:active .fa-li,
-.menuItemNew:active a {
+.menuItemNew:active a,
+.menuItemNew:active .fa-li > *::before {
   background: #70c80f;
-  color: white;
+  /*color: white;*/
+  background: #E3F0F9;
+  color: #21648E;
 }
 
 /* End hover / active */
 /* END Nytt oktober 2020 - venstremeny kalender */
-/* table tbody... osv har padding. Her mÃ¥ vi si at menyen skal vÃ¦re 4px mot topp pga menyen er lagt inni en table */
-body table tbody tr td div.menuContainer {
-  margin-top: -4px;
-  margin-left: -5px;
-}
-
 /* fjerner margin helt på toppen av siden*/
 body {
   padding-top: 0px !important;

@@ -1,117 +1,118 @@
-/* START Nytt oktober 2020 - venstremeny kalender */
+/* Venstremeny på blant annet kalender, user-inbox */
 
 /* START css variabler for meny. Gjelder ogsÃ¥ for andre ting. */
 :root {
-    --main-font-fam: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
-    --border-color-light: #e4e4e4;
-    --padding-title-subtitle: 15px;
-    --background-color-item-icon: #e4e4e4;
-    --moava-gronn-farge: #70c80f;
-    --moava-bla-farge: #4AA0D5;
-    
-      --main-font-color: #333;
-      --main-hover-color: #70C90F;
-      --secondary-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
-  }
-  /* END css variabler for meny */
-  
-  div.menuContainer {
-    padding: 1px 23px 20px 23px;
-    background: #f3f3f3;
-    border-right: 1px solid var(--border-color-light);
-    border-bottom: 1px solid var(--border-color-light);
-    border-bottom-right-radius: 6px;
-    /* eksperimental */
-    /*margin-top: -4px;
-    margin-left: -5px;*/
-    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
-  }
-  div.menuContainer .menuTitle {
-    color: #272a2f;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: var(--main-font-fam);
-    border-bottom: 1px solid var(--border-color-light);
-    letter-spacing: 0.2px;
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 2px;
-    margin-bottom: 45px;
-  }
-  div.menuContainer .menuSubTitle {
-    font-family: var(--main-font-fam);
-    font-size: 15px;
-    margin-top: 40px;
-    margin-bottom: 12px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #919bae;
-  }
-  
-  ul.fa-ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0px !important;
-  }
-  
-  .menuItemNew {
-    margin: 3px 0px 3px 10px;
-    border-radius: 0px 4px 4px 0px !important;
-    min-height: 41px;
-    display: flex;
-  }
-  
-  .menuItemNew a {
-    padding: 11px 25px 11px 0px;
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    flex: 1;
-    font-size: 15px;
-    color: #333;
-    text-decoration: none;
-    border-radius: 0px 4px 4px 0px !important;
-  }
-  
-  .menuItemNew > .fa-li {
-    font-size: 25px;
-    min-height: 41px;
-    top: 0px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px 0px 0px 4px;
-  }
-  .menuItemNew,
-  .menuItemNew .fa-li {
-    background: #f8f8f8;
-  }
-  
-  /* Start hover / active */
-  .menuItemNew:hover,
-  .menuItemNew:hover .fa-li,
-  .menuItemNew:hover a {
-    background: var(--moava-gronn-farge);
-    color: white;
-  }
-  .menuItemNew:active,
-  .menuItemNew:active .fa-li,
-  .menuItemNew:active a {
-    background: #70c80f;
-    color: white;
-  }
-  /* End hover / active */
-  
-  /* END Nytt oktober 2020 - venstremeny kalender */
-
-  /* table tbody... osv har padding. Her mÃ¥ vi si at menyen skal vÃ¦re 4px mot topp pga menyen er lagt inni en table */
-body table tbody tr td div.menuContainer {
-	margin-top: -4px;
-	margin-left: -5px;
+  --main-font-fam: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
+  --border-color-light: #e4e4e4;
+  --padding-title-subtitle: 15px;
+  --background-color-item-icon: #e4e4e4;
+  --moava-gronn-farge: #70c80f;
+  --moava-bla-farge: #4AA0D5;
+  --main-font-color: #333;
+  --main-hover-color: #70C90F;
+  --secondary-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+/* END css variabler for meny */
+div.menuContainer {
+  padding: 1px 23px 20px 23px;
+  //background: #f3f3f3;
+  border-right: 1px solid var(--border-color-light);
+  border-bottom: 1px solid var(--border-color-light);
+  border-bottom-right-radius: 6px;
+  //box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
+  margin-top: -4px;
+  margin-left: -5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 25px 35px rgba(0, 0, 0, 0.03);
+}
+
+div.menuContainer .menuTitle {
+  color: #272a2f;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--main-font-fam);
+  border-bottom: 1px solid var(--border-color-light);
+  letter-spacing: 0.2px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 2px;
+  margin-bottom: 45px;
+}
+
+div.menuContainer .menuSubTitle {
+  font-family: var(--main-font-fam);
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #919bae;
+}
+
+ul.fa-ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px !important;
+}
+
+.menuItemNew {
+  margin: 3px 0px 3px 10px;
+  border-radius: 0px 4px 4px 0px !important;
+  min-height: 41px;
+  display: flex;
+}
+
+.menuItemNew a {
+  padding: 11px 25px 11px 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 0px 4px 4px 0px !important;
+}
+
+.menuItemNew > .fa-li {
+  font-size: 25px;
+  min-height: 41px;
+  top: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.menuItemNew,
+.menuItemNew .fa-li {
+  //background: #f8f8f8;
+}
+
+/* Start hover / active */
+.menuItemNew:hover,
+.menuItemNew:hover .fa-li,
+.menuItemNew:hover a {
+  background: var(--moava-gronn-farge);
+  background: #F2F3F5;
+  //color: white;
+}
+
+.menuItemNew:active,
+.menuItemNew:active .fa-li,
+.menuItemNew:active a,
+.menuItemNew:active .fa-li > *::before {
+  background: #70c80f;
+  /*color: white;*/
+  background: #E3F0F9;
+  color: #21648E;
+}
+
+/* End hover / active */
+/* END Nytt oktober 2020 - venstremeny kalender */

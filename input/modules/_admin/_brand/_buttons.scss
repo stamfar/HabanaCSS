@@ -33,7 +33,7 @@
 .button--secondary, input[type="button"], .button  {
     color: #565D67;
     background: white;
-    border: 1px solid #CED2D9;
+    border-color: #CED2D9;
     /* playing safe (some inline) */
     background-color: white !important;
     &:hover {
