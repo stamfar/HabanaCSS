@@ -1083,7 +1083,7 @@ hr {
   background: white;
   border-color: var(--red);
   /* playing safe (some inline exists) */
-  background-color: var(--red-darker) !important;
+  background-color: white !important;
 }
 .button--warning:hover {
   color: white;

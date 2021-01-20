@@ -55,7 +55,7 @@
     background: white;
     border-color: var(--red);
     /* playing safe (some inline exists) */
-    background-color: var(--red-darker) !important;
+    background-color: white !important;
     &:hover {
         color: white;
         background: var(--red-dark);
