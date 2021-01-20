@@ -1,6 +1,6 @@
 /* Buttons for 2021 */
 
-.button .button--primary, input[type=submit], .button--secondary, input[type=button] {
+.button, .button--primary, input[type=submit], .button--secondary, input[type=button] {
     font-family: inherit;
     cursor: pointer;
     padding: 4px 8px;
@@ -30,7 +30,7 @@
     }
 }
 
-.button--secondary, input[type="button"], .button  {
+.button--secondary, input[type="button"], .button {
     color: #565D67;
     background: white;
     border-color: #CED2D9;
