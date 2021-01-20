@@ -27,6 +27,8 @@
         color: white;
         background: #17396F;
         border-color:#17396F;
+        /* playing safe (some inline exists) */
+        background-color: #17396F !important;
     }
 }
 
