@@ -1077,6 +1077,7 @@ hr {
 /* END css variabler for meny */
 div.menuContainer {
   padding: 1px 23px 20px 23px;
+  background: white;
   border-right: 1px solid var(--border-color-light);
   border-bottom: 1px solid var(--border-color-light);
   border-bottom-right-radius: 6px;
@@ -1153,7 +1154,6 @@ ul.fa-ul {
 .menuItemNew:hover,
 .menuItemNew:hover .fa-li,
 .menuItemNew:hover a {
-  background: var(--moava-gronn-farge);
   background: #F2F3F5;
 }
 
@@ -1161,10 +1161,9 @@ ul.fa-ul {
 .menuItemNew:active .fa-li,
 .menuItemNew:active a,
 .menuItemNew:active .fa-li > *::before {
-  background: #70c80f;
-  /*color: white;*/
   background: #E3F0F9;
   color: #21648E;
+  font-weight: 600;
 }
 
 /* End hover / active */
