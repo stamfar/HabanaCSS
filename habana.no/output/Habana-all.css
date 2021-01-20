@@ -18,12 +18,16 @@
   /* Hovedfarger */
   --black: black;
   --white: white;
-  --brand-color-primary-hover: #509725;
-  --brand-color-primary-dark: #346218;
-  --brand-color-primary-light: #e7f7dd;
-  --brand-color-secondary-hover: #88c1e3;
-  --brand-color-secondary-dark: #21648e;
-  --brand-color-secondary-light: #e3f0f9;
+  --red: #F03E2F;
+  --red-dark: #B61A0D;
+  --blue: #2276FC;
+  --blue-dark: #1E61CD;
+  --blue-darker: #17396F;
+  --gray-light: #F2F3F5;
+  --gray: #E6E8EC;
+  --gray-dark: #CED2D9;
+  --gray-darker: #6E7683;
+  --gray-darker: #3F434A;
 }
 
 :root {
