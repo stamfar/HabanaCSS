@@ -1023,7 +1023,7 @@ hr {
 }
 
 /* Buttons for 2021 */
-.button, .button--primary, input[type=submit], .button--secondary, input[type=button] {
+.button, .button--primary, .button--delete, input[type=submit], .button--secondary, input[type=button] {
   font-family: inherit;
   cursor: pointer;
   padding: 4px 8px;
@@ -1037,14 +1037,14 @@ hr {
   color: white;
   background: #2276FC;
   border-color: #2276FC;
-  /* playing safe (some inline) */
+  /* playing safe (some inline exists) */
   background-color: #2276FC !important;
 }
 .button--primary:hover, input[type=submit]:hover {
   color: white;
   background: #1E61CD;
   border-color: #1E61CD;
-  /* playing safe (some inline) */
+  /* playing safe (some inline exists) */
   background-color: #1E61CD !important;
 }
 .button--primary:active, input[type=submit]:active {
@@ -1057,20 +1057,45 @@ hr {
   color: #565D67;
   background: white;
   border-color: #CED2D9;
-  /* playing safe (some inline) */
+  /* playing safe (some inline exists) */
   background-color: white !important;
 }
 .button--secondary:hover, input[type=button]:hover, .button:hover {
   color: white;
   background: #6E7683;
   border-color: #6E7683;
-  /* playing safe (some inline) */
+  /* playing safe (some inline exists) */
   background-color: #6E7683 !important;
 }
 .button--secondary:active, input[type=button]:active, .button:active {
   color: white;
   background: #3F434A;
   border-color: #3F434A;
+}
+
+.button--warning {
+  color: var(--red);
+  background: white;
+  border-color: var(--red);
+  /* playing safe (some inline exists) */
+  background-color: var(--red-darker) !important;
+}
+.button--warning:hover {
+  color: white;
+  background: var(--red-darker);
+  border-color: var(--red-darker);
+  /* playing safe (some inline exists) */
+  background-color: var(--red-darker) !important;
+}
+.button--warning:active {
+  color: white;
+  background: #3F434A;
+  border-color: #3F434A;
+}
+
+/* Må skrives sammen og etter en av de andre klassene */
+.button--large {
+  padding: 6px 12px;
 }
 
 /* Venstremeny på blant annet kalender, user-inbox */
