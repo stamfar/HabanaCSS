@@ -20,6 +20,7 @@
   --white: white;
   --red: #F03E2F;
   --red-dark: #B61A0D;
+  --red-darker: #8B140A;
   --blue: #2276FC;
   --blue-dark: #1E61CD;
   --blue-darker: #17396F;
@@ -27,7 +28,7 @@
   --gray: #E6E8EC;
   --gray-dark: #CED2D9;
   --gray-darker: #6E7683;
-  --gray-darker: #3F434A;
+  --gray-darkest: #3F434A;
 }
 
 :root {
@@ -1093,8 +1094,8 @@ hr {
 }
 .button--warning:active {
   color: white;
-  background: #3F434A;
-  border-color: #3F434A;
+  background: var(--red-darker);
+  border-color: var(--red-darker);
 }
 
 /* Må skrives sammen og etter en av de andre klassene */

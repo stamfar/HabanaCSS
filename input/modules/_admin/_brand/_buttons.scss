@@ -65,8 +65,8 @@
     }
     &:active {
         color: white;
-        background: #3F434A;
-        border-color: #3F434A;
+        background:  var(--red-darker);
+        border-color: var(--red-darker);
     }
 }
 
