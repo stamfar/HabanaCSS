@@ -1104,6 +1104,10 @@ hr {
   background-color: var(--red-darker) !important;
 }
 
+input[type=file] {
+  font-size: 16px;
+}
+
 /* Må skrives sammen og etter en av de andre klassene */
 .button--large {
   padding: 6px 12px;
