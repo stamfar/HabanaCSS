@@ -934,6 +934,124 @@ hr {
 }
 
 /* END admin.org*/
+/* hentet fra 
+	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/FA-inline-icons.css */
+/* START css variabler for menyikoner */
+/* Standard for menyikoner. Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve ikonet. F.eks #menuItem2-1 */
+:root {
+  --menuItemBeforeDefault-font-size: 24px;
+  --menuItemBeforeDefault-color: #333;
+  --menuItemBeforeDefault-display: block;
+  --menuItemBeforeDefault-font-family: "FontAwesome";
+  --menuItemBeforeDefault-font-weight: 500;
+  --menuItemBeforeDefault-font-style: normal;
+  --menuItemBeforeDefault-font-variant: normal;
+  --menuItemBeforeDefault-text-rendering: auto;
+  --menuItemBeforeDefault--webkit-font-smoothing: antialiased;
+}
+
+/* END css variabler for menyikoner */
+/* START Sikrer at ikonene ser riktig ut */
+.menuItemNew > .fa-li ::before {
+  font-size: var(--menuItemBeforeDefault-font-size);
+  color: var(--menuItemBeforeDefault-color);
+  display: var(--menuItemBeforeDefault-display);
+  font-family: var(--menuItemBeforeDefault-font-family);
+  font-weight: var(--menuItemBeforeDefault-font-weight);
+  font-style: var(--menuItemBeforeDefault-font-style);
+  font-variant: var(--menuItemBeforeDefault-font-variant);
+  text-rendering: var(--menuItemBeforeDefault-text-rendering);
+  -webkit-font-smoothing: var(--menuItemBeforeDefault--webkit-font-smoothing);
+}
+
+/* END */
+/* Start definering av ikoner */
+/* MENU KALENDER */
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-1::before {
+  content: "";
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-2::before {
+  content: "";
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem1-3::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-1::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-2::before {
+  content: "";
+  font-size: 8px;
+}
+
+.menuCalendar .menuItemNew > .fa-li > #menuitem2-3::before {
+  content: "";
+  font-size: 8px;
+}
+
+/* MENU USERS */
+.menuUsers .menuItemNew > .fa-li > #menuitem1-1::before {
+  content: "";
+}
+
+.menuUsers .menuItemNew > .fa-li > #menuitem1-2::before {
+  content: "";
+}
+
+.menuUsers .menuItemNew > .fa-li > #menuitem1-3::before {
+  content: "";
+  font-size: inherit;
+}
+
+/* Buttons for 2021 */
+.button .button--primary, input[type=submit], .button--secondary, input[type=button] {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.button--primary, input[type=submit] {
+  color: white;
+  background: #2276FC;
+  border-color: #2276FC;
+}
+.button--primary:hover, input[type=submit]:hover {
+  color: white;
+  background: #1E61CD;
+  border-color: #1E61CD;
+}
+.button--primary:active, input[type=submit]:active {
+  color: white;
+  background: #17396F;
+  border-color: #17396F;
+}
+
+.button--secondary, input[type=button], .button {
+  color: #565D67;
+  background: white;
+  border: 1px solid #CED2D9;
+}
+.button--secondary:hover, input[type=button]:hover, .button:hover {
+  color: white;
+  background: #6E7683;
+  border-color: #6E7683;
+}
+.button--secondary:active, input[type=button]:active, .button:active {
+  color: white;
+  background: #3F434A;
+  border-color: #3F434A;
+}
+
 /* START Nytt oktober 2020 - venstremeny kalender */
 /* START css variabler for meny. Gjelder ogsÃ¥ for andre ting. */
 :root {
@@ -1051,124 +1169,6 @@ ul.fa-ul {
 body table tbody tr td div.menuContainer {
   margin-top: -4px;
   margin-left: -5px;
-}
-
-/* hentet fra 
-	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/FA-inline-icons.css */
-/* START css variabler for menyikoner */
-/* Standard for menyikoner. Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve ikonet. F.eks #menuItem2-1 */
-:root {
-  --menuItemBeforeDefault-font-size: 24px;
-  --menuItemBeforeDefault-color: #333;
-  --menuItemBeforeDefault-display: block;
-  --menuItemBeforeDefault-font-family: "FontAwesome";
-  --menuItemBeforeDefault-font-weight: 500;
-  --menuItemBeforeDefault-font-style: normal;
-  --menuItemBeforeDefault-font-variant: normal;
-  --menuItemBeforeDefault-text-rendering: auto;
-  --menuItemBeforeDefault--webkit-font-smoothing: antialiased;
-}
-
-/* END css variabler for menyikoner */
-/* START Sikrer at ikonene ser riktig ut */
-.menuItemNew > .fa-li ::before {
-  font-size: var(--menuItemBeforeDefault-font-size);
-  color: var(--menuItemBeforeDefault-color);
-  display: var(--menuItemBeforeDefault-display);
-  font-family: var(--menuItemBeforeDefault-font-family);
-  font-weight: var(--menuItemBeforeDefault-font-weight);
-  font-style: var(--menuItemBeforeDefault-font-style);
-  font-variant: var(--menuItemBeforeDefault-font-variant);
-  text-rendering: var(--menuItemBeforeDefault-text-rendering);
-  -webkit-font-smoothing: var(--menuItemBeforeDefault--webkit-font-smoothing);
-}
-
-/* END */
-/* Start definering av ikoner */
-/* MENU KALENDER */
-.menuCalendar .menuItemNew > .fa-li > #menuitem1-1::before {
-  content: "";
-}
-
-.menuCalendar .menuItemNew > .fa-li > #menuitem1-2::before {
-  content: "";
-}
-
-.menuCalendar .menuItemNew > .fa-li > #menuitem1-3::before {
-  content: "";
-  font-size: 8px;
-}
-
-.menuCalendar .menuItemNew > .fa-li > #menuitem2-1::before {
-  content: "";
-  font-size: 8px;
-}
-
-.menuCalendar .menuItemNew > .fa-li > #menuitem2-2::before {
-  content: "";
-  font-size: 8px;
-}
-
-.menuCalendar .menuItemNew > .fa-li > #menuitem2-3::before {
-  content: "";
-  font-size: 8px;
-}
-
-/* MENU USERS */
-.menuUsers .menuItemNew > .fa-li > #menuitem1-1::before {
-  content: "";
-}
-
-.menuUsers .menuItemNew > .fa-li > #menuitem1-2::before {
-  content: "";
-}
-
-.menuUsers .menuItemNew > .fa-li > #menuitem1-3::before {
-  content: "";
-  font-size: inherit;
-}
-
-/* Buttons for 2021 */
-.button .button--primary, input[type=submit], .button--secondary, input[type=button] {
-  font-family: inherit;
-  cursor: pointer;
-  padding: 4px 8px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 3px;
-  border: 1px solid;
-}
-
-.button--primary, input[type=submit] {
-  color: white;
-  background: #2276FC;
-  border-color: #2276FC;
-}
-.button--primary:hover, input[type=submit]:hover {
-  color: white;
-  background: #1E61CD;
-  border-color: #1E61CD;
-}
-.button--primary:active, input[type=submit]:active {
-  color: white;
-  background: #17396F;
-  border-color: #17396F;
-}
-
-.button--secondary, input[type=button], .button {
-  color: #565D67;
-  background: white;
-  border: 1px solid #CED2D9;
-}
-.button--secondary:hover, input[type=button]:hover, .button:hover {
-  color: white;
-  background: #6E7683;
-  border-color: #6E7683;
-}
-.button--secondary:active, input[type=button]:active, .button:active {
-  color: white;
-  background: #3F434A;
-  border-color: #3F434A;
 }
 
 /* fjerner margin helt på toppen av siden*/
