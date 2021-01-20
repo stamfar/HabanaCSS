@@ -1023,7 +1023,7 @@ hr {
 }
 
 /* Buttons for 2021 */
-.button, .button--primary, .button--delete, input[type=submit], .button--secondary, input[type=button] {
+.button, .button--primary, .button--warning, input[type=submit], .button--secondary, input[type=button] {
   font-family: inherit;
   cursor: pointer;
   padding: 4px 8px;
