@@ -26,14 +26,14 @@
 
 /* Overstyre bootstrap */
 
-#moavaListMessageArchive .inboxArchive {
+#moavaListMessageArchive tbody .inboxArchive {
     padding: 0px !important;
     border-top: 0px !important;
 }
 
 /* Overstyre bootstrap */
 
-#moavaListMessageArchive .inboxArchive .panel {
+#moavaListMessageArchive tbody .inboxArchive .panel {
     background: transparent;
     margin-bottom: 0;
     border-top-left-radius: 0;
@@ -45,18 +45,18 @@
 
 /* Overstyre bootstrap */
 
-#moavaListMessageArchive .inboxArchive .panel-body {
+#moavaListMessageArchive tbody .inboxArchive .panel-body {
     padding: 0px;
 }
 
 /* Overstyre bootstrap */
 
-#moavaListMessageArchive .inboxArchive .col-xs-12 {
+#moavaListMessageArchive tbody .inboxArchive .col-xs-12 {
     padding-right: 0px;
     padding-left: 0px;
 }
 
-#moavaListMessageArchive .inboxArchive .col-xs-12 .row {
+#moavaListMessageArchive tbody .inboxArchive .col-xs-12 .row {
     color: black;
     margin: 10px;
     border: 1px solid #efefef;
@@ -65,23 +65,22 @@
     background-color: var(--accordion-primary-background-color);
 }
 
-#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
+#moavaListMessageArchive tbody .inboxArchive .col-xs-12 .row .col-xs-12 {
     display: grid;
     grid-auto-flow: row;
     gap: 5px;
 }
 
-#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a {
-    //color: var(--accordion-primary-text-color)
+#moavaListMessageArchive tbody .inboxArchive .col-xs-12 .row .col-xs-12 a {
     color: black;
 }
 
-#moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
+#moavaListMessageArchive tbody .inboxArchive .col-xs-12 .row .col-xs-12 a:hover {
     color: var(--accordion-primary-text-color-hover)
 }
 
 @media screen and (min-width: 767px) {
-    #moavaListMessageArchive .inboxArchive .col-xs-12 .row .col-xs-12 {
+    #moavaListMessageArchive tbody .inboxArchive .col-xs-12 .row .col-xs-12 {
         grid-auto-flow: column;
         justify-content: space-between;
         align-items: center;
@@ -148,3 +147,15 @@
     }
 }
  */
+
+ #moavaListMessageArchive caption.inboxArchive {
+    padding: 15px;
+    color: black;
+    text-align: left;
+    border: 1px solid transparent;
+    border-style: dashed;
+    border-color: var(--brand-color-secondary-dark);
+    border-radius: 4px;
+    background: var(--brand-color-secondary-light);
+    margin-bottom: 15px;
+}
