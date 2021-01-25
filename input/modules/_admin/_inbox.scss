@@ -148,7 +148,7 @@
 }
  */
 
- #moavaListMessageArchive caption.inboxArchive {
+#moavaListMessageArchive caption.inboxArchive {
     padding: 15px;
     color: black;
     text-align: left;
@@ -158,4 +158,8 @@
     border-radius: 4px;
     background: var(--brand-color-secondary-light);
     margin-bottom: 15px;
+}
+
+#moavaListMessageArchive caption.inboxArchive h3 {
+    margin-top: 0px;
 }

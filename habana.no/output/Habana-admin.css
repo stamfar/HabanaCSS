@@ -185,6 +185,10 @@
   margin-bottom: 15px;
 }
 
+#moavaListMessageArchive caption.inboxArchive h3 {
+  margin-top: 0px;
+}
+
 /* hentet fra
 	https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stilark/kontrollpanel/felles/admin.css */
 /* START admin*/
