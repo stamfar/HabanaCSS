@@ -94,20 +94,27 @@ ul.fa-ul {
   //background: #f8f8f8;
 }
 
-/* Start hover / active */
+/* Start hover / .active / :active */
 .menuItemNew:hover,
 .menuItemNew:hover .fa-li,
 .menuItemNew:hover a {
   background: #F2F3F5;
+  text-decoration: none;
+  color: black;
 }
 
-.menuItemNew:active,
-.menuItemNew:active .fa-li,
-.menuItemNew:active a,
-.menuItemNew:active .fa-li > *::before {
-  background: #E3F0F9;
-  color: #21648E;
-  font-weight: 600;
+.menuItemNew.active > .fa-li>[id^=menuitem]::before,
+.menuItemNew:active > .fa-li>[id^=menuitem]::before  {
+ color: #fff;
+}
+
+li.menuItemNew.active>a, 
+li.menuItemNew.active>.fa-li,
+li.menuItemNew:active a,
+li.menuItemNew:active .fa-li {
+ background-color: var(--blue);
+ color: #fff;
+ font-weight: 600;
 }
 
 /* End hover / active */
