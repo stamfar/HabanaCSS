@@ -1,3 +1,9 @@
-.rssWrapperParent {
+
+.panel-noBG .rssWrapperParent {
     padding: 15px;
+}
+
+// When there is no background. Padding should be none */
+.panel-noBG .rssWrapperParent {
+    padding: 0px;
 }

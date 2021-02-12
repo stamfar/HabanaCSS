@@ -736,8 +736,12 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 
 /* END override for news fields modal add */
 /* END Inge addition v.0.007 */
-.rssWrapperParent {
+.panel-noBG .rssWrapperParent {
   padding: 15px;
+}
+
+.panel-noBG .rssWrapperParent {
+  padding: 0px;
 }
 
 /* Module: Utils: screen-sizes/media queries. (Ole) */
