@@ -15,7 +15,6 @@
 }
 
 .panel-heading {
-  /*padding: 10px 15px;*/
   padding: 10px 10px;
   border-bottom: var(--panel-border);
   border-color: var(--panel-border-color);
@@ -28,6 +27,9 @@
   > .dropdown .dropdown-toggle {
     color: inherit;
   }
+}
+.panel-noBG .panel-heading {
+  padding: 10px 0px;
 }
 
 .panel-title {
