@@ -3445,8 +3445,8 @@ h3 {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border: 0;
   border-top: 1px solid #eee;
 }
@@ -7428,8 +7428,8 @@ strong {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border: 0;
   border-top: 1px solid #eee;
 }
@@ -10801,6 +10801,10 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 
 /* END override for news fields modal add */
 /* END Inge addition v.0.007 */
+.rssWrapperChild {
+  padding: 15px;
+}
+
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Footer */
 footer {
