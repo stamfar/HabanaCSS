@@ -1,0 +1,71 @@
+/* -- START -- Modalvindu 2020 -> */
+
+/* Mobile and Responsive */
+@media (max-width: 768px) {
+	.is-modal-body {
+		display: grid;
+	    grid-row-gap: 8px;
+		grid-template-columns: 1fr;
+	}
+	.is-modal-content {
+	    padding: 25px;
+	    width: 95%;
+	}
+}
+
+.is-modal {
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	display: none;
+	
+}
+
+/* Modal Content */
+.is-modal-content {
+    background: #F8F9FB;
+    margin: auto;
+    padding: 40px;
+    width: 80%;
+	border: 1px solid #888;
+	border-radius: var(--main-border-radius);
+	box-shadow: var(--main-box-shadow);
+	
+}
+
+/* The actual body */
+.is-modal-body {
+	display: grid;
+    grid-row-gap: 12px;
+	grid-column-gap: 12px;
+	grid-template-columns: auto;
+}
+
+.is-modal-body > div {
+	margin: 0px !important;
+}
+
+/* The Close Button */
+.is-modal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    top: -30px;
+    position: relative;
+    left: 25px;
+}
+.is-modal-close:hover,
+.is-modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* -- END -- Modalvindu 2020 -> */
