@@ -1247,18 +1247,18 @@ li.menuItemNew:active .fa-li {
 /* -- START -- Modalvindu 2020 -> */
 /* Mobile and Responsive */
 @media (max-width: 768px) {
-  .is-modal-body {
+  .m-modal-body {
     display: grid;
     grid-row-gap: 8px;
     grid-template-columns: 1fr;
   }
 
-  .is-modal-content {
+  .m-modal-content {
     padding: 25px;
     width: 95%;
   }
 }
-.is-modal {
+.m-modal {
   position: fixed;
   /* Stay in place */
   z-index: 2;
@@ -1281,7 +1281,7 @@ li.menuItemNew:active .fa-li {
 }
 
 /* Modal Content */
-.is-modal-content {
+.m-modal-content {
   background: #F8F9FB;
   margin: auto;
   padding: 40px;
@@ -1292,19 +1292,19 @@ li.menuItemNew:active .fa-li {
 }
 
 /* The actual body */
-.is-modal-body {
+.m-modal-body {
   display: grid;
   grid-row-gap: 12px;
   grid-column-gap: 12px;
   grid-template-columns: auto;
 }
 
-.is-modal-body > div {
+.m-modal-body > div {
   margin: 0px !important;
 }
 
 /* The Close Button */
-.is-modal-close {
+.m-modal-close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -1314,8 +1314,8 @@ li.menuItemNew:active .fa-li {
   left: 25px;
 }
 
-.is-modal-close:hover,
-.is-modal-close:focus {
+.m-modal-close:hover,
+.m-modal-close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
