@@ -8077,7 +8077,11 @@ h3.box1itemHeading {
   margin: 0px;
 }
 
-/* end - tester om dette fungerer uten å lage mye feil */
+.t51.article.panel.panel-default.panel-noBG.singlearticle .panel-body {
+  padding: 0px;
+}
+
+/* end - tester om dette fungerer uten å lage mye feil - funker*/
 /* START - Fra moava.css */
 h3.box1itemHeading {
   word-break: break-word;
