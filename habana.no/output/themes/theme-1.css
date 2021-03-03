@@ -1,0 +1,31 @@
+/* Overskrifter */
+.t2.article.panel.panel-default.panel-noBG.fieldarticle h2,
+.t7.article.panel.panel-default.panel-noBG.fieldarticle h2,
+.t15.article.panel.panel-default.panel-noBG.fieldarticle h2,
+.t51.article.panel.panel-default.panel-noBG.fieldarticle h2 {
+  border-bottom: 4px solid #333;
+  border-color: var(--brand-color-secondary);
+  color: var(--brand-color-secondary);
+}
+
+/* Overskrift h1 pagename */
+h1#pagename {
+  margin-top: 0px;
+  margin-bottom: var(--space-md);
+  /*md = 24px*/
+}
+
+/* Titles (fra webpages) -modifisert */
+h1 {
+  font-size: 2.5em !important;
+}
+
+h2 {
+  font-size: 1.625em !important;
+}
+
+h3 {
+  font-size: 1.375em !important;
+}
+
+/* -- END -- Titles (fra webpages) */
