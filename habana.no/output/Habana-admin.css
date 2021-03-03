@@ -212,7 +212,7 @@ h1 {
   background-color: #ffffff;
   color: #333333;
   margin: 3px;
-  border-bottom: 1px dotted #333333;
+  /*border-bottom: 1px dotted #333333;*/
   font-size: 32px;
 }
 
