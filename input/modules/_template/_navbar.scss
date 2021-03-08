@@ -67,9 +67,13 @@
 }
 
 @include monitor {
-  .mainMenuWrapper.navbar {
+  .mainMenuWrapper.navbar.navbar-default {
     border-radius: 0 0 4px 4px;
     margin-bottom: 15px !important;
+  }
+  .mainMenuWrapper.navbar.navbar-default.navbar-static-top {
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 0px;
   }
 }
 
