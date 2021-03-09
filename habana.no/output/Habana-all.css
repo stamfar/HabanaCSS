@@ -13585,4 +13585,28 @@ span.singleImageText {
   cursor: pointer;
 }
 
+.m-modal-close span.fa-li::before {
+  content: "";
+}
+
 /* -- END -- Modalvindu 2020 -> */
+/* -- START -- Unsplash and image search inside new 2020/2021 modalvindu -> */
+.unsplashImgContainer {
+  border: 2px solid #FFFFFF;
+  float: left;
+  height: 108px;
+  width: 192px;
+  margin: 1px;
+}
+
+.unsplashAttribution {
+  text-align: center;
+  height: 20px;
+  overflow: hidden;
+  font-size: 10px;
+  font-style: italic;
+  position: relative;
+  top: 85px;
+}
+
+/* -- END -- Unsplash and image search inside new 2020/2021 modalvindu -> */
