@@ -6150,9 +6150,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  /* Nytt */
-  border-radius: 2px;
-  padding: 2px;
 }
 
 button {
