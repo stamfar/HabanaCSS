@@ -8872,6 +8872,11 @@ video {
   justify-content: var(--navbar-align-center);
 }
 
+@media (min-width: 1200px) {
+  .mainMenuWrapper .navbar-nav {
+    display: block;
+  }
+}
 @media (min-width: 768px) {
   .mainMenuWrapper .navbar-nav {
     flex-wrap: wrap;
@@ -8895,7 +8900,7 @@ video {
 }
 
 .mainMenuWrapper.navbar {
-  position: relative;
+  /*position: relative;*/
   min-height: 50px;
   margin-bottom: 0px;
   border: 1px solid transparent;
@@ -8912,7 +8917,7 @@ video {
 @media (min-width: 1200px) {
   .mainMenuWrapper.navbar.navbar-default {
     border-radius: 0 0 4px 4px;
-    margin-bottom: 15px !important;
+    margin-bottom: 15px;
   }
 
   .mainMenuWrapper.navbar.navbar-default.navbar-static-top {

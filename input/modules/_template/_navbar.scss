@@ -18,6 +18,13 @@
     justify-content: var(--navbar-align-center);
   }
 }
+@include monitor {
+  .mainMenuWrapper {
+    .navbar-nav {
+      display: block;
+    }
+  }
+}
 
 //@media only screen and (min-width: 768px) {
 @include tablet {
@@ -49,7 +56,7 @@
 }
 
 .mainMenuWrapper.navbar {
-  position: relative;
+  /*position: relative;*/
   min-height: 50px;
   margin-bottom: 0px;
   border: 1px solid transparent;
@@ -69,7 +76,7 @@
 @include monitor {
   .mainMenuWrapper.navbar.navbar-default {
     border-radius: 0 0 4px 4px;
-    margin-bottom: 15px !important;
+    margin-bottom: 15px;
   }
   .mainMenuWrapper.navbar.navbar-default.navbar-static-top {
     border-radius: 0 0 4px 4px;
