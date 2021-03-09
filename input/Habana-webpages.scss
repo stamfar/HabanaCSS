@@ -542,7 +542,7 @@ a.text-delete:hover { color: #df0010; }
         color: #333333!important;
     }
     .navbar-admin{
-        border-top:2px solid #bcdb01;
+        border-top:2px solid var(--moava-gronn-farge);
         background-color:#333333;
         height:32px;
         color:#ffffff;
@@ -555,7 +555,7 @@ a.text-delete:hover { color: #df0010; }
     .navbar-admin .nav .open>a:hover, .navbar-admin .nav .open>a:focus, .navbar-admin .dropdown-menu>li>a:hover, .navbar-admin .dropdown-menu>li>a:focus, .navbar-admin .dropdown-menu>.active>a, .navbar-admin .navbar-nav>.open>a:hover, .navbar-admin .dropdown-menu>.active>a:hover {
         text-decoration: none;
         color: #333333!important;
-        background-color: #bcdb01;
+        background-color: var(--moava-gronn-farge) !important;
         border: 0px;
     }
     .call5 .weekdays a, .call5 .alert a {

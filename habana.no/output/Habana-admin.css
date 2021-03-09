@@ -436,7 +436,7 @@ table.moavaListTable thead th {
   padding-right: 10px;
   color: #333333;
   border-right: 1px dotted #333333;
-  border-bottom: 3px solid #bcdb01;
+  border-bottom: 3px solid var(--moava-gronn-farge);
   white-space: nowrap;
   height: 29px;
   font-weight: 600;
@@ -471,7 +471,7 @@ table.moavaListTable tfoot td {
   padding-right: 10px;
   color: #333333;
   border-right: 1px dotted #333333;
-  border-top: 3px solid #bcdb01;
+  border-top: 3px solid var(--moava-gronn-farge);
   white-space: nowrap;
   height: 29px;
 }
@@ -509,7 +509,7 @@ table.moavaListTable tbody tr:nth-child(odd) {
   height: 46px;
   line-height: 46px;
   color: #333333;
-  border-top: 3px solid #bcdb01;
+  border-top: 3px solid var(--moava-gronn-farge);
   font-weight: 600;
 }
 
@@ -529,7 +529,7 @@ table.moavaListTable tbody tr:nth-child(odd) {
 }
 
 .moavaListTablePagination a span.moavaPaginationSelectedPage {
-  background-color: #bcdb01;
+  background-color: var(--moava-gronn-farge);
   border: 1px dashed #333333;
   color: #333333;
 }
@@ -773,7 +773,7 @@ a.fat:visited {
   background-color: #ffffff;
   color: #333333;
   border-right: 1px dotted #333333;
-  border-bottom: 3px solid #bcdb01;
+  border-bottom: 3px solid var(--moava-gronn-farge);
   white-space: nowrap;
   height: 29px;
 }
