@@ -6951,7 +6951,11 @@ body {
   --hcard-border-radius: 4px;
   /* body */
   --hcard-body-gap: 6px;
-  --hcard-body-gap: 6px;
+  --hcard-body-padding: 24px 36px;
+  /* hcard Link Block */
+  --hcard-linkBlock-background: var(--brand-color-primary-light);
+  --hcard-linkBlock-background-hover: var(--brand-color-primary-hover);
+  --hcard-linkBlock-color: var(--brand-color-primary-dark);
 }
 
 /* END - Habana Card */
@@ -8853,7 +8857,7 @@ video {
 
 .hcard-body {
   display: grid;
-  padding: 24px 36px;
+  padding: var(--hcard-body-padding);
   gap: var(--hcard-body-gap);
 }
 
@@ -8870,6 +8874,18 @@ video {
 .hcard-img {
   width: 100%;
   object-fit: contain;
+}
+
+/* Brukt sammen med Link Block */
+.hcard.linkBlock {
+  text-decoration: none;
+  background: var(--hcard-linkBlock-background);
+  color: var(--hcard-linkBlock-color);
+}
+
+.hcard.linkBlock:hover {
+  text-decoration: none;
+  background: var(--hcard-linkBlock-background-hover);
 }
 
 /* Habana Link Block 2021 */

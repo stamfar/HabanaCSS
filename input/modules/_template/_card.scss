@@ -12,7 +12,7 @@
 
 .hcard-body {
     display: grid;
-    padding: 24px 36px;
+    padding: var(--hcard-body-padding);
     gap: var(--hcard-body-gap);
 }
 
@@ -29,4 +29,15 @@
 .hcard-img {
     width: 100%;
     object-fit: contain;
+}
+
+/* Brukt sammen med Link Block */
+.hcard.linkBlock {
+  text-decoration: none;
+  background: var(--hcard-linkBlock-background);
+  color: var(--hcard-linkBlock-color);
+}
+.hcard.linkBlock:hover {
+  text-decoration: none;
+  background: var(--hcard-linkBlock-background-hover);
 }
