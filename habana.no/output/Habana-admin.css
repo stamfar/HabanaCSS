@@ -1360,6 +1360,7 @@ li.menuItemNew:active .fa-li {
 
 .col4 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 /* Rows */
 .row2 {
