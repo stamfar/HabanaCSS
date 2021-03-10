@@ -13610,3 +13610,31 @@ span.singleImageText {
 }
 
 /* -- END -- Unsplash and image search inside new 2020/2021 modalvindu -> */
+/* Utility classes for Habana */
+/* important - Unopinionated - important */
+/* Should integrate files from /main inside this file */
+/* Columns */
+.col2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.col3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Rows */
+.row2 {
+  grid-template-rows: 1fr 1fr;
+}
+
+.row3 {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row4 {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
