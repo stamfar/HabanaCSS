@@ -37,7 +37,8 @@
   background: var(--hcard-linkBlock-background);
   color: var(--hcard-linkBlock-color);
 }
-.hcard.linkBlock:hover {
+.hcard.linkBlock:hover,
+.hcard.linkBlock p:hover  {
   text-decoration: none;
   background: var(--hcard-linkBlock-background-hover);
   color: var(--hcard-linkBlock-color-hover);
