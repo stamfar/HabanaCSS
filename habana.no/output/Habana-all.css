@@ -8827,6 +8827,39 @@ video {
 /* @screen sm {
   ... 
 }*/
+/* Habana Card 2021 */
+/* https://zeroheight.com/404dd5267/p/640c80-card */
+.hcard {
+  display: grid;
+  gap: 4px;
+  background: white;
+  /* skal være-> background: var(--hcard-background);*/
+  border: 1px solid grey;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.hcard-body {
+  display: grid;
+  gap: 6px;
+  padding: 24px 36px;
+}
+
+.hcard-title {
+  line-height: 120%;
+  margin: 0;
+}
+
+.hcard-text {
+  line-height: 150%;
+  margin: 0;
+}
+
+.hcard-img {
+  width: 100%;
+  object-fit: contain;
+}
+
 /* Module: Habana components */
 /* Gøye komponenter som ikke er produksjonsklare enda/har formål*/
 .glassBox {
