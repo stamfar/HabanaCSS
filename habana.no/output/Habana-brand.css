@@ -410,6 +410,19 @@ body {
 }
 
 /* END - Breadcrumb */
+/* Temafiler */
+/* Habana Card */
+:root {
+  --hcard-background: white;
+  --hcard-gap: 4px;
+  --hcard-border: 1px solid green;
+  --hcard-border-radius: 4px;
+  /* body */
+  --hcard-body-gap: 6px;
+  --hcard-body-gap: 6px;
+}
+
+/* END - Habana Card */
 /* Module: Typography-spacing */
 :root {
   --baseline: 24px;

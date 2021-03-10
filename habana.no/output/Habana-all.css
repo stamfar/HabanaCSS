@@ -6942,6 +6942,19 @@ body {
 }
 
 /* END - Breadcrumb */
+/* Temafiler */
+/* Habana Card */
+:root {
+  --hcard-background: white;
+  --hcard-gap: 4px;
+  --hcard-border: 1px solid green;
+  --hcard-border-radius: 4px;
+  /* body */
+  --hcard-body-gap: 6px;
+  --hcard-body-gap: 6px;
+}
+
+/* END - Habana Card */
 /* Module: Typography-spacing */
 :root {
   --baseline: 24px;
@@ -8831,18 +8844,17 @@ video {
 /* https://zeroheight.com/404dd5267/p/640c80-card */
 .hcard {
   display: grid;
-  gap: 4px;
-  background: white;
-  /* skal være-> background: var(--hcard-background);*/
-  border: 1px solid grey;
-  border-radius: 4px;
   align-items: center;
+  gap: var(--hcard-gap);
+  background: var(--hcard-background);
+  border: var(--hcard-border);
+  border-radius: var(--hcard-border-radius);
 }
 
 .hcard-body {
   display: grid;
-  gap: 6px;
   padding: 24px 36px;
+  gap: var(--hcard-body-gap);
 }
 
 .hcard-title {
