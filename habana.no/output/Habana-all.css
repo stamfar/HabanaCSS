@@ -6956,6 +6956,7 @@ body {
   --hcard-linkBlock-background: var(--brand-color-primary-light);
   --hcard-linkBlock-background-hover: var(--brand-color-primary-hover);
   --hcard-linkBlock-color: var(--brand-color-primary-dark);
+  --hcard-linkBlock-color-hover: var(--brand-color-primary-light);
 }
 
 /* END - Habana Card */
@@ -8886,6 +8887,7 @@ video {
 .hcard.linkBlock:hover {
   text-decoration: none;
   background: var(--hcard-linkBlock-background-hover);
+  color: var(--hcard-linkBlock-color-hover);
 }
 
 /* Habana Link Block 2021 */

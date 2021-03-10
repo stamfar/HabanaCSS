@@ -424,6 +424,7 @@ body {
   --hcard-linkBlock-background: var(--brand-color-primary-light);
   --hcard-linkBlock-background-hover: var(--brand-color-primary-hover);
   --hcard-linkBlock-color: var(--brand-color-primary-dark);
+  --hcard-linkBlock-color-hover: var(--brand-color-primary-light);
 }
 
 /* END - Habana Card */
