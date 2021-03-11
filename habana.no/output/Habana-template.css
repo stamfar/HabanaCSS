@@ -43,12 +43,14 @@
 /* Brukt sammen med Link Block */
 .hcard.linkBlock {
   text-decoration: none;
+  overflow: hidden;
   background: var(--hcard-linkBlock-background);
   color: var(--hcard-linkBlock-color);
 }
 
 .hcard.linkBlock:hover {
   text-decoration: none;
+  overflow: hidden;
   background: var(--hcard-linkBlock-background-hover);
   color: var(--hcard-linkBlock-color-hover);
 }
