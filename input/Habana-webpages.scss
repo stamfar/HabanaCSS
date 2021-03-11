@@ -1971,7 +1971,7 @@ float: right;
 .modal-backdrop { position: fixed; z-index: 1039; } /* fullscreen overlay fix */
 
 /*CKEDITOR*/
-.cke_editable {margin:20px;}
+/* kommentert ut .cke_editable {margin:20px;} */
 
 /*Google Doc Html*/
 .cke_editable .m-googleDocUnloaded {border:1px dotted #000000; background-color: lightyellow;}

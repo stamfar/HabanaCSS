@@ -3201,10 +3201,7 @@ body.editModeOn .relatedWrapper:hover {
 
 /* fullscreen overlay fix */
 /*CKEDITOR*/
-.cke_editable {
-  margin: 20px;
-}
-
+/* kommentert ut .cke_editable {margin:20px;} */
 /*Google Doc Html*/
 .cke_editable .m-googleDocUnloaded {
   border: 1px dotted #000000;
