@@ -1,7 +1,7 @@
-/* Habana Javascript */
+// Habana Javascript //
 
 
-/* Clickable Link Block for hcard(Habana Card) */
+// Clickable Link Block for hcard(Habana Card) //
 const hcard = document.querySelector(".hcard");
 const hmainLink = hcard.querySelector(".hmain-link");
 const hclickableElements = Array.from(hcard.querySelectorAll("a")); 
