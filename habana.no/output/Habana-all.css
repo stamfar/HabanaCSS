@@ -8847,6 +8847,7 @@ video {
 }*/
 /* Habana Card 2021 */
 /* https://zeroheight.com/404dd5267/p/640c80-card */
+/* Vanlig kort */
 .hcard {
   display: grid;
   align-items: center;
@@ -8875,6 +8876,13 @@ video {
 .hcard-img {
   width: 100%;
   object-fit: contain;
+}
+
+/* Lite kort */
+.hcard-body--small {
+  display: grid;
+  padding: var(--hcard-body--small-padding);
+  gap: var(--hcard-body-gap);
 }
 
 /* Brukt sammen med Link Block */
