@@ -135,17 +135,11 @@
 <!-- tester knapp -->
 <article class="hcard">
 	<div>
-		<p class="sub-heading">
-			Article
-			<time datetime="2020-03-20">
-				Mar 20, 2020 </time>
-		</p>
-		<h2><a href="https://css-tricks.com/a-complete-guide-to-calc-in-css/" class="main-link" target="_blank">A Complete Guide to calc() in CSS</a></h2>
-		<p>
-			In this guide, let’s cover just about everything there is to know about this very useful function.
-		</p>
+		<h2><a href="https://moava.no" class="hmain-link hcard-title templateEditor templateHeader" target="_blank">A Complete Guide to calc() in CSS</a></h2>
+
+    <h3 class="hcard-title templateEditor templateHeader">Kikora</h3>
+    <p class="hcard-text templateEditor templateText">Utforsking, problemløsing og trening i nye Kikora</p>
 	</div>
-	<a class="author-name" href="https://css-tricks.com/author/chriscoyier/" target="_blank"><img src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&d=retro&r=pg" alt="" /><span>Chris Coyier</span></a>
 	<div class="tags">
 		<a class="tag" href="https://css-tricks.com/tag/calc/" target="_blank">calc</a>
 		<a class="tag" href="https://css-tricks.com/tag/math/" target="_blank">math</a>
@@ -158,18 +152,18 @@ const hmainLink = hcard.querySelector(".hmain-link");
 const hclickableElements = Array.from(hcard.querySelectorAll("a")); //we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside hcard(a, button) and use that in query selector
 
 hclickableElements.forEach((ele) =>
-	ele.addEventListener("hclick", (e) => e.stopPropagation())
+	ele.addEventListener("click", (e) => e.stopPropagation())
 );
 
 function handleClick(event) {
 	const noTextSelected = !window.getSelection().toString();
 
 	if (noTextSelected) {
-		hmainLink.hclick();
+		hmainLink.click();
 	}
 }
 
-hcard.addEventListener("hclick", handleClick);
+hcard.addEventListener("click", handleClick);
 </script>
 
 <style>
@@ -191,7 +185,7 @@ hcard.addEventListener("hclick", handleClick);
 .hcard:hover {
   transform: translateY(-10px);
 }
-.hcard:hover .main-link {
+.hcard:hover .hmain-link {
   color: #ff8a00;
 }
 .hcard:focus-within {
@@ -214,20 +208,6 @@ a {
 a:hover, a:focus {
   color: #ff8a00;
   outline: none;
-}
-
-time {
-  color: grey;
-}
-
-.author-name {
-  display: flex;
-  align-items: center;
-}
-.author-name img {
-  height: 36px;
-  margin-right: 10px;
-  border-radius: 50%;
 }
 
 .tags {
