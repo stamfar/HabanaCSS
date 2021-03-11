@@ -6953,6 +6953,7 @@ body {
   --hcard-body-gap: 6px;
   --hcard-body-padding: 24px 36px;
   /* Lite kort*/
+  --hcard-body--small-gap: 3px;
   --hcard-body--small-padding: 12px 18px;
   /* hcard Link Block */
   --hcard-linkBlock-background: var(--brand-color-primary-light);
@@ -8884,7 +8885,7 @@ video {
 .hcard-body--small {
   display: grid;
   padding: var(--hcard-body--small-padding);
-  gap: var(--hcard-body-gap);
+  gap: var(--hcard-body--small-gap);
 }
 
 /* Brukt sammen med Link Block */

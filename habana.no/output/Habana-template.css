@@ -37,7 +37,7 @@
 .hcard-body--small {
   display: grid;
   padding: var(--hcard-body--small-padding);
-  gap: var(--hcard-body-gap);
+  gap: var(--hcard-body--small-gap);
 }
 
 /* Brukt sammen med Link Block */
