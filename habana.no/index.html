@@ -133,7 +133,7 @@
 </div>
 
 <!-- tester knapp -->
-<article class="card">
+<article class="hcard">
 	<div>
 		<p class="sub-heading">
 			Article
@@ -153,24 +153,100 @@
 </article>
 
 <script>
-const card = document.querySelector(".card");
-const mainLink = card.querySelector(".main-link");
-const clickableElements = Array.from(card.querySelectorAll("a")); //we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside card(a, button) and use that in query selector
+const hcard = document.querySelector(".hcard");
+const hmainLink = hcard.querySelector(".hmain-link");
+const hclickableElements = Array.from(hcard.querySelectorAll("a")); //we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside hcard(a, button) and use that in query selector
 
-clickableElements.forEach((ele) =>
-	ele.addEventListener("click", (e) => e.stopPropagation())
+hclickableElements.forEach((ele) =>
+	ele.addEventListener("hclick", (e) => e.stopPropagation())
 );
 
 function handleClick(event) {
 	const noTextSelected = !window.getSelection().toString();
 
 	if (noTextSelected) {
-		mainLink.click();
+		hmainLink.hclick();
 	}
 }
 
-card.addEventListener("click", handleClick);
+hcard.addEventListener("hclick", handleClick);
 </script>
+
+<style>
+.hcard {
+  width: 300px;
+  height: 350px;
+  background: #17141d;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  box-shadow: -1rem 0 3rem #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 30px;
+}
+.hcard:hover {
+  transform: translateY(-10px);
+}
+.hcard:hover .main-link {
+  color: #ff8a00;
+}
+.hcard:focus-within {
+  box-shadow: 0 0 0 0.25rem;
+}
+.hcard:focus-within a:focus {
+  text-decoration: none;
+}
+
+h2,
+a,
+p {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover, a:focus {
+  color: #ff8a00;
+  outline: none;
+}
+
+time {
+  color: grey;
+}
+
+.author-name {
+  display: flex;
+  align-items: center;
+}
+.author-name img {
+  height: 36px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.tags {
+  display: flex;
+  margin: 10px 0;
+}
+.tags .tag {
+  padding: 5px 10px;
+  border: solid 1px grey;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+.tags .tag:hover {
+  background: gray;
+}
+.tags .tag + .tag {
+  margin-left: 10px;
+}
+</style>
 
 
 </body>
