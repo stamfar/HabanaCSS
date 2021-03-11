@@ -6952,6 +6952,8 @@ body {
   /* body */
   --hcard-body-gap: 6px;
   --hcard-body-padding: 24px 36px;
+  /* Lite kort*/
+  --hcard-body--small-padding: 12px 18px;
   /* hcard Link Block */
   --hcard-linkBlock-background: var(--brand-color-primary-light);
   --hcard-linkBlock-background-hover: var(--brand-color-primary-hover);
