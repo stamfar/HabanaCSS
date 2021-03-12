@@ -21,8 +21,8 @@
   <!-- <link rel="stylesheet" href="./output/hatch-framework.webflow.cs"> -->
   
 </head>
-
 <body>
+
   <!-- Dark mode av og på bryter(fra w3schools) + script -->
 
 
@@ -149,92 +149,286 @@
 	</div>
 </article>
 
+<article class="hcard">
+	<div>
+		<h2><a href="https://moava.no" class="hmain-link hcard-title templateEditor templateHeader" target="_blank">A Complete Guide to calc() in CSS</a></h2>
+
+    <h3 class="hcard-title templateEditor templateHeader">Kikora</h3>
+    <p class="hcard-text templateEditor templateText">Utforsking, problemløsing og trening i nye Kikora</p>
+	</div>
+	<div class="tags">
+		<a class="tag" href="https://css-tricks.com/tag/calc/" target="_blank">calc</a>
+		<a class="tag" href="https://css-tricks.com/tag/math/" target="_blank">math</a>
+	</div>
+</article>
+
+	<main class="container">
+		<section class="cards">
+			<article class="card yellow">
+				<div class="header">
+					<h2>w3schools</h2>
+				</div>
+				<div class="body">
+					<p>
+						Sed lobortis gravida magna eget sollicitudin. Proin nec sapien dignissim, ornare augue a, tempor dolor. <a href="https://www.w3schools.com/jquery/jquery_events.asp" target="_blank">A link to a jQuery tutorial.</a> Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsan volutpat turpis, vel tempor mi bibendum sit amet. Pellentesque fringilla maximus ornare. Phasellus ut metus sit amet lorem tristique tristique.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://www.w3schools.com/" target="_blank">
+							Go to w3schools
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="card black">
+				<div class="header">
+					<h2>css-tricks</h2>
+				</div>
+				<div class="body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis gravida magna eget sollicitudin. Proin nec sapien dignissim, ornare augue a, tempor dolor. Nulla eu velit diam. Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsan volutpat turpis, vel tempor mi bibendum sit amet. <a href="https://css-tricks.com/breakout-buttons/" target="_blank">How to do this with only CSS (sorta).</a> Phasellus ut metus sit amet lorem tristique tristique.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://css-tricks.com/" target="_blank">
+							Go to css-tricks
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="card blue">
+				<div class="header">
+					<h2>Stack Overflow</h2>
+				</div>
+				<div class="body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis gravida magna eget sollicitudin. <a href="https://stackoverflow.com/questions/1369035/how-do-i-prevent-a-parents-onclick-event-from-firing-when-a-child-anchor-is-cli" target="_blank">Helpfull answers</a> sapien dignissim, ornare augue a, tempor dolor. Nulla eu velit diam. Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsanvolutpat turpis, vel tempor mi bibendum sit amet. Pellentesque fringilla maximus ornare.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://stackoverflow.com/" target="_blank">
+							Go to Stack Overflow
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+	<div class="statusbar">Show URL on hover link</div>
+
+
 <script>
+// ny måte med Jquery
 
-// Clickable Link Block for hcard(Habana Card)
-const hcard = document.querySelector(".hcard");
-const hmainLink = hcard.querySelector(".hmain-link");
-const hclickableElements = Array.from(hcard.querySelectorAll("a")); 
-//we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside hcard(a, button) and use that in query selector.
+// When you click inside one of the cards
+$(".card").on("click", function (e) {
+	// Find the card that got clicked and save it into a variable
+	var card = $(this);
+	// Find all the links in this card and save them into a variable
+	var links = $(card).find("*[href]");
+	// Find the main link of this card and save it into a variable
+	var mainlink = $(card).find("a.main");
 
-hclickableElements.forEach((ele) =>
-	ele.addEventListener("click", (e) => e.stopPropagation())
+	// Check if a mainlink is present
+	if ($(mainlink).length) {
+		// If the clicked element is already a link, leave it
+		if ($(e.target).is(links)) {
+			e.stopPropagation();
+		} else {
+			// When it's not, make sure the user is not selecting text
+			if (window.getSelection().toString() == "") {
+				// Find the url of the main link and save it into a variable
+				var href = $(mainlink).attr("href");
+				// Find the target of the main link and save it into a variable
+				var target = $(mainlink).attr("target");
+
+				// If the target is '_blank'
+				if (target === "_blank") {
+					// Open the url in a new window
+					window.open(href);
+				} else {
+					// If not, open the url in the current window
+					window.location = href;
+				}
+			}
+		}
+	}
+});
+
+// When you hover over one of the cards
+$(".card").hover(
+	function () {
+		// Find the card that got hovered and save it into a variable
+		var card = $(this);
+		// Find the main link of the card and save it into a variable
+		var mainlink = $(card).find("a.main");
+		// Find the url of the main link and save it into a variable
+		var href = $(mainlink).attr("href");
+
+		// Show a status bar with the url of the main link
+		window.status = href;
+		// CSS fallback solution in case no browser status bar is showing
+		$(".statusbar").text(href);
+		$(".statusbar").css("opacity", "1");
+	},
+	function () {
+		// On hover out, empty the status bar or hide it
+		window.status = "";
+		$(".statusbar").css("opacity", "0");
+	}
 );
 
-function handleClick(event) {
-	const noTextSelected = !window.getSelection().toString();
-
-	if (noTextSelected) {
-		hmainLink.click();
+// When you hover over one of the other links inside the card
+$(".card a").hover(
+	function () {
+		// Hide the fallback status bar because the browser already shows one
+		$(".statusbar").css("opacity", "0");
+	},
+	function () {
+		// On hover out, show the fallback status bar once again.
+		$(".statusbar").css("opacity", "1");
 	}
-}
+);
 
-hcard.addEventListener("click", handleClick);
-</script>
+  </script>
 
 
 <style>
-.hcard {
-  width: 300px;
-  height: 350px;
-  background: #17141d;
-  border-radius: 16px;
-  padding: 1rem 1.5rem;
-  box-shadow: -1rem 0 3rem #000;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: 0.2s;
-  margin: 30px;
-}
-.hcard:hover {
-  transform: translateY(-10px);
-}
-.hcard:hover .hmain-link {
-  color: #ff8a00;
-}
-.hcard:focus-within {
-  box-shadow: 0 0 0 0.25rem;
-}
-.hcard:focus-within a:focus {
-  text-decoration: none;
+main.container {
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 25px;
 }
 
-h2,
-a,
-p {
-  color: #fff;
+section.cards {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	justify-content: space-evenly;
+	align-items: stretch;
 }
 
-a {
-  text-decoration: none;
-  transition: 0.2s;
-}
-a:hover, a:focus {
-  color: #ff8a00;
-  outline: none;
+article.card {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 300px;
+	padding: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 8px 5px 16px 0 rgb(0 0 0 / 5%);
 }
 
-.tags {
-  display: flex;
-  margin: 10px 0;
+.card.black {
+	background: #152533;
+	color: #fff;
+	border: 1px solid #0d1821;
 }
-.tags .tag {
-  padding: 5px 10px;
-  border: solid 1px grey;
-  border-radius: 3px;
-  transition: 0.2s;
+.card.blue {
+	background: #23547d;
+	color: #fff;
+	border: 1px solid #1d4667;
 }
-.tags .tag:hover {
-  background: gray;
+
+.card.yellow {
+	background: #fee900;
+	color: #0e1b26;
+	border: 1px solid #f0dc00;
 }
-.tags .tag + .tag {
-  margin-left: 10px;
+
+.card.black .links a.main {
+	background: #fee900;
+	color: #0e1b26;
+	border: 1px solid #f0dc00;
 }
+
+.card.yellow .links a.main,
+.card.blue .links a.main {
+	background: #122230;
+	color: #fff;
+}
+
+.card .header {
+	font-size: 32px;
+	min-height: 0vw;
+	font-family: "lato", sans-serif;
+	font-weight: 900;
+}
+
+.card .body {
+	font-size: 16px;
+	line-height: 1.4;
+	flex-grow: 1;
+}
+
+.card .body a {
+	color: inherit;
+}
+.card .body a:hover {
+	text-decoration: none;
+}
+
+.card .footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card .footer .links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card .footer .links a:hover {
+	transition: all 0.4s ease-in-out;
+	transform: scale(1.1);
+}
+
+.card .footer .links a.main {
+	transition: all 0.2s ease-in-out;
+	padding: 12px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+::selection {
+	background-color: rgb(255 255 255 / 95%);
+	color: #000;
+}
+
+.statusbar {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+	font-family: Segoe UI;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	padding-left: 3px;
+	padding-right: 10px;
+	color: #3c4043;
+	border: 1px solid #dedede;
+	border-top-right-radius: 4px;
+	transition: all 0.2s ease-in-out;
+	background-color: #dee1e6;
+	opacity: 0;
+	-webkit-font-smoothing: none;
+	font-smooth: never;
+}
+
 </style>
 
+
+
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="https://habana.no/javascript/interaction.js"></script>
 
 </body>
 </html>
