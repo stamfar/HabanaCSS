@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./output/Habana-brand.css">
   
   <!-- <link rel="stylesheet" href="./output/hatch-framework.webflow.cs"> -->
+  
 </head>
 
 <body>
@@ -132,6 +133,8 @@
   </div>
 </div>
 
+
+
 <!-- tester knapp -->
 <article class="hcard">
 	<div>
@@ -147,9 +150,12 @@
 </article>
 
 <script>
+
+// Clickable Link Block for hcard(Habana Card)
 const hcard = document.querySelector(".hcard");
 const hmainLink = hcard.querySelector(".hmain-link");
-const hclickableElements = Array.from(hcard.querySelectorAll("a")); //we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside hcard(a, button) and use that in query selector
+const hclickableElements = Array.from(hcard.querySelectorAll("a")); 
+//we are using 'a' here for simplicity but ideally you should put a class like 'clickable' on every clicable element inside hcard(a, button) and use that in query selector.
 
 hclickableElements.forEach((ele) =>
 	ele.addEventListener("click", (e) => e.stopPropagation())
@@ -165,6 +171,7 @@ function handleClick(event) {
 
 hcard.addEventListener("click", handleClick);
 </script>
+
 
 <style>
 .hcard {

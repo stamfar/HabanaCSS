@@ -1,6 +1,7 @@
 // Habana Javascript
 
 
+window.onload = function() {
 // Clickable Link Block for hcard(Habana Card)
 const hcard = document.querySelector(".hcard");
 const hmainLink = hcard.querySelector(".hmain-link");
@@ -20,3 +21,4 @@ function handleClick(event) {
 }
 
 hcard.addEventListener("click", handleClick);
+}
