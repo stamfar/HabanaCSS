@@ -12,7 +12,7 @@ if(hcard.parent().sibling().hasClass(".cke_editable")){
 }
 if(!ckeditorOn) {
   //..do stuff
-
+}
 
 // When you click inside one of the hcards
 $(".hcard").on("click", function (e) {
@@ -73,7 +73,6 @@ $(".hcard").hover(
 		$(".hstatusbar").css("opacity", "0");
 	}
 );
-}
 
 // When you hover over one of the other links inside the hcard
 $(".hcard a").hover(
