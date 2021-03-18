@@ -46,7 +46,7 @@ $(".hcard").hover(
 		// Find the hcard that got hovered and save it into a variable
 		var hcard = $(this);
 		// Find the main link of the hcard and save it into a variable
-		var mainlink = $(hcard).find("a.main");
+		var mainlink = $(hcard).find("a.hmain");
 		// Find the url of the main link and save it into a variable
 		var href = $(mainlink).attr("href");
 
