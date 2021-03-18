@@ -12,7 +12,7 @@ $(".hcard").on("click", function (e) {
 	// Find all the links in this hcard and save them into a variable
 	var links = $(hcard).find("*[href]");
 	// Find the main link of this hcard and save it into a variable
-	var mainlink = $(hcard).find("a.hmain");
+	var mainlink = $(hcard).find("a.hmain-link");
 
 	// Check if a mainlink is present
 	if ($(mainlink).length) {
@@ -46,7 +46,7 @@ $(".hcard").hover(
 		// Find the hcard that got hovered and save it into a variable
 		var hcard = $(this);
 		// Find the main link of the hcard and save it into a variable
-		var mainlink = $(hcard).find("a.hmain");
+		var mainlink = $(hcard).find("a.hmain-link");
 		// Find the url of the main link and save it into a variable
 		var href = $(mainlink).attr("href");
 
