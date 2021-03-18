@@ -6,7 +6,7 @@
 window.onload = function() {
 
 	// set hcard object
-	var item = $(".card");
+	var item = $(".hcard");
 	// get parent article div to search
 	var article = item.parents('.t51.article');
 	// find the hcard title h3
