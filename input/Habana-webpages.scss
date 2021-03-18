@@ -1077,10 +1077,12 @@ a.videoThumbnail:hover .centered span.fa-play-circle-o{
     margin: -5px 0px;
     padding-bottom: 10px;
 }
-/* Denne ? */
+/* Denne ? 
+kommentert ut pga habana util klasser "col--1-2" osv.
 [class*="col-"] {
     padding: 0 5px;
 }
+*/
 
 .image-container > [class*="col-"] {
     padding: 5px;
