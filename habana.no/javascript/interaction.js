@@ -15,7 +15,7 @@ window.onload = function() {
 	if(!title.hasClass('cke_editable')){
 
 		// When you click inside one of the hcards
-		$(".hcard").on("click", function (e) {
+		$("body .hcard").on("click", function (e) {
 			// Find the hcard that got clicked and save it into a variable
 			var hcard = $(this);
 			// Find all the links in this hcard and save them into a variable
@@ -52,7 +52,7 @@ window.onload = function() {
 		});
 
 		// When you hover over one of the hcards
-		$(".hcard").hover(
+		$("body .hcard").hover(
 			function () {
 				// Find the hcard that got hovered and save it into a variable
 				var hcard = $(this);
@@ -75,7 +75,7 @@ window.onload = function() {
 		);
 
 		// When you hover over one of the other links inside the hcard
-		$(".hcard a").hover(
+		$("body .hcard a").hover(
 			function () {
 				// Hide the fallback status bar because the browser already shows one
 				$(".hstatusbar").css("opacity", "0");
