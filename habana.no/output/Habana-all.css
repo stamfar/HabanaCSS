@@ -11869,7 +11869,7 @@ a.videoThumbnail:hover .centered span.fa-play-circle-o {
 
 /* Denne ? */
 [class*=col-] {
-  padding: 0 0px;
+  padding: 0 5px;
 }
 
 .image-container > [class*=col-] {
