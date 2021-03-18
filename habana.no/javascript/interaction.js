@@ -5,6 +5,15 @@
 // Krever jQuery
 window.onload = function() {
 
+		// check h3 sibling of parent for class .cke_editable
+var hcard = $(".hcard");
+if(hcard.parent().sibling().hasClass(".cke_editable")){
+  var ckeditorOn = "true";
+}
+if(!ckeditorOn) {
+  //..do stuff
+
+
 // When you click inside one of the hcards
 $(".hcard").on("click", function (e) {
 	// Find the hcard that got clicked and save it into a variable
@@ -13,6 +22,8 @@ $(".hcard").on("click", function (e) {
 	var links = $(hcard).find("*[href]");
 	// Find the main link of this hcard and save it into a variable
 	var mainlink = $(hcard).find("a.hmain-link");
+
+
 
 	// Check if a mainlink is present
 	if ($(mainlink).length) {
@@ -62,6 +73,7 @@ $(".hcard").hover(
 		$(".hstatusbar").css("opacity", "0");
 	}
 );
+}
 
 // When you hover over one of the other links inside the hcard
 $(".hcard a").hover(
