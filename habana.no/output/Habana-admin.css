@@ -1309,9 +1309,9 @@ li.menuItemNew:active .fa-li {
   float: right;
   font-size: 28px;
   font-weight: bold;
-  top: -30px;
+  top: -40px;
   position: relative;
-  left: 25px;
+  left: -40px;
 }
 
 .m-modal-close:hover,
