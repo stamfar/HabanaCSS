@@ -53,13 +53,13 @@ $(".hcard").hover(
 		// Show a status bar with the url of the main link
 		window.status = href;
 		// CSS fallback solution in case no browser status bar is showing
-		$(".statusbar").text(href);
-		$(".statusbar").css("opacity", "1");
+		$(".hstatusbar").text(href);
+		$(".hstatusbar").css("opacity", "1");
 	},
 	function () {
 		// On hover out, empty the status bar or hide it
 		window.status = "";
-		$(".statusbar").css("opacity", "0");
+		$(".hstatusbar").css("opacity", "0");
 	}
 );
 
@@ -67,11 +67,11 @@ $(".hcard").hover(
 $(".hcard a").hover(
 	function () {
 		// Hide the fallback status bar because the browser already shows one
-		$(".statusbar").css("opacity", "0");
+		$(".hstatusbar").css("opacity", "0");
 	},
 	function () {
 		// On hover out, show the fallback status bar once again.
-		$(".statusbar").css("opacity", "1");
+		$(".hstatusbar").css("opacity", "1");
 	}
 );
 }
