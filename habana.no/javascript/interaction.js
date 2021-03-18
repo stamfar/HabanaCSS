@@ -1,23 +1,18 @@
 // Habana Javascript
 
 
+// Klikkbar måte for lenker/hcards.
+// Krever jQuery
 window.onload = function() {
 
-
-
-
-
-
-// ny måte med Jquery
-
-// When you click inside one of the cards
-$(".card").on("click", function (e) {
-	// Find the card that got clicked and save it into a variable
-	var card = $(this);
-	// Find all the links in this card and save them into a variable
-	var links = $(card).find("*[href]");
-	// Find the main link of this card and save it into a variable
-	var mainlink = $(card).find("a.main");
+// When you click inside one of the hcards
+$(".hcard").on("click", function (e) {
+	// Find the hcard that got clicked and save it into a variable
+	var hcard = $(this);
+	// Find all the links in this hcard and save them into a variable
+	var links = $(hcard).find("*[href]");
+	// Find the main link of this hcard and save it into a variable
+	var mainlink = $(hcard).find("a.main");
 
 	// Check if a mainlink is present
 	if ($(mainlink).length) {
@@ -45,13 +40,13 @@ $(".card").on("click", function (e) {
 	}
 });
 
-// When you hover over one of the cards
-$(".card").hover(
+// When you hover over one of the hcards
+$(".hcard").hover(
 	function () {
-		// Find the card that got hovered and save it into a variable
-		var card = $(this);
-		// Find the main link of the card and save it into a variable
-		var mainlink = $(card).find("a.main");
+		// Find the hcard that got hovered and save it into a variable
+		var hcard = $(this);
+		// Find the main link of the hcard and save it into a variable
+		var mainlink = $(hcard).find("a.main");
 		// Find the url of the main link and save it into a variable
 		var href = $(mainlink).attr("href");
 
@@ -68,8 +63,8 @@ $(".card").hover(
 	}
 );
 
-// When you hover over one of the other links inside the card
-$(".card a").hover(
+// When you hover over one of the other links inside the hcard
+$(".hcard a").hover(
 	function () {
 		// Hide the fallback status bar because the browser already shows one
 		$(".statusbar").css("opacity", "0");
