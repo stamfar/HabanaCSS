@@ -5,7 +5,8 @@
 // Krever jQuery
 window.onload = function() {
 
-		// check h3 sibling of parent for class .cke_editable
+		// check h3 sibling of parent for class .cke_editable 
+		/*
 var hcard = $(".hcard");
 if(hcard.parent().sibling().hasClass(".cke_editable")){
   var ckeditorOn = "true";
@@ -13,6 +14,7 @@ if(hcard.parent().sibling().hasClass(".cke_editable")){
 if(!ckeditorOn) {
   //..do stuff
 }
+*/
 
 // When you click inside one of the hcards
 $(".hcard").on("click", function (e) {
