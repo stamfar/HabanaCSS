@@ -538,7 +538,7 @@
 	color: #777;
   }
   .navbar-default .navbar-nav > li > a {
-	color: var(--navbar-a-color);
+	color: var(--navbar-link-color);
   }
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
@@ -579,7 +579,7 @@
   }
   @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	  color: var(--navbar-a-color);
+	  color: var(--navbar-link-color);
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {

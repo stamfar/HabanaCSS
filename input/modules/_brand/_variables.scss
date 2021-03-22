@@ -34,13 +34,13 @@ body {
 
 /* Navbar og topplogo */
 :root {
-  // Navbar align menypunktene
---navbar-align-center: center;
-  // Headermain bilde
---headermain-border-radius: 0;
---headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
-/* Navbar items */
---navbar-text-color: white;
+  /* Navbar align menypunktene */
+  --navbar-align-center: center;
+  /* Headermain bilde */
+  --headermain-border-radius: 0;
+  --headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
+  /* Navbar items */
+  --navbar-link-color: white;
 }
 
 /* Panels */
@@ -93,7 +93,7 @@ body {
   --dropdown-item-text-hover: #262626;
   --dropdown-item-background-color-hover: var(--color-gray-lightest);
 
- /* Item Active */
+  /* Item Active */
   --dropdown-item-text-active: var(--color-white);
   --dropdown-item-background-color-active: #0A63D6;
 }
@@ -110,6 +110,7 @@ body {
   --newsfield-box-border-radius: var(--size-border-radius-lg);
   --newsfield-box-shadow: var(--box-shadow-lighter);
 }
+
 /* END - Newsfield */
 
 
@@ -118,6 +119,7 @@ body {
   --breadcrumb-background-color: var(--color-gray-lightest);
   --breadcrumb-border-radius: var(--size-border-radius-lg);
 }
+
 /* END - Breadcrumb */
 
 
@@ -145,4 +147,5 @@ body {
   --hcard-linkBlock-color: var(--brand-color-primary-dark);
   --hcard-linkBlock-color-hover: var(--brand-color-primary-light);
 }
+
 /* END - Habana Card */

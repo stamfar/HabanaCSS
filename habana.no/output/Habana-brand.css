@@ -343,11 +343,13 @@ body {
 
 /* Navbar og topplogo */
 :root {
+  /* Navbar align menypunktene */
   --navbar-align-center: center;
+  /* Headermain bilde */
   --headermain-border-radius: 0;
   --headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
   /* Navbar items */
-  --navbar-text-color: white;
+  --navbar-link-color: white;
 }
 
 /* Panels */

@@ -1527,7 +1527,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: var(--navbar-a-color);
+  color: var(--navbar-link-color);
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -1577,7 +1577,7 @@ button.list-group-item-danger.active:focus {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: var(--navbar-a-color);
+    color: var(--navbar-link-color);
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -6875,11 +6875,13 @@ body {
 
 /* Navbar og topplogo */
 :root {
+  /* Navbar align menypunktene */
   --navbar-align-center: center;
+  /* Headermain bilde */
   --headermain-border-radius: 0;
   --headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
   /* Navbar items */
-  --navbar-text-color: white;
+  --navbar-link-color: white;
 }
 
 /* Panels */
