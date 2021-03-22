@@ -40,7 +40,10 @@ body {
   --headermain-border-radius: 0;
   --headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
   /* Navbar items */
-  --navbar-link-color: white;
+  --navbar-link-color: #333;
+  --navbar-link-color-hover: #333;
+  --navbar-link-color-active: #555;
+  
 }
 
 /* Panels */

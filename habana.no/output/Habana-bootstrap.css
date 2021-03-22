@@ -1532,14 +1532,14 @@ button.list-group-item-danger.active:focus {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: var(--navbar-link-color-hover);
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
+  color: var(--navbar-link-color-active);
   background-color: #e7e7e7;
 }
 
