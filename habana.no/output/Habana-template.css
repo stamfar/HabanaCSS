@@ -43,14 +43,16 @@
 }
 
 /* Brukt sammen med Link Block */
-.hcard.linkBlock {
+.hcard.linkBlock,
+.hcard.linkBlock a {
   text-decoration: none;
   overflow: hidden;
   background: var(--hcard-linkBlock-background);
   color: var(--hcard-linkBlock-color);
 }
 
-.hcard.linkBlock:hover {
+.hcard.linkBlock:hover,
+.hcard.linkBlock:hover a {
   text-decoration: none;
   overflow: hidden;
   background: var(--hcard-linkBlock-background-hover);

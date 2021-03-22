@@ -6889,6 +6889,7 @@ body {
 
 /* Panels */
 :root {
+  /* Panel Border Radius system */
   --panel-border-radius-sm: var(--size-border-radius-sm);
   --panel-border-radius-sm-fill: var(--size-border-radius-sm-fill);
   --panel-border-radius-md: var(--size-border-radius-md);
@@ -6897,6 +6898,7 @@ body {
   --panel-border-radius-lg-fill: var(--size-border-radius-lg-fill);
   --panel-border: var(--border);
   --panel-box-shadow: var(--box-shadow-md);
+  /* Panel colors */
   --panel-border-color: var(--color-gray-light);
   --panel-background-color: rgba(255, 255, 255, 0.9);
   --panelfooter-background-color: var(--color-gray-lightest);
@@ -8903,14 +8905,16 @@ video {
 }
 
 /* Brukt sammen med Link Block */
-.hcard.linkBlock {
+.hcard.linkBlock,
+.hcard.linkBlock a {
   text-decoration: none;
   overflow: hidden;
   background: var(--hcard-linkBlock-background);
   color: var(--hcard-linkBlock-color);
 }
 
-.hcard.linkBlock:hover {
+.hcard.linkBlock:hover,
+.hcard.linkBlock:hover a {
   text-decoration: none;
   overflow: hidden;
   background: var(--hcard-linkBlock-background-hover);
