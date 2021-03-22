@@ -346,6 +346,8 @@ body {
   --navbar-align-center: center;
   --headermain-border-radius: 0;
   --headermain-border-radius-bpmonitor: var(--size-border-radius-lg);
+  /* Navbar items */
+  --navbar-text-color: white;
 }
 
 /* Panels */
@@ -381,13 +383,17 @@ body {
 /* END - Calendar */
 /* Dropdowns */
 :root {
+  /* Dropdown */
   --dropdown-background-color: var(--color-white);
   --dropdown-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   --dropdown-border-radius: var(--size-border-radius-lg);
+  /* Item */
   --dropdown-item-border-radius: var(--size-border-radius-md);
   --dropdown-item-text: #333333;
+  /* Item hover */
   --dropdown-item-text-hover: #262626;
   --dropdown-item-background-color-hover: var(--color-gray-lightest);
+  /* Item Active */
   --dropdown-item-text-active: var(--color-white);
   --dropdown-item-background-color-active: #0A63D6;
 }

@@ -1527,7 +1527,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: var(--navbar-a-color);
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -1577,7 +1577,7 @@ button.list-group-item-danger.active:focus {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: var(--navbar-a-color);
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
