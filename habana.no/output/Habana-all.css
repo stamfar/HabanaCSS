@@ -1571,7 +1571,7 @@ button.list-group-item-danger.active:focus {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
+  color: var(--navbar-link-color-open);
   background-color: #e7e7e7;
 }
 
@@ -6884,6 +6884,7 @@ body {
   --navbar-link-color: #333;
   --navbar-link-color-hover: #333;
   --navbar-link-color-active: #555;
+  --navbar-link-color-open: #555;
 }
 
 /* Panels */
