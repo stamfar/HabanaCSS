@@ -6943,6 +6943,7 @@ body {
 
 /* END - Breadcrumb */
 /* Temafiler */
+/* Habana komponenter */
 /* Habana Card */
 :root {
   --hcard-background: white;
@@ -8952,7 +8953,8 @@ video {
 }
 
 .mainMenuWrapper .navbar-nav {
-  display: flex;
+  /*display: flex;*/
+  display: block;
   /*float: left;*/
   width: 100%;
   flex-direction: column;

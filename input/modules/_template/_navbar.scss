@@ -9,7 +9,8 @@
 
 .mainMenuWrapper {
   .navbar-nav {
-    display: flex;
+    /*display: flex;*/
+    display: block;
     /*float: left;*/
     width: 100%;
     flex-direction: column;
