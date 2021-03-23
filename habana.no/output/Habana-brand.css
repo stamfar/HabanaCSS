@@ -426,6 +426,13 @@ body {
 }
 
 /* END - Breadcrumb */
+/* Footer */
+:root {
+  --footer-background-color: #efefef;
+  --footer-color: inherit;
+}
+
+/* END - Footer */
 /* Temafiler */
 /* Habana komponenter */
 /* Habana Card */

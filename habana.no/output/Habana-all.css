@@ -6958,6 +6958,13 @@ body {
 }
 
 /* END - Breadcrumb */
+/* Footer */
+:root {
+  --footer-background-color: #efefef;
+  --footer-color: inherit;
+}
+
+/* END - Footer */
 /* Temafiler */
 /* Habana komponenter */
 /* Habana Card */
@@ -9703,7 +9710,8 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 /* Module: Utils: screen-sizes/media queries. (Ole) */
 /* Footer */
 footer {
-  background-color: #efefef;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
   margin-top: 32px;
   padding-top: 32px;
   padding-bottom: 48px;
@@ -9715,7 +9723,8 @@ footer .container .row-footer .col-md-12 {
 
 #footerunder {
   max-width: 100%;
-  background-color: #efefef;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
   margin-top: -32px;
 }
 
@@ -9725,6 +9734,11 @@ footer .container .row-footer .col-md-12 {
     padding-left: 15px;
   }
 }
+#footerunderunder {
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
+}
+
 /* Module: Moava components */
 /* f.eks panels, calender, newsfield */
 /* Habana-template

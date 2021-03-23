@@ -2,7 +2,8 @@
 /* Footer */
 
 footer {
-  background-color: #efefef;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
   margin-top: 32px;
   padding-top: 32px;
   padding-bottom: 48px;
@@ -21,9 +22,9 @@ footer {
 
 #footerunder {
   max-width: 100%;
-  background-color: #efefef;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
   margin-top: -32px;
-
 }
 
 @include monitor {
@@ -33,4 +34,9 @@ footer {
       padding-left: 15px;
     }
   }
+}
+
+#footerunderunder {
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
 }
