@@ -353,6 +353,9 @@ body {
   --navbar-link-color-hover: #333;
   --navbar-link-color-active: #555;
   --navbar-link-color-open: #555;
+  /* Navbar mobile */
+  --navbar-brand-color: #777;
+  --navbar-brand-color-hover: #5e5e5e;
 }
 
 /* Panels */

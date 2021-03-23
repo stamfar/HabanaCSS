@@ -527,11 +527,11 @@
 	border-color: #e7e7e7;
   }
   .navbar-default .navbar-brand {
-	color: #777;
+	color: var(--navbar-brand-color);
   }
   .navbar-default .navbar-brand:hover,
   .navbar-default .navbar-brand:focus {
-	color: #5e5e5e;
+	color: var(--navbar-brand-color-hover);
 	background-color: transparent;
   }
   .navbar-default .navbar-text {

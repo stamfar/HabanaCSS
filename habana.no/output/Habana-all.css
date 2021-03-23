@@ -1513,12 +1513,12 @@ button.list-group-item-danger.active:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #777;
+  color: var(--navbar-brand-color);
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: var(--navbar-brand-color-hover);
   background-color: transparent;
 }
 
@@ -6885,6 +6885,9 @@ body {
   --navbar-link-color-hover: #333;
   --navbar-link-color-active: #555;
   --navbar-link-color-open: #555;
+  /* Navbar mobile */
+  --navbar-brand-color: #777;
+  --navbar-brand-color-hover: #5e5e5e;
 }
 
 /* Panels */
