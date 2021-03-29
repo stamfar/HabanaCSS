@@ -1043,6 +1043,37 @@ hr {
   font-size: inherit;
 }
 
+/* MENU INFOSCREEN (venter integrasjon i html) */
+/* New screen */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem1-1::before {
+  content: "";
+}
+
+/* Infoscreens */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem2-1::before {
+  content: "";
+}
+
+/* New multiscreen */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem3-1::before {
+  content: "";
+}
+
+/* Multiscreens */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem4-1::before {
+  content: "";
+}
+
+/* Monitor/overvåke */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem5-1::before {
+  content: "";
+}
+
+/* Monitor/overvåke devices */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem6-1::before {
+  content: "";
+}
+
 /* Buttons for 2021 */
 .button, .button--primary, .button--warning, input[type=submit], .button--secondary, input[type=button] {
   font-family: inherit;

@@ -60,7 +60,6 @@
 }
 
 
-
 /* MENU USERS */
 .menuUsers .menuItemNew > .fa-li > #menuitem1-1::before {
     content: "\f0e0";
@@ -71,4 +70,32 @@
 .menuUsers .menuItemNew > .fa-li > #menuitem1-3::before {
     content: "\f0ca";
     font-size: inherit;
+}
+
+
+/* MENU INFOSCREEN (venter integrasjon i html) */
+
+/* New screen */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem1-1::before {
+	content: "\f0fe";
+}
+/* Infoscreens */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem2-1::before {
+	content: "\f108";
+}
+/* New multiscreen */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem3-1::before {
+	content: "\f0fe";
+}
+/* Multiscreens */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem4-1::before {
+	content: "\f0db";
+}
+/* Monitor/overvåke */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem5-1::before {
+	content: "\f0fe";
+}
+/* Monitor/overvåke devices */
+.menuInfoscreen .menuItemNew > .fa-li > #menuitem6-1::before {
+	content: "\f080";
 }

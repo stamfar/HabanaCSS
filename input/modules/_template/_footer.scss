@@ -13,8 +13,8 @@ footer {
     .row-footer {
 
       .col-md-12 {
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
       }
     }
   }
@@ -27,11 +27,11 @@ footer {
   margin-top: -32px;
 }
 
-@include monitor {
+@include desktop {
   footer {
     .col-md-12 {
-      padding-right: 15px;
-      padding-left: 15px;
+      padding-right: 0px;
+      padding-left: 0px;
     }
   }
 }

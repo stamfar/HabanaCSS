@@ -845,8 +845,8 @@ footer {
   padding-bottom: 48px;
 }
 footer .container .row-footer .col-md-12 {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #footerunder {
@@ -856,10 +856,10 @@ footer .container .row-footer .col-md-12 {
   margin-top: -32px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   footer .col-md-12 {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 #footerunderunder {
