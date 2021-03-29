@@ -29,9 +29,15 @@ footer {
 
 @include desktop {
   footer {
-    .col-md-12 {
-      padding-right: 0px;
-      padding-left: 0px;
+    .container {
+
+      .row-footer {
+
+        .col-md-12 {
+          padding-right: 0px;
+          padding-left: 0px;
+        }
+      }
     }
   }
 }

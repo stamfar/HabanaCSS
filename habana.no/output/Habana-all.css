@@ -9729,7 +9729,7 @@ footer .container .row-footer .col-md-12 {
 }
 
 @media (min-width: 992px) {
-  footer .col-md-12 {
+  footer .container .row-footer .col-md-12 {
     padding-right: 0px;
     padding-left: 0px;
   }
