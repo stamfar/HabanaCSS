@@ -73,29 +73,21 @@
 }
 
 
-/* MENU INFOSCREEN (venter integrasjon i html) */
+/* MENU INFOSCREEN */
 
 /* New screen */
 .menuInfoscreen .menuItemNew > .fa-li > #menuitem1-1::before {
-	content: "\f0fe";
+    content: "\f0fe";
 }
-/* Infoscreens */
-.menuInfoscreen .menuItemNew > .fa-li > #menuitem2-1::before {
-	content: "\f108";
+/* All Infoscreens */
+.menuInfoscreen .menuItemNew > .fa-li > .menuitem2::before {
+    content: "\f108";
 }
 /* New multiscreen */
 .menuInfoscreen .menuItemNew > .fa-li > #menuitem3-1::before {
-	content: "\f0fe";
+    content: "\f0fe";
 }
-/* Multiscreens */
-.menuInfoscreen .menuItemNew > .fa-li > #menuitem4-1::before {
-	content: "\f0db";
-}
-/* Monitor/overvåke */
-.menuInfoscreen .menuItemNew > .fa-li > #menuitem5-1::before {
-	content: "\f0fe";
-}
-/* Monitor/overvåke devices */
-.menuInfoscreen .menuItemNew > .fa-li > #menuitem6-1::before {
-	content: "\f080";
+/* All Multiscreens */
+.menuInfoscreen .menuItemNew > .fa-li > .menuitem4::before {
+    content: "\f0db";
 }
