@@ -855,32 +855,14 @@ footer .container .row-footer .col-md-12 {
   color: var(--footer-color);
   margin-top: -32px;
 }
-#footerunder .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 #footerunderunder {
   background-color: var(--footer-background-color);
   color: var(--footer-color);
 }
-#footerunderunder .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 @media (min-width: 1200px) {
   footer .container .row-footer .col-md-12 {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  #footerunder .container {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  #footerunderunder .container {
     padding-right: 0px;
     padding-left: 0px;
   }

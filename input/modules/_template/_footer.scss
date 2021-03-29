@@ -9,9 +9,7 @@ footer {
   padding-bottom: 48px;
 
   .container {
-
     .row-footer {
-
       .col-md-12 {
         padding-right: 15px;
         padding-left: 15px;
@@ -25,46 +23,22 @@ footer {
   background-color: var(--footer-background-color);
   color: var(--footer-color);
   margin-top: -32px;
-
-    .container {
-      padding-right: 15px;
-      padding-left: 15px;
-    }
 }
 
 #footerunderunder {
   background-color: var(--footer-background-color);
   color: var(--footer-color);
-
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
 }
 
 @include monitor {
   footer {
     .container {
-
       .row-footer {
-
         .col-md-12 {
           padding-right: 0px;
           padding-left: 0px;
         }
       }
-    }
-  }
-  #footerunder {
-    .container {
-      padding-right: 0px;
-      padding-left: 0px;
-    }
-  }
-  #footerunderunder {
-    .container {
-      padding-right: 0px;
-      padding-left: 0px;
     }
   }
 }
