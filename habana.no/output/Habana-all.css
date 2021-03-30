@@ -9662,6 +9662,23 @@ div.t2.article.panel.panel-default.panel-noBG.fieldarticle > div.panel-body > di
 }
 
 /* END override for news fields others stuff */
+/* Newsfield without bg/noBG */
+.t2.panel-noBG > .panel-body {
+  padding: 0px !important;
+  margin: -10px;
+}
+
+.t2.panel-noBG > .panel-body > .row > .col-xs-12 .m-newsfieldInner {
+  padding: 0px;
+  overflow: hidden;
+  margin: 10px;
+  background-color: transparent;
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* END */
 /*Test  */
 .t51.article.panel.panel-default.singlearticle div.panel-body {
   padding: 15px;
