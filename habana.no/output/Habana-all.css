@@ -6238,8 +6238,8 @@ footer {
 }
 .container-header #headermain img {
   border-radius: var(--headermain-border-radius);
-  min-height: 30vw;
-  object-fit: cover;
+  /*min-height: 30vw;
+  object-fit: cover;*/
 }
 
 @media (min-width: 768px) {
@@ -6260,7 +6260,7 @@ footer {
   }
 
   .container-header .col-md-12 #headermain img {
-    min-height: 10vw;
+    /*min-height: 10vw;*/
   }
 }
 @media (min-width: 1200px) {
