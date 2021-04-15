@@ -9013,7 +9013,7 @@ video {
   /*display: flex;*/
   display: block;
   /*float: left;*/
-  width: 10%;
+  width: 100%;
   flex-direction: column;
   margin-left: 0;
   margin-right: 0;
