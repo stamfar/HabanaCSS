@@ -8967,6 +8967,7 @@ video {
   border-radius: 5px;
   font-size: 100%;
   font-weight: 500;
+  color: #333;
 }
 
 .hNewsList > input[type=submit]:hover {
