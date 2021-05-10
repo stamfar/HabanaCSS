@@ -22,7 +22,7 @@ Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve iko
 /* Start definering av ikoner */
 
 
-/* MENU KALENDER */
+/* MENU CALENDAR */
 .menuCalendar .menuItemNew > .fa-li > #menuitem1-1::before {
 	content: "\f0fe";
 }
@@ -30,20 +30,16 @@ Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve iko
 	content: "\f0ca";
 }
 .menuCalendar .menuItemNew > .fa-li > #menuitem1-3::before {
-    content: "\f111";
-	font-size: 8px;
+    content: "\f07b";
 }
 .menuCalendar .menuItemNew > .fa-li > #menuitem2-1::before {
-    content: "\f111";
-	font-size: 8px;
+    content: "\f02d";
 }
 .menuCalendar .menuItemNew > .fa-li > #menuitem2-2::before {
-    content: "\f111";
-	font-size: 8px;
+    content: "\f017";
 }
 .menuCalendar .menuItemNew > .fa-li > #menuitem2-3::before {
-	content: "\f111";
-	font-size: 8px;
+	content: "\f07b";
 }
 
 
@@ -76,4 +72,50 @@ Hvis du kun skal endre et ikon, ikke endre disse variablene, men pÃ¥ selve iko
 /* All Multiscreens */
 .menuInfoscreen .menuItemNew > .fa-li > .menuitem4::before {
     content: "\f0db";
+}
+
+
+/* MENU DESIGN */
+.menuDesign .menuItemNew > .fa-li > #menuitem1-1::before {
+	content: "\f093";
+}
+.menuDesign .menuItemNew > .fa-li > #menuitem1-2::before {
+	content: "\f0c9";
+}
+.menuDesign .menuItemNew > .fa-li > #menuitem1-3::before {
+	content: "\f1fc";
+}
+.menuDesign .menuItemNew > .fa-li > #menuitem1-4::before {
+	content: "\f093";
+}
+
+.menuDesign .menuItemNew > .fa-li > #menuitem2-1::before {
+	content: "\f1c9";
+}
+.menuDesign .menuItemNew > .fa-li > #menuitem2-2::before {
+	content: "\f093";
+}
+.menuDesign .menuItemNew > .fa-li > #menuitem2-3::before {
+	content: "\f121";
+}
+
+
+/* MENU ARTICLES */
+.menuArticles .menuItemNew > .fa-li > #menuitem1-1::before {
+	content: "\f0fe";
+}
+.menuArticles .menuItemNew > .fa-li > #menuitem1-2::before {
+	content: "\f0ca";
+}
+.menuArticles .menuItemNew > .fa-li > #menuitem1-3::before {
+	content: "\f15c";
+}
+.menuArticles .menuItemNew > .fa-li > #menuitem1-4::before {
+	content: "\f1c6";
+}
+/* SUPERUSER LEVEL */
+.menuArticles .menuItemNew > .fa-li > #menuitem0-1::before,
+.menuArticles .menuItemNew > .fa-li > #menuitem0-2::before {
+	content: "\f135";
+	color: #42b698;
 }

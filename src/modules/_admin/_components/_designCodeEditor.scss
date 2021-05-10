@@ -1,0 +1,20 @@
+// Skal brukes på design->rediger.
+// Ole
+
+form[name="designedit"] .designCodeEditor {
+  //border-radius: 3px;
+  padding: 20px 15px 25px 15px;
+}
+form[name="designedit"] .designCodeEditor label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2rem;
+}
+form[name="designedit"] .designCodeEditor textarea {
+  width: 99%;
+  border-radius: 3px;
+  color: black;
+  background: #FAFBFD;
+  font-size: 15px;
+  border: 1px solid #343944;
+}

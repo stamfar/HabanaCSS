@@ -700,7 +700,7 @@ a.text-delete:hover { color: #df0010; }
     }
     /* Height spacer issue */
     .navbar-fixed-top .navbar-collapse.collapse{
-        width: 1000%;
+        width: 100%;
     }
     .navbar-fixed-top li.dropdown.open ul.dropdown-menu {
         overflow-y: auto;
@@ -1079,7 +1079,7 @@ a.videoThumbnail:hover .centered span.fa-play-circle-o{
 }
 /* Denne ? */
 [class*="col-"] {
-    padding: 0 5px;
+    padding: 0 10px;
 }
 .image-container > [class*="col-"] {
     padding: 5px;

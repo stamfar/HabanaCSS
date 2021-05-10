@@ -8,6 +8,7 @@
     font-weight: 500;
     border-radius: 3px;
     border: 1px solid;
+    text-decoration: none;
 }
 
 .button--primary, input[type="submit"]{
@@ -22,6 +23,7 @@
         border-color: #1E61CD;
         /* playing safe (some inline exists) */
         background-color: #1E61CD !important;
+        text-decoration: none;
     }
     &:active {
         color: white;
@@ -29,6 +31,7 @@
         border-color:#17396F;
         /* playing safe (some inline exists) */
         background-color: #17396F !important;
+        text-decoration: none;
     }
 }
 
