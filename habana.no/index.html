@@ -1,349 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Habana CSS</title>
-  <meta name="description" content="Flexible, alternative CSS design system">
-  <meta name="author" content="Ole Svennevig">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- GitHub versjoner 
+  <head>
+    <meta charset="utf-8" />
+    <title>Habana CSS</title>
+    <meta
+      name="description"
+      content="Flexible, alternative CSS design system"
+    />
+    <meta name="author" content="Ole Svennevig" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- GitHub versjoner 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/css-reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-template.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-brand.css">
 -->
-<!-- lokal utvikling -->
-  <link rel="stylesheet" href="./output/css-reset.css">
-  <link rel="stylesheet" href="./output/Habana-main.css">
-  <link rel="stylesheet" href="./output/Habana-template.css">
-  <link rel="stylesheet" href="./output/Habana-brand.css">
-  
-  <!-- <link rel="stylesheet" href="./output/hatch-framework.webflow.cs"> -->
-  
-</head>
-<body>
+    <!-- lokal utvikling -->
+    <link rel="stylesheet" href="./output/css-reset.css" />
+    <link rel="stylesheet" href="./output/Habana-main.css" />
+    <link rel="stylesheet" href="./output/Habana-template.css" />
+    <link rel="stylesheet" href="./output/Habana-brand.css" />
 
-  <!-- Dark mode av og på bryter(fra w3schools) + script -->
+    <!-- <link rel="stylesheet" href="./output/hatch-framework.webflow.cs"> -->
+  </head>
+  <body>
+    <!-- Dark mode av og på bryter(fra w3schools) + script -->
 
-
-  <div class="navbar-nav">
-    <p class="navbar-nav">Navigasjonsbar resemblance</p>
-  </div>
-
-<div class="mt-md mb-md">
-    <div class="tc">
-      <img src="./assets/HABANA-CSS-LOGO.png" class="h-16 mt-sm mb-xs" alt="Bildefil" />
-    </div>
-    <p class="text-base font-bold italic tc">Habana CSS for Moava, written by Ole Svennevig</p>
-</div>
-
-<style type="text/css">.grid-container--skolene {
-	display: grid;
-	padding: 60px 30px;
-	margin: 30px 0px 60px;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 20px;
-	background: #efefef;
-  }
-  </style>
-  <div class="grid-container--skolene">
-	<h3>Nyttige lenker</h3>
-  <article class="hcard linkBlock">
-  <div class="hcard-body--small">
-  <h3 class="hcard-title templateEditor templateHeader"><a alt="Lenke" class="hmain-link" href="https://zeroheight.com/404dd5267" target="_blank">Docs</a></h3>
-	<p>Dokumentasjon for Habana, og kopierbare snippets</p>
-  </div>
-  </article>
-  
-  <article class="hcard linkBlock">
-  <div class="hcard-body--small">
-  <h3 class="hcard-title templateEditor templateHeader"><a alt="Lenke" class="hmain-link" href="https://color.habana.no/" target="_blank">Color</a></h3>
-	<p>Fargegenerator for temafil/profilfil.</p>
-  </div>
-  </article>
-  
-  </div>
-
-  <div class="grid-container--skolene">
-	<h3>Importere med personvern i orden</h3>
-	<div class="hcard">
-		<div class="hcard-body">
-		  <h3 class="hcard-title">Habana All(frontend)</h3>
-		  <p> (Tidligere "/stilark/Habana/Habana-all") </p>
-		  <p class="hcard-text">https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/habana/habana.css</p>
-		</div>                                          
-	  </div>
-	
-	  <div class="hcard">
-		<div class="hcard-body">
-		  <h3 class="hcard-title">Habana Admin(Ikke importer ut på frontend)</h3>
-		  <p> (Tidligere "/stilark/Habana/Habana-admin.css") </p>
-		  <p class="hcard-text">https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/habana/admin.css</p>
-		</div>                                          
-	  </div>
-	
-	</div>
-  
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div class="mt-sm mb-sm bg-red-500 bg-opacity-60 pt-lg pr-lg pl-lg pb-lg">
-	<h1 class="text-8xl font-bold tc">Alt nedenfor er ikke oppdatert eller fungerende.</h1>
- </div>
-
-  <a href="#" class="button">button</a>
-  <a href="#" class="button-primary">button-primary</a>
-  <a href="#" class="button-primary text-white">button-primary text-white</a>
-  <a href="#" class="button-primary text-white button-large">button-primary text-white</a>
-  <a href="#" class="button-primary button-small">button-small</a>
-  <a href="#" class="button-primary button-extra-small text-white">button-extra-small text-white</a>
-  <a href="#" class="button-primary button-extra-small text-white button-fw">button-extra-small text-white button-fw</a>
-
-  <a href="#" class="button-secondary">button-secondary</a>
-  <a href="#" class="button-secondary button-extra-small">button-secondary button-extra-small</a>
-
-  <div class="background-image">
-    <div class="glassBox">
-      yo! Denne boksen er transparent med blur i css. Ganske kult ja!
-    </div>
-  </div>
-
-<div class="mobile-margin-bottom-20 bg-green-500 bg-opacity-30 pt-lg pr-lg pl-lg pb-lg">
-  <h2 class="tl text-xl italic">Siste utviklingsversjon v0.2</h2>
-  <p class="tl font-bold mt-sm mb-xs">CSS filer levert via Jsdelivr</p>
-  <a href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/css-reset.css" class="btn">CSS reset</a>
-  <a href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-main.css" class="btn">Habana Main</a>
-  <a href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-template.css" class="btn">Habana Template</a>
-  <a href="https://cdn.jsdelivr.net/gh/stamfar/HabanaCSS@v0.2/output/Habana-brand.css" class="btn">Habana Brand</a>
-
-  <p class="tl mt-md">Prosjekt</p>
-  <a href="https://github.com/stamfar/HabanaCSS" class="btn">Gå til GitHub -></a>
-  <a href="https://moava.slite.com/p/note/UJVmB5dMn5EGcR5PzPunTa" class="btn brand-color-primary-hover">Planlegging -></a>
-  <p class="brand-color-primary-hoverxx"> test test test </p>
-</div>
-
-<div class="bg-green-500 bg-opacity-30 pt-lg pr-lg pl-lg pb-lg">
-  <h2 class="tl text-xl italic">Ressurser</h2>
-  <a href="https://color.habana.no" class="btn">Brand - Color generator</a>
-  <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632#.8unqq6lz0" class="btn">8 point grid</a>
-</div>
-
-
-<div class="bg-gray-300 px-sm py-sm mt-sm mb-sm ml-xs mr-xs">
-  <h1>Eksempler typografi</h1>
-  <h2>Eksempler typografi</h2>
-  <h3>Eksempler typografi</h3>
-  <h4>Eksempler typografi</h4>
-  <h5>Eksempler typografi</h5>
-  <h6>Eksempler typografi</h6>
-</div>
-
-
-
-<div class="mr-xs ml-xs">
-  <div class="container mx-auto">
-    <div class="m-grid-container">
-
-      <div class="m-grid-item">
-
-        <div class="mt-sm mb-sm bg-red-500 bg-opacity-60 pt-lg pr-lg pl-lg pb-lg">
-          <h1 class="text-8xl font-bold tc mb-xs">Habana CSS</h1>
-          <p class="text-base font-bold italic tc mb-sm">Flexible, alternative CSS design system</p>
-          <p class="text-base sm:text-base font-bold italic tl">Idéen kommer ut fra å ha jobbet med css og egne komponenter for ny 2020.moava.no i 1 til 2 uker. Det må være enklere å gjøre endringer, samt mer komponentbasert og uavhengig av andre ting på siden. Funksjonell CSS kan være veien å gå. Bruke engelsk som språk for css, men dokumentasjon på norsk.</p>
-        </div>
-
-      </div>
-
+    <div class="mt-md mb-md">
       <div class="tc">
-        <img src="./assets/CSS-filer-oversikt.jpg" class="border-solid border-2 rounded-3xl border-gray-100 mb-xl" alt="Bildefil" />
+        <img
+          src="./assets/HABANA-CSS-LOGO-2021.png"
+          class="h-20 mt-sm mb-xs"
+          alt="Bildefil"
+        />
+      </div>
+      <p class="text-base font-bold italic tc">
+        Habana CSS for Moava. Author Ole Svennevig
+      </p>
+      <p class="text-base font-bold italic tc mb-sm">
+        Alternative CSS design system. Omtstrukturering av css.
+      </p>
+    </div>
+
+    <style type="text/css">
+      .grid-container--skolene {
+        display: grid;
+        padding: 60px 30px;
+        margin: 30px 0px 60px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        background: #efefef;
+      }
+    </style>
+    <div class="grid-container--skolene">
+      <h3>Nyttige lenker</h3>
+      <article class="hcard linkBlock">
+        <div class="hcard-body--small">
+          <h3 class="hcard-title templateEditor templateHeader">
+            <a
+              alt="Lenke"
+              class="hmain-link"
+              href="https://zeroheight.com/404dd5267"
+              target="_blank"
+              >Docs</a
+            >
+          </h3>
+          <p>Dokumentasjon for Habana, og kopierbare snippets</p>
+        </div>
+      </article>
+
+      <article class="hcard linkBlock">
+        <div class="hcard-body--small">
+          <h3 class="hcard-title templateEditor templateHeader">
+            <a
+              alt="Lenke"
+              class="hmain-link"
+              href="https://color.habana.no/"
+              target="_blank"
+              >Color</a
+            >
+          </h3>
+          <p>Fargegenerator for temafil/profilfil.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="grid-container--skolene">
+      <h3>Importering</h3>
+      <div class="hcard">
+        <div class="hcard-body">
+          <h3 class="hcard-title">Habana(frontend)</h3>
+          <p>(Tidligere "/stilark/Habana/Habana-all")</p>
+          <p class="hcard-text">
+            https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/habana/habana.css
+          </p>
+        </div>
       </div>
 
+      <div class="hcard">
+        <div class="hcard-body">
+          <h3 class="hcard-title">
+            Habana Admin(Ikke importer ut på frontend)
+          </h3>
+          <p>(Tidligere "/stilark/Habana/Habana-admin.css")</p>
+          <p class="hcard-text">
+            https://s3-eu-west-1.amazonaws.com/cdn.moava.no/stable/habana/admin.css
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
+
+
+    <div class="background-image">
+      <div class="glassBox">
+        Habanisering, habanisert, habanalala, habanais...
+      </div>
+	
 </div>
 
 
-
-<!-- tester knapp -->
-<article class="hcard">
-	<div>
-		<h2><a href="https://moava.no" class="hmain-link hcard-title templateEditor templateHeader" target="_blank">A Complete Guide to calc() in CSS</a></h2>
-
-    <h3 class="hcard-title templateEditor templateHeader">Kikora</h3>
-    <p class="hcard-text templateEditor templateText">Utforsking, problemløsing og trening i nye Kikora</p>
-	</div>
-	<div class="tags">
-		<a class="tag" href="https://css-tricks.com/tag/calc/" target="_blank">calc</a>
-		<a class="tag" href="https://css-tricks.com/tag/math/" target="_blank">math</a>
-	</div>
-</article>
-
-<article class="hcard">
-	<div>
-		<h2><a href="https://moava.no" class="hmain-link hcard-title templateEditor templateHeader" target="_blank">A Complete Guide to calc() in CSS</a></h2>
-
-    <h3 class="hcard-title templateEditor templateHeader">Kikora</h3>
-    <p class="hcard-text templateEditor templateText">Utforsking, problemløsing og trening i nye Kikora</p>
-	</div>
-	<div class="tags">
-		<a class="tag" href="https://css-tricks.com/tag/calc/" target="_blank">calc</a>
-		<a class="tag" href="https://css-tricks.com/tag/math/" target="_blank">math</a>
-	</div>
-</article>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
+<div class="mt-sm bg-red-500 bg-opacity-60 pt-lg pr-lg pl-lg pb-lg">
+	<h1 class="text-8xl font-bold tc">
+	  Deprecated section ->
+	</h1>
+  </div>
+    <div
+      class="mobile-margin-bottom-20 bg-green-500 bg-opacity-30 pt-lg pr-lg pl-lg pb-lg"
+    >
+      <h1 class="tl text-xl italic">Github</h1>
+      <h2 class="tl text-xl italic">
+        Prosjektet vedlikeholdes ikke på Github lengre. Kun duplikasjon av
+        innhold av og til.
+      </h2>
+      <p class="tl font-bold mt-sm mb-xs">CSS filer levert via Jsdelivr</p>
 
-	<article class="hcard linkBlock">                
-				<div class="hcard-body">
-                 <h3 class="hcard-title"><a class="hmain-link templateEditor templateHeader" href="https://moava.no" target="_blank">Kikora</a></h3>
-					<p class="hcard-text templateEditor templateText">Utforsking, problemløsing og trening i nye Kikora</p>
-				</div>
-			</article>
-	<div class="statusbar">Show URL on hover link</div>
+      <p class="tl mt-md">Prosjekt</p>
+      <a href="https://github.com/stamfar/HabanaCSS" class="btn"
+        >Gå til GitHub -></a
+      >
+      <a
+        href="https://moava.slite.com/p/note/UJVmB5dMn5EGcR5PzPunTa"
+        class="btn brand-color-primary-hover"
+        >Planlegging -></a
+      >
+      <p class="brand-color-primary-hoverxx">test test test</p>
+    </div>
 
+    <div class="bg-green-500 bg-opacity-30 pt-lg pr-lg pl-lg pb-lg">
+      <h2 class="tl text-xl italic">Andre ressurser</h2>
+      <a
+        href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632#.8unqq6lz0"
+        class="btn"
+        >8 point grid</a
+      >
+      <div class="tc">
+        <img
+          src="./assets/CSS-filer-oversikt.jpg"
+          class="border-solid border-2 rounded-3xl border-gray-100 mb-xl"
+          alt="Bildefil"
+        />
+      </div>
+	  <p class="text-base font-bold italic tc mb-sm">
+        Idéen kommer ut i fra å ha jobbet med css og egne komponenter for ny
+        moava.no i en periode på ca. 2 uker. Det må være enklere å gjøre
+        endringer, samt mer komponentbasert og uavhengig av andre ting på siden.
+      </p>
+    </div>
 
-
-
-<!-- stiler for originalt kort. Kan trygt fjernes. -->
-<style>
-main.container {
-	max-width: 1200px;
-	margin: 50px auto;
-	padding: 25px;
-}
-
-section.cards {
-	display: flex;
-	flex-direction: row;
-	gap: 30px;
-	justify-content: space-evenly;
-	align-items: stretch;
-}
-
-article.card {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	max-width: 300px;
-	padding: 25px;
-	cursor: pointer;
-	border-radius: 8px;
-	box-shadow: 8px 5px 16px 0 rgb(0 0 0 / 5%);
-}
-
-.card.black {
-	background: #152533;
-	color: #fff;
-	border: 1px solid #0d1821;
-}
-.card.blue {
-	background: #23547d;
-	color: #fff;
-	border: 1px solid #1d4667;
-}
-
-.card.yellow {
-	background: #fee900;
-	color: #0e1b26;
-	border: 1px solid #f0dc00;
-}
-
-.card.black .links a.main {
-	background: #fee900;
-	color: #0e1b26;
-	border: 1px solid #f0dc00;
-}
-
-.card.yellow .links a.main,
-.card.blue .links a.main {
-	background: #122230;
-	color: #fff;
-}
-
-.card .header {
-	font-size: 32px;
-	min-height: 0vw;
-	font-family: "lato", sans-serif;
-	font-weight: 900;
-}
-
-.card .body {
-	font-size: 16px;
-	line-height: 1.4;
-	flex-grow: 1;
-}
-
-.card .body a {
-	color: inherit;
-}
-.card .body a:hover {
-	text-decoration: none;
-}
-
-.card .footer {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.card .footer .links {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.card .footer .links a:hover {
-	transition: all 0.4s ease-in-out;
-	transform: scale(1.1);
-}
-
-.card .footer .links a.main {
-	transition: all 0.2s ease-in-out;
-	padding: 12px 20px;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 50px;
-}
-
-::selection {
-	background-color: rgb(255 255 255 / 95%);
-	color: #000;
-}
-
-.statusbar {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	font-size: 12px;
-	font-family: Segoe UI;
-	padding-top: 5px;
-	padding-bottom: 6px;
-	padding-left: 3px;
-	padding-right: 10px;
-	color: #3c4043;
-	border: 1px solid #dedede;
-	border-top-right-radius: 4px;
-	transition: all 0.2s ease-in-out;
-	background-color: #dee1e6;
-	opacity: 0;
-	-webkit-font-smoothing: none;
-	font-smooth: never;
-}
-
-</style>
-
-
-
-
-
-
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="https://habana.no/javascript/interaction.js"></script>
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://habana.no/javascript/interaction.js"></script>
+  </body>
 </html>
