@@ -1,43 +1,86 @@
 /* Module: Buttons */
+/* Based on admin and moava.no buttons */
 
-:root {
-  /* Hovedbrytere for farger på knapper og knappetekst*/
-  /* Button Primary Color */
-  --button-primary-color: var(--brand-color-primary);
-  --button-primary-color-dark: var(--brand-color-primary-dark);
-  --button-primary-color-light: var(--brand-color-primary-light);
-  /* Hover */
-  --button-primary-color-hover: var(--brand-color-primary-light);
-  /* Text & hover */
-  --button-primary-color-text: var(--color-black);
-  --button-primary-color-text-hover: var(--brand-color-primary-dark);
-
-  /* Button Secondary Color */
-  --button-secondary-color: var(--brand-color-secondary);
-  --button-secondary-color-dark: var(--brand-color-secondary-dark);
-  --button-secondary-color-light: var(--brand-color-secondary-light);
-  /* Hover */
-  --button-secondary-color-hover: var(--brand-color-secondary-light);
-  /* Text & hover */
-  --button-secondary-color-text: var(--color-black);
-  --button-secondary-color-text-hover: var(--brand-color-secondary-dark);
+/* Common */
+.button--primary, 
+.button--secondary {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 6px 14px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  align-items: flex-start;
+  text-align: center;
+  font-style: normal;
+  line-height: 24px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
 }
 
-/* NYTT 2021 - for testing på index.html */
-/* Eksempel på oppsett Farger direkte inn fra hovedfarger */
-.button-primary {
-  background-color: var(--button-primary-color);
-  color: var(--button-primary-color-text);
-  &:hover {
-    background-color: var(--button-primary-color-hover);
-    color: var(--button-primary-color-text-hover);
-  }
+.button--primary {
+  color: var(--button-primary-color);
+  background-color: var(--button-primary-background-color);
+  border: var(--button-primary-border);
+} 
+.button--secondary {
+  color: var(--button-secondary-color);
+  background-color: var(--button-secondary-background-color);
+  border: var(--button-secondary-border);
 }
-.button-secondary {
-  background-color: var(--button-secondary-color);
-  color: var(--button-secondary-color-text);
-  &:hover {
-    background-color: var(--button-secondary-color-hover);
-    color: var(--button-secondary-color-text-hover);
-  }
+
+/* Primary - states: hover, active, focus */
+.button--primary:hover, 
+.button--primary:active,
+.button--primary:focus {
+  color: var(--button-primary-color-hover);
+  border: var(--button-primary-border-hover);
+  background-color: var(--button-primary-background-color-hover);
+  text-decoration: none;
+  top: -1px;
+}
+/* Secondary - states: hover, active, focus */
+.button--secondary:hover,
+.button--secondary:active,
+.button--secondary:focus {
+  color: var(--button-secondary-color-hover);
+  border: var(--button-secondary-border-hover);
+  background-color: var(--button-secondary-background-color-hover);
+  text-decoration: none;
+  top: -1px;
+}
+
+/* Link */
+.button--link{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--button-link-color);
+  text-decoration: none;
+}
+/* Link - states: hover, active, focus */
+.button--link:hover {
+  font-style: normal;
+  line-height: 24px;
+  color: var(--button-link-color-hover);
+  text-decoration: underline;
+}
+
+/* Variants */
+.button--fw {
+  width: 100%;
+  display: block;
+}
+/* Sizes */
+.button--small {
+  padding: 4px 8px;
+  font-size: calc(100% - 1px);
+}
+.button--large {
+  padding: 10px 18px;
+  font-size: calc(100% + 1px);
 }
